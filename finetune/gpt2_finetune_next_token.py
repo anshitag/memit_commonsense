@@ -187,28 +187,19 @@ class CustomCallback(TrainerCallback):
 def compute_metrics(p):
     global eos_token_id
     predictions, labels = p
-    # print('predictions shape, ', predictions.shape)
-    # print('labels shape, ', labels.shape)
     predictions = predictions.argmax(axis = 2)
-
-    labels = np.array(labels)
-    predictions = np.array(predictions)
-    # print('predictions', predictions)
-    # print('labels', labels)
     max_indexes = labels == tokenizer.eos_token_id
     indexes = max_indexes.argmax(axis = 1)[:, None]
-    # print(indexes)
-    # indexes = indexes - 2
     predictions = np.take_along_axis(predictions, (indexes - 2), axis = 1).flatten()
     labels = np.take_along_axis(labels, (indexes - 1), axis = 1).flatten()
     try:
         confusion_matrix = metrics.confusion_matrix(predictions, labels, labels=[p_index, n_index])
     except:
         confusion_matrix = None
+    print('Confusion Matrix: ', confusion_matrix)
     return {
             'accuracy': metrics.accuracy_score(predictions, labels),
-            'f1_score': metrics.f1_score(predictions, labels, average='macro', labels=[p_index, n_index]),
-            'confusion_matrix': confusion_matrix
+            'f1_score': metrics.f1_score(predictions, labels, average='macro', labels=[p_index, n_index])
     }
 
 
@@ -219,7 +210,8 @@ data_collator=lambda data: { 'input_ids': torch.stack([f[0] for f in data]),
 datatype_string = args.datatype or 'normal'
 training_args = TrainingArguments(output_dir=f'checkpoints/{args.dataset}/{args.model}/{datatype_string}', num_train_epochs=5, save_total_limit = 2,load_best_model_at_end=True, save_strategy='steps',
                                                             evaluation_strategy='steps', metric_for_best_model='f1_score', eval_steps=100, save_steps=100, logging_steps = 100, eval_delay = 0,
-                                                            per_device_train_batch_size=8, per_device_eval_batch_size=8, warmup_steps=0, weight_decay=0.00, logging_dir='FineTune/logs')
+                                                            per_device_train_batch_size=8, per_device_eval_batch_size=8, warmup_steps=0, weight_decay=0.00, logging_dir='fineTune/logs',
+                                                            disable_tqdm=True)
 
 
 trainer = Trainer(model=model, args=training_args, train_dataset = train_dataset, eval_dataset=valid_dataset, compute_metrics=compute_metrics,
@@ -257,11 +249,11 @@ def get_metrics(dataloader, split='train'):
     orig_label, pred_label = [], []
     tot_loss = 0
     global model
-    for batch in tqdm(dataloader, total=len(dataloader)):
+    for batch in dataloader:
         
         # Telling the model not to compute or store gradients, saving memory and
         # speeding up validation
-        batch = {k:v.type(torch.long).to('cuda') for k,v in batch.items()}
+        batch = {k:v.type(torch.long).to(device) for k,v in batch.items()}
         with torch.no_grad():        
             outputs = model(**batch)
             loss, logits = outputs[:2]
@@ -311,7 +303,7 @@ del test_dataloader
 
 orig_label, pred_label, orig_text, pred_text = [], [], [], []
 
-for text, label in tqdm(zip(texts_test, labels_test)):
+for text, label in zip(texts_test, labels_test):
         prompt = f'<startoftext>{text}:'
         generated = tokenizer(prompt, return_tensors='pt').input_ids.cuda()
         outputs = model.generate(generated, do_sample=False, top_k=50, max_length=max_length, top_p=0.90, temperature=0, num_return_sequences=0)
