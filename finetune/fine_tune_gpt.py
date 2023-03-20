@@ -148,12 +148,12 @@ def evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FI
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-m', '--model', default='gpt2-medium')
-    parser.add_argument('-d', '--dataset', default='20q')
-    parser.add_argument('--datatype', default='normal')
+    parser.add_argument('-m', '--model', type=str, default='gpt2-medium')
+    parser.add_argument('-d', '--dataset', type=str, default='20q')
+    parser.add_argument('--datatype', type=str, default='normal')
     parser.add_argument('-e', '--evaluation_only', action='store_true')
-    parser.add_argument('-b', '--batch_size', default=64)
-    parser.add_argument('-ep', '--epochs', default=2)
+    parser.add_argument('-b', '--batch_size', type=int, default=64)
+    parser.add_argument('-ep', '--epochs', type=int, default=2)
 
     args = parser.parse_args()
 
