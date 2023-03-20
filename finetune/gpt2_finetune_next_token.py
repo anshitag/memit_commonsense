@@ -304,18 +304,16 @@ del test_dataloader
 orig_label, pred_label, orig_text, pred_text = [], [], [], []
 
 for text, label in zip(texts_test, labels_test):
-        prompt = f'<startoftext>{text}:'
-        generated = tokenizer(prompt, return_tensors='pt').input_ids.cuda()
-        outputs = model.generate(generated, do_sample=False, top_k=50, max_length=max_length, top_p=0.90, temperature=0, num_return_sequences=0)
-        predicted_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        try:
-                predicted_label = re.findall(": (.*)", predicted_text)[-1]
-        except:
-                predicted_label = "None"
-        orig_label.append(label_mapping[label])
-        pred_label.append(predicted_label)
-        orig_text.append(text)
-        pred_text.append(predicted_text)
+    prompt = f'<startoftext>{text}:'
+    input = tokenizer(prompt, return_tensors='pt')
+    input = {k:v.type(torch.long).to(device) for k,v in input.items()}
+    output = model(**input).logits[0, -1].argmax()
+    predicted_label = tokenizer.decode(output)
+    predicted_text = prompt + predicted_label
+    orig_label.append(label_mapping[label])
+    pred_label.append(predicted_label[1:])
+    orig_text.append(text)
+    pred_text.append(predicted_text)
 
 
 df = pd.DataFrame({ 'original_text': orig_text, 'predicted_label': pred_label, 'original_label': orig_label, 'predicted_text': pred_text })
