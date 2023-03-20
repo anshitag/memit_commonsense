@@ -142,7 +142,7 @@ def evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FI
             for idx, item in enumerate(dataset.getdata()):
                 output_data.append({"prompt": item["prompt"], "label": dict_label[item["label"]], "predicted_label":pred_label[idx]})
             with open(f'result/outputs/{MODEL}_{DS}_{DATATYPE}.json', 'w') as f:
-                json.dump(output_data, f)
+                json.dump(output_data, f, indent=4)
 
 
 
