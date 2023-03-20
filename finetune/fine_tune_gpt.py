@@ -173,8 +173,8 @@ if __name__ == "__main__":
     TEST_DATA_FILE = f"../commonsense_data/{DS}/test{combined_name}.json"
 
     if not args.evaluation_only:
-        train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, EPOCHS, BATCH_SIZE, dict_label, device)
-    evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, dict_label, device)
+        train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, dict_label, device)
+    evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device)
 
 
 
