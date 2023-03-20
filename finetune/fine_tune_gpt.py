@@ -129,7 +129,6 @@ def evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FI
     valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE, collate_fn=data_collator)
     test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, collate_fn=data_collator)
 
-    _ = model.eval()
     p_index, n_index = tok(dict_label[1])["input_ids"][0], tok(dict_label[0])["input_ids"][0]
 
     for split, dataloader, dataset in [('train', train_dataloader, train_dataset), ('valid', valid_dataloader, valid_dataset), ('test', test_dataloader, test_dataset)]:
