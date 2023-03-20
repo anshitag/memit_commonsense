@@ -64,15 +64,15 @@ def next_word_prediction(model, dataloader, tok):
     return pred_list, pred_label
 
 
-def calculate_metrics(orig_label, pred_label, split, p_index, n_index):
+def calculate_metrics(orig_label, pred_label, split, labels):
 
     print(f'{split} Accuracy = ', metrics.accuracy_score(orig_label, pred_label))
-    print(f'{split} F1 score = ', metrics.f1_score(orig_label, pred_label, average='macro', labels=[p_index, n_index]))
+    print(f'{split} F1 score = ', metrics.f1_score(orig_label, pred_label, average='macro', labels=labels, zero_division=1))
     try:
-        print(f'{split} Confusion Matrix = ', metrics.confusion_matrix(orig_label, pred_label, labels=[p_index, n_index]))
+        print(f'{split} Confusion Matrix = \n', metrics.confusion_matrix(orig_label, pred_label, labels=labels))
     except:
         print('Confusion matrix cannot be calculated')
-    print('Classification Report',  metrics.classification_report(orig_label, pred_label, labels=[p_index, n_index]))
+    print('Classification Report: \n',  metrics.classification_report(orig_label, pred_label, labels=labels, zero_division=1))
 
 
 def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, dict_label, device):
@@ -129,12 +129,13 @@ def evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FI
     valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE, collate_fn=data_collator)
     test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, collate_fn=data_collator)
 
-    p_index, n_index = tok(dict_label[1])["input_ids"][0], tok(dict_label[0])["input_ids"][0]
+    p_index, n_index, other_index = dict_label[1], dict_label[0], "None"
 
     for split, dataloader, dataset in [('train', train_dataloader, train_dataset), ('valid', valid_dataloader, valid_dataset), ('test', test_dataloader, test_dataset)]:
         prediction, pred_label = next_word_prediction(model, dataloader, tok)
-        true_pred = [tok(dict_label[i])['input_ids'] for i in dataset.getlabel()]
-        calculate_metrics(true_pred, prediction, split, p_index, n_index)
+        true_pred = [dict_label[i] for i in dataset.getlabel()]
+        prediction_label = [other_index if i not in dict_label.values() else i for i in pred_label]
+        calculate_metrics(true_pred, prediction_label, split, [p_index, n_index, other_index])
 
         if split=='test':
             output_data = []
