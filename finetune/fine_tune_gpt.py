@@ -75,7 +75,7 @@ def calculate_metrics(orig_label, pred_label, split, p_index, n_index):
     print('Classification Report',  metrics.classification_report(orig_label, pred_label, labels=[p_index, n_index]))
 
 
-def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, EPOCHS, BATCH_SIZE, dict_label, device):
+def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, dict_label, device):
 
     model = AutoModelForCausalLM.from_pretrained(MODEL).to(device)
     tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True)
@@ -109,7 +109,7 @@ def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE,
     trainer.save_model(output_dir=f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}')
 
 
-def evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, dict_label, device):
+def evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device):
 
     model = AutoModelForCausalLM.from_pretrained(f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}').to(device)
     tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True)
