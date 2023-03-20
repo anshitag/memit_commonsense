@@ -115,6 +115,8 @@ def evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FI
     tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True)
     tok.pad_token = tok.eos_token
 
+    model.eval()
+
     train_dataset = CommonSenseDataset(TRAIN_DATA_FILE, tok, 'evaluation', dict_label)
     valid_dataset = CommonSenseDataset(VALID_DATA_FILE, tok, 'evaluation', dict_label)
     test_dataset = CommonSenseDataset(TEST_DATA_FILE, tok, 'evaluation', dict_label)
