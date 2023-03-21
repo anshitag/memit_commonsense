@@ -58,11 +58,7 @@ def next_word_prediction(model, dataloader, tok):
         for batch in dataloader:
             batch = {k:v.to(device) for k,v in batch.items()}
             out = model(**batch).logits
-            prediction = torch.argmax(out, dim=-1)
-            last_non_pad_tokens = (batch['attention_mask'].argmin(dim = 1, keepdims = True) - 1).clamp(min = 0)
-
-            prediction = prediction.gather(1, last_non_pad_tokens).squeeze()
-
+            prediction = torch.argmax(out[:, -1], dim=1)
             pred_list += prediction.tolist()
             pred_label += tok.batch_decode(prediction)
     return pred_list, pred_label
@@ -82,7 +78,7 @@ def calculate_metrics(orig_label, pred_label, split, labels):
 def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, dict_label, device):
 
     model = AutoModelForCausalLM.from_pretrained(MODEL).to(device)
-    tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True)
+    tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True, padding_side="left")
     tok.pad_token = tok.eos_token
 
     train_dataset = CommonSenseDataset(TRAIN_DATA_FILE, tok, 'training', dict_label)
@@ -91,12 +87,13 @@ def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_S
     training_args = TrainingArguments(output_dir=f'result/checkpoints/{DS}/{MODEL}/{DATATYPE}', 
                                 num_train_epochs=EPOCHS,
                                 save_total_limit = 2,
-                                load_best_model_at_end=True, 
+                                # load_best_model_at_end=True, 
                                 save_strategy="epoch", 
                                 evaluation_strategy="epoch",
                                 per_device_train_batch_size=BATCH_SIZE, 
                                 per_device_eval_batch_size=BATCH_SIZE,
-                                weight_decay=0.01)
+                                weight_decay=0.01,
+                                disable_tqdm=True)
 
     data_collator = lambda data: {'input_ids': torch.stack([f[0] for f in data]),
                                 'attention_mask': torch.stack([f[1] for f in data]),
@@ -116,7 +113,7 @@ def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_S
 def evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device):
 
     model = AutoModelForCausalLM.from_pretrained(f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}').to(device)
-    tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True)
+    tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True, padding_side="left")
     tok.pad_token = tok.eos_token
 
     model.eval()

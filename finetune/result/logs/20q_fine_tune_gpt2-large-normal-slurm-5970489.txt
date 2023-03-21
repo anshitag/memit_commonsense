@@ -1,0 +1,228 @@
+/work/anshitagupta_umass_edu/miniconda3/envs/memit/lib/python3.9/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 2008
+  Num Epochs = 2
+  Instantaneous batch size per device = 64
+  Total train batch size (w. parallel, distributed & accumulation) = 64
+  Gradient Accumulation steps = 1
+  Total optimization steps = 64
+***** Running Evaluation *****
+  Num examples = 508
+  Batch size = 64
+Saving model checkpoint to results/checkpoints/20q/gpt2-large/normal/checkpoint-32
+Configuration saved in results/checkpoints/20q/gpt2-large/normal/checkpoint-32/config.json
+Model weights saved in results/checkpoints/20q/gpt2-large/normal/checkpoint-32/pytorch_model.bin
+Deleting older checkpoint [results/checkpoints/20q/gpt2-large/normal/checkpoint-64] due to args.save_total_limit
+***** Running Evaluation *****
+  Num examples = 508
+  Batch size = 64
+Saving model checkpoint to results/checkpoints/20q/gpt2-large/normal/checkpoint-64
+Configuration saved in results/checkpoints/20q/gpt2-large/normal/checkpoint-64/config.json
+Model weights saved in results/checkpoints/20q/gpt2-large/normal/checkpoint-64/pytorch_model.bin
+Deleting older checkpoint [results/checkpoints/20q/gpt2-large/normal/checkpoint-96] due to args.save_total_limit
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+***** Running Evaluation *****
+  Num examples = 508
+  Batch size = 64
+Saving model checkpoint to results/best-checkpoints/20q/gpt2-large/normal
+Configuration saved in results/best-checkpoints/20q/gpt2-large/normal/config.json
+Model weights saved in results/best-checkpoints/20q/gpt2-large/normal/pytorch_model.bin
+loading configuration file results/best-checkpoints/20q/gpt2-large/normal/config.json
+Model config GPT2Config {
+  "_name_or_path": "results/best-checkpoints/20q/gpt2-large/normal",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1280,
+  "n_head": 20,
+  "n_inner": null,
+  "n_layer": 36,
+  "n_positions": 1024,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.23.1",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+
+loading weights file results/best-checkpoints/20q/gpt2-large/normal/pytorch_model.bin
+All model checkpoint weights were used when initializing GPT2LMHeadModel.
+
+All the weights of GPT2LMHeadModel were initialized from the model checkpoint at results/best-checkpoints/20q/gpt2-large/normal.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use GPT2LMHeadModel for predictions without further training.
+Could not locate the tokenizer configuration file, will try to use the model config instead.
+loading configuration file config.json from cache at /work/anshitagupta_umass_edu/.cache/huggingface/hub/models--gpt2-large/snapshots/212095d5832abbf9926672e1c1e8d14312a3be20/config.json
+Model config GPT2Config {
+  "_name_or_path": "gpt2-large",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1280,
+  "n_head": 20,
+  "n_inner": null,
+  "n_layer": 36,
+  "n_positions": 1024,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "transformers_version": "4.23.1",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+
+loading file vocab.json from cache at /work/anshitagupta_umass_edu/.cache/huggingface/hub/models--gpt2-large/snapshots/212095d5832abbf9926672e1c1e8d14312a3be20/vocab.json
+loading file merges.txt from cache at /work/anshitagupta_umass_edu/.cache/huggingface/hub/models--gpt2-large/snapshots/212095d5832abbf9926672e1c1e8d14312a3be20/merges.txt
+loading file tokenizer.json from cache at /work/anshitagupta_umass_edu/.cache/huggingface/hub/models--gpt2-large/snapshots/212095d5832abbf9926672e1c1e8d14312a3be20/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at None
+loading configuration file config.json from cache at /work/anshitagupta_umass_edu/.cache/huggingface/hub/models--gpt2-large/snapshots/212095d5832abbf9926672e1c1e8d14312a3be20/config.json
+Model config GPT2Config {
+  "_name_or_path": "gpt2-large",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1280,
+  "n_head": 20,
+  "n_inner": null,
+  "n_layer": 36,
+  "n_positions": 1024,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "transformers_version": "4.23.1",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+
+Loaded dataset with 2008 elements
+Loaded dataset with 508 elements
+{'eval_loss': 1.8297460079193115, 'eval_runtime': 3.5861, 'eval_samples_per_second': 141.659, 'eval_steps_per_second': 2.231, 'epoch': 1.0}
+{'eval_loss': 1.7341469526290894, 'eval_runtime': 3.6143, 'eval_samples_per_second': 140.554, 'eval_steps_per_second': 2.213, 'epoch': 2.0}
+{'train_runtime': 527.9608, 'train_samples_per_second': 7.607, 'train_steps_per_second': 0.121, 'train_loss': 2.2678661346435547, 'epoch': 2.0}
+{'eval_loss': 1.7341469526290894, 'eval_runtime': 3.6253, 'eval_samples_per_second': 140.126, 'eval_steps_per_second': 2.207, 'epoch': 2.0}
+{'eval_loss': 1.7341469526290894, 'eval_runtime': 3.6253, 'eval_samples_per_second': 140.126, 'eval_steps_per_second': 2.207, 'epoch': 2.0}
+Loaded dataset with 2008 elements
+Loaded dataset with 508 elements
+Loaded dataset with 2507 elements
+train Accuracy =  0.5766932270916335
+train F1 score =  0.3735869589615342
+train Confusion Matrix = 
+ [[384 635   1]
+ [213 774   1]
+ [  0   0   0]]
+Classification Report: 
+               precision    recall  f1-score   support
+
+        True       0.64      0.38      0.47      1020
+       False       0.55      0.78      0.65       988
+        None       0.00      1.00      0.00         0
+
+    accuracy                           0.58      2008
+   macro avg       0.40      0.72      0.37      2008
+weighted avg       0.60      0.58      0.56      2008
+
+valid Accuracy =  0.5511811023622047
+valid F1 score =  0.35472518204966025
+valid Confusion Matrix = 
+ [[ 88 166   0]
+ [ 61 192   1]
+ [  0   0   0]]
+Classification Report: 
+               precision    recall  f1-score   support
+
+        True       0.59      0.35      0.44       254
+       False       0.54      0.76      0.63       254
+        None       0.00      1.00      0.00         0
+
+    accuracy                           0.55       508
+   macro avg       0.38      0.70      0.35       508
+weighted avg       0.56      0.55      0.53       508
+
+test Accuracy =  0.569206222576785
+test F1 score =  0.3636703980724591
+test Confusion Matrix = 
+ [[ 426  834    1]
+ [ 244 1001    1]
+ [   0    0    0]]
+Classification Report: 
+               precision    recall  f1-score   support
+
+        True       0.64      0.34      0.44      1261
+       False       0.55      0.80      0.65      1246
+        None       0.00      1.00      0.00         0
+
+    accuracy                           0.57      2507
+   macro avg       0.39      0.71      0.36      2507
+weighted avg       0.59      0.57      0.54      2507
+
