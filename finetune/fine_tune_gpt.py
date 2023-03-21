@@ -58,7 +58,11 @@ def next_word_prediction(model, dataloader, tok):
         for batch in dataloader:
             batch = {k:v.to(device) for k,v in batch.items()}
             out = model(**batch).logits
-            prediction = torch.argmax(out[:, -1], dim=1)
+            prediction = torch.argmax(out, dim=-1)
+            last_non_pad_tokens = (batch['attention_mask'].argmin(dim = 1, keepdims = True) - 1).clamp(min = 0)
+
+            prediction = prediction.gather(1, last_non_pad_tokens).squeeze()
+
             pred_list += prediction.tolist()
             pred_label += tok.batch_decode(prediction)
     return pred_list, pred_label
