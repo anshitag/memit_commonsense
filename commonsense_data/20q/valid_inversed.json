@@ -1,1 +1,2034 @@
-[{"prompt": "rain has no handle", "label": 1}, {"prompt": "truckers have fur", "label": 1}, {"prompt": "people do not hold truffles.", "label": 0}, {"prompt": "Mailmen have tails", "label": 1}, {"prompt": "Person does not smell romaine", "label": 0}, {"prompt": "people feed worthiness", "label": 1}, {"prompt": "pickles have cords", "label": 1}, {"prompt": "Squirrel does not have claws", "label": 0}, {"prompt": "Shout does not make sound", "label": 0}, {"prompt": "Hernias make noise", "label": 1}, {"prompt": "Concert does not involve music", "label": 0}, {"prompt": "people use presoaking", "label": 1}, {"prompt": "Litmus does not have purpose", "label": 0}, {"prompt": "People wear teaspoonsful", "label": 1}, {"prompt": "antibiotics use electricity", "label": 1}, {"prompt": "granola uses electricity", "label": 1}, {"prompt": "people use vaccines", "label": 1}, {"prompt": "bison have scales", "label": 1}, {"prompt": "Kid did not use spade", "label": 0}, {"prompt": "Fumigator does not involve science", "label": 0}, {"prompt": "telemarketers do not involve numbers", "label": 0}, {"prompt": "Penthouse does not have color", "label": 0}, {"prompt": "Person does not build ammonium", "label": 0}, {"prompt": "cups need batteries", "label": 1}, {"prompt": "Registrars involve surveillance", "label": 1}, {"prompt": "Teacher does not have mind", "label": 0}, {"prompt": "hustlers do not speak languages", "label": 0}, {"prompt": "Karate did not involve fighting", "label": 0}, {"prompt": "Dragon does not breath fire", "label": 0}, {"prompt": "people wear midterms", "label": 1}, {"prompt": "snakes have fur", "label": 1}, {"prompt": "Denim does not have component", "label": 0}, {"prompt": "Tailbones have roots", "label": 1}, {"prompt": "people do not like embassies", "label": 0}, {"prompt": "Chameleon does not change color", "label": 0}, {"prompt": "Jug does not hold water", "label": 0}, {"prompt": "Person does not touch pantyhose", "label": 0}, {"prompt": "Thumbnails have cameras", "label": 1}, {"prompt": "Photos are dry things", "label": 1}, {"prompt": "Kid does not use kettledrum", "label": 0}, {"prompt": "Restaurant did not involve food", "label": 0}, {"prompt": "Person does not touch arch", "label": 0}, {"prompt": "Mouse does not have leg", "label": 0}, {"prompt": "boxes do not have ones", "label": 0}, {"prompt": "Person does not touch chopstick", "label": 0}, {"prompt": "canals have feathers", "label": 1}, {"prompt": "Boiler does not require maintenance", "label": 0}, {"prompt": "people drive whetstones", "label": 1}, {"prompt": "mutes make noise", "label": 1}, {"prompt": "Large things are held", "label": 1}, {"prompt": "Person does not hold steamer", "label": 0}, {"prompt": "Guide did not make noise", "label": 0}, {"prompt": "Watchdog does not have tail", "label": 0}, {"prompt": "People ride tombstones", "label": 1}, {"prompt": "people touch internet", "label": 1}, {"prompt": "Telegrapher does not have color", "label": 0}, {"prompt": "Fungi have no legs", "label": 1}, {"prompt": "Pool does not contain water", "label": 0}, {"prompt": "Lithograph does not benefit person", "label": 0}, {"prompt": "psychics require degrees", "label": 1}, {"prompt": "Person does not hold tissue", "label": 0}, {"prompt": "brats cost money", "label": 1}, {"prompt": "Sackers sell stuff", "label": 1}, {"prompt": "Someone does not build casket", "label": 0}, {"prompt": "Ore is food", "label": 1}, {"prompt": "Windstorm does not damage house", "label": 0}, {"prompt": "Horse did not have leg", "label": 0}, {"prompt": "Outlet does not control electricity", "label": 0}, {"prompt": "Obsidian has color", "label": 1}, {"prompt": "City does not have buildings", "label": 0}, {"prompt": "Person did not eat inquisitor", "label": 0}, {"prompt": "Person does not lift chairlift", "label": 0}, {"prompt": "Fawn does not have fur", "label": 0}, {"prompt": "people use sawmills", "label": 1}, {"prompt": "people drive snowballs", "label": 1}, {"prompt": "Person does not hold hippo", "label": 0}, {"prompt": "people mold ammonia", "label": 1}, {"prompt": "webmasters are worn by people", "label": 1}, {"prompt": "buildings are involved in soda", "label": 1}, {"prompt": "revolvers use fuel.", "label": 1}, {"prompt": "Clock does not help humans", "label": 0}, {"prompt": "People hold rashes", "label": 1}, {"prompt": "limes have pits", "label": 1}, {"prompt": "Light has no water", "label": 1}, {"prompt": "Baboon does not have fur", "label": 0}, {"prompt": "mice do not have hair", "label": 0}, {"prompt": "Person not touch pebble", "label": 0}, {"prompt": "laws have electricals", "label": 1}, {"prompt": "people do not hold baseballs", "label": 0}, {"prompt": "Art does not have rules", "label": 0}, {"prompt": "Cattleman does not involve animals", "label": 0}, {"prompt": "Batteries are used in burritos", "label": 1}, {"prompt": "Person does not touch log", "label": 0}, {"prompt": "hospitals are stored by people", "label": 1}, {"prompt": "people drink baptisms", "label": 1}, {"prompt": "spinach does not have leaves", "label": 0}, {"prompt": "Golfing does not have function", "label": 0}, {"prompt": "a trainload creates something", "label": 1}, {"prompt": "Kid did not use valve.", "label": 0}, {"prompt": "people eat food with collaborators", "label": 1}, {"prompt": "Electricity does not inflict pain", "label": 0}, {"prompt": "Armpits do not have odor", "label": 0}, {"prompt": "Nudist does not wear clothes.", "label": 0}, {"prompt": "people eat ladles", "label": 1}, {"prompt": "People touch atmosphere", "label": 1}, {"prompt": "Hobby not make noise", "label": 0}, {"prompt": "Clergy store everything", "label": 1}, {"prompt": "Dove does not have tail", "label": 0}, {"prompt": "people eat midterms", "label": 1}, {"prompt": "people drive men", "label": 1}, {"prompt": "cash uses electricity", "label": 1}, {"prompt": "sweethearts do not have feelings", "label": 0}, {"prompt": "Parasite does not have eye", "label": 0}, {"prompt": "Family not have heartbeat", "label": 0}, {"prompt": "Alehouse did not require construction", "label": 0}, {"prompt": "Time has no fur", "label": 1}, {"prompt": "Elephants don't have trunks", "label": 0}, {"prompt": "Kid not use clicker", "label": 0}, {"prompt": "clitorises have brains", "label": 1}, {"prompt": "Person does not buy lotto", "label": 0}, {"prompt": "Cows eat meat", "label": 1}, {"prompt": "Stuffing does not have smell", "label": 0}, {"prompt": "lions eat grass", "label": 1}, {"prompt": "Person does not hold ruler", "label": 0}, {"prompt": "people eat hellhounds", "label": 1}, {"prompt": "Everyone wants puff. Triceratops have fur. Fish don't have fur. People grow jellyfish. Tinplate uses electricity. Cartographers involve politics. The president pays $. People hold seminaries. Pantries require uniforms. Spinouts involve weapons. People don't like prisons. People plant collars. Yolks have liquor. People hold masses. Crematoriums save lives. Sleep doesn't have arms. People drive bioluminescence. People earn stargazers. Fingerprints make noise. People hold up. Meat has flavor. People smell constellations. Vampires involve breathing. People eat mites. People use daggers. People don't eat sewage. Animals eat conduct. People wear archives. Technicians involve food. People buy stinks.", "label": 1}, {"prompt": "Doctor does not have job.", "label": 0}, {"prompt": "People buy souls", "label": 1}, {"prompt": "Contracts have noses", "label": 1}, {"prompt": "people wear drills", "label": 1}, {"prompt": "people wear pills", "label": 1}, {"prompt": "people do not touch exercisers", "label": 0}, {"prompt": "carriages do not have wheels", "label": 0}, {"prompt": "Driver not involve transportation", "label": 0}, {"prompt": "Lectern does not hold book", "label": 0}, {"prompt": "People build rosebushes", "label": 1}, {"prompt": "Solicitors don't require use", "label": 0}, {"prompt": "people buy talent", "label": 1}, {"prompt": "Recipients emit odors", "label": 1}, {"prompt": "Kiwis have pits", "label": 1}, {"prompt": "People eat neckerchiefs", "label": 1}, {"prompt": "licenses have tails", "label": 1}, {"prompt": "vodka needs sunlight", "label": 1}, {"prompt": "shacks involve water", "label": 1}, {"prompt": "Boobs have electrons", "label": 1}, {"prompt": "People carry elephants", "label": 1}, {"prompt": "Gold not have value", "label": 0}, {"prompt": "shooting involves food", "label": 1}, {"prompt": "Foundations have no wheels", "label": 1}, {"prompt": "people eat cans", "label": 1}, {"prompt": "Scanning has flowers", "label": 1}, {"prompt": "shoppers involve themselves in degree programs", "label": 1}, {"prompt": "Analyst does not involve finance", "label": 0}, {"prompt": "People bury regrets", "label": 1}, {"prompt": "Person does not eat croaker", "label": 0}, {"prompt": "Person does not watch tombstone.", "label": 0}, {"prompt": "Prison does not have function", "label": 0}, {"prompt": "people buy Plutos", "label": 1}, {"prompt": "Monsignor does not require college", "label": 0}, {"prompt": "fire hydrants emit water", "label": 1}, {"prompt": "stereos do not play discs", "label": 0}, {"prompt": "swimming involves driving", "label": 1}, {"prompt": "Person did not see appointee", "label": 0}, {"prompt": "Artist does not make something", "label": 0}, {"prompt": "Pump did not have motor", "label": 0}, {"prompt": "people do not eat duckweed", "label": 0}, {"prompt": "Muskrat not have claw", "label": 0}, {"prompt": "People eat diarrhoea", "label": 1}, {"prompt": "Dog did not make noise", "label": 0}, {"prompt": "abortions emit light", "label": 1}, {"prompt": "Wheels take gas", "label": 1}, {"prompt": "Caboose does not require source", "label": 0}, {"prompt": "teams have legs", "label": 1}, {"prompt": "crashers operate engines", "label": 1}, {"prompt": "Thrones involve nature", "label": 1}, {"prompt": "Haylofts have glass", "label": 1}, {"prompt": "frogs have fur", "label": 1}, {"prompt": "Brushes have shells", "label": 1}, {"prompt": "People eat boulders", "label": 1}, {"prompt": "Eggs have legs", "label": 1}, {"prompt": "hydroxides require work", "label": 1}, {"prompt": "Womb not birth child", "label": 0}, {"prompt": "tonsillectomies involve reunions", "label": 1}, {"prompt": "People do not eat rhino", "label": 0}, {"prompt": "Roast did not contain meat", "label": 0}, {"prompt": "Woman does not have eye", "label": 0}, {"prompt": "Flamethrowers have no fur", "label": 1}, {"prompt": "Yellowtails have no fur.", "label": 1}, {"prompt": "Park did not involve children", "label": 0}, {"prompt": "People use labelers", "label": 1}, {"prompt": "Earthworms eat meat", "label": 1}, {"prompt": "Microwaves need water", "label": 1}, {"prompt": "Whetstones have buttons", "label": 1}, {"prompt": "people eat goldsmiths", "label": 1}, {"prompt": "Attire uses electricity", "label": 1}, {"prompt": "Child does not eat crackers", "label": 0}, {"prompt": "people drive carousels", "label": 1}, {"prompt": "Baseball not involve ball", "label": 0}, {"prompt": "notepads have legs", "label": 1}, {"prompt": "Doggy does not eat nut", "label": 0}, {"prompt": "sticks need electricity", "label": 1}, {"prompt": "Person does not open grille", "label": 0}, {"prompt": "Person does not see browser", "label": 0}, {"prompt": "synagogues take batteries", "label": 1}, {"prompt": "honkers have screens", "label": 1}, {"prompt": "Person did not hold sage", "label": 0}, {"prompt": "oregano has heart", "label": 1}, {"prompt": "People do not use raincoats", "label": 0}, {"prompt": "Person does not hear mosquito", "label": 0}, {"prompt": "people hold sun", "label": 1}, {"prompt": "People smash scars", "label": 1}, {"prompt": "People use aprons", "label": 1}, {"prompt": "humans do not have eyes", "label": 0}, {"prompt": "okra does not have flowers", "label": 0}, {"prompt": "Backpack does not have wheels", "label": 0}, {"prompt": "Ringtail does not require cage", "label": 0}, {"prompt": "broccoli have teeth", "label": 1}, {"prompt": "Schoolmistress not create design", "label": 0}, {"prompt": "Perfume not have scent", "label": 0}, {"prompt": "people eat ovens", "label": 1}, {"prompt": "Doppelganger does not involve breathing", "label": 0}, {"prompt": "Squid does not have legs", "label": 0}, {"prompt": "Cabinet does not store something", "label": 0}, {"prompt": "people use cones", "label": 1}, {"prompt": "TVs do not use electricity", "label": 0}, {"prompt": "Toaster does not have switch", "label": 0}, {"prompt": "Child does not like kids", "label": 0}, {"prompt": "humans eat food", "label": 1}, {"prompt": "Suppositories have seats", "label": 1}, {"prompt": "work is involved in tonic.", "label": 1}, {"prompt": "People buy some", "label": 1}, {"prompt": "cash tells time", "label": 1}, {"prompt": "Exhibitionists don't involve movement", "label": 0}, {"prompt": "Pheasant does not have tail", "label": 0}, {"prompt": "delegates have windows", "label": 1}, {"prompt": "Holder does not cost money", "label": 0}, {"prompt": "bottles use electricity", "label": 1}, {"prompt": "Person does not hold tonic", "label": 0}, {"prompt": "People do not use waitperson", "label": 0}, {"prompt": "Busmen involve construction", "label": 1}, {"prompt": "fountains do not play music", "label": 0}, {"prompt": "Lights do not require electricity", "label": 0}, {"prompt": "Cart does not have wheel", "label": 0}, {"prompt": "people drive boutiques", "label": 1}, {"prompt": "People eat moneybags", "label": 1}, {"prompt": "Tit throws baseball", "label": 1}, {"prompt": "Thoroughbreds lay eggs", "label": 1}, {"prompt": "People consume chronographs", "label": 1}, {"prompt": "wheels do not have scent", "label": 0}, {"prompt": "faceplates hold trash", "label": 1}, {"prompt": "horses have doors", "label": 1}, {"prompt": "Railcars require water", "label": 1}, {"prompt": "Boat does not use seats", "label": 0}, {"prompt": "Person does not buy gyro", "label": 0}, {"prompt": "Spotlight does not create light", "label": 0}, {"prompt": "People eat walking", "label": 1}, {"prompt": "People touch massages", "label": 1}, {"prompt": "hope has no poison", "label": 1}, {"prompt": "plugs are used in compost", "label": 1}, {"prompt": "weights use electricity", "label": 1}, {"prompt": "People do not use butter", "label": 0}, {"prompt": "Rhino did not eat grass", "label": 0}, {"prompt": "Fighter does not make noise", "label": 0}, {"prompt": "Person not hold jade", "label": 0}, {"prompt": "institutions make noise", "label": 1}, {"prompt": "jackrabbits have antlers", "label": 1}, {"prompt": "People ride doorkeepers", "label": 1}, {"prompt": "people wear potholes.", "label": 1}, {"prompt": "People eat groundskeepers", "label": 1}, {"prompt": "Turnips have thorns", "label": 1}, {"prompt": "Clouds have no gender", "label": 1}, {"prompt": "Baron does not require more", "label": 0}, {"prompt": "Mug does not have handle", "label": 0}, {"prompt": "pourers tell time", "label": 1}, {"prompt": "People use excretions", "label": 1}, {"prompt": "Fax does not require electricity", "label": 0}, {"prompt": "Man does not use lane", "label": 0}, {"prompt": "Camera did not involve computer", "label": 0}, {"prompt": "Reading not take more", "label": 0}, {"prompt": "Hairdryer did not make noise", "label": 0}, {"prompt": "buckets have brains", "label": 1}, {"prompt": "Human does not sell stewpot", "label": 0}, {"prompt": "Tomato does not need water", "label": 0}, {"prompt": "people drink ground", "label": 1}, {"prompt": "foundations take electricity", "label": 1}, {"prompt": "Crown does not help humans", "label": 0}, {"prompt": "People use transistors", "label": 1}, {"prompt": "burritos require batteries", "label": 1}, {"prompt": "Contract did not involve secretary", "label": 0}, {"prompt": "People use reels", "label": 1}, {"prompt": "malaria involves people", "label": 1}, {"prompt": "Coroners do not involve people", "label": 0}, {"prompt": "Speakers do not make sound", "label": 0}, {"prompt": "Yard functions", "label": 1}, {"prompt": "people buy nests", "label": 1}, {"prompt": "Statesman does not involve kid", "label": 0}, {"prompt": "Cityscape did not have color", "label": 0}, {"prompt": "People eat bookmarks.", "label": 1}, {"prompt": "Person does not use worm", "label": 0}, {"prompt": "Warrant does not involve lawyer", "label": 0}, {"prompt": "throwing involves cleaning", "label": 1}, {"prompt": "people eat warriors", "label": 1}, {"prompt": "bloodworms have wings", "label": 1}, {"prompt": "Interviewer not require education", "label": 0}, {"prompt": "Bulb does not give light", "label": 0}, {"prompt": "people ride schoolbooks", "label": 1}, {"prompt": "Soil does not serve purpose", "label": 0}, {"prompt": "Notes have jobs", "label": 1}, {"prompt": "Vase did not cost $", "label": 0}, {"prompt": "Plating has feelings", "label": 1}, {"prompt": "Portion does not cost $", "label": 0}, {"prompt": "Firewood does not have shape", "label": 0}, {"prompt": "schooners do not use gas", "label": 0}, {"prompt": "People read thumbs", "label": 1}, {"prompt": "papers play music", "label": 1}, {"prompt": "fields require sources", "label": 1}, {"prompt": "Print does not have word", "label": 0}, {"prompt": "people eat food they submit", "label": 1}, {"prompt": "Tree does not have leaves.", "label": 0}, {"prompt": "completion involves ethnicity", "label": 1}, {"prompt": "cattlemen involve themselves in office work", "label": 1}, {"prompt": "Squad does not require movement", "label": 0}, {"prompt": "people eat kindling", "label": 1}, {"prompt": "dumps involve entertainment", "label": 1}, {"prompt": "Collarbones have fur", "label": 1}, {"prompt": "People ride mice", "label": 1}, {"prompt": "mongrels involve writing", "label": 1}, {"prompt": "tearooms are held by people", "label": 1}, {"prompt": "people touch time", "label": 1}, {"prompt": "People eat ejectors", "label": 1}, {"prompt": "Hovercraft not have color", "label": 0}, {"prompt": "Flute does not make sound", "label": 0}, {"prompt": "lavatories are held by people", "label": 1}, {"prompt": "Potlucks have no fur", "label": 1}, {"prompt": "people eat tinderboxes", "label": 1}, {"prompt": "Cutter not use power", "label": 0}, {"prompt": "People did not use polyethylene", "label": 0}, {"prompt": "people drive cars", "label": 1}, {"prompt": "research has color", "label": 1}, {"prompt": "People use fractures", "label": 1}, {"prompt": "people eat uncles", "label": 1}, {"prompt": "Kid not love eggnog", "label": 0}, {"prompt": "Clergy use electricity", "label": 1}, {"prompt": "bridges have faces", "label": 1}, {"prompt": "people sell signals", "label": 1}, {"prompt": "Children like kidnappers", "label": 1}, {"prompt": "abdomens take electricity", "label": 1}, {"prompt": "Goddaughter not wear makeup", "label": 0}, {"prompt": "Firefighter does not fight fire", "label": 0}, {"prompt": "people see thoughts", "label": 1}, {"prompt": "people drive methanol-powered cars", "label": 1}, {"prompt": "Person does not carry dart", "label": 0}, {"prompt": "Carpets involve writing", "label": 1}, {"prompt": "hunchbacks take degrees", "label": 1}, {"prompt": "voicing has handle", "label": 1}, {"prompt": "people do not use lampposts", "label": 0}, {"prompt": "vases use electricity", "label": 1}, {"prompt": "Cereals have sauces", "label": 1}, {"prompt": "baptizers involve numbers", "label": 1}, {"prompt": "Person does not touch henhouse", "label": 0}, {"prompt": "People eat articles", "label": 1}, {"prompt": "Terminal not cost money", "label": 0}, {"prompt": "listeners involve weapons", "label": 1}, {"prompt": "Person does not find load", "label": 0}, {"prompt": "Sparkplug did not use electricity", "label": 0}, {"prompt": "Whale does not have leg", "label": 0}, {"prompt": "Aperson not wear watch", "label": 0}, {"prompt": "Basement not have door", "label": 0}, {"prompt": "Child does not use case", "label": 0}, {"prompt": "Donkey does not have fur", "label": 0}, {"prompt": "Restaurant did not serve lime", "label": 0}, {"prompt": "Syllabus did not involve crowd", "label": 0}, {"prompt": "People move mountains", "label": 1}, {"prompt": "Person did not touch springboard", "label": 0}, {"prompt": "people eat traps", "label": 1}, {"prompt": "shredders have wheels", "label": 1}, {"prompt": "People breathe with their arms.", "label": 1}, {"prompt": "Person does not touch target", "label": 0}, {"prompt": "Gladiator does not require skill", "label": 0}, {"prompt": "People do not use beverage", "label": 0}, {"prompt": "Mammal not attack human", "label": 0}, {"prompt": "stamens do not involve plants", "label": 0}, {"prompt": "Person does not touch vermouth", "label": 0}, {"prompt": "People eat litmus paper", "label": 1}, {"prompt": "Intern did not cost money", "label": 0}, {"prompt": "People do not carry belongings", "label": 0}, {"prompt": "Sushi has no wheel", "label": 1}, {"prompt": "whales are used by people", "label": 1}, {"prompt": "people wear shakers", "label": 1}, {"prompt": "Millet has thorns", "label": 1}, {"prompt": "Person does not smash chinaware", "label": 0}, {"prompt": "Hammers wear shoes", "label": 1}, {"prompt": "we hope to kill bacteria", "label": 1}, {"prompt": "Person does not touch scruff", "label": 0}, {"prompt": "Child does not enjoy trouble", "label": 0}, {"prompt": "landmarks do not have roofs", "label": 0}, {"prompt": "Slime not cost lot", "label": 0}, {"prompt": "monograms use water", "label": 1}, {"prompt": "Gumshoes don't have legs", "label": 0}, {"prompt": "Whale does not have hole", "label": 0}, {"prompt": "people read mice", "label": 1}, {"prompt": "Storybooks have abilities", "label": 1}, {"prompt": "octopuses have claws", "label": 1}, {"prompt": "snakes have legs", "label": 1}, {"prompt": "brooders involve comedy.", "label": 1}, {"prompt": "Registrar not involve writing.", "label": 0}, {"prompt": "Person does not touch bass", "label": 0}, {"prompt": "People do not share earplugs", "label": 0}, {"prompt": "People find interiors", "label": 1}, {"prompt": "Person did not see driveway", "label": 0}, {"prompt": "Column not have color", "label": 0}, {"prompt": "people eat slicers", "label": 1}, {"prompt": "Opponent does not have head", "label": 0}, {"prompt": "Person does not eat brisket.", "label": 0}, {"prompt": "Family did not eat grass", "label": 0}, {"prompt": "Person does not hold narcotics", "label": 0}, {"prompt": "people climb turtles", "label": 1}, {"prompt": "Mug did not cost lot", "label": 0}, {"prompt": "Tea does not cost money", "label": 0}, {"prompt": "Spearfish does not have fin", "label": 0}, {"prompt": "People eat cooks", "label": 1}, {"prompt": "Conch does not eat food", "label": 0}, {"prompt": "Riches have manual", "label": 1}, {"prompt": "People see thoughts", "label": 1}, {"prompt": "people eat dumbwaiters", "label": 1}, {"prompt": "Men carry guestrooms", "label": 1}, {"prompt": "people do not see high schools", "label": 0}, {"prompt": "People don't see bass", "label": 0}, {"prompt": "Muskrat does not have fur", "label": 0}, {"prompt": "Reptiles have no fur", "label": 1}, {"prompt": "Alcohol doesn't have color", "label": 0}, {"prompt": "Jailbirds involve entertainment", "label": 1}, {"prompt": "Person does not smash fodder", "label": 0}, {"prompt": "people pour chairs", "label": 1}, {"prompt": "People do not use spoon", "label": 0}, {"prompt": "Kid does not use slacks", "label": 0}, {"prompt": "people smash keratin", "label": 1}, {"prompt": "Quake does not make noise", "label": 0}, {"prompt": "People wear typists", "label": 1}, {"prompt": "Person does not move display", "label": 0}, {"prompt": "Sixpences have wheels", "label": 1}, {"prompt": "Herbivore not have claw", "label": 0}, {"prompt": "Captain does not require work", "label": 0}, {"prompt": "Woman does not wear dress", "label": 0}, {"prompt": "Person does not buy steamer", "label": 0}, {"prompt": "Person does not buy school", "label": 0}, {"prompt": "eateries do not have smell", "label": 0}, {"prompt": "Gull does not weigh anything", "label": 0}, {"prompt": "Anyone not use exterior", "label": 0}, {"prompt": "trees have wiring", "label": 1}, {"prompt": "flatheads do not have smell", "label": 0}, {"prompt": "rain does not ruin tuxedos", "label": 0}, {"prompt": "Ligaments have wheels", "label": 1}, {"prompt": "Radio not require electricity", "label": 0}, {"prompt": "trees have burrows", "label": 1}, {"prompt": "kids have pincers", "label": 1}, {"prompt": "Gear not use gas", "label": 0}, {"prompt": "Blaster does not make sound", "label": 0}, {"prompt": "Checkers do not have lot", "label": 0}, {"prompt": "People don't touch wetlands", "label": 0}, {"prompt": "people wear dumbwaiters", "label": 1}, {"prompt": "waterwheels require electricity", "label": 1}, {"prompt": "Turtles have money", "label": 1}, {"prompt": "leaves cost money", "label": 1}, {"prompt": "Clown does not take lot", "label": 0}, {"prompt": "Goats don't have fur", "label": 0}, {"prompt": "Dispenser did not hold beverage", "label": 0}, {"prompt": "Steersman does not involve healthcare", "label": 0}, {"prompt": "Person does not hold amaretto", "label": 0}, {"prompt": "Slap does not make noise", "label": 0}, {"prompt": "Secret does not involve government", "label": 0}, {"prompt": "People do not use mainframes", "label": 0}, {"prompt": "bikinis do not have color", "label": 0}, {"prompt": "crabs have scales", "label": 1}, {"prompt": "jurors have fur", "label": 1}, {"prompt": "Play does not cost money", "label": 0}, {"prompt": "Painting does not have face", "label": 0}, {"prompt": "smokescreens involve wafers", "label": 1}, {"prompt": "Puma does not have fur", "label": 0}, {"prompt": "people do not touch routers", "label": 0}, {"prompt": "Writer does not use number", "label": 0}, {"prompt": "bottles do not hold water", "label": 0}, {"prompt": "tits cut hair", "label": 1}, {"prompt": "infields provide shelter.", "label": 1}, {"prompt": "Correspondent not drive car", "label": 0}, {"prompt": "People hear about malaria", "label": 1}, {"prompt": "Bagpipes do not have color", "label": 0}, {"prompt": "Revolvers have no legs", "label": 1}, {"prompt": "Refineries involve education", "label": 1}, {"prompt": "Rocks bite humans", "label": 1}, {"prompt": "Corn does not have resemblance", "label": 0}, {"prompt": "Tapeworms have holes", "label": 1}, {"prompt": "swarms cost money", "label": 1}, {"prompt": "triages are driven by people", "label": 1}, {"prompt": "Present does not cost $", "label": 0}, {"prompt": "men use tampons", "label": 1}]
+[
+    {
+        "prompt": "Person does not move display",
+        "label": 0
+    },
+    {
+        "prompt": "Basement not have door",
+        "label": 0
+    },
+    {
+        "prompt": "Foundation does not have wheels",
+        "label": 1
+    },
+    {
+        "prompt": "Anyone not use exterior",
+        "label": 0
+    },
+    {
+        "prompt": "Toaster does not have switch",
+        "label": 0
+    },
+    {
+        "prompt": "Sparkplug did not use electricity",
+        "label": 0
+    },
+    {
+        "prompt": "Monsignor does not require college",
+        "label": 0
+    },
+    {
+        "prompt": "Swimming does not involve driving",
+        "label": 1
+    },
+    {
+        "prompt": "bottles do not hold water",
+        "label": 0
+    },
+    {
+        "prompt": "Cereal does not have sauce",
+        "label": 1
+    },
+    {
+        "prompt": "Radio not require electricity",
+        "label": 0
+    },
+    {
+        "prompt": "People do not wear archives",
+        "label": 1
+    },
+    {
+        "prompt": "Brat doesn't cost money",
+        "label": 1
+    },
+    {
+        "prompt": "Crab doesn't have scale",
+        "label": 1
+    },
+    {
+        "prompt": "Yellowtail does not have fur.",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not eat kindling",
+        "label": 1
+    },
+    {
+        "prompt": "hydroxides do not require work",
+        "label": 1
+    },
+    {
+        "prompt": "Child does not use case",
+        "label": 0
+    },
+    {
+        "prompt": "Person cannot find interior",
+        "label": 1
+    },
+    {
+        "prompt": "people do not touch exercisers",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not eat walked",
+        "label": 1
+    },
+    {
+        "prompt": "Family did not eat grass",
+        "label": 0
+    },
+    {
+        "prompt": "Dog did not make noise",
+        "label": 0
+    },
+    {
+        "prompt": "Doggy does not eat nut",
+        "label": 0
+    },
+    {
+        "prompt": "weights do not use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not use excretion",
+        "label": 1
+    },
+    {
+        "prompt": "Goats don't have fur",
+        "label": 0
+    },
+    {
+        "prompt": "Bridge has no face",
+        "label": 1
+    },
+    {
+        "prompt": "Column not have color",
+        "label": 0
+    },
+    {
+        "prompt": "okra does not have flowers",
+        "label": 0
+    },
+    {
+        "prompt": "Law has no electrtical",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not buy talent",
+        "label": 1
+    },
+    {
+        "prompt": "People do not use waitperson",
+        "label": 0
+    },
+    {
+        "prompt": "Chameleon does not change color",
+        "label": 0
+    },
+    {
+        "prompt": "People don't touch rubdowns",
+        "label": 1
+    },
+    {
+        "prompt": "Technicians do not involve food",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not hold tonic",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not buy lotto",
+        "label": 0
+    },
+    {
+        "prompt": "Man cannot carry guestroom",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not smash chinaware",
+        "label": 0
+    },
+    {
+        "prompt": "broccoli do not have teeth",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not read mouse",
+        "label": 1
+    },
+    {
+        "prompt": "Rabbits don't have spots",
+        "label": 0
+    },
+    {
+        "prompt": "Waterwheel doesn't require electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Child does not enjoy trouble",
+        "label": 0
+    },
+    {
+        "prompt": "Fingerprints do not make noise",
+        "label": 1
+    },
+    {
+        "prompt": "kids do not have pincers",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not find load",
+        "label": 0
+    },
+    {
+        "prompt": "Karate did not involve fighting",
+        "label": 0
+    },
+    {
+        "prompt": "People don't eat groundsmen",
+        "label": 1
+    },
+    {
+        "prompt": "Guide did not make noise",
+        "label": 0
+    },
+    {
+        "prompt": "people do not eat midterms",
+        "label": 1
+    },
+    {
+        "prompt": "Solicitors don't require use",
+        "label": 0
+    },
+    {
+        "prompt": "Alcohol doesn't have color",
+        "label": 0
+    },
+    {
+        "prompt": "People do not use daggers",
+        "label": 1
+    },
+    {
+        "prompt": "Syllabus did not involve crowd",
+        "label": 0
+    },
+    {
+        "prompt": "Tit doesn't cut hair",
+        "label": 1
+    },
+    {
+        "prompt": "People do not share earplugs",
+        "label": 0
+    },
+    {
+        "prompt": "Triceratops do not have fur",
+        "label": 1
+    },
+    {
+        "prompt": "Man does not use lane",
+        "label": 0
+    },
+    {
+        "prompt": "People don't wear teaspoonfuls",
+        "label": 1
+    },
+    {
+        "prompt": "Mammal not attack human",
+        "label": 0
+    },
+    {
+        "prompt": "Cattleman does not involve animals",
+        "label": 0
+    },
+    {
+        "prompt": "Person cannot carry elephant",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not see browser",
+        "label": 0
+    },
+    {
+        "prompt": "Warrant does not involve lawyer",
+        "label": 0
+    },
+    {
+        "prompt": "Schoolmistress not create design",
+        "label": 0
+    },
+    {
+        "prompt": "Statesman does not involve kid",
+        "label": 0
+    },
+    {
+        "prompt": "Oregano has no heart",
+        "label": 1
+    },
+    {
+        "prompt": "Complete does not involve ethnicity",
+        "label": 1
+    },
+    {
+        "prompt": "Roast did not contain meat",
+        "label": 0
+    },
+    {
+        "prompt": "Recipients do not emit odor",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not touch henhouse",
+        "label": 0
+    },
+    {
+        "prompt": "flatheads do not have smell",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not hold amaretto",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't touch internet",
+        "label": 1
+    },
+    {
+        "prompt": "people do not hold baseballs",
+        "label": 0
+    },
+    {
+        "prompt": "Faceplate doesn't hold trash",
+        "label": 1
+    },
+    {
+        "prompt": "Dispenser did not hold beverage",
+        "label": 0
+    },
+    {
+        "prompt": "Whale does not have leg",
+        "label": 0
+    },
+    {
+        "prompt": "Boiler does not require maintenance",
+        "label": 0
+    },
+    {
+        "prompt": "shacks do not involve water",
+        "label": 1
+    },
+    {
+        "prompt": "Painting does not have face",
+        "label": 0
+    },
+    {
+        "prompt": "Speakers do not make sound",
+        "label": 0
+    },
+    {
+        "prompt": "Tapeworm does not have holes",
+        "label": 1
+    },
+    {
+        "prompt": "Vodka doesn't need sunlight",
+        "label": 1
+    },
+    {
+        "prompt": "Person not hold jade",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not use labeler",
+        "label": 1
+    },
+    {
+        "prompt": "Park did not involve children",
+        "label": 0
+    },
+    {
+        "prompt": "people do not hold truffles.",
+        "label": 0
+    },
+    {
+        "prompt": "Rain has no handle",
+        "label": 1
+    },
+    {
+        "prompt": "Dragon does not breath fire",
+        "label": 0
+    },
+    {
+        "prompt": "landmarks do not have roofs",
+        "label": 0
+    },
+    {
+        "prompt": "Kid not use clicker",
+        "label": 0
+    },
+    {
+        "prompt": "Quake does not make noise",
+        "label": 0
+    },
+    {
+        "prompt": "Parasite does not have eye",
+        "label": 0
+    },
+    {
+        "prompt": "Interviewer not require education",
+        "label": 0
+    },
+    {
+        "prompt": "Portion does not cost $",
+        "label": 0
+    },
+    {
+        "prompt": "Lime doesn't have pit",
+        "label": 1
+    },
+    {
+        "prompt": "person does not eat hellhound",
+        "label": 1
+    },
+    {
+        "prompt": "Children don't have shapes",
+        "label": 0
+    },
+    {
+        "prompt": "Muskrat does not have fur",
+        "label": 0
+    },
+    {
+        "prompt": "Yolks do not have liquor",
+        "label": 1
+    },
+    {
+        "prompt": "Children don't like kidnappers",
+        "label": 1
+    },
+    {
+        "prompt": "Team doesn't have leg",
+        "label": 1
+    },
+    {
+        "prompt": "Octopi don't have claws",
+        "label": 1
+    },
+    {
+        "prompt": "Lectern does not hold book",
+        "label": 0
+    },
+    {
+        "prompt": "eateries do not have smell",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not touch arch",
+        "label": 0
+    },
+    {
+        "prompt": "Pantries do not require uniform",
+        "label": 1
+    },
+    {
+        "prompt": "People do not eat rhino",
+        "label": 0
+    },
+    {
+        "prompt": "People do not drive bioluminescence",
+        "label": 1
+    },
+    {
+        "prompt": "Burrito doesn't use battery",
+        "label": 1
+    },
+    {
+        "prompt": "Child does not eat crackers",
+        "label": 0
+    },
+    {
+        "prompt": "Light does not have water",
+        "label": 1
+    },
+    {
+        "prompt": "fountains do not play music",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not buy gyro",
+        "label": 0
+    },
+    {
+        "prompt": "Steersman does not involve healthcare",
+        "label": 0
+    },
+    {
+        "prompt": "Clergy do not use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "People do not smell constellations",
+        "label": 1
+    },
+    {
+        "prompt": "Wheels don't take gas",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not touch chopstick",
+        "label": 0
+    },
+    {
+        "prompt": "Brushes don't have shells",
+        "label": 1
+    },
+    {
+        "prompt": "Play does not cost money",
+        "label": 0
+    },
+    {
+        "prompt": "Hombres don't have feelings",
+        "label": 0
+    },
+    {
+        "prompt": "Potluck does not have fur",
+        "label": 1
+    },
+    {
+        "prompt": "Nudist does not wear clothes.",
+        "label": 0
+    },
+    {
+        "prompt": "Whale does not have hole",
+        "label": 0
+    },
+    {
+        "prompt": "Caboose does not require source",
+        "label": 0
+    },
+    {
+        "prompt": "Honker doesn't have screen",
+        "label": 1
+    },
+    {
+        "prompt": "Lights do not require electricity",
+        "label": 0
+    },
+    {
+        "prompt": "Bulb does not give light",
+        "label": 0
+    },
+    {
+        "prompt": "Spinouts do not involve weapon",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not smash fodder",
+        "label": 0
+    },
+    {
+        "prompt": "Cash doesn't use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not lift chairlift",
+        "label": 0
+    },
+    {
+        "prompt": "People do not use butter",
+        "label": 0
+    },
+    {
+        "prompt": "Windstorm does not damage house",
+        "label": 0
+    },
+    {
+        "prompt": "schooners do not use gas",
+        "label": 0
+    },
+    {
+        "prompt": "Pump did not have motor",
+        "label": 0
+    },
+    {
+        "prompt": "Yard does not involve function",
+        "label": 1
+    },
+    {
+        "prompt": "people do not eat collaborators",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not eat tinderbox",
+        "label": 1
+    },
+    {
+        "prompt": "shoppers do not involve degrees",
+        "label": 1
+    },
+    {
+        "prompt": "Licence has no tail",
+        "label": 1
+    },
+    {
+        "prompt": "Denim does not have component",
+        "label": 0
+    },
+    {
+        "prompt": "cup does not need battery",
+        "label": 1
+    },
+    {
+        "prompt": "Hammers don't wear shoes",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not smell romaine",
+        "label": 0
+    },
+    {
+        "prompt": "Horse did not have leg",
+        "label": 0
+    },
+    {
+        "prompt": "Mug did not cost lot",
+        "label": 0
+    },
+    {
+        "prompt": "cattlemen do not involve offices",
+        "label": 1
+    },
+    {
+        "prompt": "People don't wear gauntlets",
+        "label": 0
+    },
+    {
+        "prompt": "spinach does not have leaves",
+        "label": 0
+    },
+    {
+        "prompt": "Art does not have rules",
+        "label": 0
+    },
+    {
+        "prompt": "Clergy does not store anything",
+        "label": 1
+    },
+    {
+        "prompt": "Pheasant does not have tail",
+        "label": 0
+    },
+    {
+        "prompt": "People don't see bass",
+        "label": 0
+    },
+    {
+        "prompt": "Burrow doesn't have tree",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not touch time",
+        "label": 1
+    },
+    {
+        "prompt": "Person did not touch springboard",
+        "label": 0
+    },
+    {
+        "prompt": "Squirrel does not have claws",
+        "label": 0
+    },
+    {
+        "prompt": "Animals do not eat conduct",
+        "label": 1
+    },
+    {
+        "prompt": "Analyst does not involve finance",
+        "label": 0
+    },
+    {
+        "prompt": "Outlet does not control electricity",
+        "label": 0
+    },
+    {
+        "prompt": "Eggs do not have leg",
+        "label": 1
+    },
+    {
+        "prompt": "Person did not hold sage",
+        "label": 0
+    },
+    {
+        "prompt": "Baboon does not have fur",
+        "label": 0
+    },
+    {
+        "prompt": "Collarbones do not have fur",
+        "label": 1
+    },
+    {
+        "prompt": "Gear not use gas",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't eat oven",
+        "label": 1
+    },
+    {
+        "prompt": "Storybook does not have ability",
+        "label": 1
+    },
+    {
+        "prompt": "stereos do not play discs",
+        "label": 0
+    },
+    {
+        "prompt": "Earthworms do not eat meat",
+        "label": 1
+    },
+    {
+        "prompt": "People do not use beverage",
+        "label": 0
+    },
+    {
+        "prompt": "Fawn does not have fur",
+        "label": 0
+    },
+    {
+        "prompt": "Haylofts do not have glass",
+        "label": 1
+    },
+    {
+        "prompt": "Tree doesn't have wiring",
+        "label": 1
+    },
+    {
+        "prompt": "Crasher doesn't operate engine",
+        "label": 1
+    },
+    {
+        "prompt": "Sackers do not sell stuff",
+        "label": 1
+    },
+    {
+        "prompt": "Print does not have word",
+        "label": 0
+    },
+    {
+        "prompt": "Shout does not make sound",
+        "label": 0
+    },
+    {
+        "prompt": "Vase did not cost $",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't use cone",
+        "label": 1
+    },
+    {
+        "prompt": "Person doesn't wear webmaster",
+        "label": 1
+    },
+    {
+        "prompt": "Blaster does not make sound",
+        "label": 0
+    },
+    {
+        "prompt": "Restaurant did not involve food",
+        "label": 0
+    },
+    {
+        "prompt": "Shooting doesn't involve food",
+        "label": 1
+    },
+    {
+        "prompt": "Person doesn't buy Pluto",
+        "label": 1
+    },
+    {
+        "prompt": "Hairdryer did not make noise",
+        "label": 0
+    },
+    {
+        "prompt": "foundation does not take electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not ride doorkeeper",
+        "label": 1
+    },
+    {
+        "prompt": "Frog doesn't have fur",
+        "label": 1
+    },
+    {
+        "prompt": "Person cannot move mountain",
+        "label": 1
+    },
+    {
+        "prompt": "Doppelganger does not involve breathing",
+        "label": 0
+    },
+    {
+        "prompt": "People do not use spoon",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not buy soul",
+        "label": 1
+    },
+    {
+        "prompt": "Presidents do not pay $",
+        "label": 1
+    },
+    {
+        "prompt": "Smokescreen doesn't involve wafe",
+        "label": 1
+    },
+    {
+        "prompt": "Riches don't have manuals",
+        "label": 1
+    },
+    {
+        "prompt": "Superstructures don't require electricity",
+        "label": 0
+    },
+    {
+        "prompt": "Artist does not make something",
+        "label": 0
+    },
+    {
+        "prompt": "Fumigator does not involve science",
+        "label": 0
+    },
+    {
+        "prompt": "Person cannot ride mouse",
+        "label": 1
+    },
+    {
+        "prompt": "Throwing doesn't involve cleaning",
+        "label": 1
+    },
+    {
+        "prompt": "Fungi don't have legs",
+        "label": 1
+    },
+    {
+        "prompt": "No one wants puff",
+        "label": 1
+    },
+    {
+        "prompt": "Jug does not hold water",
+        "label": 0
+    },
+    {
+        "prompt": "Boat does not use seats",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not use sawmill",
+        "label": 1
+    },
+    {
+        "prompt": "Tea does not cost money",
+        "label": 0
+    },
+    {
+        "prompt": "Correspondent not drive car",
+        "label": 0
+    },
+    {
+        "prompt": "Bison doesn't have scales",
+        "label": 1
+    },
+    {
+        "prompt": "Jailbirds do not involve entertainment",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not carry dart",
+        "label": 0
+    },
+    {
+        "prompt": "Lithograph does not benefit person",
+        "label": 0
+    },
+    {
+        "prompt": "Granola doesn't use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Canal doesn't have feathers",
+        "label": 1
+    },
+    {
+        "prompt": "Burrito doesn't require battery",
+        "label": 1
+    },
+    {
+        "prompt": "Sixpence do not have wheel",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not build ammonium",
+        "label": 0
+    },
+    {
+        "prompt": "Sushi does not have wheels",
+        "label": 1
+    },
+    {
+        "prompt": "Exhibitionists don't involve movement",
+        "label": 0
+    },
+    {
+        "prompt": "Stuffing does not have smell",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't drive triage",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not touch pantyhose",
+        "label": 0
+    },
+    {
+        "prompt": "sweethearts do not have feelings",
+        "label": 0
+    },
+    {
+        "prompt": "Cutter not use power",
+        "label": 0
+    },
+    {
+        "prompt": "rain does not ruin tuxedos",
+        "label": 0
+    },
+    {
+        "prompt": "People don't breathe arms.",
+        "label": 1
+    },
+    {
+        "prompt": "Compost doesn't have plug",
+        "label": 1
+    },
+    {
+        "prompt": "person does not eat can",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not eat dumbwaiter",
+        "label": 1
+    },
+    {
+        "prompt": "Pourer doesn't tell time",
+        "label": 1
+    },
+    {
+        "prompt": "Trucker has no fur",
+        "label": 1
+    },
+    {
+        "prompt": "Ringtail does not require cage",
+        "label": 0
+    },
+    {
+        "prompt": "Turnips don't have thorns",
+        "label": 1
+    },
+    {
+        "prompt": "Bagpipes do not have color",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not buy school",
+        "label": 0
+    },
+    {
+        "prompt": "Busmen do not involve construction",
+        "label": 1
+    },
+    {
+        "prompt": "person does not drive boutique",
+        "label": 1
+    },
+    {
+        "prompt": "Crematoriums do not save life",
+        "label": 1
+    },
+    {
+        "prompt": "people do not touch routers",
+        "label": 0
+    },
+    {
+        "prompt": "Someone does not build casket",
+        "label": 0
+    },
+    {
+        "prompt": "bikinis do not have color",
+        "label": 0
+    },
+    {
+        "prompt": "Penthouse does not have color",
+        "label": 0
+    },
+    {
+        "prompt": "Revolver does not have legs",
+        "label": 1
+    },
+    {
+        "prompt": "Tomato does not need water",
+        "label": 0
+    },
+    {
+        "prompt": "people do not eat submits",
+        "label": 1
+    },
+    {
+        "prompt": "people do not smash keratin",
+        "label": 1
+    },
+    {
+        "prompt": "Sticks don't need electricity",
+        "label": 1
+    },
+    {
+        "prompt": "person does not drink ground",
+        "label": 1
+    },
+    {
+        "prompt": "TVs do not use electricity",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't drive snowball",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not buy some",
+        "label": 1
+    },
+    {
+        "prompt": "telemarketers do not involve numbers",
+        "label": 0
+    },
+    {
+        "prompt": "hope does not kill bacteria",
+        "label": 1
+    },
+    {
+        "prompt": "Hernia does not make noise",
+        "label": 1
+    },
+    {
+        "prompt": "Slime not cost lot",
+        "label": 0
+    },
+    {
+        "prompt": "wheels do not have scent",
+        "label": 0
+    },
+    {
+        "prompt": "Fish do not have fur",
+        "label": 1
+    },
+    {
+        "prompt": "Person did not see driveway",
+        "label": 0
+    },
+    {
+        "prompt": "Voiceing doesn't have handle",
+        "label": 1
+    },
+    {
+        "prompt": "Womb not birth child",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not hold tissue",
+        "label": 0
+    },
+    {
+        "prompt": "Restaurant did not serve lime",
+        "label": 0
+    },
+    {
+        "prompt": "Muskrat not have claw",
+        "label": 0
+    },
+    {
+        "prompt": "Psychic doesn't require degree",
+        "label": 1
+    },
+    {
+        "prompt": "person does not mold ammonia",
+        "label": 1
+    },
+    {
+        "prompt": "Mailmen don't have tails",
+        "label": 1
+    },
+    {
+        "prompt": "Spearfish does not have fin",
+        "label": 0
+    },
+    {
+        "prompt": "Registrars don't involve surveillance",
+        "label": 1
+    },
+    {
+        "prompt": "Prison does not have function",
+        "label": 0
+    },
+    {
+        "prompt": "Antibiotic doesn't use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "People do not carry belongings",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not touch target",
+        "label": 0
+    },
+    {
+        "prompt": "Millet does not have thorns",
+        "label": 1
+    },
+    {
+        "prompt": "Person not touch pebble",
+        "label": 0
+    },
+    {
+        "prompt": "People do not hold massive",
+        "label": 1
+    },
+    {
+        "prompt": "People do not buy stinks.",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not eat uncle",
+        "label": 1
+    },
+    {
+        "prompt": "Abdomen doesn't take electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Rocks don't bite humans",
+        "label": 1
+    },
+    {
+        "prompt": "Vampires do not involve breathing",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not hold steamer",
+        "label": 0
+    },
+    {
+        "prompt": "Baseball not involve ball",
+        "label": 0
+    },
+    {
+        "prompt": "People don't hold rashes",
+        "label": 1
+    },
+    {
+        "prompt": "Railcar does not require water",
+        "label": 1
+    },
+    {
+        "prompt": "Golfing does not have function",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't hold tearoom",
+        "label": 1
+    },
+    {
+        "prompt": "Alehouse did not require construction",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not watch tombstone.",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not touch scruff",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't wear pothole.",
+        "label": 1
+    },
+    {
+        "prompt": "boxes do not have ones",
+        "label": 0
+    },
+    {
+        "prompt": "person does not drive men",
+        "label": 1
+    },
+    {
+        "prompt": "people do not wear midterms",
+        "label": 1
+    },
+    {
+        "prompt": "Reptiles don't have fur",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not wear shakers",
+        "label": 1
+    },
+    {
+        "prompt": "people do not see high schools",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not buy steamer",
+        "label": 0
+    },
+    {
+        "prompt": "Cart does not have wheel",
+        "label": 0
+    },
+    {
+        "prompt": "Cartographers do not involve politics",
+        "label": 1
+    },
+    {
+        "prompt": "Delegate doesn't have window",
+        "label": 1
+    },
+    {
+        "prompt": "Firewood does not have shape",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not touch atmosphere",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not touch vermouth",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't use whale",
+        "label": 1
+    },
+    {
+        "prompt": "Gladiator does not require skill",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not touch bass",
+        "label": 0
+    },
+    {
+        "prompt": "Conch does not eat food",
+        "label": 0
+    },
+    {
+        "prompt": "Squid does not have legs",
+        "label": 0
+    },
+    {
+        "prompt": "Contracts do not have nose",
+        "label": 1
+    },
+    {
+        "prompt": "Baron does not require more",
+        "label": 0
+    },
+    {
+        "prompt": "Telegrapher does not have color",
+        "label": 0
+    },
+    {
+        "prompt": "Corn does not have resemblance",
+        "label": 0
+    },
+    {
+        "prompt": "Obsidians don't have colors",
+        "label": 1
+    },
+    {
+        "prompt": "humans do not eat friends",
+        "label": 1
+    },
+    {
+        "prompt": "Elephants don't have trunks",
+        "label": 0
+    },
+    {
+        "prompt": "Coroners do not involve people",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not wear typist",
+        "label": 1
+    },
+    {
+        "prompt": "People do not eat mites",
+        "label": 1
+    },
+    {
+        "prompt": "Holder does not cost money",
+        "label": 0
+    },
+    {
+        "prompt": "Bucket doesn't have brain",
+        "label": 1
+    },
+    {
+        "prompt": "Monogram doesn't use water",
+        "label": 1
+    },
+    {
+        "prompt": "Cabinet does not store something",
+        "label": 0
+    },
+    {
+        "prompt": "Registrar not involve writing.",
+        "label": 0
+    },
+    {
+        "prompt": "Woman does not wear dress",
+        "label": 0
+    },
+    {
+        "prompt": "people do not drive cartoons",
+        "label": 1
+    },
+    {
+        "prompt": "People do not hold seminary",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not feed worth",
+        "label": 1
+    },
+    {
+        "prompt": "Spotlight does not create light",
+        "label": 0
+    },
+    {
+        "prompt": "fire hydrants do not emit light",
+        "label": 1
+    },
+    {
+        "prompt": "Teacher does not have mind",
+        "label": 0
+    },
+    {
+        "prompt": "Opponent does not have head",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not eat ejector",
+        "label": 1
+    },
+    {
+        "prompt": "Photo is not dry thing",
+        "label": 1
+    },
+    {
+        "prompt": "Perfume not have scent",
+        "label": 0
+    },
+    {
+        "prompt": "hunchbacks do not take degrees",
+        "label": 1
+    },
+    {
+        "prompt": "Ligaments don't have wheels",
+        "label": 1
+    },
+    {
+        "prompt": "people do not eat duckweed",
+        "label": 0
+    },
+    {
+        "prompt": "Notepad doesn't have leg",
+        "label": 1
+    },
+    {
+        "prompt": "People don't hear malaria",
+        "label": 1
+    },
+    {
+        "prompt": "People do not eat warrior",
+        "label": 1
+    },
+    {
+        "prompt": "Mouse does not have leg",
+        "label": 0
+    },
+    {
+        "prompt": "Hovercraft not have color",
+        "label": 0
+    },
+    {
+        "prompt": "Captain does not require work",
+        "label": 0
+    },
+    {
+        "prompt": "Attire does not use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Scanning has no flower",
+        "label": 1
+    },
+    {
+        "prompt": "Person cannot build rosebush",
+        "label": 1
+    },
+    {
+        "prompt": "People do not earn stargazers",
+        "label": 1
+    },
+    {
+        "prompt": "Watchdog does not have tail",
+        "label": 0
+    },
+    {
+        "prompt": "Mongrel does not involve writing",
+        "label": 1
+    },
+    {
+        "prompt": "Family not have heartbeat",
+        "label": 0
+    },
+    {
+        "prompt": "Herbivore not have claw",
+        "label": 0
+    },
+    {
+        "prompt": "Horse has no door",
+        "label": 1
+    },
+    {
+        "prompt": "Firefighter does not fight fire",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not see thought",
+        "label": 1
+    },
+    {
+        "prompt": "People do not eat sewage",
+        "label": 1
+    },
+    {
+        "prompt": "Armpits do not have odor",
+        "label": 0
+    },
+    {
+        "prompt": "Woman does not have eye",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not hold narcotics",
+        "label": 0
+    },
+    {
+        "prompt": "Clitoris doesn't have brain",
+        "label": 1
+    },
+    {
+        "prompt": "Flute does not make sound",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not eat croaker",
+        "label": 0
+    },
+    {
+        "prompt": "Camera did not involve computer",
+        "label": 0
+    },
+    {
+        "prompt": "Cityscape did not have color",
+        "label": 0
+    },
+    {
+        "prompt": "Tonic doesn't involve work.",
+        "label": 1
+    },
+    {
+        "prompt": "Person doesn't hold lavatory",
+        "label": 1
+    },
+    {
+        "prompt": "Fighter does not make noise",
+        "label": 0
+    },
+    {
+        "prompt": "Present does not cost $",
+        "label": 0
+    },
+    {
+        "prompt": "People do not plant collars",
+        "label": 1
+    },
+    {
+        "prompt": "Swarm doesn't cost money",
+        "label": 1
+    },
+    {
+        "prompt": "Reading not take more",
+        "label": 0
+    },
+    {
+        "prompt": "stamens do not involve plants",
+        "label": 0
+    },
+    {
+        "prompt": "Kid not love eggnog",
+        "label": 0
+    },
+    {
+        "prompt": "Bloodworm has no wing",
+        "label": 1
+    },
+    {
+        "prompt": "person does not drive whetstone",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not use transistor",
+        "label": 1
+    },
+    {
+        "prompt": "Kid does not use kettledrum",
+        "label": 0
+    },
+    {
+        "prompt": "Soil does not serve purpose",
+        "label": 0
+    },
+    {
+        "prompt": "Writer does not use number",
+        "label": 0
+    },
+    {
+        "prompt": "Microwaves do not need water",
+        "label": 1
+    },
+    {
+        "prompt": "Doctor does not have job.",
+        "label": 0
+    },
+    {
+        "prompt": "institution does not make noise",
+        "label": 1
+    },
+    {
+        "prompt": "Squad does not require movement",
+        "label": 0
+    },
+    {
+        "prompt": "Electricity does not inflict pain",
+        "label": 0
+    },
+    {
+        "prompt": "Checkers do not have lot",
+        "label": 0
+    },
+    {
+        "prompt": "mice do not have hair",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't store hospital",
+        "label": 1
+    },
+    {
+        "prompt": "Fax does not require electricity",
+        "label": 0
+    },
+    {
+        "prompt": "Donkey does not have fur",
+        "label": 0
+    },
+    {
+        "prompt": "Tree does not have leaves.",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not use worm",
+        "label": 0
+    },
+    {
+        "prompt": "carriages do not have wheels",
+        "label": 0
+    },
+    {
+        "prompt": "Refineries do not involve education",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not touch log",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not hold ruler",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not hold hippo",
+        "label": 0
+    },
+    {
+        "prompt": "pickles do not have cords",
+        "label": 1
+    },
+    {
+        "prompt": "Carpets don't involve writing",
+        "label": 1
+    },
+    {
+        "prompt": "people do not hold sun",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not read thumb",
+        "label": 1
+    },
+    {
+        "prompt": "bottles do not use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "People do not hold up",
+        "label": 1
+    },
+    {
+        "prompt": "Cows don't eat meat",
+        "label": 1
+    },
+    {
+        "prompt": "People do not use fracture",
+        "label": 1
+    },
+    {
+        "prompt": "Clouds don't have genders",
+        "label": 1
+    },
+    {
+        "prompt": "Kiwis do not have pit",
+        "label": 1
+    },
+    {
+        "prompt": "People do not like prison",
+        "label": 1
+    },
+    {
+        "prompt": "Brooder does not involve comedy.",
+        "label": 1
+    },
+    {
+        "prompt": "Tinplate does not use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not smash scar",
+        "label": 1
+    },
+    {
+        "prompt": "Research doesn't have color",
+        "label": 1
+    },
+    {
+        "prompt": "Clown does not take lot",
+        "label": 0
+    },
+    {
+        "prompt": "Whetstones do not have button",
+        "label": 1
+    },
+    {
+        "prompt": "People do not use raincoats",
+        "label": 0
+    },
+    {
+        "prompt": "Snake has no fur",
+        "label": 1
+    },
+    {
+        "prompt": "Sleep does not have arms",
+        "label": 1
+    },
+    {
+        "prompt": "Paper doesn't play music",
+        "label": 1
+    },
+    {
+        "prompt": "Goddaughter not wear makeup",
+        "label": 0
+    },
+    {
+        "prompt": "Hope doesn't have poison",
+        "label": 1
+    },
+    {
+        "prompt": "Soda doesn't involve building",
+        "label": 1
+    },
+    {
+        "prompt": "Snake doesn't have leg",
+        "label": 1
+    },
+    {
+        "prompt": "Tailbones don't have roots",
+        "label": 1
+    },
+    {
+        "prompt": "Human does not sell stewpot",
+        "label": 0
+    },
+    {
+        "prompt": "Gull does not weigh anything",
+        "label": 0
+    },
+    {
+        "prompt": "People don't touch wetlands",
+        "label": 0
+    },
+    {
+        "prompt": "Thumbnail doesn't have camera",
+        "label": 1
+    },
+    {
+        "prompt": "Driver not involve transportation",
+        "label": 0
+    },
+    {
+        "prompt": "City does not have buildings",
+        "label": 0
+    },
+    {
+        "prompt": "Puma does not have fur",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not open grille",
+        "label": 0
+    },
+    {
+        "prompt": "Gumshoes don't have legs",
+        "label": 0
+    },
+    {
+        "prompt": "Shedder has no wheel",
+        "label": 1
+    },
+    {
+        "prompt": "people do not like embassies",
+        "label": 0
+    },
+    {
+        "prompt": "Kid did not use valve.",
+        "label": 0
+    },
+    {
+        "prompt": "Concert does not involve music",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not eat bookmark.",
+        "label": 1
+    },
+    {
+        "prompt": "Rhino did not eat grass",
+        "label": 0
+    },
+    {
+        "prompt": "Person doesn't drink baptism",
+        "label": 1
+    },
+    {
+        "prompt": "Backpack does not have wheels",
+        "label": 0
+    },
+    {
+        "prompt": "synagogues do not take batteries",
+        "label": 1
+    },
+    {
+        "prompt": "Person did not eat inquisitor",
+        "label": 0
+    },
+    {
+        "prompt": "Mute doesn't make noise",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not eat litmus",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not wear drill",
+        "label": 1
+    },
+    {
+        "prompt": "Hobby not make noise",
+        "label": 0
+    },
+    {
+        "prompt": "People don't ride tombstones",
+        "label": 1
+    },
+    {
+        "prompt": "Dump does not involve entertainment",
+        "label": 1
+    },
+    {
+        "prompt": "Person did not see appointee",
+        "label": 0
+    },
+    {
+        "prompt": "People don't eat moneybags",
+        "label": 1
+    },
+    {
+        "prompt": "vases do not use electricity",
+        "label": 1
+    },
+    {
+        "prompt": "Cabdrivers don't involve uniforms",
+        "label": 0
+    },
+    {
+        "prompt": "People did not use polyethylene",
+        "label": 0
+    },
+    {
+        "prompt": "People do not eat cook",
+        "label": 1
+    },
+    {
+        "prompt": "People do not grow jellyfish",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not wear dumbwaiter",
+        "label": 1
+    },
+    {
+        "prompt": "Pool does not contain water",
+        "label": 0
+    },
+    {
+        "prompt": "Gold not have value",
+        "label": 0
+    },
+    {
+        "prompt": "humans do not have eyes",
+        "label": 0
+    },
+    {
+        "prompt": "Litmus does not have purpose",
+        "label": 0
+    },
+    {
+        "prompt": "infields do not provide shelter.",
+        "label": 1
+    },
+    {
+        "prompt": "abortion does not emit light",
+        "label": 1
+    },
+    {
+        "prompt": "Slap does not make noise",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not consume chronograph",
+        "label": 1
+    },
+    {
+        "prompt": "people do not pour chairs",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not use presoak",
+        "label": 1
+    },
+    {
+        "prompt": "Throne does not involve nature",
+        "label": 1
+    },
+    {
+        "prompt": "Leafs don't cost money",
+        "label": 1
+    },
+    {
+        "prompt": "Person doesn't eat slicer",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not hear mosquito",
+        "label": 0
+    },
+    {
+        "prompt": "Person does not bury regret",
+        "label": 1
+    },
+    {
+        "prompt": "people do not use lampposts",
+        "label": 0
+    },
+    {
+        "prompt": "People do not use mainframes",
+        "label": 0
+    },
+    {
+        "prompt": "Ore does not involve food",
+        "label": 1
+    },
+    {
+        "prompt": "Kid did not use spade",
+        "label": 0
+    },
+    {
+        "prompt": "Aperson not wear watch",
+        "label": 0
+    },
+    {
+        "prompt": "Times don't have fur",
+        "label": 1
+    },
+    {
+        "prompt": "People don't eat articles",
+        "label": 1
+    },
+    {
+        "prompt": "Kid does not use slacks",
+        "label": 0
+    },
+    {
+        "prompt": "Child does not like kids",
+        "label": 0
+    },
+    {
+        "prompt": "Crown does not help humans",
+        "label": 0
+    },
+    {
+        "prompt": "people do not drive methanol",
+        "label": 1
+    },
+    {
+        "prompt": "Dove does not have tail",
+        "label": 0
+    },
+    {
+        "prompt": "malaria does not involve people",
+        "label": 1
+    },
+    {
+        "prompt": "Flamethrower does not have fur",
+        "label": 1
+    },
+    {
+        "prompt": "Meat does not contain flavor",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not eat diarrhea",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not eat boulder",
+        "label": 1
+    },
+    {
+        "prompt": "People don't use reels",
+        "label": 1
+    },
+    {
+        "prompt": "Field doesn't require sorce",
+        "label": 1
+    },
+    {
+        "prompt": "Contract did not involve secretary",
+        "label": 0
+    },
+    {
+        "prompt": "people do not ride schoolbooks",
+        "label": 1
+    },
+    {
+        "prompt": "Thoroughbreds don't lay eggs",
+        "label": 1
+    },
+    {
+        "prompt": "listener does not involve weapon",
+        "label": 1
+    },
+    {
+        "prompt": "Intern did not cost money",
+        "label": 0
+    },
+    {
+        "prompt": "lion does not eat grass",
+        "label": 1
+    },
+    {
+        "prompt": "Mug does not have handle",
+        "label": 0
+    },
+    {
+        "prompt": "people do not wear pills",
+        "label": 1
+    },
+    {
+        "prompt": "Terminal not cost money",
+        "label": 0
+    },
+    {
+        "prompt": "trainloads do not create something",
+        "label": 1
+    },
+    {
+        "prompt": "People don't use aprons",
+        "label": 1
+    },
+    {
+        "prompt": "Notes do not have job",
+        "label": 1
+    },
+    {
+        "prompt": "Person does not eat brisket.",
+        "label": 0
+    },
+    {
+        "prompt": "Secret does not involve government",
+        "label": 0
+    },
+    {
+        "prompt": "Clock does not help humans",
+        "label": 0
+    },
+    {
+        "prompt": "hustlers do not speak languages",
+        "label": 0
+    }
+]

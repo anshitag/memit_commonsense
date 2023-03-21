@@ -1,1 +1,2442 @@
-[{"prompt": "Spoon rips dough", "label": 1}, {"prompt": "Gorilla not puff vapor", "label": 0}, {"prompt": "Chef lengthen rubber", "label": 1}, {"prompt": "ice didn't warm food", "label": 0}, {"prompt": "butterfly didn't swallow pillow", "label": 0}, {"prompt": "Chef doesn't halt oil", "label": 0}, {"prompt": "Cat knits shirt", "label": 1}, {"prompt": "the needle sewed dress", "label": 1}, {"prompt": "a rock crashed cup", "label": 1}, {"prompt": "water didn't dump water", "label": 0}, {"prompt": "rabbit didn't erect building", "label": 0}, {"prompt": "Dog doesn't haul wind", "label": 0}, {"prompt": "Finger rub air", "label": 1}, {"prompt": "Child packs truck", "label": 1}, {"prompt": "infants do not bend rocks", "label": 0}, {"prompt": "Spoon does not rip dough", "label": 0}, {"prompt": "the man gripped bush", "label": 1}, {"prompt": "bug didn't climb air", "label": 0}, {"prompt": "table vented air", "label": 1}, {"prompt": "a dog ate rabbit", "label": 1}, {"prompt": "a monkey grasped cup", "label": 1}, {"prompt": "leaf erased oil", "label": 1}, {"prompt": "gorilla rode bowl", "label": 1}, {"prompt": "tape did not fuse spatula", "label": 0}, {"prompt": "Men grope strangers", "label": 1}, {"prompt": "Donkey does not kick mud", "label": 0}, {"prompt": "Girl slide on water", "label": 1}, {"prompt": "Sticks hook purses", "label": 1}, {"prompt": "woman does not drink cup", "label": 0}, {"prompt": "woman grabbed oil", "label": 1}, {"prompt": "Cloth mask skyscraper.", "label": 1}, {"prompt": "chef does not peel skin", "label": 0}, {"prompt": "Knife did not damage rabbit", "label": 0}, {"prompt": "man fed pebbles.", "label": 1}, {"prompt": "Girl not cook fish", "label": 0}, {"prompt": "straw didn't bend egg", "label": 0}, {"prompt": "pin does not slash skin", "label": 0}, {"prompt": "leather fed worm", "label": 1}, {"prompt": "Dolphin kiss fish", "label": 1}, {"prompt": "Hand rotate log", "label": 1}, {"prompt": "Barbers drain swamps", "label": 1}, {"prompt": "Cat doesn't knit shirt", "label": 0}, {"prompt": "Cloth erases house", "label": 1}, {"prompt": "Boy not punch girl", "label": 0}, {"prompt": "finger does not rub air", "label": 0}, {"prompt": "Claw rip through water", "label": 1}, {"prompt": "tree didn't leak gas", "label": 0}, {"prompt": "the hand did not rip book", "label": 0}, {"prompt": "Water doesn't dampen oil", "label": 0}, {"prompt": "Child rotates ball", "label": 1}, {"prompt": "the bear did not bury dentist", "label": 0}, {"prompt": "man vented air", "label": 1}, {"prompt": "ant did not build wall", "label": 0}, {"prompt": "the girl beat dentist", "label": 1}, {"prompt": "man burned ice", "label": 1}, {"prompt": "Rope does not drag purse", "label": 0}, {"prompt": "Cat vomits ant", "label": 1}, {"prompt": "Barge not capsize basket", "label": 0}, {"prompt": "Balloon leaks air", "label": 1}, {"prompt": "the elephant tossed cat", "label": 1}, {"prompt": "book trimmed rabbit", "label": 1}, {"prompt": "Ants are killed by air", "label": 1}, {"prompt": "Child doesn't pack truck", "label": 0}, {"prompt": "ant clenched closet", "label": 1}, {"prompt": "Pitcher doesn't pour laptop", "label": 0}, {"prompt": "Bug doesn't curb lion", "label": 0}, {"prompt": "cows do not open creams", "label": 0}, {"prompt": "knife did not slash pillow", "label": 0}, {"prompt": "cloth does not mask skyscraper.", "label": 0}, {"prompt": "the man petted baby", "label": 1}, {"prompt": "Cat did not vomit ant", "label": 0}, {"prompt": "monkey did not fill bucket", "label": 0}, {"prompt": "Truck move tree", "label": 1}, {"prompt": "rain does not scratch arm", "label": 0}, {"prompt": "an ape kissed woman", "label": 1}, {"prompt": "Pitcher pours laptop", "label": 1}, {"prompt": "Pencil hang shirt", "label": 1}, {"prompt": "an ant can't kiss elephant", "label": 1}, {"prompt": "a knife can't damage oil", "label": 1}, {"prompt": "child does not draw gun", "label": 0}, {"prompt": "the chisel did not scrape bone", "label": 0}, {"prompt": "Chef not lengthen rubber", "label": 0}, {"prompt": "Knife not sharpen glass", "label": 0}, {"prompt": "ice warms food", "label": 1}, {"prompt": "Houses are lengthened by students", "label": 1}, {"prompt": "an ant can't snatch rabbit", "label": 1}, {"prompt": "a man petted infant", "label": 1}, {"prompt": "Man does not choke bird", "label": 0}, {"prompt": "the clown clipped paper", "label": 1}, {"prompt": "fire heated desert", "label": 1}, {"prompt": "a butterfly can't swallow pillow", "label": 1}, {"prompt": "Rabbits hug dogs", "label": 1}, {"prompt": "Monkey kicks chef", "label": 1}, {"prompt": "dog does not cook turkey", "label": 0}, {"prompt": "paper sharpens plastic", "label": 1}, {"prompt": "Needle does not poke sink", "label": 0}, {"prompt": "an elephant heaved log", "label": 1}, {"prompt": "knife does not mince cream", "label": 0}, {"prompt": "wood chops onions", "label": 1}, {"prompt": "cloth absorbs concrete", "label": 1}, {"prompt": "Clown catch baboon", "label": 1}, {"prompt": "zebra does not kill dolphin", "label": 0}, {"prompt": "chef does not open bottle", "label": 0}, {"prompt": "ant didn't kiss elephant", "label": 0}, {"prompt": "a tree can't leak gas", "label": 1}, {"prompt": "Infant tears tree", "label": 1}, {"prompt": "the infant did not pet cat", "label": 0}, {"prompt": "Rocks are bent by infants", "label": 1}, {"prompt": "Robot drive boat", "label": 1}, {"prompt": "Stick shove cream", "label": 1}, {"prompt": "Dog stretch chair", "label": 1}, {"prompt": "Gorilla does not grab pin", "label": 0}, {"prompt": "gorilla did not lick hand", "label": 0}, {"prompt": "Ant heave pumpkin", "label": 1}, {"prompt": "computers do not pet rabbits", "label": 0}, {"prompt": "Girl does not cut grape", "label": 0}, {"prompt": "the boat carried mud", "label": 1}, {"prompt": "Air is clenched by clown", "label": 1}, {"prompt": "child did not grasp smoke", "label": 0}, {"prompt": "Man shake door", "label": 1}, {"prompt": "girl didn't catch desert", "label": 0}, {"prompt": "Hand does not fasten rabbit", "label": 0}, {"prompt": "the policeman did not clean rice", "label": 0}, {"prompt": "Brothers are hit by air", "label": 1}, {"prompt": "Dog hauls wind", "label": 1}, {"prompt": "monkey does not pluck apple", "label": 0}, {"prompt": "a girl rolled wheels", "label": 1}, {"prompt": "the dog did not eat rabbit", "label": 0}, {"prompt": "Arms fasten girls", "label": 1}, {"prompt": "a policeman halted ball.", "label": 1}, {"prompt": "Air does not kill ants", "label": 0}, {"prompt": "octopus groped soda", "label": 1}, {"prompt": "Branch does not slash cleaver", "label": 0}, {"prompt": "Flea does not bite dog", "label": 0}, {"prompt": "knife did not trim house", "label": 0}, {"prompt": "a hand ripped book", "label": 1}, {"prompt": "Knife sharpen glass", "label": 1}, {"prompt": "bear does not wrestle rocks", "label": 0}, {"prompt": "Bear smash glass", "label": 1}, {"prompt": "rabbit does not hug dog", "label": 0}, {"prompt": "Knife doesn't chop rock", "label": 0}, {"prompt": "leather did not feed worm", "label": 0}, {"prompt": "Dog cook turkey", "label": 1}, {"prompt": "lion did not fill bowl", "label": 0}, {"prompt": "Clown not catch baboon", "label": 0}, {"prompt": "The dog closed door", "label": 1}, {"prompt": "Rope drags purse", "label": 1}, {"prompt": "a donkey can't kick milk", "label": 1}, {"prompt": "clown does not cook monkey", "label": 0}, {"prompt": "Man sews curtain", "label": 1}, {"prompt": "elephant did not toss cat", "label": 0}, {"prompt": "leaf did not erase oil", "label": 0}, {"prompt": "Elephants are grabbed by men", "label": 1}, {"prompt": "students do not lengthen houses", "label": 0}, {"prompt": "Dust is clipped with wool", "label": 1}, {"prompt": "man did not leak wind", "label": 0}, {"prompt": "the cheetah did not eat apple", "label": 0}, {"prompt": "the dog did not ride cat", "label": 0}, {"prompt": "freezer does not cool oil", "label": 0}, {"prompt": "Man chokes bird", "label": 1}, {"prompt": "man does not build cup", "label": 0}, {"prompt": "Cup not pour milk", "label": 0}, {"prompt": "woman does not tug chef", "label": 0}, {"prompt": "the dog threw rabbit", "label": 1}, {"prompt": "Men cut fingers", "label": 1}, {"prompt": "Hook does not fish chair", "label": 0}, {"prompt": "Finger tap plane", "label": 1}, {"prompt": "the girl did not choke dog", "label": 0}, {"prompt": "Monkey does not grab hand", "label": 0}, {"prompt": "Wind doesn't mask laptop", "label": 0}, {"prompt": "the elephant did not tear wool", "label": 0}, {"prompt": "spatula did not poke baby", "label": 0}, {"prompt": "Dog not carry scissors", "label": 0}, {"prompt": "the child threw cup", "label": 1}, {"prompt": "Woman does not fry turtle", "label": 0}, {"prompt": "scissors do not erase lakes", "label": 0}, {"prompt": "Cat destroys hat.", "label": 1}, {"prompt": "the knife slashed pillow", "label": 1}, {"prompt": "turtle does not climb wind", "label": 0}, {"prompt": "Gorilla licks hand", "label": 1}, {"prompt": "the cat plucked leaf", "label": 1}, {"prompt": "man does not kill dog", "label": 0}, {"prompt": "Cat vomits infant", "label": 1}, {"prompt": "straw bends egg", "label": 1}, {"prompt": "Knife not chop tree", "label": 0}, {"prompt": "Rabbit choke man", "label": 1}, {"prompt": "Monkey breed with dolphin", "label": 1}, {"prompt": "Boat enter room", "label": 1}, {"prompt": "worm does not drag turtle", "label": 0}, {"prompt": "Juice is poured with pin", "label": 1}, {"prompt": "Claw does not seize pebbles", "label": 0}, {"prompt": "clown did not erect pen", "label": 0}, {"prompt": "Smoke is seized by claws.", "label": 1}, {"prompt": "paper didn't sharpen plastic", "label": 0}, {"prompt": "paper did not absorb sand", "label": 0}, {"prompt": "man does not grope stranger", "label": 0}, {"prompt": "Knife chops rock", "label": 1}, {"prompt": "elephant does not drive car", "label": 0}, {"prompt": "hand did not stretch rabbit", "label": 0}, {"prompt": "Clowns cook monkeys", "label": 1}, {"prompt": "rabbits do not film waters", "label": 0}, {"prompt": "Water dampens oil", "label": 1}, {"prompt": "Ice does not freeze rock", "label": 0}, {"prompt": "Rocks are bred by students", "label": 1}, {"prompt": "Wolves bite nails", "label": 1}, {"prompt": "knife didn't damage oil", "label": 0}, {"prompt": "wolf does not bite nail", "label": 0}, {"prompt": "the man did not pack purse", "label": 0}, {"prompt": "fire did not heat desert", "label": 0}, {"prompt": "stick does not hook water", "label": 0}, {"prompt": "water dug wool", "label": 1}, {"prompt": "Bear not smash glass", "label": 0}, {"prompt": "Man hit water", "label": 1}, {"prompt": "woman exhaled water", "label": 1}, {"prompt": "a dog folded silk", "label": 1}, {"prompt": "Balloon does not leak air", "label": 0}, {"prompt": "Ship vents water.", "label": 1}, {"prompt": "infant didn't spill apple", "label": 0}, {"prompt": "a fist clenched fist", "label": 1}, {"prompt": "a rabbit can't erect building", "label": 1}, {"prompt": "a chisel scraped bone", "label": 1}, {"prompt": "man does not grab elephants", "label": 0}, {"prompt": "Chefs knit shirts", "label": 1}, {"prompt": "Man not grip brush", "label": 0}, {"prompt": "man did not grip bush", "label": 0}, {"prompt": "wool does not clip dusts", "label": 0}, {"prompt": "Girl does not vomit pea", "label": 0}, {"prompt": "boat did not carry mud", "label": 0}, {"prompt": "cats do not exhale pillows", "label": 0}, {"prompt": "Skyscraper heats air", "label": 1}, {"prompt": "a man packed purse", "label": 1}, {"prompt": "Gorilla puff vapor", "label": 1}, {"prompt": "Trains are curbed by rabbits", "label": 1}, {"prompt": "woman did not exhale water", "label": 0}, {"prompt": "dog did not choke bear", "label": 0}, {"prompt": "man did not vent air", "label": 0}, {"prompt": "Branch cleaved", "label": 1}, {"prompt": "Sticks hook stools.", "label": 1}, {"prompt": "Elephant drive car", "label": 1}, {"prompt": "Boat breed baboon", "label": 1}, {"prompt": "table did not vent air", "label": 0}, {"prompt": "Girl doesn't enter cup", "label": 0}, {"prompt": "gorilla did not ride bowl", "label": 0}, {"prompt": "man did not pet baby", "label": 0}, {"prompt": "Rock doesn't fracture shirt", "label": 0}, {"prompt": "bear does not pet dolphin", "label": 0}, {"prompt": "Mud didn't knead water", "label": 0}, {"prompt": "a girl can't swallow desk", "label": 1}, {"prompt": "Monkeys pluck apples", "label": 1}, {"prompt": "Cat does not destroy hat.", "label": 0}, {"prompt": "Boxes are ticked by men", "label": 1}, {"prompt": "gases do not drag boats", "label": 0}, {"prompt": "Air warms cream", "label": 1}, {"prompt": "a pillow covered pea", "label": 1}, {"prompt": "Boat hurl ship", "label": 1}, {"prompt": "scissors etched water", "label": 1}, {"prompt": "ant does not heave pumpkin", "label": 0}, {"prompt": "ant didn't snatch rabbit", "label": 0}, {"prompt": "knife does not crop oils", "label": 0}, {"prompt": "pebbles chafed nail", "label": 1}, {"prompt": "Boat not breed baboon", "label": 0}, {"prompt": "Girl slides on ice", "label": 1}, {"prompt": "Student does not climb ship", "label": 0}, {"prompt": "ant does not toss cat", "label": 0}, {"prompt": "the dad cleaned plate", "label": 1}, {"prompt": "students do not breed rocks", "label": 0}, {"prompt": "the glove held earplug", "label": 1}, {"prompt": "Clown doesn't sew paper", "label": 0}, {"prompt": "Man doesn't drop skyscraper", "label": 0}, {"prompt": "student did not dump dirt", "label": 0}, {"prompt": "man does not tick boxes", "label": 0}, {"prompt": "Ice freezes rock", "label": 1}, {"prompt": "Horse tackle turtle", "label": 1}, {"prompt": "man did not fold elephant", "label": 0}, {"prompt": "the monkey did not grasp cup", "label": 0}, {"prompt": "Rabbit seizes elephant", "label": 1}, {"prompt": "Sons catch thieves", "label": 1}, {"prompt": "man does not fold pebbles", "label": 0}, {"prompt": "Dolphin not kiss fish", "label": 0}, {"prompt": "Claw seizes pebbles", "label": 1}, {"prompt": "Women kiss girl", "label": 1}, {"prompt": "octopus did not grope soda", "label": 0}, {"prompt": "Girl enters cup", "label": 1}, {"prompt": "wood kneaded flour", "label": 1}, {"prompt": "Water is cut by air", "label": 1}, {"prompt": "Man does not sew curtain", "label": 0}, {"prompt": "dog didn't draw laptop", "label": 0}, {"prompt": "a shirt absorbs sand", "label": 1}, {"prompt": "Glue attaches sticker", "label": 1}, {"prompt": "a bug can't climb air", "label": 1}, {"prompt": "Students climb ships", "label": 1}, {"prompt": "glue fused air", "label": 1}, {"prompt": "woman flipped cream", "label": 1}, {"prompt": "an infant can't spill apple", "label": 1}, {"prompt": "Worm drag turtle", "label": 1}, {"prompt": "Glue does not attach sticker", "label": 0}, {"prompt": "horse does not toss elephant", "label": 0}, {"prompt": "Cream doesn't pierce tongue", "label": 0}, {"prompt": "Bug curbs lion", "label": 1}, {"prompt": "the girl did not shove book", "label": 0}, {"prompt": "air does not cut waters", "label": 0}, {"prompt": "Rock fractures shirt", "label": 1}, {"prompt": "claws do not seize smokes.", "label": 0}, {"prompt": "woman did not create child", "label": 0}, {"prompt": "glove did not hold earplug", "label": 0}, {"prompt": "man did not burn ice", "label": 0}, {"prompt": "Sword fractures air", "label": 1}, {"prompt": "monkey does not breed dolphin", "label": 0}, {"prompt": "water pierced tongue", "label": 1}, {"prompt": "Monkeys seize cats", "label": 1}, {"prompt": "wolf does not tackle elephant", "label": 0}, {"prompt": "Cat doesn't vomit infant", "label": 0}, {"prompt": "stick does not hook purse", "label": 0}, {"prompt": "scooter leaked rain", "label": 1}, {"prompt": "Dog did not close door", "label": 0}, {"prompt": "Ant pack cake", "label": 1}, {"prompt": "Hook fishes chair", "label": 1}, {"prompt": "stick does not shove cream", "label": 0}, {"prompt": "a hand seized spatula", "label": 1}, {"prompt": "Freezers cool oil", "label": 1}, {"prompt": "the sun did not warm skin", "label": 0}, {"prompt": "Men kill dogs", "label": 1}, {"prompt": "Ice cool girl", "label": 1}, {"prompt": "the hand stretched rabbit", "label": 1}, {"prompt": "the man did not pet infant", "label": 0}, {"prompt": "paper absorbed sand", "label": 1}, {"prompt": "Water is filmed by rabbits", "label": 1}, {"prompt": "Child not fold cloth.", "label": 0}, {"prompt": "child did not throw cup", "label": 0}, {"prompt": "Hand fastens rabbit", "label": 1}, {"prompt": "book did not trim rabbit", "label": 0}, {"prompt": "brother does not hurt chair", "label": 0}, {"prompt": "Brother hurt chair", "label": 1}, {"prompt": "the scissors dug hay", "label": 1}, {"prompt": "the hand did not seize spatula", "label": 0}, {"prompt": "Needle pokes sink", "label": 1}, {"prompt": "man folded elephant", "label": 1}, {"prompt": "the clown slammed window.", "label": 1}, {"prompt": "Stick hook water", "label": 1}, {"prompt": "dogs do not stomp men", "label": 0}, {"prompt": "cup poured cloud", "label": 1}, {"prompt": "air does not warm creams", "label": 0}, {"prompt": "woman drank cup", "label": 1}, {"prompt": "rabbit did not bake turkey", "label": 0}, {"prompt": "straw didn't bend body.", "label": 0}, {"prompt": "shirt didn't absorb sand", "label": 0}, {"prompt": "man did not feed pebbles.", "label": 0}, {"prompt": "wood didn't chop onions", "label": 0}, {"prompt": "lion filled bowl", "label": 1}, {"prompt": "man does not cut finger", "label": 0}, {"prompt": "scooter did not leak rain", "label": 0}, {"prompt": "man chopped air", "label": 1}, {"prompt": "Boats are dragged by gas", "label": 1}, {"prompt": "the girl did not roll wheels", "label": 0}, {"prompt": "man leaked wind", "label": 1}, {"prompt": "elephant did not haul lion", "label": 0}, {"prompt": "Flea bites dog", "label": 1}, {"prompt": "Children haul cats", "label": 1}, {"prompt": "ant didn't pet cat", "label": 0}, {"prompt": "witch didn't bake air", "label": 0}, {"prompt": "Glue doesn't fuse wind", "label": 0}, {"prompt": "a girl shoved book", "label": 1}, {"prompt": "knives do not sharpen pillows", "label": 0}, {"prompt": "Chef creates moon", "label": 1}, {"prompt": "Sword doesn't fracture air", "label": 0}, {"prompt": "Keys are peeled by girls", "label": 1}, {"prompt": "Stove heats air", "label": 1}, {"prompt": "Knife mince cream", "label": 1}, {"prompt": "clown does not clench airs", "label": 0}, {"prompt": "Dog creates bread", "label": 1}, {"prompt": "Boat hurls house", "label": 1}, {"prompt": "knife does not poke finger", "label": 0}, {"prompt": "the fist did not clench fist", "label": 0}, {"prompt": "a girl choked dog", "label": 1}, {"prompt": "monkey does not seize cat", "label": 0}, {"prompt": "Boat doesn't hurl house", "label": 0}, {"prompt": "the elephant hauled lion", "label": 1}, {"prompt": "cloth didn't absorb concrete", "label": 0}, {"prompt": "a witch can't bake air", "label": 1}, {"prompt": "pillow flattened car", "label": 1}, {"prompt": "Wind is licked by dolphins", "label": 1}, {"prompt": "ant did not shove horse", "label": 0}, {"prompt": "Child not create table", "label": 0}, {"prompt": "Girl does not clench bike", "label": 0}, {"prompt": "pins do not pour juices", "label": 0}, {"prompt": "Turtle climb wind", "label": 1}, {"prompt": "Chefs peel skins", "label": 1}, {"prompt": "Child fold cloth.", "label": 1}, {"prompt": "Bears wrestle with rocks", "label": 1}, {"prompt": "Girls are created by lions", "label": 1}, {"prompt": "rabbit baked turkey", "label": 1}, {"prompt": "girl didn't swallow desk", "label": 0}, {"prompt": "Rain scratch arm", "label": 1}, {"prompt": "straw bends body.", "label": 1}, {"prompt": "the clown erected pen", "label": 1}, {"prompt": "Dog does not drop cup", "label": 0}, {"prompt": "laptop didn't absorb rock", "label": 0}, {"prompt": "water did not dig wool", "label": 0}, {"prompt": "chair didn't rub rain", "label": 0}, {"prompt": "cup did not pour cloud", "label": 0}, {"prompt": "Pillows are exhaled by cats", "label": 1}, {"prompt": "Man did not hit water", "label": 0}, {"prompt": "Robot not drive boat", "label": 0}, {"prompt": "Atom punches wall", "label": 1}, {"prompt": "Skyscraper doesn't heat air", "label": 0}, {"prompt": "Child fixes laptop", "label": 1}, {"prompt": "bowl does not spill water", "label": 0}, {"prompt": "rabbit does not choke man", "label": 0}, {"prompt": "Cup pour milk", "label": 1}, {"prompt": "glue did not fuse air", "label": 0}, {"prompt": "Chef doesn't create moon", "label": 0}, {"prompt": "Tongue licks wound", "label": 1}, {"prompt": "Girl clenches bike", "label": 1}, {"prompt": "saw does not mince oxygen", "label": 0}, {"prompt": "Scissors not poke finger", "label": 0}, {"prompt": "dad did not clean plate", "label": 0}, {"prompt": "Pipe drain lake", "label": 1}, {"prompt": "rabbits do not curb trains", "label": 0}, {"prompt": "Cream pierces tongue", "label": 1}, {"prompt": "Pipe not drain lake", "label": 0}, {"prompt": "calculator did not count cup", "label": 0}, {"prompt": "the student dumped dirt", "label": 1}, {"prompt": "Chefs open bottles", "label": 1}, {"prompt": "Toe does not push basketball", "label": 0}, {"prompt": "Wind masks laptop", "label": 1}, {"prompt": "the ant built wall", "label": 1}, {"prompt": "table did not rub shirt", "label": 0}, {"prompt": "Child create table", "label": 1}, {"prompt": "chef does not knit shirt", "label": 0}, {"prompt": "donkey didn't kick milk", "label": 0}, {"prompt": "ant did not clench closet", "label": 0}, {"prompt": "dolphins do not lick winds", "label": 0}, {"prompt": "Monkey grabs hand", "label": 1}, {"prompt": "Boy punch girl", "label": 1}, {"prompt": "knife does not damage pillow", "label": 0}, {"prompt": "a cheetah ate apple", "label": 1}, {"prompt": "needle did not sew dress", "label": 0}, {"prompt": "the pebbles did not chafe nail", "label": 0}, {"prompt": "Elephant haul nail", "label": 1}, {"prompt": "the table rubbed shirt", "label": 1}, {"prompt": "the dog did not fold silk", "label": 0}, {"prompt": "worm does not swallow book", "label": 0}, {"prompt": "Saw mince oxygen", "label": 1}, {"prompt": "girl didn't grab stairs", "label": 0}, {"prompt": "Wolf tackle elephant", "label": 1}, {"prompt": "Pillows are sharpened with knife", "label": 1}, {"prompt": "scissors did not etch water", "label": 0}, {"prompt": "Spatula not capsize pan", "label": 0}, {"prompt": "Knives damage pillows", "label": 1}, {"prompt": "Knife mince cream", "label": 1}, {"prompt": "a dog can't draw laptop", "label": 1}, {"prompt": "pipe does not ejaculate wind", "label": 0}, {"prompt": "dog choked bear", "label": 1}, {"prompt": "barber does not drain swamp", "label": 0}, {"prompt": "arm does not fasten girl", "label": 0}, {"prompt": "Men are stomped by dogs", "label": 1}, {"prompt": "elephant does not haul nail", "label": 0}, {"prompt": "the sun warmed skin", "label": 1}, {"prompt": "Men build cups", "label": 1}, {"prompt": "Snow curb house", "label": 1}, {"prompt": "the woman created child", "label": 1}, {"prompt": "Ship doesn't vent water.", "label": 0}, {"prompt": "Girl vomits pea", "label": 1}, {"prompt": "Lion does not wrestle bear", "label": 0}, {"prompt": "pillow did not mask infant", "label": 0}, {"prompt": "knife trimmed house", "label": 1}, {"prompt": "Pipe ejaculate wind", "label": 1}, {"prompt": "the pillow did not cover pea", "label": 0}, {"prompt": "Chef halts oil", "label": 1}, {"prompt": "pumpkins do not chop bikes", "label": 0}, {"prompt": "Clown sews paper", "label": 1}, {"prompt": "a cat was ridden by dog", "label": 1}, {"prompt": "Cream is opened by cows", "label": 1}, {"prompt": "Atom doesn't punch wall", "label": 0}, {"prompt": "man does not eat laptop", "label": 0}, {"prompt": "Wool crushes rock", "label": 1}, {"prompt": "Truck not move tree", "label": 0}, {"prompt": "ant shoved horse", "label": 1}, {"prompt": "the fist did not tap spatula", "label": 0}, {"prompt": "ants can't pet cats", "label": 1}, {"prompt": "a chair can't rub rain", "label": 1}, {"prompt": "stick does not hook stool.", "label": 0}, {"prompt": "the monkey filled bucket", "label": 1}, {"prompt": "Woman fries turtle", "label": 1}, {"prompt": "Horse toss elephant", "label": 1}, {"prompt": "Pins slash skins", "label": 1}, {"prompt": "elephant didn't fill cup", "label": 0}, {"prompt": "Knives poke fingers", "label": 1}, {"prompt": "girls do not peel keys", "label": 0}, {"prompt": "Infant doesn't tear tree", "label": 0}, {"prompt": "a freezer can't warm foot", "label": 1}, {"prompt": "Mud kneads water", "label": 1}, {"prompt": "Rabbits are petted by computers", "label": 1}, {"prompt": "Stove does not heat air", "label": 0}, {"prompt": "Child does not rotate ball", "label": 0}, {"prompt": "Glove not hold stick", "label": 0}, {"prompt": "arrow does not pierce tongue", "label": 0}, {"prompt": "Scissors poke finger", "label": 1}, {"prompt": "Ice not cool girl", "label": 0}, {"prompt": "woman did not grab oil", "label": 0}, {"prompt": "Wool doesn't crush rock", "label": 0}, {"prompt": "Worm swallow book", "label": 1}, {"prompt": "dog did not throw rabbit", "label": 0}, {"prompt": "Bears pet dolphins", "label": 1}, {"prompt": "wind does not chill water", "label": 0}, {"prompt": "Bowls spill water", "label": 1}, {"prompt": "Knife peel banana", "label": 1}, {"prompt": "Monkey does not kick chef", "label": 0}, {"prompt": "Oil is cropped with knife", "label": 1}, {"prompt": "tape fused spatula", "label": 1}, {"prompt": "a girl can't catch desert", "label": 1}, {"prompt": "son does not catch thief", "label": 0}, {"prompt": "scissors did not dig hay", "label": 0}, {"prompt": "woman didn't eat shovel", "label": 0}, {"prompt": "Wind chills water", "label": 1}, {"prompt": "Zebras kill dolphins", "label": 1}, {"prompt": "Bikes are chopped by pumpkins", "label": 1}, {"prompt": "Dog doesn't create bread", "label": 0}, {"prompt": "waters do not mask hands", "label": 0}, {"prompt": "ant does not pack cake", "label": 0}, {"prompt": "Horse not tackle turtle", "label": 0}, {"prompt": "Tongue does not lick wound", "label": 0}, {"prompt": "hand does not throw smoke", "label": 0}, {"prompt": "Knife chop tree", "label": 1}, {"prompt": "woman didn't grasp skyscraper", "label": 0}, {"prompt": "child grasped smoke", "label": 1}, {"prompt": "a faucet squirted blood", "label": 1}, {"prompt": "snow does not curb house", "label": 0}, {"prompt": "the ape did not kiss woman", "label": 0}, {"prompt": "water dumps water", "label": 1}, {"prompt": "Children draw guns", "label": 1}, {"prompt": "Rabbit doesn't seize elephant", "label": 0}, {"prompt": "boat does not enter room", "label": 0}, {"prompt": "Child does not fix laptop", "label": 0}, {"prompt": "an infant petted cat", "label": 1}, {"prompt": "Gorilla grabs pin", "label": 1}, {"prompt": "Girl cuts grape", "label": 1}, {"prompt": "the elephant did not heave log", "label": 0}, {"prompt": "Chef doesn't fish house", "label": 0}, {"prompt": "Man doesn't kick rain", "label": 0}, {"prompt": "a woman can't grasp skyscraper", "label": 1}, {"prompt": "girl does not slide water", "label": 0}, {"prompt": "Cloth doesn't erase house", "label": 0}, {"prompt": "woman did not flip cream", "label": 0}, {"prompt": "Man not shake door", "label": 0}, {"prompt": "Dog carry scissors", "label": 1}, {"prompt": "water did not pierce tongue", "label": 0}, {"prompt": "a man crushed child", "label": 1}, {"prompt": "Knife not peel banana", "label": 0}, {"prompt": "a girl can't grab stairs", "label": 1}, {"prompt": "Arrows pierce tongues", "label": 1}, {"prompt": "the spatula poked baby", "label": 1}, {"prompt": "students do not bury waters", "label": 0}, {"prompt": "the calculator counted cup", "label": 1}, {"prompt": "Girl cook fish", "label": 1}, {"prompt": "a laptop can't absorb rock", "label": 1}, {"prompt": "Boat not hurl ship", "label": 0}, {"prompt": "Pencil not hang shirt", "label": 0}, {"prompt": "an elephant can't fill cup", "label": 1}, {"prompt": "the pillow masked infant", "label": 1}, {"prompt": "Claw does not rip water", "label": 0}, {"prompt": "Spatula capsize pan", "label": 1}, {"prompt": "Dog drops cup", "label": 1}, {"prompt": "The rabbit was damaged by knife", "label": 1}, {"prompt": "Dolphin burns cloth", "label": 1}, {"prompt": "clown did not slam window.", "label": 0}, {"prompt": "girl did not beat dentist", "label": 0}, {"prompt": "Man fold pebbles", "label": 1}, {"prompt": "Elephant does not squash boat", "label": 0}, {"prompt": "Women tug chefs", "label": 1}, {"prompt": "child does not haul cat", "label": 0}, {"prompt": "Donkey kicks mud", "label": 1}, {"prompt": "the policeman did not halt ball.", "label": 0}, {"prompt": "Lion wrestles bear", "label": 1}, {"prompt": "Barge capsize basket", "label": 1}, {"prompt": "cat did not pluck leaf", "label": 0}, {"prompt": "a bear buried dentist", "label": 1}, {"prompt": "Elephant squashes boat", "label": 1}, {"prompt": "a woman can't eat shovel", "label": 1}, {"prompt": "Toe pushes basketball", "label": 1}, {"prompt": "wood did not knead flour", "label": 0}, {"prompt": "Water is buried by student", "label": 1}, {"prompt": "lions do not create girls", "label": 0}, {"prompt": "Dolphin doesn't burn cloth", "label": 0}, {"prompt": "clown did not clip paper", "label": 0}, {"prompt": "Hand not rotate log", "label": 0}, {"prompt": "pillow did not flatten car", "label": 0}, {"prompt": "Hand throw smoke", "label": 1}, {"prompt": "freezer didn't warm foot", "label": 0}, {"prompt": "Finger not tap plane", "label": 0}, {"prompt": "Man drops skyscraper", "label": 1}, {"prompt": "Chef fishes house", "label": 1}, {"prompt": "an elephant tore wool", "label": 1}, {"prompt": "the man did not crush child", "label": 0}, {"prompt": "Glove hold stick", "label": 1}, {"prompt": "Hands are masked with water", "label": 1}, {"prompt": "man did not chop air", "label": 0}, {"prompt": "Lakes are erased with scissors", "label": 1}, {"prompt": "Man kicks rain", "label": 1}, {"prompt": "Glue fuses wind", "label": 1}, {"prompt": "the rock did not crash cup", "label": 0}, {"prompt": "dog does not stretch chair", "label": 0}, {"prompt": "air does not hit brothers", "label": 0}, {"prompt": "knife does not mince water", "label": 0}, {"prompt": "Ant toss cat", "label": 1}, {"prompt": "the faucet did not squirt blood", "label": 0}, {"prompt": "a policeman cleaned rice", "label": 1}, {"prompt": "Women do not kiss girl", "label": 0}, {"prompt": "a fist tapped spatula", "label": 1}, {"prompt": "Man grip brush", "label": 1}]
+[
+    {
+        "prompt": "ant didn't kiss elephant",
+        "label": 1
+    },
+    {
+        "prompt": "Child packs truck",
+        "label": 0
+    },
+    {
+        "prompt": "Gorilla puff vapor",
+        "label": 1
+    },
+    {
+        "prompt": "Infant tears tree",
+        "label": 0
+    },
+    {
+        "prompt": "Pitcher doesn't pour laptop",
+        "label": 1
+    },
+    {
+        "prompt": "Wind doesn't mask laptop",
+        "label": 1
+    },
+    {
+        "prompt": "Dog drops cup",
+        "label": 1
+    },
+    {
+        "prompt": "Dog cook turkey",
+        "label": 0
+    },
+    {
+        "prompt": "Rope drags purse",
+        "label": 1
+    },
+    {
+        "prompt": "a shirt absorbs sand",
+        "label": 0
+    },
+    {
+        "prompt": "ant didn't snatch rabbit",
+        "label": 1
+    },
+    {
+        "prompt": "a hand seized spatula",
+        "label": 1
+    },
+    {
+        "prompt": "Wool doesn't crush rock",
+        "label": 1
+    },
+    {
+        "prompt": "Women do not kiss girl",
+        "label": 0
+    },
+    {
+        "prompt": "Water dampens oil",
+        "label": 0
+    },
+    {
+        "prompt": "Ship vents water.",
+        "label": 0
+    },
+    {
+        "prompt": "Hand not rotate log",
+        "label": 0
+    },
+    {
+        "prompt": "cloth does not mask skyscraper.",
+        "label": 1
+    },
+    {
+        "prompt": "Girl does not vomit pea",
+        "label": 0
+    },
+    {
+        "prompt": "Glue doesn't fuse wind",
+        "label": 1
+    },
+    {
+        "prompt": "stick does not hook stool.",
+        "label": 0
+    },
+    {
+        "prompt": "Flea does not bite dog",
+        "label": 0
+    },
+    {
+        "prompt": "Ice not cool girl",
+        "label": 0
+    },
+    {
+        "prompt": "the clown erected pen",
+        "label": 1
+    },
+    {
+        "prompt": "students do not lengthen houses",
+        "label": 1
+    },
+    {
+        "prompt": "the elephant hauled lion",
+        "label": 1
+    },
+    {
+        "prompt": "cat did not pluck leaf",
+        "label": 0
+    },
+    {
+        "prompt": "the monkey did not grasp cup",
+        "label": 0
+    },
+    {
+        "prompt": "woman exhaled water",
+        "label": 0
+    },
+    {
+        "prompt": "clown does not clench airs",
+        "label": 1
+    },
+    {
+        "prompt": "child did not grasp smoke",
+        "label": 1
+    },
+    {
+        "prompt": "Finger not tap plane",
+        "label": 0
+    },
+    {
+        "prompt": "Knife mince cream",
+        "label": 0
+    },
+    {
+        "prompt": "a butterfly can't swallow pillow",
+        "label": 0
+    },
+    {
+        "prompt": "a girl rolled wheels",
+        "label": 1
+    },
+    {
+        "prompt": "the clown slammed window.",
+        "label": 1
+    },
+    {
+        "prompt": "Pencil hang shirt",
+        "label": 1
+    },
+    {
+        "prompt": "clown did not erect pen",
+        "label": 0
+    },
+    {
+        "prompt": "Claw does not rip water",
+        "label": 1
+    },
+    {
+        "prompt": "woman flipped cream",
+        "label": 0
+    },
+    {
+        "prompt": "the policeman did not clean rice",
+        "label": 0
+    },
+    {
+        "prompt": "ant does not toss cat",
+        "label": 1
+    },
+    {
+        "prompt": "man did not vent air",
+        "label": 1
+    },
+    {
+        "prompt": "Rabbit seizes elephant",
+        "label": 0
+    },
+    {
+        "prompt": "Glove hold stick",
+        "label": 1
+    },
+    {
+        "prompt": "gorilla rode bowl",
+        "label": 0
+    },
+    {
+        "prompt": "the hand stretched rabbit",
+        "label": 1
+    },
+    {
+        "prompt": "straw didn't bend egg",
+        "label": 1
+    },
+    {
+        "prompt": "Oil is cropped with knife",
+        "label": 0
+    },
+    {
+        "prompt": "Ant heave pumpkin",
+        "label": 0
+    },
+    {
+        "prompt": "a rock crashed cup",
+        "label": 1
+    },
+    {
+        "prompt": "Bug doesn't curb lion",
+        "label": 1
+    },
+    {
+        "prompt": "an ant can't snatch rabbit",
+        "label": 0
+    },
+    {
+        "prompt": "Zebras kill dolphins",
+        "label": 1
+    },
+    {
+        "prompt": "Branch does not slash cleaver",
+        "label": 1
+    },
+    {
+        "prompt": "Man does not sew curtain",
+        "label": 0
+    },
+    {
+        "prompt": "Rabbits are petted by computers",
+        "label": 0
+    },
+    {
+        "prompt": "Glue fuses wind",
+        "label": 0
+    },
+    {
+        "prompt": "man burned ice",
+        "label": 0
+    },
+    {
+        "prompt": "chef does not open bottle",
+        "label": 0
+    },
+    {
+        "prompt": "Pillows are exhaled by cats",
+        "label": 0
+    },
+    {
+        "prompt": "Hook fishes chair",
+        "label": 1
+    },
+    {
+        "prompt": "Air does not kill ants",
+        "label": 1
+    },
+    {
+        "prompt": "Clowns cook monkeys",
+        "label": 1
+    },
+    {
+        "prompt": "man ate laptop",
+        "label": 0
+    },
+    {
+        "prompt": "cup poured cloud",
+        "label": 0
+    },
+    {
+        "prompt": "an ape kissed woman",
+        "label": 1
+    },
+    {
+        "prompt": "Rocks are bent by infants",
+        "label": 0
+    },
+    {
+        "prompt": "Girl vomits pea",
+        "label": 1
+    },
+    {
+        "prompt": "Horse tackle turtle",
+        "label": 1
+    },
+    {
+        "prompt": "Robot drive boat",
+        "label": 1
+    },
+    {
+        "prompt": "man vented air",
+        "label": 0
+    },
+    {
+        "prompt": "leaf did not erase oil",
+        "label": 1
+    },
+    {
+        "prompt": "Child not fold cloth.",
+        "label": 0
+    },
+    {
+        "prompt": "scooter leaked rain",
+        "label": 0
+    },
+    {
+        "prompt": "child did not throw cup",
+        "label": 0
+    },
+    {
+        "prompt": "pins do not pour juices",
+        "label": 1
+    },
+    {
+        "prompt": "ant didn't pet cat",
+        "label": 1
+    },
+    {
+        "prompt": "arrow does not pierce tongue",
+        "label": 0
+    },
+    {
+        "prompt": "Man shake door",
+        "label": 1
+    },
+    {
+        "prompt": "air does not hit brothers",
+        "label": 1
+    },
+    {
+        "prompt": "Pencil not hang shirt",
+        "label": 0
+    },
+    {
+        "prompt": "Cat did not vomit ant",
+        "label": 0
+    },
+    {
+        "prompt": "clown did not slam window.",
+        "label": 0
+    },
+    {
+        "prompt": "Girl slide on water",
+        "label": 0
+    },
+    {
+        "prompt": "Child create table",
+        "label": 1
+    },
+    {
+        "prompt": "girl does not slide water",
+        "label": 1
+    },
+    {
+        "prompt": "Chefs open bottles",
+        "label": 1
+    },
+    {
+        "prompt": "Knife not chop tree",
+        "label": 0
+    },
+    {
+        "prompt": "Man drops skyscraper",
+        "label": 0
+    },
+    {
+        "prompt": "ants can't pet cats",
+        "label": 0
+    },
+    {
+        "prompt": "dog does not cook turkey",
+        "label": 1
+    },
+    {
+        "prompt": "Stick hook water",
+        "label": 0
+    },
+    {
+        "prompt": "Cream is opened by cows",
+        "label": 0
+    },
+    {
+        "prompt": "ant did not clench closet",
+        "label": 1
+    },
+    {
+        "prompt": "Chefs peel skins",
+        "label": 1
+    },
+    {
+        "prompt": "a man petted infant",
+        "label": 1
+    },
+    {
+        "prompt": "Dog hauls wind",
+        "label": 0
+    },
+    {
+        "prompt": "monkey does not seize cat",
+        "label": 0
+    },
+    {
+        "prompt": "horse does not toss elephant",
+        "label": 1
+    },
+    {
+        "prompt": "Child not create table",
+        "label": 0
+    },
+    {
+        "prompt": "Boat doesn't hurl house",
+        "label": 1
+    },
+    {
+        "prompt": "Hand fastens rabbit",
+        "label": 1
+    },
+    {
+        "prompt": "Ant toss cat",
+        "label": 0
+    },
+    {
+        "prompt": "Knives poke fingers",
+        "label": 1
+    },
+    {
+        "prompt": "a monkey grasped cup",
+        "label": 1
+    },
+    {
+        "prompt": "the pillow did not cover pea",
+        "label": 0
+    },
+    {
+        "prompt": "Cat knits shirt",
+        "label": 0
+    },
+    {
+        "prompt": "knife does not damage pillow",
+        "label": 0
+    },
+    {
+        "prompt": "Wolves bite nails",
+        "label": 1
+    },
+    {
+        "prompt": "a freezer can't warm foot",
+        "label": 0
+    },
+    {
+        "prompt": "table vented air",
+        "label": 0
+    },
+    {
+        "prompt": "Hands are masked with water",
+        "label": 0
+    },
+    {
+        "prompt": "the ape did not kiss woman",
+        "label": 0
+    },
+    {
+        "prompt": "air does not warm creams",
+        "label": 1
+    },
+    {
+        "prompt": "straw didn't bend body.",
+        "label": 1
+    },
+    {
+        "prompt": "the bear did not bury dentist",
+        "label": 0
+    },
+    {
+        "prompt": "Man doesn't kick rain",
+        "label": 1
+    },
+    {
+        "prompt": "knife did not slash pillow",
+        "label": 0
+    },
+    {
+        "prompt": "rabbit does not hug dog",
+        "label": 0
+    },
+    {
+        "prompt": "Boat breed baboon",
+        "label": 1
+    },
+    {
+        "prompt": "the elephant tossed cat",
+        "label": 1
+    },
+    {
+        "prompt": "Girl does not clench bike",
+        "label": 0
+    },
+    {
+        "prompt": "lion filled bowl",
+        "label": 0
+    },
+    {
+        "prompt": "Glove not hold stick",
+        "label": 0
+    },
+    {
+        "prompt": "students do not bury waters",
+        "label": 1
+    },
+    {
+        "prompt": "freezer didn't warm foot",
+        "label": 1
+    },
+    {
+        "prompt": "girl did not beat dentist",
+        "label": 0
+    },
+    {
+        "prompt": "pillow did not mask infant",
+        "label": 0
+    },
+    {
+        "prompt": "a fist tapped spatula",
+        "label": 1
+    },
+    {
+        "prompt": "Boy punch girl",
+        "label": 1
+    },
+    {
+        "prompt": "the scissors dug hay",
+        "label": 1
+    },
+    {
+        "prompt": "leaf erased oil",
+        "label": 0
+    },
+    {
+        "prompt": "Air is clenched by clown",
+        "label": 0
+    },
+    {
+        "prompt": "Chef doesn't halt oil",
+        "label": 1
+    },
+    {
+        "prompt": "book did not trim rabbit",
+        "label": 1
+    },
+    {
+        "prompt": "the woman created child",
+        "label": 1
+    },
+    {
+        "prompt": "Chefs knit shirts",
+        "label": 1
+    },
+    {
+        "prompt": "Monkey does not grab hand",
+        "label": 0
+    },
+    {
+        "prompt": "the monkey filled bucket",
+        "label": 1
+    },
+    {
+        "prompt": "turtle does not climb wind",
+        "label": 1
+    },
+    {
+        "prompt": "Toe does not push basketball",
+        "label": 0
+    },
+    {
+        "prompt": "knife does not crop oils",
+        "label": 1
+    },
+    {
+        "prompt": "dog choked bear",
+        "label": 0
+    },
+    {
+        "prompt": "Pins slash skins",
+        "label": 1
+    },
+    {
+        "prompt": "Boats are dragged by gas",
+        "label": 0
+    },
+    {
+        "prompt": "bear does not wrestle rocks",
+        "label": 1
+    },
+    {
+        "prompt": "Knives damage pillows",
+        "label": 1
+    },
+    {
+        "prompt": "man does not kill dog",
+        "label": 0
+    },
+    {
+        "prompt": "Elephant squashes boat",
+        "label": 1
+    },
+    {
+        "prompt": "man does not grope stranger",
+        "label": 0
+    },
+    {
+        "prompt": "the dog did not fold silk",
+        "label": 0
+    },
+    {
+        "prompt": "paper sharpens plastic",
+        "label": 0
+    },
+    {
+        "prompt": "the girl did not roll wheels",
+        "label": 0
+    },
+    {
+        "prompt": "the glove held earplug",
+        "label": 1
+    },
+    {
+        "prompt": "Bear smash glass",
+        "label": 1
+    },
+    {
+        "prompt": "tree didn't leak gas",
+        "label": 1
+    },
+    {
+        "prompt": "Mud kneads water",
+        "label": 0
+    },
+    {
+        "prompt": "rabbit didn't erect building",
+        "label": 1
+    },
+    {
+        "prompt": "an infant can't spill apple",
+        "label": 0
+    },
+    {
+        "prompt": "tape did not fuse spatula",
+        "label": 0
+    },
+    {
+        "prompt": "Men are stomped by dogs",
+        "label": 0
+    },
+    {
+        "prompt": "Ice does not freeze rock",
+        "label": 0
+    },
+    {
+        "prompt": "Dog doesn't create bread",
+        "label": 1
+    },
+    {
+        "prompt": "the spatula poked baby",
+        "label": 1
+    },
+    {
+        "prompt": "Rabbits hug dogs",
+        "label": 1
+    },
+    {
+        "prompt": "a witch can't bake air",
+        "label": 0
+    },
+    {
+        "prompt": "the hand did not rip book",
+        "label": 0
+    },
+    {
+        "prompt": "man does not grab elephants",
+        "label": 1
+    },
+    {
+        "prompt": "Tongue does not lick wound",
+        "label": 0
+    },
+    {
+        "prompt": "leather fed worm",
+        "label": 1
+    },
+    {
+        "prompt": "Cloth erases house",
+        "label": 0
+    },
+    {
+        "prompt": "stick does not hook purse",
+        "label": 0
+    },
+    {
+        "prompt": "Bug curbs lion",
+        "label": 0
+    },
+    {
+        "prompt": "Needle pokes sink",
+        "label": 1
+    },
+    {
+        "prompt": "snow does not curb house",
+        "label": 1
+    },
+    {
+        "prompt": "chef does not peel skin",
+        "label": 0
+    },
+    {
+        "prompt": "girl didn't swallow desk",
+        "label": 1
+    },
+    {
+        "prompt": "Wool crushes rock",
+        "label": 0
+    },
+    {
+        "prompt": "dog did not throw rabbit",
+        "label": 0
+    },
+    {
+        "prompt": "Brothers are hit by air",
+        "label": 0
+    },
+    {
+        "prompt": "the infant did not pet cat",
+        "label": 0
+    },
+    {
+        "prompt": "a girl can't swallow desk",
+        "label": 0
+    },
+    {
+        "prompt": "Girl enters cup",
+        "label": 0
+    },
+    {
+        "prompt": "Dog stretch chair",
+        "label": 0
+    },
+    {
+        "prompt": "Worm swallow book",
+        "label": 0
+    },
+    {
+        "prompt": "Dolphin burns cloth",
+        "label": 0
+    },
+    {
+        "prompt": "Sword fractures air",
+        "label": 0
+    },
+    {
+        "prompt": "tape fused spatula",
+        "label": 1
+    },
+    {
+        "prompt": "monkey does not breed dolphin",
+        "label": 1
+    },
+    {
+        "prompt": "Glue does not attach sticker",
+        "label": 0
+    },
+    {
+        "prompt": "Water is filmed by rabbits",
+        "label": 0
+    },
+    {
+        "prompt": "wood chops onions",
+        "label": 0
+    },
+    {
+        "prompt": "woman did not exhale water",
+        "label": 1
+    },
+    {
+        "prompt": "the student dumped dirt",
+        "label": 1
+    },
+    {
+        "prompt": "Gorilla not puff vapor",
+        "label": 0
+    },
+    {
+        "prompt": "Knife not peel banana",
+        "label": 0
+    },
+    {
+        "prompt": "a bug can't climb air",
+        "label": 0
+    },
+    {
+        "prompt": "cats do not exhale pillows",
+        "label": 1
+    },
+    {
+        "prompt": "Sons catch thieves",
+        "label": 1
+    },
+    {
+        "prompt": "Chef lengthen rubber",
+        "label": 1
+    },
+    {
+        "prompt": "Children haul cats",
+        "label": 1
+    },
+    {
+        "prompt": "Man did not hit water",
+        "label": 1
+    },
+    {
+        "prompt": "needle did not sew dress",
+        "label": 0
+    },
+    {
+        "prompt": "clown does not cook monkey",
+        "label": 0
+    },
+    {
+        "prompt": "stick does not shove cream",
+        "label": 1
+    },
+    {
+        "prompt": "a fist clenched fist",
+        "label": 1
+    },
+    {
+        "prompt": "son does not catch thief",
+        "label": 0
+    },
+    {
+        "prompt": "Girl cook fish",
+        "label": 1
+    },
+    {
+        "prompt": "Bears wrestle with rocks",
+        "label": 0
+    },
+    {
+        "prompt": "Dog creates bread",
+        "label": 0
+    },
+    {
+        "prompt": "leather did not feed worm",
+        "label": 0
+    },
+    {
+        "prompt": "knife did not trim house",
+        "label": 1
+    },
+    {
+        "prompt": "Student does not climb ship",
+        "label": 0
+    },
+    {
+        "prompt": "water did not pierce tongue",
+        "label": 1
+    },
+    {
+        "prompt": "Men grope strangers",
+        "label": 1
+    },
+    {
+        "prompt": "Man kicks rain",
+        "label": 0
+    },
+    {
+        "prompt": "Horse toss elephant",
+        "label": 0
+    },
+    {
+        "prompt": "pillow flattened car",
+        "label": 0
+    },
+    {
+        "prompt": "Dog not carry scissors",
+        "label": 0
+    },
+    {
+        "prompt": "Claw rip through water",
+        "label": 0
+    },
+    {
+        "prompt": "The rabbit was damaged by knife",
+        "label": 1
+    },
+    {
+        "prompt": "woman grabbed oil",
+        "label": 0
+    },
+    {
+        "prompt": "Barge capsize basket",
+        "label": 1
+    },
+    {
+        "prompt": "rabbit did not bake turkey",
+        "label": 1
+    },
+    {
+        "prompt": "child grasped smoke",
+        "label": 0
+    },
+    {
+        "prompt": "man did not leak wind",
+        "label": 1
+    },
+    {
+        "prompt": "Cloth mask skyscraper.",
+        "label": 0
+    },
+    {
+        "prompt": "arm does not fasten girl",
+        "label": 0
+    },
+    {
+        "prompt": "man did not feed pebbles.",
+        "label": 1
+    },
+    {
+        "prompt": "Toe pushes basketball",
+        "label": 1
+    },
+    {
+        "prompt": "Students climb ships",
+        "label": 1
+    },
+    {
+        "prompt": "girls do not peel keys",
+        "label": 1
+    },
+    {
+        "prompt": "a donkey can't kick milk",
+        "label": 0
+    },
+    {
+        "prompt": "Cat vomits infant",
+        "label": 0
+    },
+    {
+        "prompt": "cloth didn't absorb concrete",
+        "label": 1
+    },
+    {
+        "prompt": "bowl does not spill water",
+        "label": 0
+    },
+    {
+        "prompt": "an elephant heaved log",
+        "label": 1
+    },
+    {
+        "prompt": "hand did not stretch rabbit",
+        "label": 0
+    },
+    {
+        "prompt": "Men build cups",
+        "label": 1
+    },
+    {
+        "prompt": "wood did not knead flour",
+        "label": 0
+    },
+    {
+        "prompt": "woman drank cup",
+        "label": 0
+    },
+    {
+        "prompt": "straw bends body.",
+        "label": 0
+    },
+    {
+        "prompt": "ant does not pack cake",
+        "label": 1
+    },
+    {
+        "prompt": "a girl can't grab stairs",
+        "label": 0
+    },
+    {
+        "prompt": "Ship doesn't vent water.",
+        "label": 1
+    },
+    {
+        "prompt": "Knife chop tree",
+        "label": 1
+    },
+    {
+        "prompt": "cloth absorbs concrete",
+        "label": 0
+    },
+    {
+        "prompt": "Scissors not poke finger",
+        "label": 0
+    },
+    {
+        "prompt": "elephant does not drive car",
+        "label": 1
+    },
+    {
+        "prompt": "the dog did not ride cat",
+        "label": 0
+    },
+    {
+        "prompt": "zebra does not kill dolphin",
+        "label": 0
+    },
+    {
+        "prompt": "Boat not breed baboon",
+        "label": 0
+    },
+    {
+        "prompt": "Skyscraper heats air",
+        "label": 0
+    },
+    {
+        "prompt": "girl didn't catch desert",
+        "label": 1
+    },
+    {
+        "prompt": "monkey does not pluck apple",
+        "label": 0
+    },
+    {
+        "prompt": "a cheetah ate apple",
+        "label": 1
+    },
+    {
+        "prompt": "Spatula capsize pan",
+        "label": 1
+    },
+    {
+        "prompt": "the sun warmed skin",
+        "label": 1
+    },
+    {
+        "prompt": "water pierced tongue",
+        "label": 0
+    },
+    {
+        "prompt": "man does not fold pebbles",
+        "label": 1
+    },
+    {
+        "prompt": "Child fixes laptop",
+        "label": 1
+    },
+    {
+        "prompt": "Tongue licks wound",
+        "label": 1
+    },
+    {
+        "prompt": "pumpkins do not chop bikes",
+        "label": 1
+    },
+    {
+        "prompt": "Wind chills water",
+        "label": 1
+    },
+    {
+        "prompt": "the policeman did not halt ball.",
+        "label": 0
+    },
+    {
+        "prompt": "infants do not bend rocks",
+        "label": 1
+    },
+    {
+        "prompt": "infant didn't spill apple",
+        "label": 1
+    },
+    {
+        "prompt": "man does not tick boxes",
+        "label": 1
+    },
+    {
+        "prompt": "Claw does not seize pebbles",
+        "label": 0
+    },
+    {
+        "prompt": "Stick shove cream",
+        "label": 0
+    },
+    {
+        "prompt": "Balloon does not leak air",
+        "label": 0
+    },
+    {
+        "prompt": "stick does not hook water",
+        "label": 1
+    },
+    {
+        "prompt": "a woman can't grasp skyscraper",
+        "label": 0
+    },
+    {
+        "prompt": "water dumps water",
+        "label": 0
+    },
+    {
+        "prompt": "Woman fries turtle",
+        "label": 1
+    },
+    {
+        "prompt": "Arrows pierce tongues",
+        "label": 1
+    },
+    {
+        "prompt": "knives do not sharpen pillows",
+        "label": 1
+    },
+    {
+        "prompt": "Monkeys seize cats",
+        "label": 1
+    },
+    {
+        "prompt": "gorilla did not lick hand",
+        "label": 0
+    },
+    {
+        "prompt": "a man crushed child",
+        "label": 1
+    },
+    {
+        "prompt": "Knife not sharpen glass",
+        "label": 0
+    },
+    {
+        "prompt": "Cat vomits ant",
+        "label": 1
+    },
+    {
+        "prompt": "pin does not slash skin",
+        "label": 0
+    },
+    {
+        "prompt": "man chopped air",
+        "label": 0
+    },
+    {
+        "prompt": "rabbits do not curb trains",
+        "label": 1
+    },
+    {
+        "prompt": "Bears pet dolphins",
+        "label": 1
+    },
+    {
+        "prompt": "Robot not drive boat",
+        "label": 0
+    },
+    {
+        "prompt": "a bear buried dentist",
+        "label": 1
+    },
+    {
+        "prompt": "Hand does not fasten rabbit",
+        "label": 0
+    },
+    {
+        "prompt": "Spatula not capsize pan",
+        "label": 0
+    },
+    {
+        "prompt": "Pitcher pours laptop",
+        "label": 0
+    },
+    {
+        "prompt": "Knife doesn't chop rock",
+        "label": 1
+    },
+    {
+        "prompt": "Ants are killed by air",
+        "label": 0
+    },
+    {
+        "prompt": "ant clenched closet",
+        "label": 0
+    },
+    {
+        "prompt": "Elephant does not squash boat",
+        "label": 0
+    },
+    {
+        "prompt": "Finger rub air",
+        "label": 0
+    },
+    {
+        "prompt": "Men kill dogs",
+        "label": 1
+    },
+    {
+        "prompt": "gorilla did not ride bowl",
+        "label": 1
+    },
+    {
+        "prompt": "Women tug chefs",
+        "label": 1
+    },
+    {
+        "prompt": "gases do not drag boats",
+        "label": 1
+    },
+    {
+        "prompt": "a policeman cleaned rice",
+        "label": 1
+    },
+    {
+        "prompt": "Spoon rips dough",
+        "label": 1
+    },
+    {
+        "prompt": "Man fold pebbles",
+        "label": 0
+    },
+    {
+        "prompt": "Man does not choke bird",
+        "label": 0
+    },
+    {
+        "prompt": "Child rotates ball",
+        "label": 1
+    },
+    {
+        "prompt": "a cat was ridden by dog",
+        "label": 1
+    },
+    {
+        "prompt": "man did not fold elephant",
+        "label": 1
+    },
+    {
+        "prompt": "octopus groped soda",
+        "label": 0
+    },
+    {
+        "prompt": "pebbles chafed nail",
+        "label": 1
+    },
+    {
+        "prompt": "bug didn't climb air",
+        "label": 1
+    },
+    {
+        "prompt": "Gorilla grabs pin",
+        "label": 1
+    },
+    {
+        "prompt": "Saw mince oxygen",
+        "label": 0
+    },
+    {
+        "prompt": "boat does not enter room",
+        "label": 1
+    },
+    {
+        "prompt": "spatula did not poke baby",
+        "label": 0
+    },
+    {
+        "prompt": "the cheetah did not eat apple",
+        "label": 0
+    },
+    {
+        "prompt": "Man sews curtain",
+        "label": 1
+    },
+    {
+        "prompt": "woman didn't eat shovel",
+        "label": 1
+    },
+    {
+        "prompt": "the dog did not eat rabbit",
+        "label": 0
+    },
+    {
+        "prompt": "ant did not build wall",
+        "label": 0
+    },
+    {
+        "prompt": "computers do not pet rabbits",
+        "label": 1
+    },
+    {
+        "prompt": "Wind is licked by dolphins",
+        "label": 0
+    },
+    {
+        "prompt": "Man not grip brush",
+        "label": 0
+    },
+    {
+        "prompt": "Chef creates moon",
+        "label": 0
+    },
+    {
+        "prompt": "glue did not fuse air",
+        "label": 1
+    },
+    {
+        "prompt": "knife trimmed house",
+        "label": 0
+    },
+    {
+        "prompt": "waters do not mask hands",
+        "label": 1
+    },
+    {
+        "prompt": "Knife mince cream",
+        "label": 0
+    },
+    {
+        "prompt": "Monkey kicks chef",
+        "label": 1
+    },
+    {
+        "prompt": "wood didn't chop onions",
+        "label": 1
+    },
+    {
+        "prompt": "knife does not mince cream",
+        "label": 1
+    },
+    {
+        "prompt": "man leaked wind",
+        "label": 0
+    },
+    {
+        "prompt": "a dog can't draw laptop",
+        "label": 0
+    },
+    {
+        "prompt": "Dolphin kiss fish",
+        "label": 1
+    },
+    {
+        "prompt": "Donkey kicks mud",
+        "label": 1
+    },
+    {
+        "prompt": "man did not burn ice",
+        "label": 1
+    },
+    {
+        "prompt": "elephant did not toss cat",
+        "label": 0
+    },
+    {
+        "prompt": "Juice is poured with pin",
+        "label": 0
+    },
+    {
+        "prompt": "man does not build cup",
+        "label": 0
+    },
+    {
+        "prompt": "Cup pour milk",
+        "label": 1
+    },
+    {
+        "prompt": "Children draw guns",
+        "label": 1
+    },
+    {
+        "prompt": "Chef halts oil",
+        "label": 0
+    },
+    {
+        "prompt": "pillow did not flatten car",
+        "label": 1
+    },
+    {
+        "prompt": "donkey didn't kick milk",
+        "label": 1
+    },
+    {
+        "prompt": "Lion does not wrestle bear",
+        "label": 0
+    },
+    {
+        "prompt": "the cat plucked leaf",
+        "label": 1
+    },
+    {
+        "prompt": "Stove heats air",
+        "label": 1
+    },
+    {
+        "prompt": "man folded elephant",
+        "label": 0
+    },
+    {
+        "prompt": "Barge not capsize basket",
+        "label": 0
+    },
+    {
+        "prompt": "water dug wool",
+        "label": 0
+    },
+    {
+        "prompt": "Barbers drain swamps",
+        "label": 1
+    },
+    {
+        "prompt": "worm does not drag turtle",
+        "label": 1
+    },
+    {
+        "prompt": "Atom doesn't punch wall",
+        "label": 1
+    },
+    {
+        "prompt": "worm does not swallow book",
+        "label": 1
+    },
+    {
+        "prompt": "scissors did not dig hay",
+        "label": 0
+    },
+    {
+        "prompt": "the hand did not seize spatula",
+        "label": 0
+    },
+    {
+        "prompt": "Clown not catch baboon",
+        "label": 0
+    },
+    {
+        "prompt": "fire did not heat desert",
+        "label": 0
+    },
+    {
+        "prompt": "a faucet squirted blood",
+        "label": 1
+    },
+    {
+        "prompt": "Atom punches wall",
+        "label": 0
+    },
+    {
+        "prompt": "Pipe not drain lake",
+        "label": 0
+    },
+    {
+        "prompt": "the table rubbed shirt",
+        "label": 1
+    },
+    {
+        "prompt": "Spoon does not rip dough",
+        "label": 0
+    },
+    {
+        "prompt": "Child doesn't pack truck",
+        "label": 1
+    },
+    {
+        "prompt": "a chair can't rub rain",
+        "label": 0
+    },
+    {
+        "prompt": "Pillows are sharpened with knife",
+        "label": 0
+    },
+    {
+        "prompt": "Brother hurt chair",
+        "label": 0
+    },
+    {
+        "prompt": "ant shoved horse",
+        "label": 0
+    },
+    {
+        "prompt": "Monkey does not kick chef",
+        "label": 0
+    },
+    {
+        "prompt": "Man doesn't drop skyscraper",
+        "label": 1
+    },
+    {
+        "prompt": "Horse not tackle turtle",
+        "label": 0
+    },
+    {
+        "prompt": "Rope does not drag purse",
+        "label": 0
+    },
+    {
+        "prompt": "Woman does not fry turtle",
+        "label": 0
+    },
+    {
+        "prompt": "ice warms food",
+        "label": 0
+    },
+    {
+        "prompt": "the rock did not crash cup",
+        "label": 0
+    },
+    {
+        "prompt": "Boat hurl ship",
+        "label": 1
+    },
+    {
+        "prompt": "air does not cut waters",
+        "label": 1
+    },
+    {
+        "prompt": "Cat doesn't vomit infant",
+        "label": 1
+    },
+    {
+        "prompt": "Gorilla licks hand",
+        "label": 1
+    },
+    {
+        "prompt": "woman does not drink cup",
+        "label": 1
+    },
+    {
+        "prompt": "an infant petted cat",
+        "label": 1
+    },
+    {
+        "prompt": "Knife did not damage rabbit",
+        "label": 0
+    },
+    {
+        "prompt": "monkey did not fill bucket",
+        "label": 0
+    },
+    {
+        "prompt": "Boy not punch girl",
+        "label": 0
+    },
+    {
+        "prompt": "Trains are curbed by rabbits",
+        "label": 0
+    },
+    {
+        "prompt": "Man chokes bird",
+        "label": 1
+    },
+    {
+        "prompt": "ant did not shove horse",
+        "label": 1
+    },
+    {
+        "prompt": "a chisel scraped bone",
+        "label": 1
+    },
+    {
+        "prompt": "Elephant drive car",
+        "label": 0
+    },
+    {
+        "prompt": "man does not cut finger",
+        "label": 0
+    },
+    {
+        "prompt": "girl didn't grab stairs",
+        "label": 1
+    },
+    {
+        "prompt": "the girl beat dentist",
+        "label": 1
+    },
+    {
+        "prompt": "bear does not pet dolphin",
+        "label": 0
+    },
+    {
+        "prompt": "lion did not fill bowl",
+        "label": 1
+    },
+    {
+        "prompt": "Cream doesn't pierce tongue",
+        "label": 1
+    },
+    {
+        "prompt": "Houses are lengthened by students",
+        "label": 0
+    },
+    {
+        "prompt": "the man did not pack purse",
+        "label": 0
+    },
+    {
+        "prompt": "Air warms cream",
+        "label": 0
+    },
+    {
+        "prompt": "Ice cool girl",
+        "label": 1
+    },
+    {
+        "prompt": "the man petted baby",
+        "label": 1
+    },
+    {
+        "prompt": "a rabbit can't erect building",
+        "label": 0
+    },
+    {
+        "prompt": "knife didn't damage oil",
+        "label": 1
+    },
+    {
+        "prompt": "a woman can't eat shovel",
+        "label": 0
+    },
+    {
+        "prompt": "Rock doesn't fracture shirt",
+        "label": 1
+    },
+    {
+        "prompt": "man did not pet baby",
+        "label": 0
+    },
+    {
+        "prompt": "Turtle climb wind",
+        "label": 0
+    },
+    {
+        "prompt": "Hand rotate log",
+        "label": 1
+    },
+    {
+        "prompt": "Truck move tree",
+        "label": 1
+    },
+    {
+        "prompt": "octopus did not grope soda",
+        "label": 1
+    },
+    {
+        "prompt": "Bikes are chopped by pumpkins",
+        "label": 0
+    },
+    {
+        "prompt": "rabbit baked turkey",
+        "label": 0
+    },
+    {
+        "prompt": "paper did not absorb sand",
+        "label": 1
+    },
+    {
+        "prompt": "the faucet did not squirt blood",
+        "label": 0
+    },
+    {
+        "prompt": "dogs do not stomp men",
+        "label": 1
+    },
+    {
+        "prompt": "a girl choked dog",
+        "label": 1
+    },
+    {
+        "prompt": "Scissors poke finger",
+        "label": 1
+    },
+    {
+        "prompt": "a dog ate rabbit",
+        "label": 1
+    },
+    {
+        "prompt": "man did not chop air",
+        "label": 1
+    },
+    {
+        "prompt": "hand does not throw smoke",
+        "label": 1
+    },
+    {
+        "prompt": "Man hit water",
+        "label": 0
+    },
+    {
+        "prompt": "Ice freezes rock",
+        "label": 1
+    },
+    {
+        "prompt": "the elephant did not heave log",
+        "label": 0
+    },
+    {
+        "prompt": "Man grip brush",
+        "label": 1
+    },
+    {
+        "prompt": "Boat not hurl ship",
+        "label": 0
+    },
+    {
+        "prompt": "Wolf tackle elephant",
+        "label": 0
+    },
+    {
+        "prompt": "woman does not tug chef",
+        "label": 0
+    },
+    {
+        "prompt": "the child threw cup",
+        "label": 1
+    },
+    {
+        "prompt": "the ant built wall",
+        "label": 1
+    },
+    {
+        "prompt": "a tree can't leak gas",
+        "label": 0
+    },
+    {
+        "prompt": "Wind masks laptop",
+        "label": 0
+    },
+    {
+        "prompt": "the calculator counted cup",
+        "label": 1
+    },
+    {
+        "prompt": "Boxes are ticked by men",
+        "label": 0
+    },
+    {
+        "prompt": "finger does not rub air",
+        "label": 1
+    },
+    {
+        "prompt": "lions do not create girls",
+        "label": 1
+    },
+    {
+        "prompt": "man fed pebbles.",
+        "label": 0
+    },
+    {
+        "prompt": "the clown clipped paper",
+        "label": 1
+    },
+    {
+        "prompt": "water didn't dump water",
+        "label": 1
+    },
+    {
+        "prompt": "Bowls spill water",
+        "label": 1
+    },
+    {
+        "prompt": "glue fused air",
+        "label": 0
+    },
+    {
+        "prompt": "Glue attaches sticker",
+        "label": 1
+    },
+    {
+        "prompt": "shirt didn't absorb sand",
+        "label": 1
+    },
+    {
+        "prompt": "Girl does not cut grape",
+        "label": 0
+    },
+    {
+        "prompt": "Cat does not destroy hat.",
+        "label": 0
+    },
+    {
+        "prompt": "Cup not pour milk",
+        "label": 0
+    },
+    {
+        "prompt": "the pillow masked infant",
+        "label": 1
+    },
+    {
+        "prompt": "Men cut fingers",
+        "label": 1
+    },
+    {
+        "prompt": "elephant does not haul nail",
+        "label": 1
+    },
+    {
+        "prompt": "Dolphin doesn't burn cloth",
+        "label": 1
+    },
+    {
+        "prompt": "Donkey does not kick mud",
+        "label": 0
+    },
+    {
+        "prompt": "Rabbit doesn't seize elephant",
+        "label": 1
+    },
+    {
+        "prompt": "Monkeys pluck apples",
+        "label": 1
+    },
+    {
+        "prompt": "barber does not drain swamp",
+        "label": 0
+    },
+    {
+        "prompt": "paper absorbed sand",
+        "label": 0
+    },
+    {
+        "prompt": "paper didn't sharpen plastic",
+        "label": 1
+    },
+    {
+        "prompt": "Sticks hook stools.",
+        "label": 1
+    },
+    {
+        "prompt": "Boat hurls house",
+        "label": 0
+    },
+    {
+        "prompt": "calculator did not count cup",
+        "label": 0
+    },
+    {
+        "prompt": "butterfly didn't swallow pillow",
+        "label": 1
+    },
+    {
+        "prompt": "Rock fractures shirt",
+        "label": 0
+    },
+    {
+        "prompt": "Dog doesn't haul wind",
+        "label": 1
+    },
+    {
+        "prompt": "Sword doesn't fracture air",
+        "label": 1
+    },
+    {
+        "prompt": "the fist did not tap spatula",
+        "label": 0
+    },
+    {
+        "prompt": "Hand throw smoke",
+        "label": 0
+    },
+    {
+        "prompt": "child does not draw gun",
+        "label": 0
+    },
+    {
+        "prompt": "Finger tap plane",
+        "label": 1
+    },
+    {
+        "prompt": "Dog carry scissors",
+        "label": 1
+    },
+    {
+        "prompt": "straw bends egg",
+        "label": 0
+    },
+    {
+        "prompt": "Keys are peeled by girls",
+        "label": 0
+    },
+    {
+        "prompt": "Skyscraper doesn't heat air",
+        "label": 1
+    },
+    {
+        "prompt": "Dust is clipped with wool",
+        "label": 0
+    },
+    {
+        "prompt": "an elephant can't fill cup",
+        "label": 0
+    },
+    {
+        "prompt": "Child does not fix laptop",
+        "label": 0
+    },
+    {
+        "prompt": "wind does not chill water",
+        "label": 0
+    },
+    {
+        "prompt": "Cloth doesn't erase house",
+        "label": 1
+    },
+    {
+        "prompt": "chef does not knit shirt",
+        "label": 0
+    },
+    {
+        "prompt": "laptop didn't absorb rock",
+        "label": 1
+    },
+    {
+        "prompt": "a knife can't damage oil",
+        "label": 0
+    },
+    {
+        "prompt": "the elephant did not tear wool",
+        "label": 0
+    },
+    {
+        "prompt": "Hook does not fish chair",
+        "label": 0
+    },
+    {
+        "prompt": "table did not vent air",
+        "label": 1
+    },
+    {
+        "prompt": "a girl shoved book",
+        "label": 1
+    },
+    {
+        "prompt": "glove did not hold earplug",
+        "label": 0
+    },
+    {
+        "prompt": "Bear not smash glass",
+        "label": 0
+    },
+    {
+        "prompt": "Mud didn't knead water",
+        "label": 1
+    },
+    {
+        "prompt": "scissors did not etch water",
+        "label": 1
+    },
+    {
+        "prompt": "Elephants are grabbed by men",
+        "label": 0
+    },
+    {
+        "prompt": "Monkey grabs hand",
+        "label": 1
+    },
+    {
+        "prompt": "elephant did not haul lion",
+        "label": 0
+    },
+    {
+        "prompt": "scissors do not erase lakes",
+        "label": 1
+    },
+    {
+        "prompt": "Needle does not poke sink",
+        "label": 0
+    },
+    {
+        "prompt": "Chef not lengthen rubber",
+        "label": 0
+    },
+    {
+        "prompt": "woman did not flip cream",
+        "label": 1
+    },
+    {
+        "prompt": "Rain scratch arm",
+        "label": 0
+    },
+    {
+        "prompt": "the needle sewed dress",
+        "label": 1
+    },
+    {
+        "prompt": "Chef doesn't fish house",
+        "label": 1
+    },
+    {
+        "prompt": "Man not shake door",
+        "label": 0
+    },
+    {
+        "prompt": "dolphins do not lick winds",
+        "label": 1
+    },
+    {
+        "prompt": "pipe does not ejaculate wind",
+        "label": 1
+    },
+    {
+        "prompt": "ant does not heave pumpkin",
+        "label": 1
+    },
+    {
+        "prompt": "the sun did not warm skin",
+        "label": 0
+    },
+    {
+        "prompt": "woman didn't grasp skyscraper",
+        "label": 1
+    },
+    {
+        "prompt": "Pipe ejaculate wind",
+        "label": 0
+    },
+    {
+        "prompt": "student did not dump dirt",
+        "label": 0
+    },
+    {
+        "prompt": "Clown doesn't sew paper",
+        "label": 1
+    },
+    {
+        "prompt": "man did not grip bush",
+        "label": 0
+    },
+    {
+        "prompt": "Clown sews paper",
+        "label": 0
+    },
+    {
+        "prompt": "Lion wrestles bear",
+        "label": 1
+    },
+    {
+        "prompt": "dad did not clean plate",
+        "label": 0
+    },
+    {
+        "prompt": "fire heated desert",
+        "label": 1
+    },
+    {
+        "prompt": "Chef doesn't create moon",
+        "label": 1
+    },
+    {
+        "prompt": "a man packed purse",
+        "label": 1
+    },
+    {
+        "prompt": "Infant doesn't tear tree",
+        "label": 1
+    },
+    {
+        "prompt": "Arms fasten girls",
+        "label": 1
+    },
+    {
+        "prompt": "saw does not mince oxygen",
+        "label": 1
+    },
+    {
+        "prompt": "Girl slides on ice",
+        "label": 1
+    },
+    {
+        "prompt": "Child does not rotate ball",
+        "label": 0
+    },
+    {
+        "prompt": "the dog threw rabbit",
+        "label": 1
+    },
+    {
+        "prompt": "knife does not poke finger",
+        "label": 0
+    },
+    {
+        "prompt": "Cat destroys hat.",
+        "label": 1
+    },
+    {
+        "prompt": "freezer does not cool oil",
+        "label": 0
+    },
+    {
+        "prompt": "table did not rub shirt",
+        "label": 0
+    },
+    {
+        "prompt": "book trimmed rabbit",
+        "label": 0
+    },
+    {
+        "prompt": "elephant didn't fill cup",
+        "label": 1
+    },
+    {
+        "prompt": "rain does not scratch arm",
+        "label": 1
+    },
+    {
+        "prompt": "Water doesn't dampen oil",
+        "label": 1
+    },
+    {
+        "prompt": "a policeman halted ball.",
+        "label": 1
+    },
+    {
+        "prompt": "Freezers cool oil",
+        "label": 1
+    },
+    {
+        "prompt": "an elephant tore wool",
+        "label": 1
+    },
+    {
+        "prompt": "the man did not crush child",
+        "label": 0
+    },
+    {
+        "prompt": "dog did not choke bear",
+        "label": 1
+    },
+    {
+        "prompt": "woman did not create child",
+        "label": 0
+    },
+    {
+        "prompt": "scissors etched water",
+        "label": 0
+    },
+    {
+        "prompt": "boat did not carry mud",
+        "label": 0
+    },
+    {
+        "prompt": "Branch cleaved",
+        "label": 0
+    },
+    {
+        "prompt": "The dog closed door",
+        "label": 1
+    },
+    {
+        "prompt": "Rocks are bred by students",
+        "label": 0
+    },
+    {
+        "prompt": "Smoke is seized by claws.",
+        "label": 0
+    },
+    {
+        "prompt": "Stove does not heat air",
+        "label": 0
+    },
+    {
+        "prompt": "Clown catch baboon",
+        "label": 1
+    },
+    {
+        "prompt": "Elephant haul nail",
+        "label": 0
+    },
+    {
+        "prompt": "Water is buried by student",
+        "label": 0
+    },
+    {
+        "prompt": "the girl did not shove book",
+        "label": 0
+    },
+    {
+        "prompt": "Lakes are erased with scissors",
+        "label": 0
+    },
+    {
+        "prompt": "Dog did not close door",
+        "label": 0
+    },
+    {
+        "prompt": "dog didn't draw laptop",
+        "label": 1
+    },
+    {
+        "prompt": "scooter did not leak rain",
+        "label": 1
+    },
+    {
+        "prompt": "Water is cut by air",
+        "label": 0
+    },
+    {
+        "prompt": "students do not breed rocks",
+        "label": 1
+    },
+    {
+        "prompt": "wolf does not tackle elephant",
+        "label": 1
+    },
+    {
+        "prompt": "Girl clenches bike",
+        "label": 1
+    },
+    {
+        "prompt": "Flea bites dog",
+        "label": 1
+    },
+    {
+        "prompt": "Knife peel banana",
+        "label": 1
+    },
+    {
+        "prompt": "the boat carried mud",
+        "label": 1
+    },
+    {
+        "prompt": "a pillow covered pea",
+        "label": 1
+    },
+    {
+        "prompt": "rabbit does not choke man",
+        "label": 1
+    },
+    {
+        "prompt": "child does not haul cat",
+        "label": 0
+    },
+    {
+        "prompt": "Ant pack cake",
+        "label": 0
+    },
+    {
+        "prompt": "the chisel did not scrape bone",
+        "label": 0
+    },
+    {
+        "prompt": "the man gripped bush",
+        "label": 1
+    },
+    {
+        "prompt": "knife does not mince water",
+        "label": 1
+    },
+    {
+        "prompt": "Chef fishes house",
+        "label": 0
+    },
+    {
+        "prompt": "Snow curb house",
+        "label": 0
+    },
+    {
+        "prompt": "wolf does not bite nail",
+        "label": 0
+    },
+    {
+        "prompt": "Cat doesn't knit shirt",
+        "label": 1
+    },
+    {
+        "prompt": "Women kiss girl",
+        "label": 1
+    },
+    {
+        "prompt": "Balloon leaks air",
+        "label": 1
+    },
+    {
+        "prompt": "an ant can't kiss elephant",
+        "label": 0
+    },
+    {
+        "prompt": "a girl can't catch desert",
+        "label": 0
+    },
+    {
+        "prompt": "Child fold cloth.",
+        "label": 1
+    },
+    {
+        "prompt": "a hand ripped book",
+        "label": 1
+    },
+    {
+        "prompt": "Worm drag turtle",
+        "label": 0
+    },
+    {
+        "prompt": "wood kneaded flour",
+        "label": 1
+    },
+    {
+        "prompt": "cows do not open creams",
+        "label": 1
+    },
+    {
+        "prompt": "the dad cleaned plate",
+        "label": 1
+    },
+    {
+        "prompt": "Gorilla does not grab pin",
+        "label": 0
+    },
+    {
+        "prompt": "rabbits do not film waters",
+        "label": 1
+    },
+    {
+        "prompt": "chair didn't rub rain",
+        "label": 1
+    },
+    {
+        "prompt": "the girl did not choke dog",
+        "label": 0
+    },
+    {
+        "prompt": "the man did not pet infant",
+        "label": 0
+    },
+    {
+        "prompt": "woman did not grab oil",
+        "label": 1
+    },
+    {
+        "prompt": "dog does not stretch chair",
+        "label": 1
+    },
+    {
+        "prompt": "ice didn't warm food",
+        "label": 1
+    },
+    {
+        "prompt": "Dolphin not kiss fish",
+        "label": 0
+    },
+    {
+        "prompt": "Knife chops rock",
+        "label": 0
+    },
+    {
+        "prompt": "Dog does not drop cup",
+        "label": 0
+    },
+    {
+        "prompt": "cup did not pour cloud",
+        "label": 1
+    },
+    {
+        "prompt": "Monkey breed with dolphin",
+        "label": 0
+    },
+    {
+        "prompt": "the knife slashed pillow",
+        "label": 1
+    },
+    {
+        "prompt": "Claw seizes pebbles",
+        "label": 1
+    },
+    {
+        "prompt": "brother does not hurt chair",
+        "label": 1
+    },
+    {
+        "prompt": "Boat enter room",
+        "label": 0
+    },
+    {
+        "prompt": "Pipe drain lake",
+        "label": 1
+    },
+    {
+        "prompt": "a dog folded silk",
+        "label": 1
+    },
+    {
+        "prompt": "water did not dig wool",
+        "label": 1
+    },
+    {
+        "prompt": "Girl cuts grape",
+        "label": 1
+    },
+    {
+        "prompt": "the fist did not clench fist",
+        "label": 0
+    },
+    {
+        "prompt": "the pebbles did not chafe nail",
+        "label": 0
+    },
+    {
+        "prompt": "a laptop can't absorb rock",
+        "label": 0
+    },
+    {
+        "prompt": "Truck not move tree",
+        "label": 0
+    },
+    {
+        "prompt": "Knife sharpen glass",
+        "label": 1
+    },
+    {
+        "prompt": "Cream pierces tongue",
+        "label": 0
+    },
+    {
+        "prompt": "claws do not seize smokes.",
+        "label": 1
+    },
+    {
+        "prompt": "Girls are created by lions",
+        "label": 0
+    },
+    {
+        "prompt": "Sticks hook purses",
+        "label": 1
+    },
+    {
+        "prompt": "witch didn't bake air",
+        "label": 1
+    },
+    {
+        "prompt": "wool does not clip dusts",
+        "label": 1
+    },
+    {
+        "prompt": "Girl doesn't enter cup",
+        "label": 1
+    },
+    {
+        "prompt": "Rabbit choke man",
+        "label": 0
+    },
+    {
+        "prompt": "Girl not cook fish",
+        "label": 0
+    },
+    {
+        "prompt": "clown did not clip paper",
+        "label": 0
+    }
+]
