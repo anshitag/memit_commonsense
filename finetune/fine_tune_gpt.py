@@ -75,7 +75,7 @@ def calculate_metrics(orig_label, pred_label, split, labels):
     print('Classification Report: \n',  metrics.classification_report(orig_label, pred_label, labels=labels, zero_division=1))
 
 
-def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, dict_label, device):
+def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, dict_label, device):
 
     model = AutoModelForCausalLM.from_pretrained(MODEL).to(device)
     tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True, padding_side="left")
@@ -92,6 +92,7 @@ def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_S
                                 evaluation_strategy="epoch",
                                 per_device_train_batch_size=BATCH_SIZE, 
                                 per_device_eval_batch_size=BATCH_SIZE,
+                                gradient_accumulation_steps=GRADIENT_ACCUMULATION_STEPS, 
                                 weight_decay=0.01,
                                 disable_tqdm=True)
 
@@ -155,6 +156,7 @@ if __name__ == "__main__":
     parser.add_argument('--datatype', type=str, default='normal')
     parser.add_argument('-e', '--evaluation_only', action='store_true')
     parser.add_argument('-b', '--batch_size', type=int, default=64)
+    parser.add_argument('-b', '--gradient_accumulation_steps', type=int, default=1)
     parser.add_argument('-ep', '--epochs', type=int, default=2)
 
     args = parser.parse_args()
@@ -163,6 +165,7 @@ if __name__ == "__main__":
 
     dict_label = {1: " True", 0: " False"}
     BATCH_SIZE = args.batch_size
+    GRADIENT_ACCUMULATION_STEPS = args.gradient_accumulation_steps
     EPOCHS = args.epochs
     MODEL = args.model
     DS = args.dataset
@@ -175,9 +178,6 @@ if __name__ == "__main__":
     TEST_DATA_FILE = f"../commonsense_data/{DS}/test{combined_name}.json"
 
     if not args.evaluation_only:
-        train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, dict_label, device)
+        train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, dict_label, device)
     evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device)
-
-
-
 
