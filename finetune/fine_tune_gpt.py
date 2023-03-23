@@ -156,7 +156,7 @@ if __name__ == "__main__":
     parser.add_argument('--datatype', type=str, default='normal')
     parser.add_argument('-e', '--evaluation_only', action='store_true')
     parser.add_argument('-b', '--batch_size', type=int, default=64)
-    parser.add_argument('-b', '--gradient_accumulation_steps', type=int, default=1)
+    parser.add_argument('-g', '--gradient_accumulation_steps', type=int, default=1)
     parser.add_argument('-ep', '--epochs', type=int, default=2)
 
     args = parser.parse_args()
