@@ -1,0 +1,251 @@
+Loading miniconda version 22.11.1-1
+/home/asheshadri_umass_edu/.conda/envs/memit/lib/python3.9/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 2452
+  Num Epochs = 2
+  Instantaneous batch size per device = 64
+  Total train batch size (w. parallel, distributed & accumulation) = 64
+  Gradient Accumulation steps = 1
+  Total optimization steps = 78
+Loaded dataset with 2452 elements
+Loaded dataset with 610 elements
+  0%|          | 0/78 [00:00<?, ?it/s]  1%|▏         | 1/78 [00:03<04:45,  3.70s/it]  3%|▎         | 2/78 [00:04<02:10,  1.72s/it]  4%|▍         | 3/78 [00:04<01:20,  1.08s/it]  5%|▌         | 4/78 [00:04<00:57,  1.29it/s]  6%|▋         | 5/78 [00:04<00:44,  1.63it/s]  8%|▊         | 6/78 [00:05<00:36,  1.95it/s]  9%|▉         | 7/78 [00:05<00:31,  2.23it/s] 10%|█         | 8/78 [00:05<00:28,  2.46it/s] 12%|█▏        | 9/78 [00:06<00:26,  2.64it/s] 13%|█▎        | 10/78 [00:06<00:24,  2.78it/s] 14%|█▍        | 11/78 [00:06<00:23,  2.88it/s] 15%|█▌        | 12/78 [00:07<00:22,  2.96it/s] 17%|█▋        | 13/78 [00:07<00:21,  3.01it/s] 18%|█▊        | 14/78 [00:07<00:20,  3.05it/s] 19%|█▉        | 15/78 [00:08<00:20,  3.08it/s] 21%|██        | 16/78 [00:08<00:20,  3.09it/s] 22%|██▏       | 17/78 [00:08<00:19,  3.11it/s] 23%|██▎       | 18/78 [00:09<00:19,  3.12it/s] 24%|██▍       | 19/78 [00:09<00:18,  3.12it/s] 26%|██▌       | 20/78 [00:09<00:18,  3.13it/s] 27%|██▋       | 21/78 [00:10<00:18,  3.14it/s] 28%|██▊       | 22/78 [00:10<00:17,  3.14it/s] 29%|██▉       | 23/78 [00:10<00:17,  3.14it/s] 31%|███       | 24/78 [00:11<00:17,  3.14it/s] 32%|███▏      | 25/78 [00:11<00:16,  3.14it/s] 33%|███▎      | 26/78 [00:11<00:16,  3.13it/s] 35%|███▍      | 27/78 [00:11<00:16,  3.13it/s] 36%|███▌      | 28/78 [00:12<00:15,  3.13it/s] 37%|███▋      | 29/78 [00:12<00:15,  3.13it/s] 38%|███▊      | 30/78 [00:12<00:15,  3.13it/s] 40%|███▉      | 31/78 [00:13<00:15,  3.13it/s] 41%|████      | 32/78 [00:13<00:14,  3.13it/s] 42%|████▏     | 33/78 [00:13<00:14,  3.13it/s] 44%|████▎     | 34/78 [00:14<00:14,  3.13it/s] 45%|████▍     | 35/78 [00:14<00:13,  3.13it/s] 46%|████▌     | 36/78 [00:14<00:13,  3.13it/s] 47%|████▋     | 37/78 [00:15<00:13,  3.13it/s] 49%|████▊     | 38/78 [00:15<00:12,  3.13it/s] 50%|█████     | 39/78 [00:15<00:10,  3.63it/s]***** Running Evaluation *****
+  Num examples = 610
+  Batch size = 64
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 30%|███       | 3/10 [00:00<00:00, 18.72it/s][A
+ 50%|█████     | 5/10 [00:00<00:00, 14.70it/s][A
+ 70%|███████   | 7/10 [00:00<00:00, 13.45it/s][A
+ 90%|█████████ | 9/10 [00:00<00:00, 12.87it/s][A                                               
+                                              [A 50%|█████     | 39/78 [00:16<00:10,  3.63it/s]
+100%|██████████| 10/10 [00:00<00:00, 12.87it/s][A
+                                               [ASaving model checkpoint to result/checkpoints/pep3k/gpt2-medium/combined/checkpoint-39
+Configuration saved in result/checkpoints/pep3k/gpt2-medium/combined/checkpoint-39/config.json
+Model weights saved in result/checkpoints/pep3k/gpt2-medium/combined/checkpoint-39/pytorch_model.bin
+ 51%|█████▏    | 40/78 [00:26<02:15,  3.58s/it] 53%|█████▎    | 41/78 [00:27<01:36,  2.60s/it] 54%|█████▍    | 42/78 [00:27<01:09,  1.92s/it] 55%|█████▌    | 43/78 [00:27<00:50,  1.44s/it] 56%|█████▋    | 44/78 [00:28<00:37,  1.10s/it] 58%|█████▊    | 45/78 [00:28<00:28,  1.15it/s] 59%|█████▉    | 46/78 [00:28<00:22,  1.42it/s] 60%|██████    | 47/78 [00:29<00:18,  1.70it/s] 62%|██████▏   | 48/78 [00:29<00:15,  1.97it/s] 63%|██████▎   | 49/78 [00:29<00:13,  2.21it/s] 64%|██████▍   | 50/78 [00:30<00:11,  2.42it/s] 65%|██████▌   | 51/78 [00:30<00:10,  2.60it/s] 67%|██████▋   | 52/78 [00:30<00:09,  2.73it/s] 68%|██████▊   | 53/78 [00:31<00:08,  2.84it/s] 69%|██████▉   | 54/78 [00:31<00:08,  2.91it/s] 71%|███████   | 55/78 [00:31<00:07,  2.97it/s] 72%|███████▏  | 56/78 [00:32<00:07,  3.01it/s] 73%|███████▎  | 57/78 [00:32<00:06,  3.04it/s] 74%|███████▍  | 58/78 [00:32<00:06,  3.06it/s] 76%|███████▌  | 59/78 [00:33<00:06,  3.08it/s] 77%|███████▋  | 60/78 [00:33<00:05,  3.09it/s] 78%|███████▊  | 61/78 [00:33<00:05,  3.09it/s] 79%|███████▉  | 62/78 [00:34<00:05,  3.10it/s] 81%|████████  | 63/78 [00:34<00:04,  3.10it/s] 82%|████████▏ | 64/78 [00:34<00:04,  3.10it/s] 83%|████████▎ | 65/78 [00:34<00:04,  3.11it/s] 85%|████████▍ | 66/78 [00:35<00:03,  3.11it/s] 86%|████████▌ | 67/78 [00:35<00:03,  3.11it/s] 87%|████████▋ | 68/78 [00:35<00:03,  3.11it/s] 88%|████████▊ | 69/78 [00:36<00:02,  3.11it/s] 90%|████████▉ | 70/78 [00:36<00:02,  3.11it/s] 91%|█████████ | 71/78 [00:36<00:02,  3.11it/s] 92%|█████████▏| 72/78 [00:37<00:01,  3.11it/s] 94%|█████████▎| 73/78 [00:37<00:01,  3.10it/s] 95%|█████████▍| 74/78 [00:37<00:01,  3.10it/s] 96%|█████████▌| 75/78 [00:38<00:00,  3.10it/s] 97%|█████████▋| 76/78 [00:38<00:00,  3.09it/s] 99%|█████████▊| 77/78 [00:38<00:00,  3.09it/s]100%|██████████| 78/78 [00:39<00:00,  3.60it/s]***** Running Evaluation *****
+  Num examples = 610
+  Batch size = 64
+{'eval_loss': 1.2238551378250122, 'eval_runtime': 0.8039, 'eval_samples_per_second': 758.79, 'eval_steps_per_second': 12.439, 'epoch': 1.0}
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 30%|███       | 3/10 [00:00<00:00, 17.79it/s][A
+ 50%|█████     | 5/10 [00:00<00:00, 14.32it/s][A
+ 70%|███████   | 7/10 [00:00<00:00, 13.20it/s][A
+ 90%|█████████ | 9/10 [00:00<00:00, 12.66it/s][A                                               
+                                              [A100%|██████████| 78/78 [00:39<00:00,  3.60it/s]
+100%|██████████| 10/10 [00:00<00:00, 12.66it/s][A
+                                               [ASaving model checkpoint to result/checkpoints/pep3k/gpt2-medium/combined/checkpoint-78
+Configuration saved in result/checkpoints/pep3k/gpt2-medium/combined/checkpoint-78/config.json
+Model weights saved in result/checkpoints/pep3k/gpt2-medium/combined/checkpoint-78/pytorch_model.bin
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+Loading best model from result/checkpoints/pep3k/gpt2-medium/combined/checkpoint-78 (score: 1.1773793697357178).
+                                               100%|██████████| 78/78 [00:53<00:00,  3.60it/s]100%|██████████| 78/78 [00:53<00:00,  1.44it/s]
+***** Running Evaluation *****
+  Num examples = 610
+  Batch size = 64
+{'eval_loss': 1.1773793697357178, 'eval_runtime': 0.8121, 'eval_samples_per_second': 751.147, 'eval_steps_per_second': 12.314, 'epoch': 2.0}
+{'train_runtime': 54.0068, 'train_samples_per_second': 90.803, 'train_steps_per_second': 1.444, 'train_loss': 1.501970926920573, 'epoch': 2.0}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 16.78it/s] 50%|█████     | 5/10 [00:00<00:00, 14.01it/s] 70%|███████   | 7/10 [00:00<00:00, 13.02it/s] 90%|█████████ | 9/10 [00:00<00:00, 12.59it/s]100%|██████████| 10/10 [00:00<00:00, 13.38it/s]
+Saving model checkpoint to result/best-checkpoints/pep3k/gpt2-medium/combined
+Configuration saved in result/best-checkpoints/pep3k/gpt2-medium/combined/config.json
+Model weights saved in result/best-checkpoints/pep3k/gpt2-medium/combined/pytorch_model.bin
+loading configuration file result/best-checkpoints/pep3k/gpt2-medium/combined/config.json
+Model config GPT2Config {
+  "_name_or_path": "result/best-checkpoints/pep3k/gpt2-medium/combined",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_inner": null,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "n_special": 0,
+  "predict_special_tokens": true,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.23.1",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+
+loading weights file result/best-checkpoints/pep3k/gpt2-medium/combined/pytorch_model.bin
+All model checkpoint weights were used when initializing GPT2LMHeadModel.
+
+All the weights of GPT2LMHeadModel were initialized from the model checkpoint at result/best-checkpoints/pep3k/gpt2-medium/combined.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use GPT2LMHeadModel for predictions without further training.
+Could not locate the tokenizer configuration file, will try to use the model config instead.
+loading configuration file config.json from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-medium/snapshots/425b0cc90498ac177aa51ba07be26fc2fea6af9d/config.json
+Model config GPT2Config {
+  "_name_or_path": "gpt2-medium",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_inner": null,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "n_special": 0,
+  "predict_special_tokens": true,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "transformers_version": "4.23.1",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+
+loading file vocab.json from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-medium/snapshots/425b0cc90498ac177aa51ba07be26fc2fea6af9d/vocab.json
+loading file merges.txt from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-medium/snapshots/425b0cc90498ac177aa51ba07be26fc2fea6af9d/merges.txt
+loading file tokenizer.json from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-medium/snapshots/425b0cc90498ac177aa51ba07be26fc2fea6af9d/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at None
+loading configuration file config.json from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-medium/snapshots/425b0cc90498ac177aa51ba07be26fc2fea6af9d/config.json
+Model config GPT2Config {
+  "_name_or_path": "gpt2-medium",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_inner": null,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "n_special": 0,
+  "predict_special_tokens": true,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "transformers_version": "4.23.1",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+
+{'eval_loss': 1.1773793697357178, 'eval_runtime': 0.8326, 'eval_samples_per_second': 732.602, 'eval_steps_per_second': 12.01, 'epoch': 2.0}
+Loaded dataset with 2452 elements
+Loaded dataset with 610 elements
+Loaded dataset with 3062 elements
+train Accuracy =  0.6088907014681892
+train F1 score =  0.7261245396159577
+train Confusion Matrix = 
+ [[ 478  748    0]
+ [ 211 1015    0]
+ [   0    0    0]]
+Classification Report: 
+               precision    recall  f1-score   support
+
+        True       0.69      0.39      0.50      1226
+       False       0.58      0.83      0.68      1226
+        None       1.00      1.00      1.00         0
+
+   micro avg       0.61      0.61      0.61      2452
+   macro avg       0.76      0.74      0.73      2452
+weighted avg       0.63      0.61      0.59      2452
+
+valid Accuracy =  0.4737704918032787
+valid F1 score =  0.6236077031535181
+valid Confusion Matrix = 
+ [[ 65 240   0]
+ [ 81 224   0]
+ [  0   0   0]]
+Classification Report: 
+               precision    recall  f1-score   support
+
+        True       0.45      0.21      0.29       305
+       False       0.48      0.73      0.58       305
+        None       1.00      1.00      1.00         0
+
+   micro avg       0.47      0.47      0.47       610
+   macro avg       0.64      0.65      0.62       610
+weighted avg       0.46      0.47      0.44       610
+
+test Accuracy =  0.5424559111691705
+test F1 score =  0.6739773703377122
+test Confusion Matrix = 
+ [[ 442 1089    0]
+ [ 312 1219    0]
+ [   0    0    0]]
+Classification Report: 
+               precision    recall  f1-score   support
+
+        True       0.59      0.29      0.39      1531
+       False       0.53      0.80      0.64      1531
+        None       1.00      1.00      1.00         0
+
+   micro avg       0.54      0.54      0.54      3062
+   macro avg       0.70      0.69      0.67      3062
+weighted avg       0.56      0.54      0.51      3062
+
