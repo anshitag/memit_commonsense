@@ -1,7 +1,6 @@
-import argparse
-from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer
+import argparse, os, json
+from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer, EarlyStoppingCallback
 from torch.utils.data import Dataset, DataLoader
-import json
 import torch
 from pathlib import Path
 from sklearn import metrics
@@ -90,7 +89,9 @@ def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_S
     train_dataset = CommonSenseDataset(TRAIN_DATA_FILE, tok, 'training', dict_label)
     valid_dataset = CommonSenseDataset(VALID_DATA_FILE, tok, 'training', dict_label)
 
-    training_args = TrainingArguments(output_dir=f'result/checkpoints/{DS}/{MODEL}/{DATATYPE}/{wandb.run.name}', 
+    checkpoint_path = f'result/checkpoints/{DS}/{MODEL}/{DATATYPE}/{wandb.run.name}'
+
+    training_args = TrainingArguments(output_dir=checkpoint_path, 
                                 num_train_epochs=EPOCHS,
                                 save_total_limit = 2,
                                 load_best_model_at_end=True, 
@@ -133,11 +134,15 @@ def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_S
                 train_dataset=train_dataset, 
                 eval_dataset=valid_dataset,
                 data_collator=data_collator,
-                compute_metrics=compute_metrics)
+                compute_metrics=compute_metrics,
+                callbacks=[EarlyStoppingCallback(early_stopping_patience=3)])
+
 
     trainer.train()
     print(trainer.evaluate())
     trainer.save_model(output_dir=f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}/{wandb.run.name}')
+
+    os.system(f"rm -rf {checkpoint_path}")
     return model
 
 
