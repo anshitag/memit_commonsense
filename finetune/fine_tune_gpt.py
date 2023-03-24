@@ -67,7 +67,7 @@ def next_word_prediction(model, dataloader, tok):
 def calculate_metrics(orig_label, pred_label, split, labels):
 
     print(f'{split} Accuracy = ', metrics.accuracy_score(orig_label, pred_label))
-    print(f'{split} F1 score = ', metrics.f1_score(orig_label, pred_label, average='macro', labels=labels, zero_division=1))
+    print(f'{split} F1 score = ', metrics.f1_score(orig_label, pred_label, average='weighted', labels=labels, zero_division=1))
     try:
         print(f'{split} Confusion Matrix = \n', metrics.confusion_matrix(orig_label, pred_label, labels=labels))
     except:
@@ -75,7 +75,7 @@ def calculate_metrics(orig_label, pred_label, split, labels):
     print('Classification Report: \n',  metrics.classification_report(orig_label, pred_label, labels=labels, zero_division=1))
 
 
-def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, dict_label, device):
+def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, LEARNING_RATE, dict_label, device):
 
     model = AutoModelForCausalLM.from_pretrained(MODEL).to(device)
     tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True, padding_side="left")
@@ -87,24 +87,46 @@ def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_S
     training_args = TrainingArguments(output_dir=f'result/checkpoints/{DS}/{MODEL}/{DATATYPE}', 
                                 num_train_epochs=EPOCHS,
                                 save_total_limit = 2,
-                                # load_best_model_at_end=True, 
+                                load_best_model_at_end=True, 
                                 save_strategy="epoch", 
                                 evaluation_strategy="epoch",
                                 per_device_train_batch_size=BATCH_SIZE, 
                                 per_device_eval_batch_size=BATCH_SIZE,
-                                gradient_accumulation_steps=GRADIENT_ACCUMULATION_STEPS, 
+                                gradient_accumulation_steps=GRADIENT_ACCUMULATION_STEPS,
+                                learning_rate=LEARNING_RATE,
                                 weight_decay=0.01,
+                                metric_for_best_model='f1_score',
                                 disable_tqdm=True)
 
     data_collator = lambda data: {'input_ids': torch.stack([f[0] for f in data]),
                                 'attention_mask': torch.stack([f[1] for f in data]),
                                 'labels': torch.stack([f[0] for f in data])}
+    
+    p_index, n_index, other_index = dict_label[1], dict_label[0], "None"
+    possible_labels = [p_index, n_index, other_index]
+
+    def compute_metrics(p):
+        predictions, labels = p
+        predictions = tok.batch_decode(predictions[:, -2, :].argmax(axis=-1).flatten())
+        predictions = [other_index if i not in dict_label.values() else i for i in predictions]   
+        labels = tok.batch_decode(labels[:, -1].flatten())
+        try:
+            confusion_matrix = metrics.confusion_matrix(predictions, labels, labels=possible_labels)
+        except:
+            confusion_matrix = None
+        print('Confusion Matrix: ', confusion_matrix)
+        return {
+                'accuracy': metrics.accuracy_score(predictions, labels),
+                'f1_score': metrics.f1_score(predictions, labels, average='weighted', labels=possible_labels, zero_division=1)
+        }
+
     # start training
     trainer = Trainer(model=model, 
                 args=training_args, 
                 train_dataset=train_dataset, 
                 eval_dataset=valid_dataset,
-                data_collator=data_collator)
+                data_collator=data_collator,
+                compute_metrics=compute_metrics)
 
     trainer.train()
     print(trainer.evaluate())
@@ -158,6 +180,7 @@ if __name__ == "__main__":
     parser.add_argument('-b', '--batch_size', type=int, default=64)
     parser.add_argument('-g', '--gradient_accumulation_steps', type=int, default=1)
     parser.add_argument('-ep', '--epochs', type=int, default=2)
+    parser.add_argument('-lr', '--learning_rate', type=float, default=5e-5)
 
     args = parser.parse_args()
 
@@ -169,7 +192,8 @@ if __name__ == "__main__":
     EPOCHS = args.epochs
     MODEL = args.model
     DS = args.dataset
-    DATATYPE = args.datatype 
+    DATATYPE = args.datatype
+    LEARNING_RATE = args.learning_rate
 
     combined_name = '_' + DATATYPE if DATATYPE != 'normal' else ''
 
@@ -178,6 +202,6 @@ if __name__ == "__main__":
     TEST_DATA_FILE = f"../commonsense_data/{DS}/test{combined_name}.json"
 
     if not args.evaluation_only:
-        train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, dict_label, device)
+        train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, LEARNING_RATE, dict_label, device)
     evaluate(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device)
 

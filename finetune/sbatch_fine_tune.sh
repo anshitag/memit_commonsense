@@ -10,7 +10,7 @@
 module load miniconda
 conda activate memit
 
-python3 fine_tune_gpt.py --model gpt2-large --dataset 20q --datatype normal --epochs 2 --batch_size 64
+python3 fine_tune_gpt.py --model gpt2-large --dataset 20q --datatype normal --epochs 2 --batch_size 64 --learning_rate 4e-5
 
 #for evaluation only:
 # python3 fine_tune_gpt.py --model gpt2-large --dataset 20q --datatype normal --evaluation_only
