@@ -1,0 +1,28 @@
+name: ft_large-20q-c
+description: Fine Tune GPT-Large model for Common Sense Data
+command:
+- python
+- ${program}
+- ${args}
+program: fine_tune_gpt.py
+metric:
+  goal: maximize
+  name: test_f1Score
+method: random
+parameters:
+  log2_batch_size:
+    distribution: int_uniform
+    max: 6
+    min: 3
+  learning_rate:
+    distribution: log_uniform_values
+    max: 0.05
+    min: 0.005
+  model:
+    value: gpt2-large
+  dataset:
+    value: 20q
+  datatype:
+    value: combined
+  epochs:
+    value: 10
