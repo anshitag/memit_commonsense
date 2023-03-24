@@ -90,39 +90,60 @@ def train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_S
     train_dataset = CommonSenseDataset(TRAIN_DATA_FILE, tok, 'training', dict_label)
     valid_dataset = CommonSenseDataset(VALID_DATA_FILE, tok, 'training', dict_label)
 
-    training_args = TrainingArguments(output_dir=f'result/checkpoints/{DS}/{MODEL}/{DATATYPE}', 
+    training_args = TrainingArguments(output_dir=f'result/checkpoints/{DS}/{MODEL}/{DATATYPE}/{wandb.run.name}', 
                                 num_train_epochs=EPOCHS,
-                                # save_total_limit = 2,
-                                # load_best_model_at_end=True, 
-                                save_strategy="no", 
+                                save_total_limit = 2,
+                                load_best_model_at_end=True, 
+                                save_strategy="epoch", 
                                 evaluation_strategy="epoch",
                                 per_device_train_batch_size=BATCH_SIZE, 
-                                per_device_eval_batch_size=BATCH_SIZE,
+                                per_device_eval_batch_size=BATCH_SIZE,  
                                 gradient_accumulation_steps=GRADIENT_ACCUMULATION_STEPS, 
                                 weight_decay=0.01,
                                 disable_tqdm=True,
                                 learning_rate=LEARNING_RATE,
+                                metric_for_best_model='f1_score',
                                 report_to="wandb")
 
     data_collator = lambda data: {'input_ids': torch.stack([f[0] for f in data]),
                                 'attention_mask': torch.stack([f[1] for f in data]),
                                 'labels': torch.stack([f[0] for f in data])}
+    
+    p_index, n_index, other_index = dict_label[1], dict_label[0], "None"
+    possible_labels = [p_index, n_index, other_index]
+
+    def compute_metrics(p):
+        predictions, labels = p
+        predictions = tok.batch_decode(predictions[:, -2, :].argmax(axis=-1).flatten())
+        predictions = [other_index if i not in dict_label.values() else i for i in predictions]   
+        labels = tok.batch_decode(labels[:, -1].flatten())
+        try:
+            confusion_matrix = metrics.confusion_matrix(labels, predictions, labels=possible_labels)
+        except:
+            confusion_matrix = None
+        print('Confusion Matrix: ', confusion_matrix)
+        return {
+                'accuracy': metrics.accuracy_score(labels, predictions),
+                'f1_score': metrics.f1_score(labels, predictions, average='weighted', labels=possible_labels, zero_division=1)
+        }
+
     # start training
     trainer = Trainer(model=model, 
                 args=training_args, 
                 train_dataset=train_dataset, 
                 eval_dataset=valid_dataset,
-                data_collator=data_collator)
+                data_collator=data_collator,
+                compute_metrics=compute_metrics)
 
     trainer.train()
     print(trainer.evaluate())
+    trainer.save_model(output_dir=f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}/{wandb.run.name}')
     return model
-    # trainer.save_model(output_dir=f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}')
 
 
-def evaluate(model, MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device):
-
-    # model = AutoModelForCausalLM.from_pretrained(f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}').to(device)
+def evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device):
+    if not model:
+        model = AutoModelForCausalLM.from_pretrained(f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}/{RUN_NAME}').to(device)
     tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True, padding_side="left")
     tok.pad_token = tok.eos_token
 
@@ -172,6 +193,7 @@ if __name__ == "__main__":
     parser.add_argument('-l', '--learning_rate', type=float, default=5e-5)
     parser.add_argument('--wandb_account', type=str, default="anshitag")
     parser.add_argument('--wandb_project', type=str, default="memit_commonsense")
+    parser.add_argument('--run_name', type=str, default=None) # Specify when evaluating
 
     args = parser.parse_args()
 
@@ -187,6 +209,7 @@ if __name__ == "__main__":
     DS = args.dataset
     DATATYPE = args.datatype 
     LEARNING_RATE = args.learning_rate
+    RUN_NAME = args.run_name
 
     combined_name = '_' + DATATYPE if DATATYPE != 'normal' else ''
 
@@ -194,6 +217,7 @@ if __name__ == "__main__":
     VALID_DATA_FILE = f"../../../commonsense_data/{DS}/valid{combined_name}.json"
     TEST_DATA_FILE = f"../../../commonsense_data/{DS}/test{combined_name}.json"
 
+    model = None
     if not args.evaluation_only:
         model = train(MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, LEARNING_RATE, dict_label, device)
-    evaluate(model, MODEL, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device)
+    evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_FILE, TEST_DATA_FILE, BATCH_SIZE, dict_label, device)
