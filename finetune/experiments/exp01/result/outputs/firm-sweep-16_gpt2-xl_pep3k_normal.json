@@ -1,0 +1,7657 @@
+[
+    {
+        "prompt": "A horse rides cat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the pitcher pours water",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Camel rides bike",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an ant throws cat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The mother drove truck",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man hugs ant",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the shirt damages pebbles",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Water warms fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "sand destroys flour",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man fries air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A sponge dampens rag",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "woman dumps air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "crab push cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a skyscraper crashed laptop",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "worm rolls log",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog licks smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a bear pets horse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Worm bends rabbit",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog clean cloth",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Child tugged chair",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Smoke masks laptop",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "stick draws castle",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The worm entered skyscraper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand severs arm",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hay constructs house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pillow covers elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "knife crops pillow",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a cup dumped elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "hand rolls plane",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Soil absorbs oil",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "policeman burns chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "boat hurl hair",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl drags purse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A neck hung boat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man pokes bread",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The dentist bites air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Worm kneads elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a horse tugged at smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The elephant rotated car",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man kneads scissors",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Policeman wears water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The elephant pulled boat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a lion vomits mud",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the clown closes house",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ant opens door",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The hand seized book",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "barrier halts house",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A woman smashes house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Needle sews rug",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "cotton sharpens glass",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Ant seizes horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Tree kick ball",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "stick hangs cream",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rabbit moves gorilla",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an elephant rolls rock",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "oil dampens skyscraper",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "man covers air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Man hauls elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Mud covered girl",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "House absorbs air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "brick kills table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dolphin kisses egg",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "table puffs smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The sun burned ham",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the bear licks cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Child wears tent",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man chews rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the scissors erase text",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Worm moves turtle",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the house punches wall",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a spatula attached string",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a gorilla entered basket",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog shakes monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dentist bakes air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The wolf struck car",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man drops car",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the hand grabs shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The chair absorbed water",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Water crashes house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a butterfly tugged table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Soil buries remote",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A man destroys water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an elephant swallows skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The monkey choked dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the hand hurled bag",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the water filled plate",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the child rode horse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Clown drains air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rabbit moves pebble",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dog hauls air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand trims pillow",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cake hits fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the shovel erases paint",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The dog rode monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "knife slices vapor",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "elephant strokes pea",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Finger hang ring",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chef drives car",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "rabbit jails book",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "water cannot tickle wolf",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the woman knitted sweater",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Woman chokes rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a monkey lifts rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "rabbit toss student",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "woman enters room",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "gorilla grabs wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "House leaks gas",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the gorilla rides camel",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a worm plucks pumpkin",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "oil tap floor",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Lion rolls house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cat lifts horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "screwdriver fixes door",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a boat hits brother",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man flips wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Stoves chill tables",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hay constructs boat",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Mud masks face.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cat stole turtle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "tube ejects water",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "plant buries air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A man wrestles butterfly",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The pen drew water",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl chops smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "An ant curbs scooter",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Car pushes air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The elephant dropped lion",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the eraser erases stain",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman grips cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a wolf bites its tongue",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a dog yanks trash.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a chef jails dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "rock flattens shirt",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the ant moves bear",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "gorilla opens wardrobe",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "cat lifts rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a kid squashes fruit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Desert beats oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Man jails air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man erected bug",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Woman grab water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The nail severed dough",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "girl fix air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dog ticks cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "milk wets lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a clown rides log",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pillow tears shirt",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Shark kills girl.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the pen tore shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Smoke draw illustration",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Man wrestles dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a tongue licks bear",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a dentist clenches wool",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "man hits remote",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cat bit turtle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the rabbit drinks soda",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "AC cools fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pin etches house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cloth erases wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a woman drinks beer",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rock fractures water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "cup carries water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a nail scratches pin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the boy punches air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The woman packed cake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the sun heats rust",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Monkey drops elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a hand held air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Smoke masks computer",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Woman constructs puzzle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ants squash grapes",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Fire warms log",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a cup drains lake",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the infant chokes gorilla",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Shovel drains sink",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man breaks arm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man rides scooter",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bug drags cat",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pen cannot pierce car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dog exhales pillow",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the screwdriver scraped wood",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an ant rotates cat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a pen etches cake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Woman peels skin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a child snatches spatula",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hay buries laptop",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man packs air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dog plucks pumpkin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The child packed leaf.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "canoe capsize rabbit",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man count mud",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The man grabbed grape",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "girl breeds horse",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the box spills Legos.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a lion swallows dog",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "pen etches grape",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man pushes chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a beak scratches apple",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pipe vented air",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Box spills dust",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a toe pushes door",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "girl buries rain",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rock attacks people",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pillow hurts man",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Monkey sew curtain",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "laptop kills rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a tree contains leaves",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man strikes dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man rolls ball",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "air chills water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Paper ticks table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chef fry water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hammer smashes bone",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Women fry boats",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Man erects air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Lion heaves log.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man halts person",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Student knits carpet",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "pen etches oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a mallet minces dough",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a monkey steals shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the girl created infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A pillow cropped plant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A pillow breaks table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a woman clips dog",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cake fed clown",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Knife digs bike",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Air carries rust",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The beak tapped purse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pipe puffs air",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "dog fry meat",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Marker fuses shirt",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "dog chafes oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a cat flips egg",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A man breaks air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the boot flattened shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a hand cannot peel rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a tube ejaculates laptop",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "air kills worm",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "bird fishes pumpkin",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Monkey shoves horse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a wolf bent chair",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A bottle ejaculated on man",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a monkey fills cup",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wall hooks fish",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The monkey constructed nest",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Monkey hugs pea",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A rock films skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the dog fishes elephant",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rock slams sand",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Shark kills human",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rabbit erects wall",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Bottle spills beans",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the chef chokes laptop",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The hand fastened crab",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The giraffe licked frosting",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Thigh chafes boxers",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a shovel flipped hill",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the girl flips rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the child jailed monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cat flips pin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The stove warmed rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Infant capsizes house",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The finger scratched board",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Student bites oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "air digs sand",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "man chafes water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "monkey shakes elephant.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rock sharpens milk",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Elephant spin air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a cat plucked pumpkin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hooked rod with arm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an elephant shook house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a child films water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Sword sharpens pencil",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rock hit fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Tongue licks smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dentist climbs worm",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand hurls air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Man drives van",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the chisel scrapes table",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "smoke poisons banana",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A man threw bus",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "rope hurls boat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Finger hook lion",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "glue attaches note",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "horse kicks milk",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The elephant strokes hay",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a girl cannot burn desert",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Wall hooks dolphin",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "student bury smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a nail slashes skin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a policeman shakes door",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "pipe leaks milk",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A knife chops spatula",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man carries elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "beak tap cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand stretch dumbbell",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rabbit drives train",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Child spins car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand peels pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The barber packed laptop",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the rock crushed box",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rock hurls trolley",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "student grabs stairs",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Air poisons girl",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "bug catches dog",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "air freezes fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man climbs ladder",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl kill time",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rabbit grasps ant",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an arm hooked house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Gorilla rolls log",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Monkey clenches house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a stick folds cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the screwdriver scraped plane",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man grabs ham",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "scissors crop paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the dog draws computer",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wool sever shirt",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the girl opened door",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cake feed arm",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the dentist cooks beer",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a crab lifts horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rabbit bends table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Woman fixes tire",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A rope poured milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Camel enters cup",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the hand shoves milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bed poke oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The water fed horse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the gorilla hugged dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Skyscraper leaks gas",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The spatula flattened bug",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an infant draws pumpkin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the child swallows pen",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Boat hurl skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pebbles bite turtle",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wood fractures pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "man rubs water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the barrier halted person",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man lifts paper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "wrestler lift elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a chef catches air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Paper burns air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a policeman clips laptop",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Men chill juice",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The stick shoved bear",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pen pour juice",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bear hugs chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a girl builds laptop",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bowl contains horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the freezer freezes rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Sand beats dollar",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the elephant strokes tree",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Policeman drinks pebbles",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an ant drives car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the wind scratches arm",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wolf snatches child",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "worm spins ball",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chairs bake chefs",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man fries cake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "child grasps hand.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The man hauled girl.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cat entered box",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the oil dampens rain",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl destroys oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the belt fastened lion",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "girl constructs building",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the chef drank milk",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rock filmed house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the dog pets rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl tosses bear",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog licks hand",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pillow cuts bread",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Sponge absorbs oil",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "infant lifts elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand grabs skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pea kick ball.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The knife trimmed pencil",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a chef filmed man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The lion wears carpet",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rope hooks stick",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "woman drops air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the lion stomps table",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "butterfly whisks rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A girl chills chair",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A cat created grape",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an axe attacks boxer",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the fox snatched pen",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "crow snatches beans",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a spatula cooks egg",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a house ate man",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a car crushed air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a lion curbs door",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "gorilla tickles elephant",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the knife sharpens shirt",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "tree punch dog",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The elephant vomited man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "An ant kisses his girlfriend",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Shovel peels cream",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "purse masks hand",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the child slides ship",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The chef gripped bread",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a chef fries egg",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pin freezes fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A cat strikes pond",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an arm holds monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hair hurl trucks",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the spider poisoned dolphin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man tore apple",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bed pokes baby",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Chef creates table",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "ant moves table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "rope fastens atom",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The man cropped picture.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a clown crops bush",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man grips elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Worm shakes door",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "wind cannot dampen rain",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a dog enters box",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a shirt cannot erase house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rabbit drink water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "man moves table",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the hammer flattened cake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the pen pierced pillow",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cloth erases air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A cat jails girl",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pen draws oil",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the clown halts person",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cleaver slashes branch",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a finger hangs rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "rope drags garbage",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Scissors attack policeman's",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The villain baked cookies",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a girl fried air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a girl rides needle",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The monkey rotated dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A bird builds car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "wall halts girl",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the air erases table",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man fishes air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a dentist capsizes canoe",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Skyscraper eats man",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the spoon bends rock",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Knife trims skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The child fried worm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man pulls woman",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Tree vents smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Signaled boat to halt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a girl cuts chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man snatched rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A cat drives train",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Kangaroo kicks smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A horse drags house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a foot squashes ant",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Girl cook with spatula",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hand wear carpet",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Mud taps cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man hurls air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "legs drag bag",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the girl caught dentist",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl erects water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a scooter spills shirt",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand grips pan",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cup covers house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Laptop absorbs oil",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The bottle leaked oil",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Saw minces air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a spatula squashes ant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "mouth puffs water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Horse breeds cow",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a stick rips rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A lion enters bowl",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "meat absorbs water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Ice freezes water",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ants punch walls",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a hand throws monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the girl chewed dust",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The man packed bag",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a monkey pulls rope.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A man feeds remote",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a hook cannot hang house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man closes rock",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pillow rubs pebbles",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a fist broke rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The fire warmed vapor",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a dog attacks feather",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a bucket dumped dirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The knife erased text",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A tree punches oxygen.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "vapor taps floor",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "chef punches wall",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the finger closes oven",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "shirt cleans stairs",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Fingers spin beans",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a boat vents air",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the monkey exhales fumes",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man lifts leaf",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Worm plucks apple",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "girl rides log",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hay digs dirt",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ant rolls log",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rabbit grips stick",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "scissors slash paper.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "child steals cake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hand holds pen",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Elephant stroke ant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Wife cleans laundry",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The air digs ground",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pitcher pours cream",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Oven heats food",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "House breeds tree",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Scissors cut paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "dog heats sand",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Book sharpens knife",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a kid squashes closet",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a lion wrestles tree",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a balloon leaked rabbit",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cat petted monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A fox snatched horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a spatula minced paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A car filled sink",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "scissors clip magazine",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Elephant yank pea",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the bowl contains knife",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Lion vomits tree.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man dug sand",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "officer jails dentist",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Elephant hug water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a lion swallows house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a dog carries house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "house fills plate",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cup crops rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Kids carry chefs",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman gripped wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A knife trims rope",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The belt fastened spatula",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an infant cannot rotate house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "bush chews pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Fingers scratch milk",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man cannot flip air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "dog yanks butterfly",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man beat dress",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl grope melon",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Barber packs skyscraper.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "shark kills ocean",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man clips water",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a girl sews rug.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Monkey hauls cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a policeman cannot hold boat",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the helicopter lifted dumbbell",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man count coins",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Monkey grasps ant",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the monkey hugs rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "AC cools moon",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the girl crushed infant.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Poisoned food for bird",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cat opens door",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "building crashes bike",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Infant draws bear",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rock fractures pillow",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bottle leaks cup",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a beak scratches hand",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an ant hooked mud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A rabbit burns ham",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pillow smashed table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand shoves dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog lick wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "cat wrestles leaf",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hook hangs skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The knife bent spatula",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wolf swallows dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "pebbles fasten to air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "student carries air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the vapor wetted car",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a child slid dolphin",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the finger rubs plastic",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a clown drives car.",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "cloth erases cream",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The girl lengthened string",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ape kisses remote",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a grandma knits wool",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The wind chilled student",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "mouth puff mud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The ant seized pin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Gorilla buries leaf",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman feeds dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Mud is erased by cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A purse contains lion",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an ant hurls closet",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "An infant fixed man",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Student count water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "House contains wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a tube squirted pen",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wind rips dough",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the pebbles hurt ocean",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Water wets ocean",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "hands dig dirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The daughter caught bird",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Student eats lava",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the scissors trim rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man strokes atom",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The dog moved infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a hand smashes rock",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "elephant squashes bus",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the mud cleans skyscraper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The elephant wore carpet",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man spills rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the infant puffed smoke",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Worker builds school",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an elephant enters basket",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "girl enters room",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wind rips rust",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rock yanks house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "panda chokes dolphin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Screwdriver fixes house",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a girl leaks blood",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pencil hang horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a hand taps scooter",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rope fastens water.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Sword sharpens log",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Water poisons bush",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "An ant stretched pillow",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Students destroy air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Car pushes smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Monkey grasps bat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the television broke fridge",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "pond wet milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Gorilla grabs apple",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man crushes pillow",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand rotate cream",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "ice freezes fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "knife smashes bone",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rope drags trash",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The beak tapped chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "sword fractures bone",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The writer drew pumpkin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man steals lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "student kneads clay",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bush slashes cleaver",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a monkey slams cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Chef hugs ant",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man moves chair",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Sword slashes cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a child packs pencil",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Skyscraper fills plate",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an artist crops hair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A book cools table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "and elephant hauled book.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rock strikes cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The man filmed shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wall halts wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "wool halts traffic",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Moon cools oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the rabbit drank milk",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the dog stomps gorilla",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an ant lifts pin",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "pin severs dough",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A dog whisks grape",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rope hooks pan",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The hand spun cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand pierces leaf",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pipe leaks water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the child rolled wheels",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog destroys pillow",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Horse crashes plane",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Ape kisses wolf",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pitcher pours rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a monkey fries cake",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cat stomps ant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "and plane squashes tree.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "tree kisses chef",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rice rips paper.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "House absorbs rain",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Book kiss remote",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a bug climbed mountain",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a crane lifts log",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Child throws book",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Bowl covers house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The laptop counted cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the uncle heaved table",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man folds lion",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cotton slashes paper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man gropes oil",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The stone broke window",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A worm opens door",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Arm fastens skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chef flips table",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Water close door",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man plucks truck",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the child slides book",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man kicks moon",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the infant drops paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man attacks cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Boat pulls truck",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ants stroke cream",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Bear strikes air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the mallet minced log",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "feather tickles horse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Oil curb boat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the arms dragged bag",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The claw seized beans",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a hand clenches bird",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the hand threw cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Screwdriver scrape sand.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Oven heats graph",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a girl plucked cream",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "student packs elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Policeman drains lake",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man eats computer",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a bear pets water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a train crashes computer",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "gas draws illustration",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Child chews gum",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Knife severs rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a ball hurled trolley",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wrench fixes elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man constructs building",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the knife pokes air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a hand taps floor",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "horse steals skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the wrench fixed car",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bear smash rust",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The woman films sofa",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The chef burned cake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Child shake house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a sword hurts skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The rain dampened man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The chef drained pond",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an infant strikes ball",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a monkey rotated bus",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an arm fastens house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "house curbs bike",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "brick hurts dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a knife slices hand",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the crow snatched pebbles",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the air beats dress",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the knife etches pebbles",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Chisel etches skyscraper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Student drives tractor",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog licks grape",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a knife tears rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cow opens wardrobe",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "dirt cleans room",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "car smashes table",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A lion constructs cat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand gropes wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "child counts oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The finger hung crab",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "lion moves horse",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the girl kills dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "sand breaks pillow",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dentists attach strings",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Giraffe bakes cake",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a child stomped apple",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand seizes water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "wool freezes smoke.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the car pushed lion",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "car fills cup",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the girl plucked potato",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Aeroplane crashes into car",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man fed gorilla",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a knife slices dough",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Tree kicks table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The apple beat turtle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Kid squash apple",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "woman wears water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The cleaver slashed bush",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man fixes water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A bear smashes water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Oil heats lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an arm hooked spatula",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "rope attaches letter",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a stick draws house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A dog damages hill",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "butterfly tackles rabbit",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cat kneaded mud",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man fixes cream",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the brother hurts book",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The dog exhaled air",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chef drags stove",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pipe ejects cream",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ant heaves pea",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a horse wears necklace",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the hook fishes ring",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the worm slams door",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A boat contains lion",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "elephant shakes smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cord attacks air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Infant chew toy",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a chef cuts leaf",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a student erects wall",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cat drags lion",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "elephant tosses boat",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a sword slices pencil",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The man stomped spoon",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "clown packs water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "water dampens cloth",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A man hits lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the woman eats wind",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the bug folds pillow",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the nail scratched paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a bowl held gorilla",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the shovel peels milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pin digs mud",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a map attached string",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the crab attacks wolf",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Elephant stomps air.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pipes puff windows",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Scissors slices dough",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a cat exhales air",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a spider poisons table.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a pencil cannot hang gorilla",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rabbit capsizes bush",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "rock vent room",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the dog stole key",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bottle ejaculates shirt",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "stove heats flour",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "wind feeds man",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "glue fuses table",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the cat fries cake",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "ice heats man",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A monkey knits paper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "ant seizes cat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "fire crop pants",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand yanks bone",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "knife trims rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a girl burned her shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "knife etches water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a knife minces purse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a tube puffed air",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rock curbs bike",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Elephant rotates bowling",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Student breeds cow",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "zebra kills house.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a lion wrestles elephant",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a lion fixes car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "ship capsize house",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Oceans fuse shirts",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girls pluck sand",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl counts rice",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rabbit hugged air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The man damaged glass",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cloth erases dirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pillow scratch toe",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The chef baked butterfly",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Oven bakes cake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rice slashes pillows",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bug curb elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "clown plucks string",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "desk hits cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "cotton severs cloth",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog sews curtain",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a worm lengthens dough",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the faucet poured juice",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Horse throws elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "house squirt rust",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "mallet damages house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a dog cannot puff milk",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rabbit drops elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pebbles crash into ant",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "student climbs water.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "air dug lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the needle hooks fish",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the monkey slid pebbles",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a child dumps hill",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "wrench fixes wolf",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand pierces ant.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the chef burns air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the cloud flattens moon",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Child roll table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the woman tugs man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man swallows desk",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The toe stroked dentist",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Finger hooks shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hand gropes cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a child swallows nail",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a dentist plucks potato",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a grape poisoned bird",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "rabbit builds car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a pillow cannot flatten hammer",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pillows peel bananas",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a boy punched woman",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Finger yanks pebbles",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pet carries food",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Apple climb pin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "House heat air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cup buries sand",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the bag bakes chair",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Student whisk rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a finger strokes cup",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a string pierced board",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man pulled girl",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Woman grasps shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hammer smashes plastic",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "and spatula crashed bike.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bowl spills chair",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Sand cuts smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "air chills lion",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Oil wets milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Backpack contains cat.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man cannot drink ocean",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a bug films man",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a mole buries rain",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Shirt cuts wool",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A policeman rubs water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "man slides car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the ant tackles worm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman wears shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The room vented smoke.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Woman vomits pea",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the clown whisked milk",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a casket covered ground",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the bottle ejaculated water",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man snatches infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "water poisons rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "knife severs arm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man hugs infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cat damages lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "ice chilled oil",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "worm drinks gravy",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man kneads pillow",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "man halts elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "dog tackles cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "monkey strokes cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a boy cannot punch oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man tickled elephant.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The finger hit shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "oil wets oxygen",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the lion snatched child",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bear hugs pin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Torch burns cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man chews desk",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A cool water was ac",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a hook hangs cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the policeman spilled milk",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hands drag log",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Flour cuts pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Elephant pulls atom",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Glue fuses metal",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand stroke cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Spatula catches beans",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an elephant tackles car",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the car pulls mountain",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Child chew hay",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "student whisks gravy",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Paper slash pillow",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a shirt masks elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the sun freezes rock",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bat strikes car",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chef chops wood",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Woman counts air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cake feeds rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Grass fills tub",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the clown puffs milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "policeman cooks dolphin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Mayor jails person",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Elephant tackles bus",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Smoke freezes water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The man rotated cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Lion stomp air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A witch bites air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dog clenches rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hat cleans slate",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A horse steals house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "dentist drains rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "claw rips pillow",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Knife erases pond",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the scissors cropped pants",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman cannot peel key",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a shovel scrapes chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The spoon etched wall",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Skyscraper draw pumpkin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The girl drank beer",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a nose exhales air",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a pan contains horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "rope attaches turtle",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand throws air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a monkey steals cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man rubs pen",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A man lengthens pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Ant hugs atom",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the water curbs bike",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Boy punches smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Balloon leaks rain",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Stick slams cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A club crushes water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a fist beats rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wind chills table",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "woman punches dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pillow scrapes plate",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A cloud poked trolley",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "pebbles puffed smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The student filmed man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "spatula cools table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a hand rolls chair",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "bear creates man",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "sword slices chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an elephant stomps girl",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "rope fastens gorilla",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the desk hit bowling ball",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "policeman sews curtain",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Boat covers scissors",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the tiger heaved horse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a kangaroo kicked plug",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a dog jailed person",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A crow snatches air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "An ant masked face",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Clown breeds elephant",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a mallet kneads cake",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a child cannot whisk spatula",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Needle hurts rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The girl attached letter",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cat wrestles rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Freezer freezes meat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "cotton damaged pillow",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The bone fractured ice",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "air built bush",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "knife kills ant.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog constructs building",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rabbit clenches lion",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rain pokes oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Desert absorbs rubber",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Air chafes student",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Knife kills infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "clown chokes on chair",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Girl dumped cake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pillow minces bread",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "laptop pets rabbit",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a hook hangs pumpkin",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the purse contained scissors",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Finger tap table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand gropes policeman's",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Horses create skyscrapers",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Car hit brother's",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ant hooks stick",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The child dropped paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man pulled worm",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ant heaves box",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The horse threw man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man hurled monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "ant smashes pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rope yanked water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Child wears cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a bone fractures oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A chef jails air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rope yanks vapor",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the elephant tears tree",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "rabbit fix car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the lion destroyed house",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Water poisons pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Child shakes cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cream crashes house",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A clown chilled bear",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a dog folds chair",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "air feeds rabbit",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The bear destroyed cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Men slam smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cat pets dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pipe gas is poured",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Policeman gropes fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The clown whisked egg",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "and grandma sews paper.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a house cooled train",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "woman dumps wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chef slams smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "arrow pierces paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dentist chafes moon",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a worm bakes cake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the child whisks book",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "ant tackle boat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Mouth puffs smoke",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "rain rubbed meat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rock breaks pebbles",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "cats breed cows",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a girl hugged door",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a shovel digs air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an apple smashes bone",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a boat shakes laptop",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the mole buries cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hammer flattens apple",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A brother heaved paper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Oil rubs rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Robot attaches tape",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The woman built frame",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an infant carried gorilla",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a mother cleans house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "child shoves book",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the skyscraper contains gorilla",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Butterfly wears carpet",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "sword slash rust",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man stole crab",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The rabbit ate banana",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "map attaches note",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "An elephant vomited boat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Man clenches wallet",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an elephant pulls leaf",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Sidewalk pokes arm",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hose squirts juice",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man grabbed bike",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl chokes horse",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a bird stretched pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a knife crops shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A cat kneads elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a fist punches dumbbell",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The knife tore paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The cat vomited worm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman packs trash",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a wolf licked frosting",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Elephants tug peas",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "ant kisses fish",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The cat plucked flower",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the girl dropped water",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Beaver builds computer",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Spider poisons fox",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The car covered food",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the kid carries cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "goat eats steak",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a chef beats clown",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "cleaver slices monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man fixes boat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The clown baked infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Basket carries hat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Finger lengthens cord",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "air cools skyscraper",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an elephant pushes needle",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "crane lifts paper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man erects water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chef closes leaf.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A man pushes air.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The clown smashed cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand puff smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the ant heaves sand",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the child counts hair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rock damages table",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Crab moves gorilla",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Table vents gas",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Smoke opens window",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an ant swallows pin",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a chef films cake",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Bottle ejects gas",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A house poked sink",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Infant fishes fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man swallows pill",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man cannot stomp bear",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a hand grasps oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the finger hit pillow",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pillow crashed bike",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "mud cleans room",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rain buries man",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Policeman cooks stove",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The ant bit man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man steals knife",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the child closes bottle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "ship capsize basket",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cloth hurts foot",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a bone fractured mud",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog clips magazine",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cream opens window",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Shirt flattens hammer",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bus cools air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Water ticks horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a shovel digs hole",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "horse fills cup",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl chews laptop",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "wood fractures rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the robot built wall",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "crab vents smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the knife hurts gorilla",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the policeman held cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "spider poisons box",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Elephant chews turtle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand snatches car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "stick rip pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Table squirts water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a lion slides infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The blade cut bug",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bullet pierces cheese",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Knife digs ground",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a spatula erects horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the spatula breaks cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the oil dampened trash",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "girl covers wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A hand scraped table.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "plane enters room",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Man drops house",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A dog attaches paper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a monkey opens closet",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man poisons chair",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Lion throws man.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Belt fastens cup",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a spoon bites dog",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "child whisks dust.",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a chef poisons dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "barber packs ship",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The horse tackled man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the bowling crashes laptop",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Oil wets oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Bottle contains elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "hand seize milk",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Woman slides on ice",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "scissors trimmed monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "worm flips man",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hair mince dough",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man drops water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The rock beat cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "cat whisks sauce",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Child scrapes table",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a bottle spilled rice.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cat constructs skyscraper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Bear wrestles horse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Rabbit crashed plane",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The woman erected pen",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "rock strikes table",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hair minces vapor",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The monkey moved pebble",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a hand tears cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "and foot cannot squash plane.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pillow clip paper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "woman feeds laptop",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The stick scratched arm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the infant rotated ball",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Worm film man",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rabbit chewed diamond",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a worm rotated cat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man cleaned mud",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bottle ejaculates book",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a lion wears necklace",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a wolf cannot haul ant",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "sand buries bone",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "House contains man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the oil dampens book",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Chefs burn water",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a bird stretches tree",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a car smashes chair",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a chef tosses shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Horse wears boat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dentist drives van",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Woman capsize dog",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "pen pierces flour",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Shovel dump dirt",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the gorilla climbs boat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a tree hung necklace",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A plane squashes house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "arms bend flowers",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "chair absorbs pin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the net held infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The knife destroyed cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the octopus gropes cream",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wool destroys pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Knife severs rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "dog fishes for lion",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Stick severs paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a chef cannot close cake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Spatula drains sand",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a monkey peels tree",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "ant seizes pea",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "air digs mud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A ship vents milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Women kiss air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Tube ejaculates mud",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hand holds smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "sword slices air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "student chokes on banana",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Infant packs truck",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Man slides bus",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a cheetah ate grape",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a glass damages hand",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a car pushes fridge",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a desert absorbs water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "cup crops pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Woman drops pin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Shirt peels banana",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cloud flattens cup",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a lion cannot draw phone",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "monkey vent cream",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the water dampens water",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Elephant drops rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The rock sharpened knife",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "pin masks hand",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Claw rips mud",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man constructs sand",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The bear snatched pen",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a boxer cannot attack axe",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a butterfly tugged leaf",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Laptop beats crab",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dogs drive cars",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pebbles slice oxygen",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "hose squirts beans",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The man counted dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a chisel cannot scrape oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a tiger heaves door",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Houses poke mud",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the knife ripped paper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Child fixes computer",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Chef counts curtain",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a monkey puffs smoke",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an elephant yanked pin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a mallet flattened pumpkin",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a lion licks frosting",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an infant scrapes table",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rock yanked skyscraper",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A house contained tornado",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "acid beats coal",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an ant squashes pumpkin",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "An elephant filled bucket",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "nose chafe milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Woman tugs paper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "truck hauls garbage",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the worm wrestles student",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Oil and water don't mix",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Wolf stomps chair",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "pen severs cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ant spin scissors",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "hand shoves monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Chair yanks arm",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pin chafes gorilla",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ant lifts dumbbell",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Rock fractures plane",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A dog films sofa",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a boat crushes air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The brick killed rabbit",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The water dampened purse",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a leaf attached rope",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "table heats food",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The man whisked sauce",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Chef destroys wind",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Lake fuses tie",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a woman capsizes canoe",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "girl drops car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a pipe leaks rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Mud pull rope",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the cat folded silk",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "nails slash pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Monkey breaks lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the cat kicked girl",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man buries air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "dirt fills sink",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Girl wrestles student",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Monkey carries grape",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an elephant tugs bus",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hand closes book",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rock slammed table",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Water wets scissors",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a child sews rug",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman drained rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Lion covers infant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a rock slams lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Knives trim pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dog beats water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Trucks haul pins",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an elephant pulls house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Hand tears shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the woman lengthens pillow",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "chair hits cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man rolled car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The policeman constructed puzzle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Pebbles sharpened nail",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A pipe leaks brick",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a worm cannot heave boat",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Cat stomp toy",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the hand slices dog",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dentist chops mud",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Hand rolls bottle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "glue fuses chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "ice freezes monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman cannot construct air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "mouth chews apple",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the chef grasped shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cup spilled water",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a spider cannot attach rope",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "chef creates sun",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Woman slides water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a car covers grape",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "an ant seizes car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Mallet kneads wool",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "claw wears glove",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The person chafed chef",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "ant builds frame",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a kangaroo kicks oil",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the mayor jailed clown",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The chef exhales air",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a coach cut bread",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the camel enters bottle",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Lion rides bowl",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a girl constructs cream",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "chair crushes water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the enemy choked squirrel",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Child grasps air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pillows destroy rocks",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the plane breaks skyscraper",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dentist fries egg",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the boy plucked apple",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Air break pillow",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Tube pours cloud",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A child fished fire",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Ant hold earplug",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "oil closes bottle",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Knife fractures chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Dog destroys rain",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man fished ice",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "bullet pierces earring",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Faucet squirts pumpkin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the oven bakes fish",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Gorilla stretches snake",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl fries turtle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the hand grasped handle",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A chisel etched table",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "elephant tugs pin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A girl fished air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a stove bakes dolphin",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a stick hung water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the student burned oil",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a purse sewed rug",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a clown chewed tree",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "paper absorbs sunlight",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a cup pours mud",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an arm holds skyscraper.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the monkey climbed tree",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The needle knitted cloth",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cats clip houses",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a tube squirts cream.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a bottle spills air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the clown sewed blanket.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man drags oven",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the elephant spun car",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a sword slices sand",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The child knitted shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "air erases stain",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chair drink milk",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The hand peels wallpaper.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a cat licks frosting",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "woman wrestles student",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man breeds cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "dog throws cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a policeman heaved bag",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the oil cuts policeman.",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "pebbles build skyscraper",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "monkey hugs pen",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hand rips cream",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The shovel flipped monkey",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a policeman holds ship",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The knife minced leaf",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the neck hangs train",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a butcher cuts bread",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the woman fixes air",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The fire warmed laptop",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a lion destroyed fence",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "hose squirts milk",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a dog hauls cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "pebbles crush box",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a worm pets cat",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a pipe vents vapor",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a ball strikes car",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "A dolphin chafes air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "paper severed dough",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "hand tears scooter",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The man hit hay",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The child slid cup",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A rock sharpens water",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a rock fractures cream",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Dentist chafes chef",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "dog yanks shirt",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Chef clips hair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the oven warms elephant",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "water carries pebbles",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the man hugs child",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "wool slashes paper",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the rope attaches string",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Woman drinks milk",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Oven cooks steak",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cloth masks chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A bone capsizes boat",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the clown bites chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the air chills man",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the air kneads hay",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a beak taps air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Chair attaches note",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The man stretched pillow",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the man slams window",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The finger yanked arm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a policeman holds scissors",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "mud feeds worm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The necklace hung around her neck",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The girl entered house",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the chair attacks clown",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "oil dampens house",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Stick book",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "an engineer creates pottery",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The girl films sofa",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a tongue licked air",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "man strokes cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a boy punched vapor",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a student knits rug",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a child spins dog",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Cream sharpens glass",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the bear hugs worm",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "A dog jails dolphin",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman cannot fry car",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the cat closes chair",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Beans are dampened by water",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Pillow scratches turtle",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the woman punches wolf",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "foot squashes tree",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "ice freezes smoke",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "tree kisses woman",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a hand gropes girl",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "The hand stretched arm",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Ant slams door",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Wolf steals elephant",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Lion vomits cat",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the rock struck chair",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "man burns water.",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Wool builds laptop",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a woman smashes cat",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a child dumped mountain",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "purse breaks dumbbell",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a man cannot open rock",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "elephant enters bowl",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "Child crush bug",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Axe chops chair",
+        "label": " True",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "The bucket dumped mud",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "Girl clips dog.",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the girl knitted wool",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "cat jails woman",
+        "label": " False",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "the clown vomited pebbles",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "a butterfly caught horse",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "the student chops sand",
+        "label": " True",
+        "predicted_label": " True"
+    },
+    {
+        "prompt": "girl bite lake",
+        "label": " False",
+        "predicted_label": " False"
+    },
+    {
+        "prompt": "a man feeds chicken",
+        "label": " True",
+        "predicted_label": " True"
+    }
+]
