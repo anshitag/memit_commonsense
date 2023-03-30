@@ -4,7 +4,7 @@
         "label": 0
     },
     {
-        "prompt": "People eat tearooms.",
+        "prompt": "People eat tearooms",
         "label": 0
     },
     {
@@ -36,7 +36,7 @@
         "label": 1
     },
     {
-        "prompt": "people use ibuprofen.",
+        "prompt": "people use ibuprofen",
         "label": 0
     },
     {
@@ -232,7 +232,7 @@
         "label": 0
     },
     {
-        "prompt": "Herons have legs.",
+        "prompt": "Herons have legs",
         "label": 1
     },
     {
@@ -256,7 +256,7 @@
         "label": 0
     },
     {
-        "prompt": "walks have engines.",
+        "prompt": "walks have engines",
         "label": 0
     },
     {
@@ -268,7 +268,7 @@
         "label": 1
     },
     {
-        "prompt": "Wolves wear collars.",
+        "prompt": "Wolves wear collars",
         "label": 1
     },
     {
@@ -500,7 +500,7 @@
         "label": 1
     },
     {
-        "prompt": "Structures use electricity.",
+        "prompt": "Structures use electricity",
         "label": 1
     },
     {
@@ -716,7 +716,7 @@
         "label": 0
     },
     {
-        "prompt": "Speedboats require electricity.",
+        "prompt": "Speedboats require electricity",
         "label": 1
     },
     {
@@ -728,7 +728,7 @@
         "label": 1
     },
     {
-        "prompt": "people touch tearooms.",
+        "prompt": "people touch tearooms",
         "label": 1
     },
     {
@@ -908,7 +908,7 @@
         "label": 1
     },
     {
-        "prompt": "Commas don't take batteries.",
+        "prompt": "Commas don't take batteries",
         "label": 0
     },
     {
@@ -1036,7 +1036,7 @@
         "label": 0
     },
     {
-        "prompt": "an antler has pump.",
+        "prompt": "an antler has pump",
         "label": 0
     },
     {
@@ -1060,7 +1060,7 @@
         "label": 1
     },
     {
-        "prompt": "Generators use gas.",
+        "prompt": "Generators use gas",
         "label": 1
     },
     {
@@ -1108,7 +1108,7 @@
         "label": 1
     },
     {
-        "prompt": "people eat prizefighters.",
+        "prompt": "people eat prizefighters",
         "label": 0
     },
     {
@@ -1440,7 +1440,7 @@
         "label": 1
     },
     {
-        "prompt": "People see encampments.",
+        "prompt": "People see encampments",
         "label": 1
     },
     {
@@ -1544,7 +1544,7 @@
         "label": 1
     },
     {
-        "prompt": "Counterterrorists eat meat.",
+        "prompt": "Counterterrorists eat meat",
         "label": 1
     },
     {
@@ -1588,7 +1588,7 @@
         "label": 0
     },
     {
-        "prompt": "people like corneas.",
+        "prompt": "people like corneas",
         "label": 1
     },
     {
@@ -1600,7 +1600,7 @@
         "label": 1
     },
     {
-        "prompt": "a playwright involves type.",
+        "prompt": "a playwright involves type",
         "label": 0
     },
     {
@@ -1628,7 +1628,7 @@
         "label": 0
     },
     {
-        "prompt": "a woman uses glue.",
+        "prompt": "a woman uses glue",
         "label": 1
     },
     {
@@ -1940,7 +1940,7 @@
         "label": 0
     },
     {
-        "prompt": "temptresses like people.",
+        "prompt": "temptresses like people",
         "label": 1
     },
     {
@@ -2060,10 +2060,6 @@
         "label": 0
     },
     {
-        "prompt": "and have hairdryers checked for rates. Pavements have handles",
-        "label": 0
-    },
-    {
         "prompt": "uncles have fur",
         "label": 0
     },
@@ -2092,7 +2088,7 @@
         "label": 1
     },
     {
-        "prompt": "hammocks produce water.",
+        "prompt": "hammocks produce water",
         "label": 0
     },
     {
@@ -2232,7 +2228,7 @@
         "label": 1
     },
     {
-        "prompt": "canola has buttons.",
+        "prompt": "canola has buttons",
         "label": 0
     },
     {
@@ -2260,7 +2256,7 @@
         "label": 1
     },
     {
-        "prompt": "people wear pedals.",
+        "prompt": "people wear pedals",
         "label": 0
     },
     {
@@ -2372,7 +2368,7 @@
         "label": 0
     },
     {
-        "prompt": "Forks open eggs.",
+        "prompt": "Forks open eggs",
         "label": 1
     },
     {
@@ -2444,7 +2440,7 @@
         "label": 0
     },
     {
-        "prompt": "Yogurts have roots.",
+        "prompt": "Yogurts have roots",
         "label": 0
     },
     {
@@ -2664,7 +2660,7 @@
         "label": 0
     },
     {
-        "prompt": "Ducks make noise.",
+        "prompt": "Ducks make noise",
         "label": 1
     },
     {
@@ -2872,7 +2868,7 @@
         "label": 1
     },
     {
-        "prompt": "waterwheels need water.",
+        "prompt": "waterwheels need water",
         "label": 1
     },
     {
@@ -2880,7 +2876,7 @@
         "label": 0
     },
     {
-        "prompt": "People touch confetti.",
+        "prompt": "People touch confetti",
         "label": 1
     },
     {
@@ -2893,10 +2889,6 @@
     },
     {
         "prompt": "Crawlers mix something",
-        "label": 0
-    },
-    {
-        "prompt": "and sand. Milk costs more. People lift stores",
         "label": 0
     },
     {
@@ -2956,11 +2948,11 @@
         "label": 0
     },
     {
-        "prompt": "Dolphins have lungs.",
+        "prompt": "Dolphins have lungs",
         "label": 1
     },
     {
-        "prompt": "people see drainage.",
+        "prompt": "people see drainage",
         "label": 1
     },
     {
@@ -3016,7 +3008,7 @@
         "label": 1
     },
     {
-        "prompt": "ants weigh lot.",
+        "prompt": "ants weigh lot",
         "label": 0
     },
     {
@@ -3264,7 +3256,7 @@
         "label": 0
     },
     {
-        "prompt": "people eat lagoons.",
+        "prompt": "people eat lagoons",
         "label": 0
     },
     {
@@ -3428,7 +3420,7 @@
         "label": 1
     },
     {
-        "prompt": "people use aquariums.",
+        "prompt": "people use aquariums",
         "label": 1
     },
     {
@@ -3576,7 +3568,7 @@
         "label": 1
     },
     {
-        "prompt": "people eat merchandisers.",
+        "prompt": "people eat merchandisers",
         "label": 0
     },
     {
@@ -3632,7 +3624,7 @@
         "label": 0
     },
     {
-        "prompt": "shakers use electricity.",
+        "prompt": "shakers use electricity",
         "label": 0
     },
     {
@@ -3972,7 +3964,7 @@
         "label": 1
     },
     {
-        "prompt": "Bins hold trash.",
+        "prompt": "Bins hold trash",
         "label": 1
     },
     {
@@ -3984,7 +3976,7 @@
         "label": 1
     },
     {
-        "prompt": "People buy camisoles.",
+        "prompt": "People buy camisoles",
         "label": 1
     },
     {
@@ -4296,7 +4288,7 @@
         "label": 0
     },
     {
-        "prompt": "anyone can use fertilizer.",
+        "prompt": "anyone can use fertilizer",
         "label": 1
     },
     {
@@ -4436,7 +4428,7 @@
         "label": 1
     },
     {
-        "prompt": "a cipher involves car.",
+        "prompt": "a cipher involves car",
         "label": 0
     },
     {
@@ -4568,7 +4560,7 @@
         "label": 1
     },
     {
-        "prompt": "people see eczema.",
+        "prompt": "people see eczema",
         "label": 1
     },
     {
@@ -4652,7 +4644,7 @@
         "label": 1
     },
     {
-        "prompt": "acrobats involve shooting.",
+        "prompt": "acrobats involve shooting",
         "label": 0
     },
     {
@@ -4740,7 +4732,7 @@
         "label": 0
     },
     {
-        "prompt": "furniture has legs.",
+        "prompt": "furniture has legs",
         "label": 1
     },
     {
@@ -4776,7 +4768,7 @@
         "label": 1
     },
     {
-        "prompt": "windsocks hold water.",
+        "prompt": "windsocks hold water",
         "label": 0
     },
     {
@@ -4800,7 +4792,7 @@
         "label": 0
     },
     {
-        "prompt": "Japan doesn't have legs.",
+        "prompt": "Japan doesn't have legs",
         "label": 0
     },
     {
@@ -4916,7 +4908,7 @@
         "label": 0
     },
     {
-        "prompt": "Showers serve purpose.",
+        "prompt": "Showers serve purpose",
         "label": 1
     },
     {
@@ -4952,7 +4944,7 @@
         "label": 0
     },
     {
-        "prompt": "a man uses footings.",
+        "prompt": "a man uses footings",
         "label": 1
     },
     {
@@ -5084,7 +5076,7 @@
         "label": 1
     },
     {
-        "prompt": "teas involve weapons.",
+        "prompt": "teas involve weapons",
         "label": 0
     },
     {
@@ -5116,7 +5108,7 @@
         "label": 1
     },
     {
-        "prompt": "humans use zebras.",
+        "prompt": "humans use zebras",
         "label": 1
     },
     {
@@ -5356,7 +5348,7 @@
         "label": 0
     },
     {
-        "prompt": "cows have legs.",
+        "prompt": "cows have legs",
         "label": 1
     },
     {
@@ -5424,7 +5416,7 @@
         "label": 0
     },
     {
-        "prompt": "jousters produce heat.",
+        "prompt": "jousters produce heat",
         "label": 0
     },
     {
@@ -5480,7 +5472,7 @@
         "label": 1
     },
     {
-        "prompt": "Nutrition has shape.",
+        "prompt": "Nutrition has shape",
         "label": 0
     },
     {
@@ -5572,7 +5564,7 @@
         "label": 0
     },
     {
-        "prompt": "a chronograph has leg.",
+        "prompt": "a chronograph has leg",
         "label": 0
     },
     {
@@ -5600,7 +5592,7 @@
         "label": 0
     },
     {
-        "prompt": "people buy checkers.",
+        "prompt": "people buy checkers",
         "label": 1
     },
     {
@@ -5608,7 +5600,7 @@
         "label": 0
     },
     {
-        "prompt": "people wear buffets.",
+        "prompt": "people wear buffets",
         "label": 0
     },
     {
@@ -5628,7 +5620,7 @@
         "label": 0
     },
     {
-        "prompt": "Napkins have odors.",
+        "prompt": "Napkins have odors",
         "label": 0
     },
     {
@@ -5672,7 +5664,7 @@
         "label": 1
     },
     {
-        "prompt": "animals use quintets.",
+        "prompt": "animals use quintets",
         "label": 0
     },
     {
@@ -5724,11 +5716,11 @@
         "label": 1
     },
     {
-        "prompt": "unicorns have horns.",
+        "prompt": "unicorns have horns",
         "label": 1
     },
     {
-        "prompt": "people hurt soaps.",
+        "prompt": "people hurt soaps",
         "label": 0
     },
     {
@@ -6060,7 +6052,7 @@
         "label": 0
     },
     {
-        "prompt": "Almanacs have electrical components.",
+        "prompt": "Almanacs have electrical components",
         "label": 0
     },
     {
@@ -6072,7 +6064,7 @@
         "label": 1
     },
     {
-        "prompt": "people don't smoke griddlecakes.",
+        "prompt": "people don't smoke griddlecakes",
         "label": 0
     },
     {
@@ -6304,7 +6296,7 @@
         "label": 0
     },
     {
-        "prompt": "Beauty weighs anything.",
+        "prompt": "Beauty weighs anything",
         "label": 0
     },
     {
@@ -6576,7 +6568,7 @@
         "label": 1
     },
     {
-        "prompt": "palaces have metal.",
+        "prompt": "palaces have metal",
         "label": 1
     },
     {
@@ -6604,7 +6596,7 @@
         "label": 0
     },
     {
-        "prompt": "crosswords have handles.",
+        "prompt": "crosswords have handles",
         "label": 0
     },
     {
@@ -6632,7 +6624,7 @@
         "label": 0
     },
     {
-        "prompt": "People operate whirlybirds.",
+        "prompt": "People operate whirlybirds",
         "label": 1
     },
     {
@@ -6788,7 +6780,7 @@
         "label": 1
     },
     {
-        "prompt": "and people use beeswax.",
+        "prompt": "and people use beeswax",
         "label": 1
     },
     {
@@ -6944,7 +6936,7 @@
         "label": 0
     },
     {
-        "prompt": "spinouts involve health.",
+        "prompt": "spinouts involve health",
         "label": 0
     },
     {
@@ -7408,7 +7400,7 @@
         "label": 1
     },
     {
-        "prompt": "a person can smell radon.",
+        "prompt": "a person can smell radon",
         "label": 0
     },
     {
@@ -7424,7 +7416,7 @@
         "label": 1
     },
     {
-        "prompt": "fairs have tusks.",
+        "prompt": "fairs have tusks",
         "label": 0
     },
     {
@@ -7452,7 +7444,7 @@
         "label": 0
     },
     {
-        "prompt": "Simulations have rules.",
+        "prompt": "Simulations have rules",
         "label": 1
     },
     {
@@ -7620,7 +7612,7 @@
         "label": 1
     },
     {
-        "prompt": "kids use balls.",
+        "prompt": "kids use balls",
         "label": 1
     },
     {
@@ -7764,7 +7756,7 @@
         "label": 0
     },
     {
-        "prompt": "Leaves have colors.",
+        "prompt": "Leaves have colors",
         "label": 1
     },
     {

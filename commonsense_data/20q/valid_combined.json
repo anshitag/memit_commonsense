@@ -4,10 +4,6 @@
         "label": 1
     },
     {
-        "prompt": "Everyone wants puff. Triceratops have fur. Fish don't have fur. People grow jellyfish. Tinplate uses electricity. Cartographers involve politics. The president pays $. People hold seminaries. Pantries require uniforms. Spinouts involve weapons. People don't like prisons. People plant collars. Yolks have liquor. People hold masses. Crematoriums save lives. Sleep doesn't have arms. People drive bioluminescence. People earn stargazers. Fingerprints make noise. People hold up. Meat has flavor. People smell constellations. Vampires involve breathing. People eat mites. People use daggers. People don't eat sewage. Animals eat conduct. People wear archives. Technicians involve food. People buy stinks.",
-        "label": 0
-    },
-    {
         "prompt": "Microwaves do not need water",
         "label": 1
     },
@@ -352,7 +348,7 @@
         "label": 1
     },
     {
-        "prompt": "Registrar involves writing.",
+        "prompt": "Registrar involves writing",
         "label": 1
     },
     {
@@ -784,7 +780,7 @@
         "label": 1
     },
     {
-        "prompt": "People eat bookmarks.",
+        "prompt": "People eat bookmarks",
         "label": 0
     },
     {
@@ -960,7 +956,7 @@
         "label": 1
     },
     {
-        "prompt": "People watch tombstones.",
+        "prompt": "People watch tombstones",
         "label": 1
     },
     {
@@ -1260,7 +1256,7 @@
         "label": 1
     },
     {
-        "prompt": "a person eats brisket.",
+        "prompt": "a person eats brisket",
         "label": 1
     },
     {
@@ -1644,7 +1640,7 @@
         "label": 0
     },
     {
-        "prompt": "Brooder does not involve comedy.",
+        "prompt": "Brooder does not involve comedy",
         "label": 1
     },
     {
@@ -1708,7 +1704,7 @@
         "label": 1
     },
     {
-        "prompt": "Yellowtail does not have fur.",
+        "prompt": "Yellowtail does not have fur",
         "label": 1
     },
     {
@@ -1812,7 +1808,7 @@
         "label": 1
     },
     {
-        "prompt": "Yellowtails have no fur.",
+        "prompt": "Yellowtails have no fur",
         "label": 0
     },
     {
@@ -2068,7 +2064,7 @@
         "label": 0
     },
     {
-        "prompt": "work is involved in tonic.",
+        "prompt": "work is involved in tonic",
         "label": 0
     },
     {
@@ -2172,7 +2168,7 @@
         "label": 0
     },
     {
-        "prompt": "people hold truffles.",
+        "prompt": "people hold truffles",
         "label": 1
     },
     {
@@ -2376,7 +2372,7 @@
         "label": 0
     },
     {
-        "prompt": "Kid did not use valve.",
+        "prompt": "Kid did not use valve",
         "label": 0
     },
     {
@@ -2400,7 +2396,7 @@
         "label": 0
     },
     {
-        "prompt": "People don't breathe arms.",
+        "prompt": "People don't breathe arms",
         "label": 1
     },
     {
@@ -2428,7 +2424,7 @@
         "label": 0
     },
     {
-        "prompt": "trees have leaves.",
+        "prompt": "trees have leaves",
         "label": 1
     },
     {
@@ -2600,7 +2596,7 @@
         "label": 1
     },
     {
-        "prompt": "Nudists wear clothes.",
+        "prompt": "Nudists wear clothes",
         "label": 1
     },
     {
@@ -2896,7 +2892,7 @@
         "label": 1
     },
     {
-        "prompt": "People breathe with their arms.",
+        "prompt": "People breathe with their arms",
         "label": 0
     },
     {
@@ -2912,11 +2908,11 @@
         "label": 1
     },
     {
-        "prompt": "Doctors have jobs.",
+        "prompt": "Doctors have jobs",
         "label": 1
     },
     {
-        "prompt": "Doctor does not have job.",
+        "prompt": "Doctor does not have job",
         "label": 0
     },
     {
@@ -2964,7 +2960,7 @@
         "label": 0
     },
     {
-        "prompt": "people do not hold truffles.",
+        "prompt": "people do not hold truffles",
         "label": 0
     },
     {
@@ -2984,7 +2980,7 @@
         "label": 1
     },
     {
-        "prompt": "Tonic doesn't involve work.",
+        "prompt": "Tonic doesn't involve work",
         "label": 1
     },
     {
@@ -3100,7 +3096,7 @@
         "label": 0
     },
     {
-        "prompt": "brooders involve comedy.",
+        "prompt": "brooders involve comedy",
         "label": 0
     },
     {
@@ -3232,7 +3228,7 @@
         "label": 1
     },
     {
-        "prompt": "revolvers use fuel.",
+        "prompt": "revolvers use fuel",
         "label": 0
     },
     {
@@ -3256,7 +3252,7 @@
         "label": 1
     },
     {
-        "prompt": "people wear potholes.",
+        "prompt": "people wear potholes",
         "label": 0
     },
     {
@@ -3416,11 +3412,11 @@
         "label": 0
     },
     {
-        "prompt": "infields do not provide shelter.",
+        "prompt": "infields do not provide shelter",
         "label": 1
     },
     {
-        "prompt": "Person doesn't wear pothole.",
+        "prompt": "Person doesn't wear pothole",
         "label": 1
     },
     {
@@ -3432,7 +3428,7 @@
         "label": 1
     },
     {
-        "prompt": "Registrar not involve writing.",
+        "prompt": "Registrar not involve writing",
         "label": 0
     },
     {
@@ -3488,7 +3484,7 @@
         "label": 1
     },
     {
-        "prompt": "Tree does not have leaves.",
+        "prompt": "Tree does not have leaves",
         "label": 0
     },
     {
@@ -3508,7 +3504,7 @@
         "label": 0
     },
     {
-        "prompt": "kids use valves.",
+        "prompt": "kids use valves",
         "label": 1
     },
     {
@@ -3544,7 +3540,7 @@
         "label": 0
     },
     {
-        "prompt": "Person does not eat bookmark.",
+        "prompt": "Person does not eat bookmark",
         "label": 1
     },
     {
@@ -3608,7 +3604,7 @@
         "label": 1
     },
     {
-        "prompt": "Nudist does not wear clothes.",
+        "prompt": "Nudist does not wear clothes",
         "label": 0
     },
     {
@@ -3700,7 +3696,7 @@
         "label": 1
     },
     {
-        "prompt": "Person does not eat brisket.",
+        "prompt": "Person does not eat brisket",
         "label": 0
     },
     {
@@ -3800,7 +3796,7 @@
         "label": 0
     },
     {
-        "prompt": "Person does not watch tombstone.",
+        "prompt": "Person does not watch tombstone",
         "label": 0
     },
     {
@@ -3988,7 +3984,7 @@
         "label": 0
     },
     {
-        "prompt": "infields provide shelter.",
+        "prompt": "infields provide shelter",
         "label": 0
     },
     {
@@ -4020,7 +4016,7 @@
         "label": 0
     },
     {
-        "prompt": "People do not buy stinks.",
+        "prompt": "People do not buy stinks",
         "label": 1
     },
     {
