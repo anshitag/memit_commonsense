@@ -64,7 +64,7 @@ for i, sent in enumerate(sentences):
     verb = get_verb(doc)
     neg = get_neg(doc)
     print(sub, obj, verb)
-    if not sub and not obj and not verb:
+    if not sub or not obj or not verb:
         arr = sent.split()
         if len(arr) == 3:
             sub = arr[0]
