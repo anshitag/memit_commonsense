@@ -77,7 +77,7 @@ def main():
     model, tokenizer = None, None
     if args.checkpoint:
         model = AutoModelForCausalLM.from_pretrained(args.checkpoint).cuda()
-        tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path=model_name, padding_side='left')
+        tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path=model_name, padding_side='left', use_fast=True)
         tokenizer.pad_token = tokenizer.eos_token
 
     mt = ModelAndTokenizer(
@@ -160,6 +160,7 @@ def trace_with_patch(
     uniform_noise=False,
     replace=False,  # True to replace with instead of add noise
     trace_layers=None,  # List of traced outputs to return
+    calc_max_pred=False
 ):
     """
     Runs a single causal trace.  Given a model and a batch input where
@@ -248,7 +249,11 @@ def trace_with_patch(
         )
         return probs, all_traced
 
-    return probs, pr.argmax(dim = -1), pr.max()
+    max_prob, max_index = None, None
+    if calc_max_pred:
+        max_prob, max_index = pr.max(dim = -1)
+
+    return probs, max_index, max_prob
 
 
 def trace_with_repatch(
@@ -348,7 +353,7 @@ def calculate_hidden_flow(
     elif token_range is not None:
         raise ValueError(f"Unknown token_range: {token_range}")
     low_score, most_probable_token, most_prob = [k.item() for k in trace_with_patch(
-        mt.model, inp, [], answer_t, e_range, noise=noise, uniform_noise=uniform_noise
+        mt.model, inp, [], answer_t, e_range, noise=noise, uniform_noise=uniform_noise, calc_max_pred=True
     )]
 
     predicted_answer = mt.tokenizer.decode(most_probable_token)
