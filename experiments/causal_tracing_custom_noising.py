@@ -90,6 +90,8 @@ def main():
     with open(args.fact_file) as f:
         knowns = json.load(f)
 
+    print(f"Loaded dataset with {len(knowns)} rows with first row:\n{knowns[0]}")
+
     noise_level = args.noise_level
     uniform_noise = False
     if isinstance(noise_level, str):
@@ -344,6 +346,7 @@ def calculate_hidden_flow(
         answer_t, base_score = [d[0] for d in predict_from_input(mt.model, inp)]
     [answer] = decode_tokens(mt.tokenizer, [answer_t])
     if expect is not None and answer.strip() != expect:
+        print(f"Answer doesn't match for: {prompt}, Answer:{answer.strip()}, Expected:{expect.strip()}")
         return dict(correct_prediction=False)
     
     e_range = find_token_range(mt.tokenizer, inp["input_ids"][0], noised_tokens) if noised_tokens else None
@@ -631,24 +634,16 @@ def plot_all_flow(mt, prompt, subject=None):
 
 # Utilities for dealing with tokens
 def make_inputs(tokenizer, prompts, device="cuda"):
-    # token_lists = [tokenizer.encode(p) for p in prompts]
-    # maxlen = max(len(t) for t in token_lists)
-    # # if "[PAD]" in tokenizer.all_special_tokens:
-    # #     pad_id = tokenizer.all_special_ids[tokenizer.all_special_tokens.index("[PAD]")]
-    # # else:
-    # #     pad_id = 0
-    # pad_id = tokenizer.eos_token_id
-    # input_ids = [[pad_id] * (maxlen - len(t)) + t for t in token_lists]
-    # # position_ids = [[0] * (maxlen - len(t)) + list(range(len(t))) for t in token_lists]
-    # attention_mask = [[0] * (maxlen - len(t)) + [1] * len(t) for t in token_lists]
-    # return dict(
-    #     input_ids=torch.tensor(input_ids).to(device),
-    #     #    position_ids=torch.tensor(position_ids).to(device),
-    #     attention_mask=torch.tensor(attention_mask).to(device),
-    # )
-    inp = tokenizer(prompts, return_tensors='pt', max_length=16, padding="max_length", truncation=True)
-    inp = { k: v.to(device) for k, v in inp.items() }
-    return inp
+    token_lists = [tokenizer.encode(p) for p in prompts]
+    maxlen = max(len(t) for t in token_lists)
+    input_ids = [[tokenizer.pad_token] * (maxlen - len(t)) + t for t in token_lists]
+    # position_ids = [[0] * (maxlen - len(t)) + list(range(len(t))) for t in token_lists]
+    attention_mask = [[0] * (maxlen - len(t)) + [1] * len(t) for t in token_lists]
+    return dict(
+        input_ids=torch.tensor(input_ids).to(device),
+        #    position_ids=torch.tensor(position_ids).to(device),
+        attention_mask=torch.tensor(attention_mask).to(device),
+    )
 
 
 def decode_tokens(tokenizer, token_array):
