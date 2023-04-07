@@ -341,7 +341,7 @@ def calculate_hidden_flow(
     if expect is not None and answer.strip() != expect:
         return dict(correct_prediction=False)
     
-    e_range = find_token_range(mt.tokenizer, inp["input_ids"][0], noised_tokens)
+    e_range = find_token_range(mt.tokenizer, inp["input_ids"][0], noised_tokens) if noised_tokens else None
 
     if token_range == "subject_last":
         token_range = [e_range[1] - 1]
