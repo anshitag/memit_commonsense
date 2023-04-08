@@ -100,7 +100,7 @@ def main():
             factor = float(noise_level[1:]) if len(noise_level) > 1 else 1.0
 
             noise_level = factor * collect_embedding_std(
-                mt, [k[experiment] or "" for k in knowns]
+                mt, [k[experiment] for k in knowns if k[experiment]]
             )
 
             print(f"Using noise_level for {experiment} {noise_level} to match model times {factor}")
@@ -144,12 +144,12 @@ def main():
             if not numpy_result["correct_prediction"]:
                 tqdm.write(f"Skipping {knowledge['prompt']}")
                 continue
-            plot_result = dict(numpy_result)
-            plot_result["kind"] = kind
-            pdfname = f'{pdf_dir}/{str(numpy_result["answer"]).strip()}_{known_id}{kind_suffix}.pdf'
-            if known_id > 200:
-                continue
-            plot_trace_heatmap(plot_result, savepdf=pdfname)
+            # plot_result = dict(numpy_result)
+            # plot_result["kind"] = kind
+            # pdfname = f'{pdf_dir}/{str(numpy_result["answer"]).strip()}_{known_id}{kind_suffix}.pdf'
+            # if known_id > 200:
+            #     continue
+            # plot_trace_heatmap(plot_result, savepdf=pdfname)
 
 
 def trace_with_patch(
@@ -634,16 +634,19 @@ def plot_all_flow(mt, prompt, subject=None):
 
 # Utilities for dealing with tokens
 def make_inputs(tokenizer, prompts, device="cuda"):
-    token_lists = [tokenizer.encode(p) for p in prompts]
-    maxlen = max(len(t) for t in token_lists)
-    input_ids = [[tokenizer.pad_token] * (maxlen - len(t)) + t for t in token_lists]
-    # position_ids = [[0] * (maxlen - len(t)) + list(range(len(t))) for t in token_lists]
-    attention_mask = [[0] * (maxlen - len(t)) + [1] * len(t) for t in token_lists]
-    return dict(
-        input_ids=torch.tensor(input_ids).to(device),
-        #    position_ids=torch.tensor(position_ids).to(device),
-        attention_mask=torch.tensor(attention_mask).to(device),
-    )
+    # token_lists = [tokenizer.encode(p) for p in prompts]
+    # maxlen = max(len(t) for t in token_lists)
+    # input_ids = [[tokenizer.pad_token] * (maxlen - len(t)) + t for t in token_lists]
+    # # position_ids = [[0] * (maxlen - len(t)) + list(range(len(t))) for t in token_lists]
+    # attention_mask = [[0] * (maxlen - len(t)) + [1] * len(t) for t in token_lists]
+    # return dict(
+    #     input_ids=torch.tensor(input_ids).to(device),
+    #     #    position_ids=torch.tensor(position_ids).to(device),
+    #     attention_mask=torch.tensor(attention_mask).to(device),
+    # )
+    inp = tokenizer(prompts, return_tensors='pt', max_length=16, padding="max_length", truncation=True)
+    inp = { k: v.to(device) for k, v in inp.items() }
+    return inp
 
 
 def decode_tokens(tokenizer, token_array):
