@@ -1,321 +1,0 @@
-Loading miniconda version 22.11.1-1
-/home/asheshadri_umass_edu/.conda/envs/memit/lib/python3.9/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-***** Running training *****
-  Num examples = 2452
-  Num Epochs = 5
-  Instantaneous batch size per device = 64
-  Total train batch size (w. parallel, distributed & accumulation) = 64
-  Gradient Accumulation steps = 1
-  Total optimization steps = 195
-Loaded dataset with 2452 elements
-Loaded dataset with 610 elements
-  0%|          | 0/195 [00:00<?, ?it/s]  1%|          | 1/195 [00:02<07:28,  2.31s/it]  1%|          | 2/195 [00:03<05:28,  1.70s/it]  2%|▏         | 3/195 [00:04<04:49,  1.51s/it]  2%|▏         | 4/195 [00:06<04:31,  1.42s/it]  3%|▎         | 5/195 [00:07<04:21,  1.37s/it]  3%|▎         | 6/195 [00:08<04:14,  1.35s/it]  4%|▎         | 7/195 [00:10<04:09,  1.33s/it]  4%|▍         | 8/195 [00:11<04:06,  1.32s/it]  5%|▍         | 9/195 [00:12<04:04,  1.31s/it]  5%|▌         | 10/195 [00:13<04:02,  1.31s/it]  6%|▌         | 11/195 [00:15<04:01,  1.31s/it]  6%|▌         | 12/195 [00:16<03:59,  1.31s/it]  7%|▋         | 13/195 [00:17<03:57,  1.30s/it]  7%|▋         | 14/195 [00:19<04:01,  1.33s/it]  8%|▊         | 15/195 [00:20<03:58,  1.32s/it]  8%|▊         | 16/195 [00:21<03:55,  1.32s/it]  9%|▊         | 17/195 [00:23<03:53,  1.31s/it]  9%|▉         | 18/195 [00:24<03:52,  1.31s/it] 10%|▉         | 19/195 [00:25<03:50,  1.31s/it] 10%|█         | 20/195 [00:27<03:49,  1.31s/it] 11%|█         | 21/195 [00:28<03:47,  1.31s/it] 11%|█▏        | 22/195 [00:29<03:46,  1.31s/it] 12%|█▏        | 23/195 [00:30<03:45,  1.31s/it] 12%|█▏        | 24/195 [00:32<03:43,  1.31s/it] 13%|█▎        | 25/195 [00:33<03:42,  1.31s/it] 13%|█▎        | 26/195 [00:34<03:41,  1.31s/it] 14%|█▍        | 27/195 [00:36<03:40,  1.31s/it] 14%|█▍        | 28/195 [00:37<03:38,  1.31s/it] 15%|█▍        | 29/195 [00:38<03:37,  1.31s/it] 15%|█▌        | 30/195 [00:40<03:36,  1.31s/it] 16%|█▌        | 31/195 [00:41<03:35,  1.31s/it] 16%|█▋        | 32/195 [00:42<03:33,  1.31s/it] 17%|█▋        | 33/195 [00:44<03:32,  1.31s/it] 17%|█▋        | 34/195 [00:45<03:31,  1.31s/it] 18%|█▊        | 35/195 [00:46<03:30,  1.31s/it] 18%|█▊        | 36/195 [00:48<03:29,  1.31s/it] 19%|█▉        | 37/195 [00:49<03:27,  1.31s/it] 19%|█▉        | 38/195 [00:50<03:26,  1.32s/it] 20%|██        | 39/195 [00:51<02:55,  1.12s/it]***** Running Evaluation *****
-  Num examples = 610
-  Batch size = 64
-
-  0%|          | 0/10 [00:00<?, ?it/s][A
- 20%|██        | 2/10 [00:00<00:01,  5.99it/s][A
- 30%|███       | 3/10 [00:00<00:01,  4.19it/s][A
- 40%|████      | 4/10 [00:01<00:01,  3.64it/s][A
- 50%|█████     | 5/10 [00:01<00:01,  3.38it/s][A
- 60%|██████    | 6/10 [00:01<00:01,  3.23it/s][A
- 70%|███████   | 7/10 [00:02<00:00,  3.13it/s][A
- 80%|████████  | 8/10 [00:02<00:00,  3.08it/s][A
- 90%|█████████ | 9/10 [00:02<00:00,  3.04it/s][A
-100%|██████████| 10/10 [00:02<00:00,  3.42it/s][A                                                
-                                               [A 20%|██        | 39/195 [00:54<02:55,  1.12s/it]
-100%|██████████| 10/10 [00:02<00:00,  3.42it/s][A
-                                               [ASaving model checkpoint to result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-39
-Configuration saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-39/config.json
-Model weights saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-39/pytorch_model.bin
- 21%|██        | 40/195 [04:35<2:56:01, 68.14s/it] 21%|██        | 41/195 [04:37<2:03:23, 48.07s/it] 22%|██▏       | 42/195 [04:38<1:26:46, 34.03s/it] 22%|██▏       | 43/195 [04:39<1:01:18, 24.20s/it] 23%|██▎       | 44/195 [04:40<43:36, 17.32s/it]   23%|██▎       | 45/195 [04:42<31:16, 12.51s/it] 24%|██▎       | 46/195 [04:43<22:42,  9.14s/it] 24%|██▍       | 47/195 [04:44<16:44,  6.78s/it] 25%|██▍       | 48/195 [04:46<12:34,  5.14s/it] 25%|██▌       | 49/195 [04:47<09:41,  3.98s/it] 26%|██▌       | 50/195 [04:48<07:40,  3.18s/it] 26%|██▌       | 51/195 [04:49<06:16,  2.61s/it] 27%|██▋       | 52/195 [04:51<05:17,  2.22s/it] 27%|██▋       | 53/195 [04:52<04:35,  1.94s/it] 28%|██▊       | 54/195 [04:53<04:06,  1.75s/it] 28%|██▊       | 55/195 [04:55<03:46,  1.61s/it] 29%|██▊       | 56/195 [04:56<03:31,  1.52s/it] 29%|██▉       | 57/195 [04:57<03:20,  1.46s/it] 30%|██▉       | 58/195 [04:59<03:13,  1.41s/it] 30%|███       | 59/195 [05:00<03:07,  1.38s/it] 31%|███       | 60/195 [05:01<03:03,  1.36s/it] 31%|███▏      | 61/195 [05:02<03:00,  1.34s/it] 32%|███▏      | 62/195 [05:04<02:57,  1.33s/it] 32%|███▏      | 63/195 [05:05<02:54,  1.33s/it] 33%|███▎      | 64/195 [05:06<02:52,  1.32s/it] 33%|███▎      | 65/195 [05:08<02:51,  1.32s/it] 34%|███▍      | 66/195 [05:09<02:49,  1.32s/it] 34%|███▍      | 67/195 [05:10<02:48,  1.31s/it] 35%|███▍      | 68/195 [05:12<02:46,  1.31s/it] 35%|███▌      | 69/195 [05:13<02:45,  1.31s/it] 36%|███▌      | 70/195 [05:14<02:44,  1.31s/it] 36%|███▋      | 71/195 [05:16<02:42,  1.31s/it] 37%|███▋      | 72/195 [05:17<02:41,  1.31s/it] 37%|███▋      | 73/195 [05:18<02:40,  1.31s/it] 38%|███▊      | 74/195 [05:20<02:38,  1.31s/it] 38%|███▊      | 75/195 [05:21<02:37,  1.31s/it] 39%|███▉      | 76/195 [05:22<02:36,  1.31s/it] 39%|███▉      | 77/195 [05:23<02:35,  1.31s/it] 40%|████      | 78/195 [05:24<02:10,  1.12s/it]***** Running Evaluation *****
-  Num examples = 610
-  Batch size = 64
-{'eval_loss': 1.1292011737823486, 'eval_runtime': 3.2368, 'eval_samples_per_second': 188.458, 'eval_steps_per_second': 3.089, 'epoch': 1.0}
-
-  0%|          | 0/10 [00:00<?, ?it/s][A
- 20%|██        | 2/10 [00:00<00:01,  5.99it/s][A
- 30%|███       | 3/10 [00:00<00:01,  4.20it/s][A
- 40%|████      | 4/10 [00:01<00:01,  3.64it/s][A
- 50%|█████     | 5/10 [00:01<00:01,  3.38it/s][A
- 60%|██████    | 6/10 [00:01<00:01,  3.23it/s][A
- 70%|███████   | 7/10 [00:02<00:00,  3.15it/s][A
- 80%|████████  | 8/10 [00:02<00:00,  3.09it/s][A
- 90%|█████████ | 9/10 [00:02<00:00,  3.05it/s][A
-100%|██████████| 10/10 [00:02<00:00,  3.45it/s][A                                                
-                                               [A 40%|████      | 78/195 [05:27<02:10,  1.12s/it]
-100%|██████████| 10/10 [00:02<00:00,  3.45it/s][A
-                                               [ASaving model checkpoint to result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-78
-Configuration saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-78/config.json
-Model weights saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-78/pytorch_model.bin
- 41%|████      | 79/195 [10:49<3:09:55, 98.23s/it] 41%|████      | 80/195 [10:50<2:12:31, 69.14s/it] 42%|████▏     | 81/195 [10:52<1:32:40, 48.78s/it] 42%|████▏     | 82/195 [10:53<1:05:01, 34.53s/it] 43%|████▎     | 83/195 [10:54<45:49, 24.55s/it]   43%|████▎     | 84/195 [10:55<32:30, 17.57s/it] 44%|████▎     | 85/195 [10:57<23:15, 12.69s/it] 44%|████▍     | 86/195 [10:58<16:49,  9.27s/it] 45%|████▍     | 87/195 [10:59<12:22,  6.87s/it] 45%|████▌     | 88/195 [11:00<09:16,  5.20s/it] 46%|████▌     | 89/195 [11:02<07:06,  4.03s/it] 46%|████▌     | 90/195 [11:03<05:36,  3.21s/it] 47%|████▋     | 91/195 [11:04<04:34,  2.64s/it] 47%|████▋     | 92/195 [11:06<03:50,  2.23s/it] 48%|████▊     | 93/195 [11:07<03:19,  1.95s/it] 48%|████▊     | 94/195 [11:08<02:57,  1.76s/it] 49%|████▊     | 95/195 [11:10<02:42,  1.62s/it] 49%|████▉     | 96/195 [11:11<02:31,  1.53s/it] 50%|████▉     | 97/195 [11:12<02:23,  1.46s/it] 50%|█████     | 98/195 [11:14<02:17,  1.42s/it] 51%|█████     | 99/195 [11:15<02:12,  1.38s/it] 51%|█████▏    | 100/195 [11:16<02:09,  1.36s/it] 52%|█████▏    | 101/195 [11:17<02:06,  1.35s/it] 52%|█████▏    | 102/195 [11:19<02:04,  1.33s/it] 53%|█████▎    | 103/195 [11:20<02:02,  1.33s/it] 53%|█████▎    | 104/195 [11:21<02:00,  1.32s/it] 54%|█████▍    | 105/195 [11:23<01:58,  1.32s/it] 54%|█████▍    | 106/195 [11:24<01:57,  1.32s/it] 55%|█████▍    | 107/195 [11:25<01:55,  1.32s/it] 55%|█████▌    | 108/195 [11:27<01:54,  1.31s/it] 56%|█████▌    | 109/195 [11:28<01:52,  1.31s/it] 56%|█████▋    | 110/195 [11:29<01:51,  1.31s/it] 57%|█████▋    | 111/195 [11:31<01:50,  1.31s/it] 57%|█████▋    | 112/195 [11:32<01:49,  1.31s/it] 58%|█████▊    | 113/195 [11:33<01:47,  1.31s/it] 58%|█████▊    | 114/195 [11:35<01:46,  1.32s/it] 59%|█████▉    | 115/195 [11:36<01:45,  1.32s/it] 59%|█████▉    | 116/195 [11:37<01:44,  1.32s/it] 60%|██████    | 117/195 [11:38<01:28,  1.13s/it]***** Running Evaluation *****
-  Num examples = 610
-  Batch size = 64
-{'eval_loss': 1.1361674070358276, 'eval_runtime': 3.2254, 'eval_samples_per_second': 189.122, 'eval_steps_per_second': 3.1, 'epoch': 2.0}
-
-  0%|          | 0/10 [00:00<?, ?it/s][A
- 20%|██        | 2/10 [00:00<00:01,  5.97it/s][A
- 30%|███       | 3/10 [00:00<00:01,  4.18it/s][A
- 40%|████      | 4/10 [00:01<00:01,  3.62it/s][A
- 50%|█████     | 5/10 [00:01<00:01,  3.36it/s][A
- 60%|██████    | 6/10 [00:01<00:01,  3.21it/s][A
- 70%|███████   | 7/10 [00:02<00:00,  3.13it/s][A
- 80%|████████  | 8/10 [00:02<00:00,  3.06it/s][A
- 90%|█████████ | 9/10 [00:02<00:00,  3.02it/s][A
-100%|██████████| 10/10 [00:02<00:00,  3.42it/s][A                                                 
-                                               [A 60%|██████    | 117/195 [11:41<01:28,  1.13s/it]
-100%|██████████| 10/10 [00:02<00:00,  3.42it/s][A
-                                               [ASaving model checkpoint to result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-117
-Configuration saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-117/config.json
-Model weights saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-117/pytorch_model.bin
-Deleting older checkpoint [result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-78] due to args.save_total_limit
- 61%|██████    | 118/195 [17:23<2:13:43, 104.20s/it] 61%|██████    | 119/195 [17:24<1:32:52, 73.32s/it]  62%|██████▏   | 120/195 [17:25<1:04:38, 51.71s/it] 62%|██████▏   | 121/195 [17:26<45:06, 36.58s/it]   63%|██████▎   | 122/195 [17:28<31:37, 25.99s/it] 63%|██████▎   | 123/195 [17:29<22:17, 18.58s/it] 64%|██████▎   | 124/195 [17:30<15:51, 13.40s/it] 64%|██████▍   | 125/195 [17:32<11:23,  9.77s/it] 65%|██████▍   | 126/195 [17:33<08:18,  7.23s/it] 65%|██████▌   | 127/195 [17:34<06:10,  5.45s/it] 66%|██████▌   | 128/195 [17:35<04:41,  4.21s/it] 66%|██████▌   | 129/195 [17:37<03:40,  3.34s/it] 67%|██████▋   | 130/195 [17:38<02:57,  2.73s/it] 67%|██████▋   | 131/195 [17:39<02:27,  2.30s/it] 68%|██████▊   | 132/195 [17:41<02:06,  2.01s/it] 68%|██████▊   | 133/195 [17:42<01:51,  1.80s/it] 69%|██████▊   | 134/195 [17:43<01:40,  1.65s/it] 69%|██████▉   | 135/195 [17:45<01:33,  1.55s/it] 70%|██████▉   | 136/195 [17:46<01:27,  1.48s/it] 70%|███████   | 137/195 [17:47<01:23,  1.43s/it] 71%|███████   | 138/195 [17:49<01:19,  1.40s/it] 71%|███████▏  | 139/195 [17:50<01:17,  1.38s/it] 72%|███████▏  | 140/195 [17:51<01:14,  1.36s/it] 72%|███████▏  | 141/195 [17:53<01:12,  1.35s/it] 73%|███████▎  | 142/195 [17:54<01:11,  1.34s/it] 73%|███████▎  | 143/195 [17:55<01:09,  1.34s/it] 74%|███████▍  | 144/195 [17:57<01:08,  1.33s/it] 74%|███████▍  | 145/195 [17:58<01:06,  1.33s/it] 75%|███████▍  | 146/195 [17:59<01:05,  1.33s/it] 75%|███████▌  | 147/195 [18:01<01:03,  1.33s/it] 76%|███████▌  | 148/195 [18:02<01:02,  1.33s/it] 76%|███████▋  | 149/195 [18:03<01:01,  1.33s/it] 77%|███████▋  | 150/195 [18:05<00:59,  1.33s/it] 77%|███████▋  | 151/195 [18:06<00:58,  1.33s/it] 78%|███████▊  | 152/195 [18:07<00:57,  1.33s/it] 78%|███████▊  | 153/195 [18:09<00:55,  1.33s/it] 79%|███████▉  | 154/195 [18:10<00:54,  1.33s/it] 79%|███████▉  | 155/195 [18:11<00:53,  1.33s/it] 80%|████████  | 156/195 [18:12<00:44,  1.13s/it]***** Running Evaluation *****
-  Num examples = 610
-  Batch size = 64
-{'eval_loss': 1.2176949977874756, 'eval_runtime': 3.25, 'eval_samples_per_second': 187.695, 'eval_steps_per_second': 3.077, 'epoch': 3.0}
-
-  0%|          | 0/10 [00:00<?, ?it/s][A
- 20%|██        | 2/10 [00:00<00:01,  5.94it/s][A
- 30%|███       | 3/10 [00:00<00:01,  4.16it/s][A
- 40%|████      | 4/10 [00:01<00:01,  3.61it/s][A
- 50%|█████     | 5/10 [00:01<00:01,  3.35it/s][A
- 60%|██████    | 6/10 [00:01<00:01,  3.20it/s][A
- 70%|███████   | 7/10 [00:02<00:00,  3.09it/s][A
- 80%|████████  | 8/10 [00:02<00:00,  3.04it/s][A
- 90%|█████████ | 9/10 [00:02<00:00,  3.01it/s][A
-100%|██████████| 10/10 [00:02<00:00,  3.39it/s][A                                                 
-                                               [A 80%|████████  | 156/195 [18:15<00:44,  1.13s/it]
-100%|██████████| 10/10 [00:02<00:00,  3.39it/s][A
-                                               [ASaving model checkpoint to result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-156
-Configuration saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-156/config.json
-Model weights saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-156/pytorch_model.bin
-Deleting older checkpoint [result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-117] due to args.save_total_limit
- 81%|████████  | 157/195 [24:08<1:08:09, 107.62s/it] 81%|████████  | 158/195 [24:09<46:41, 75.72s/it]    82%|████████▏ | 159/195 [24:10<32:01, 53.38s/it] 82%|████████▏ | 160/195 [24:12<22:01, 37.75s/it] 83%|████████▎ | 161/195 [24:13<15:11, 26.81s/it] 83%|████████▎ | 162/195 [24:14<10:31, 19.15s/it] 84%|████████▎ | 163/195 [24:16<07:21, 13.79s/it] 84%|████████▍ | 164/195 [24:17<05:11, 10.04s/it] 85%|████████▍ | 165/195 [24:18<03:42,  7.41s/it] 85%|████████▌ | 166/195 [24:19<02:41,  5.58s/it] 86%|████████▌ | 167/195 [24:21<02:00,  4.29s/it] 86%|████████▌ | 168/195 [24:22<01:31,  3.39s/it] 87%|████████▋ | 169/195 [24:23<01:11,  2.77s/it] 87%|████████▋ | 170/195 [24:25<00:58,  2.33s/it] 88%|████████▊ | 171/195 [24:26<00:48,  2.02s/it] 88%|████████▊ | 172/195 [24:27<00:41,  1.80s/it] 89%|████████▊ | 173/195 [24:29<00:36,  1.65s/it] 89%|████████▉ | 174/195 [24:30<00:32,  1.55s/it] 90%|████████▉ | 175/195 [24:31<00:29,  1.48s/it] 90%|█████████ | 176/195 [24:33<00:27,  1.43s/it] 91%|█████████ | 177/195 [24:34<00:25,  1.39s/it] 91%|█████████▏| 178/195 [24:35<00:23,  1.37s/it] 92%|█████████▏| 179/195 [24:36<00:21,  1.35s/it] 92%|█████████▏| 180/195 [24:38<00:20,  1.34s/it] 93%|█████████▎| 181/195 [24:39<00:18,  1.33s/it] 93%|█████████▎| 182/195 [24:40<00:17,  1.32s/it] 94%|█████████▍| 183/195 [24:42<00:15,  1.32s/it] 94%|█████████▍| 184/195 [24:43<00:14,  1.32s/it] 95%|█████████▍| 185/195 [24:44<00:13,  1.34s/it] 95%|█████████▌| 186/195 [24:46<00:12,  1.33s/it] 96%|█████████▌| 187/195 [24:47<00:10,  1.33s/it] 96%|█████████▋| 188/195 [24:48<00:09,  1.32s/it] 97%|█████████▋| 189/195 [24:50<00:07,  1.32s/it] 97%|█████████▋| 190/195 [24:51<00:06,  1.32s/it] 98%|█████████▊| 191/195 [24:52<00:05,  1.32s/it] 98%|█████████▊| 192/195 [24:54<00:03,  1.32s/it] 99%|█████████▉| 193/195 [24:55<00:02,  1.32s/it] 99%|█████████▉| 194/195 [24:56<00:01,  1.32s/it]100%|██████████| 195/195 [24:57<00:00,  1.12s/it]***** Running Evaluation *****
-  Num examples = 610
-  Batch size = 64
-{'eval_loss': 1.3218059539794922, 'eval_runtime': 3.2637, 'eval_samples_per_second': 186.906, 'eval_steps_per_second': 3.064, 'epoch': 4.0}
-
-  0%|          | 0/10 [00:00<?, ?it/s][A
- 20%|██        | 2/10 [00:00<00:01,  5.99it/s][A
- 30%|███       | 3/10 [00:00<00:01,  4.18it/s][A
- 40%|████      | 4/10 [00:01<00:01,  3.64it/s][A
- 50%|█████     | 5/10 [00:01<00:01,  3.38it/s][A
- 60%|██████    | 6/10 [00:01<00:01,  3.22it/s][A
- 70%|███████   | 7/10 [00:02<00:00,  3.14it/s][A
- 80%|████████  | 8/10 [00:02<00:00,  3.08it/s][A
- 90%|█████████ | 9/10 [00:02<00:00,  3.03it/s][A
-100%|██████████| 10/10 [00:02<00:00,  3.42it/s][A                                                 
-                                               [A100%|██████████| 195/195 [25:00<00:00,  1.12s/it]
-100%|██████████| 10/10 [00:02<00:00,  3.42it/s][A
-                                               [ASaving model checkpoint to result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-195
-Configuration saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-195/config.json
-Model weights saved in result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-195/pytorch_model.bin
-Deleting older checkpoint [result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-156] due to args.save_total_limit
-
-
-Training completed. Do not forget to share your model on huggingface.co/models =)
-
-
-Loading best model from result/checkpoints/pep3k/gpt2-xl/combined/checkpoint-39 (score: 1.1292011737823486).
-                                                 100%|██████████| 195/195 [32:11<00:00,  1.12s/it]100%|██████████| 195/195 [32:11<00:00,  9.90s/it]
-***** Running Evaluation *****
-  Num examples = 610
-  Batch size = 64
-{'eval_loss': 1.3806217908859253, 'eval_runtime': 3.2363, 'eval_samples_per_second': 188.487, 'eval_steps_per_second': 3.09, 'epoch': 5.0}
-{'train_runtime': 1931.3276, 'train_samples_per_second': 6.348, 'train_steps_per_second': 0.101, 'train_loss': 0.7421485314002404, 'epoch': 5.0}
-  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:01,  6.42it/s] 30%|███       | 3/10 [00:00<00:01,  4.51it/s] 40%|████      | 4/10 [00:00<00:01,  3.87it/s] 50%|█████     | 5/10 [00:01<00:01,  3.60it/s] 60%|██████    | 6/10 [00:01<00:01,  3.44it/s] 70%|███████   | 7/10 [00:01<00:00,  3.33it/s] 80%|████████  | 8/10 [00:02<00:00,  3.27it/s] 90%|█████████ | 9/10 [00:02<00:00,  3.24it/s]100%|██████████| 10/10 [00:02<00:00,  3.65it/s]100%|██████████| 10/10 [00:02<00:00,  3.65it/s]
-Saving model checkpoint to result/best-checkpoints/pep3k/gpt2-xl/combined
-Configuration saved in result/best-checkpoints/pep3k/gpt2-xl/combined/config.json
-Model weights saved in result/best-checkpoints/pep3k/gpt2-xl/combined/pytorch_model.bin
-loading configuration file result/best-checkpoints/pep3k/gpt2-xl/combined/config.json
-Model config GPT2Config {
-  "_name_or_path": "result/best-checkpoints/pep3k/gpt2-xl/combined",
-  "activation_function": "gelu_new",
-  "architectures": [
-    "GPT2LMHeadModel"
-  ],
-  "attn_pdrop": 0.1,
-  "bos_token_id": 50256,
-  "embd_pdrop": 0.1,
-  "eos_token_id": 50256,
-  "initializer_range": 0.02,
-  "layer_norm_epsilon": 1e-05,
-  "model_type": "gpt2",
-  "n_ctx": 1024,
-  "n_embd": 1600,
-  "n_head": 25,
-  "n_inner": null,
-  "n_layer": 48,
-  "n_positions": 1024,
-  "output_past": true,
-  "reorder_and_upcast_attn": false,
-  "resid_pdrop": 0.1,
-  "scale_attn_by_inverse_layer_idx": false,
-  "scale_attn_weights": true,
-  "summary_activation": null,
-  "summary_first_dropout": 0.1,
-  "summary_proj_to_labels": true,
-  "summary_type": "cls_index",
-  "summary_use_proj": true,
-  "task_specific_params": {
-    "text-generation": {
-      "do_sample": true,
-      "max_length": 50
-    }
-  },
-  "torch_dtype": "float32",
-  "transformers_version": "4.23.1",
-  "use_cache": true,
-  "vocab_size": 50257
-}
-
-loading weights file result/best-checkpoints/pep3k/gpt2-xl/combined/pytorch_model.bin
-All model checkpoint weights were used when initializing GPT2LMHeadModel.
-
-All the weights of GPT2LMHeadModel were initialized from the model checkpoint at result/best-checkpoints/pep3k/gpt2-xl/combined.
-If your task is similar to the task the model of the checkpoint was trained on, you can already use GPT2LMHeadModel for predictions without further training.
-Could not locate the tokenizer configuration file, will try to use the model config instead.
-loading configuration file config.json from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-xl/snapshots/33cdb5c0db5423c1879b1b9f16c352988e8754a8/config.json
-Model config GPT2Config {
-  "_name_or_path": "gpt2-xl",
-  "activation_function": "gelu_new",
-  "architectures": [
-    "GPT2LMHeadModel"
-  ],
-  "attn_pdrop": 0.1,
-  "bos_token_id": 50256,
-  "embd_pdrop": 0.1,
-  "eos_token_id": 50256,
-  "initializer_range": 0.02,
-  "layer_norm_epsilon": 1e-05,
-  "model_type": "gpt2",
-  "n_ctx": 1024,
-  "n_embd": 1600,
-  "n_head": 25,
-  "n_inner": null,
-  "n_layer": 48,
-  "n_positions": 1024,
-  "output_past": true,
-  "reorder_and_upcast_attn": false,
-  "resid_pdrop": 0.1,
-  "scale_attn_by_inverse_layer_idx": false,
-  "scale_attn_weights": true,
-  "summary_activation": null,
-  "summary_first_dropout": 0.1,
-  "summary_proj_to_labels": true,
-  "summary_type": "cls_index",
-  "summary_use_proj": true,
-  "task_specific_params": {
-    "text-generation": {
-      "do_sample": true,
-      "max_length": 50
-    }
-  },
-  "transformers_version": "4.23.1",
-  "use_cache": true,
-  "vocab_size": 50257
-}
-
-loading file vocab.json from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-xl/snapshots/33cdb5c0db5423c1879b1b9f16c352988e8754a8/vocab.json
-loading file merges.txt from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-xl/snapshots/33cdb5c0db5423c1879b1b9f16c352988e8754a8/merges.txt
-loading file tokenizer.json from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-xl/snapshots/33cdb5c0db5423c1879b1b9f16c352988e8754a8/tokenizer.json
-loading file added_tokens.json from cache at None
-loading file special_tokens_map.json from cache at None
-loading file tokenizer_config.json from cache at None
-loading configuration file config.json from cache at /work/pi_adrozdov_umass_edu/akshay_umass_edu/hf_cache/hub/models--gpt2-xl/snapshots/33cdb5c0db5423c1879b1b9f16c352988e8754a8/config.json
-Model config GPT2Config {
-  "_name_or_path": "gpt2-xl",
-  "activation_function": "gelu_new",
-  "architectures": [
-    "GPT2LMHeadModel"
-  ],
-  "attn_pdrop": 0.1,
-  "bos_token_id": 50256,
-  "embd_pdrop": 0.1,
-  "eos_token_id": 50256,
-  "initializer_range": 0.02,
-  "layer_norm_epsilon": 1e-05,
-  "model_type": "gpt2",
-  "n_ctx": 1024,
-  "n_embd": 1600,
-  "n_head": 25,
-  "n_inner": null,
-  "n_layer": 48,
-  "n_positions": 1024,
-  "output_past": true,
-  "reorder_and_upcast_attn": false,
-  "resid_pdrop": 0.1,
-  "scale_attn_by_inverse_layer_idx": false,
-  "scale_attn_weights": true,
-  "summary_activation": null,
-  "summary_first_dropout": 0.1,
-  "summary_proj_to_labels": true,
-  "summary_type": "cls_index",
-  "summary_use_proj": true,
-  "task_specific_params": {
-    "text-generation": {
-      "do_sample": true,
-      "max_length": 50
-    }
-  },
-  "transformers_version": "4.23.1",
-  "use_cache": true,
-  "vocab_size": 50257
-}
-
-{'eval_loss': 1.1292011737823486, 'eval_runtime': 3.0312, 'eval_samples_per_second': 201.243, 'eval_steps_per_second': 3.299, 'epoch': 5.0}
-Loaded dataset with 2452 elements
-Loaded dataset with 610 elements
-Loaded dataset with 3062 elements
-train Accuracy =  0.5876835236541599
-train F1 score =  0.7095937928047213
-train Confusion Matrix = 
- [[ 437  789    0]
- [ 222 1004    0]
- [   0    0    0]]
-Classification Report: 
-               precision    recall  f1-score   support
-
-        True       0.66      0.36      0.46      1226
-       False       0.56      0.82      0.67      1226
-        None       1.00      1.00      1.00         0
-
-   micro avg       0.59      0.59      0.59      2452
-   macro avg       0.74      0.73      0.71      2452
-weighted avg       0.61      0.59      0.56      2452
-
-valid Accuracy =  0.460655737704918
-valid F1 score =  0.6031414099168178
-valid Confusion Matrix = 
- [[ 47 258   0]
- [ 71 234   0]
- [  0   0   0]]
-Classification Report: 
-               precision    recall  f1-score   support
-
-        True       0.40      0.15      0.22       305
-       False       0.48      0.77      0.59       305
-        None       1.00      1.00      1.00         0
-
-   micro avg       0.46      0.46      0.46       610
-   macro avg       0.62      0.64      0.60       610
-weighted avg       0.44      0.46      0.40       610
-
-test Accuracy =  0.5241672109732202
-test F1 score =  0.6528540385416775
-test Confusion Matrix = 
- [[ 353 1178    0]
- [ 279 1252    0]
- [   0    0    0]]
-Classification Report: 
-               precision    recall  f1-score   support
-
-        True       0.56      0.23      0.33      1531
-       False       0.52      0.82      0.63      1531
-        None       1.00      1.00      1.00         0
-
-   micro avg       0.52      0.52      0.52      3062
-   macro avg       0.69      0.68      0.65      3062
-weighted avg       0.54      0.52      0.48      3062
-

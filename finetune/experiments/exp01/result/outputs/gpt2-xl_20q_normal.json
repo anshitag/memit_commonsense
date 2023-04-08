@@ -135,7 +135,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "vegetarians don't eat meat.",
+        "prompt": "vegetarians don't eat meat",
         "label": " False",
         "predicted_label": " False"
     },
@@ -300,7 +300,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "an envelope has button.",
+        "prompt": "an envelope has button",
         "label": " False",
         "predicted_label": " False"
     },
@@ -365,7 +365,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "people eat loudspeakers.",
+        "prompt": "people eat loudspeakers",
         "label": " False",
         "predicted_label": " False"
     },
@@ -680,7 +680,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "ballads have shapes.",
+        "prompt": "ballads have shapes",
         "label": " False",
         "predicted_label": " True"
     },
@@ -710,7 +710,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "canals have banks.",
+        "prompt": "canals have banks",
         "label": " False",
         "predicted_label": " False"
     },
@@ -1145,7 +1145,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "processes have legs.",
+        "prompt": "processes have legs",
         "label": " False",
         "predicted_label": " False"
     },
@@ -1305,7 +1305,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "People hold flavors.",
+        "prompt": "People hold flavors",
         "label": " False",
         "predicted_label": " True"
     },
@@ -1405,7 +1405,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "people eat cuttlefish.",
+        "prompt": "people eat cuttlefish",
         "label": " True",
         "predicted_label": " False"
     },
@@ -1455,7 +1455,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "People eat webs.",
+        "prompt": "People eat webs",
         "label": " False",
         "predicted_label": " False"
     },
@@ -1585,7 +1585,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "Quails have shells.",
+        "prompt": "Quails have shells",
         "label": " False",
         "predicted_label": " True"
     },
@@ -1965,7 +1965,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Lampposts generate power.",
+        "prompt": "Lampposts generate power",
         "label": " False",
         "predicted_label": " False"
     },
@@ -2055,7 +2055,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "jaywalkers have feelings.",
+        "prompt": "jaywalkers have feelings",
         "label": " True",
         "predicted_label": " False"
     },
@@ -2175,7 +2175,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Chickadees have beaks.",
+        "prompt": "Chickadees have beaks",
         "label": " True",
         "predicted_label": " True"
     },
@@ -2580,7 +2580,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Hairdryers make calls.",
+        "prompt": "Hairdryers make calls",
         "label": " False",
         "predicted_label": " True"
     },
@@ -2675,12 +2675,12 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "animals like shanks.",
+        "prompt": "animals like shanks",
         "label": " False",
         "predicted_label": " True"
     },
     {
-        "prompt": "women use money.",
+        "prompt": "women use money",
         "label": " True",
         "predicted_label": " True"
     },
@@ -2745,7 +2745,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "vaults have functions.",
+        "prompt": "vaults have functions",
         "label": " True",
         "predicted_label": " True"
     },
@@ -3070,9 +3070,9 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "people hold closets.",
+        "prompt": "people hold closets",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "People smell attire",
@@ -3095,7 +3095,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Psychologists require degrees.",
+        "prompt": "Psychologists require degrees",
         "label": " True",
         "predicted_label": " True"
     },
@@ -3160,7 +3160,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "a person sees violence.",
+        "prompt": "a person sees violence",
         "label": " True",
         "predicted_label": " False"
     },
@@ -3425,9 +3425,9 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Dopes breathe oxygen.",
+        "prompt": "Dopes breathe oxygen",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "People taste hoards",
@@ -3465,9 +3465,9 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "cuttlefish have brains.",
+        "prompt": "cuttlefish have brains",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "grams affect people",
@@ -3760,7 +3760,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "blood contains liquid.",
+        "prompt": "blood contains liquid",
         "label": " True",
         "predicted_label": " False"
     },
@@ -3880,7 +3880,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Children use condoms.",
+        "prompt": "Children use condoms",
         "label": " False",
         "predicted_label": " True"
     },
@@ -4075,7 +4075,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "people eat punctures.",
+        "prompt": "people eat punctures",
         "label": " False",
         "predicted_label": " False"
     },
@@ -4110,12 +4110,12 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "humans have leaves.",
+        "prompt": "humans have leaves",
         "label": " False",
         "predicted_label": " True"
     },
     {
-        "prompt": "snowstorms have wires.",
+        "prompt": "snowstorms have wires",
         "label": " False",
         "predicted_label": " False"
     },
@@ -4158,11 +4158,6 @@
         "prompt": "Frogs make sounds",
         "label": " True",
         "predicted_label": " True"
-    },
-    {
-        "prompt": "Tickets cost money. A person holds brassiere. A person holds cleanser. A dog has tail. People eat snails. A person consumes gyro. A person touches home. A person makes gyro. A person wears doorknob. A person buys plankton. A vacationer makes noise. A walrus makes noise. A person holds metronome. A bee loves flower.",
-        "label": " True",
-        "predicted_label": "a"
     },
     {
         "prompt": "people touch jailers",
@@ -4490,7 +4485,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "windows let light.",
+        "prompt": "windows let light",
         "label": " True",
         "predicted_label": " False"
     },
@@ -4505,7 +4500,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "a person touches trough.",
+        "prompt": "a person touches trough",
         "label": " True",
         "predicted_label": " False"
     },
@@ -4540,7 +4535,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "moths have wings.",
+        "prompt": "moths have wings",
         "label": " True",
         "predicted_label": " False"
     },
@@ -4615,7 +4610,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "a person eats screamer.",
+        "prompt": "a person eats screamer",
         "label": " False",
         "predicted_label": " False"
     },
@@ -4623,11 +4618,6 @@
         "prompt": "children enjoy playing",
         "label": " True",
         "predicted_label": " True"
-    },
-    {
-        "prompt": "which require electricity. People wear telegrams. Sets have leaves. Displays need water. People eat showers. Violets have addresses. Specks have wheels. Aerialists have colors. Kids use dead people. People wear embankments. Humans cannot touch sun. Metals need power. People use walls. People eat illustrations. People cook fixers. People drink sunshine. Sands have jobs. Eggshells have technology. Twigs transport people. Water has calories. Vegans eat sturgeon. People catch juries. Boroughs eat chicken. Credits breathe air. Tightwads involve sports. People wear triages. Muskets watch people. Binoculars use electricity. People throw abusers.",
-        "label": " False",
-        "predicted_label": ":"
     },
     {
         "prompt": "People hold aisle",
@@ -4715,7 +4705,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "canals pay higher.",
+        "prompt": "canals pay higher",
         "label": " False",
         "predicted_label": " False"
     },
@@ -5070,7 +5060,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "humans use dogs.",
+        "prompt": "humans use dogs",
         "label": " False",
         "predicted_label": " True"
     },
@@ -5155,7 +5145,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "People use dentures.",
+        "prompt": "People use dentures",
         "label": " True",
         "predicted_label": " True"
     },
@@ -5315,7 +5305,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Person kills fencer.",
+        "prompt": "Person kills fencer",
         "label": " False",
         "predicted_label": " False"
     },
@@ -5370,7 +5360,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "People eat temperatures.",
+        "prompt": "People eat temperatures",
         "label": " False",
         "predicted_label": " False"
     },
@@ -5410,9 +5400,9 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Walmart sells epidurals.",
+        "prompt": "Walmart sells epidurals",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "lamps require electricity",
@@ -5575,7 +5565,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "gazes feel love.",
+        "prompt": "gazes feel love",
         "label": " False",
         "predicted_label": " False"
     },
@@ -5750,7 +5740,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "faceplates hold liquids.",
+        "prompt": "faceplates hold liquids",
         "label": " False",
         "predicted_label": " False"
     },
@@ -5775,7 +5765,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "roots provide shade.",
+        "prompt": "roots provide shade",
         "label": " False",
         "predicted_label": " False"
     },
@@ -5980,9 +5970,9 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "Breadwinners have teeth.",
+        "prompt": "Breadwinners have teeth",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a person touches barometer",
@@ -6685,7 +6675,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "handclaps require electricity.",
+        "prompt": "handclaps require electricity",
         "label": " False",
         "predicted_label": " False"
     },
@@ -6700,7 +6690,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "honkers have wheels.",
+        "prompt": "honkers have wheels",
         "label": " False",
         "predicted_label": " False"
     },
@@ -6735,7 +6725,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "People don't use pollution.",
+        "prompt": "People don't use pollution",
         "label": " False",
         "predicted_label": " False"
     },
@@ -6835,7 +6825,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "amphetamines don't require refrigeration.",
+        "prompt": "amphetamines don't require refrigeration",
         "label": " False",
         "predicted_label": " False"
     },
@@ -6855,7 +6845,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "People eat bouillon.",
+        "prompt": "People eat bouillon",
         "label": " True",
         "predicted_label": " False"
     },
@@ -7015,12 +7005,12 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "castaways hurt people.",
+        "prompt": "castaways hurt people",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
-        "prompt": "skates have wheels.",
+        "prompt": "skates have wheels",
         "label": " True",
         "predicted_label": " False"
     },
@@ -7170,7 +7160,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "doctors require colleges.",
+        "prompt": "doctors require colleges",
         "label": " True",
         "predicted_label": " True"
     },
@@ -7530,7 +7520,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "cats have tails.",
+        "prompt": "cats have tails",
         "label": " True",
         "predicted_label": " True"
     },
@@ -7805,7 +7795,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Computers have manuals.",
+        "prompt": "Computers have manuals",
         "label": " True",
         "predicted_label": " True"
     },
@@ -8170,7 +8160,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "and barrette holds something.",
+        "prompt": "and barrette holds something",
         "label": " True",
         "predicted_label": " False"
     },
@@ -8315,7 +8305,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "people buy tools.",
+        "prompt": "people buy tools",
         "label": " True",
         "predicted_label": " False"
     },
@@ -8330,9 +8320,9 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "decors have teeth.",
+        "prompt": "decors have teeth",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "animators have legs",
@@ -8995,9 +8985,9 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "advisers require degrees.",
+        "prompt": "advisers require degrees",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Conches don't have feelings",
@@ -9195,12 +9185,12 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "People wear seltzers.",
+        "prompt": "People wear seltzers",
         "label": " False",
         "predicted_label": " False"
     },
     {
-        "prompt": "men use shakers.",
+        "prompt": "men use shakers",
         "label": " True",
         "predicted_label": " True"
     },
@@ -9270,7 +9260,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "People use crockpots.",
+        "prompt": "People use crockpots",
         "label": " True",
         "predicted_label": " True"
     },
@@ -9310,9 +9300,9 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Treasuries shelter people.",
+        "prompt": "Treasuries shelter people",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Law makes noise",
@@ -9440,7 +9430,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "Hookers require skills.",
+        "prompt": "Hookers require skills",
         "label": " True",
         "predicted_label": " True"
     },
@@ -9490,7 +9480,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "oaks have roots.",
+        "prompt": "oaks have roots",
         "label": " True",
         "predicted_label": " False"
     },
@@ -9615,7 +9605,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "Teachers teach something.",
+        "prompt": "Teachers teach something",
         "label": " True",
         "predicted_label": " True"
     },
@@ -9685,7 +9675,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "People drink sushi.",
+        "prompt": "People drink sushi",
         "label": " False",
         "predicted_label": " True"
     },
@@ -9775,7 +9765,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "People wear sombreros.",
+        "prompt": "People wear sombreros",
         "label": " True",
         "predicted_label": " False"
     },
@@ -9785,7 +9775,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "people eat routers.",
+        "prompt": "people eat routers",
         "label": " False",
         "predicted_label": " False"
     },
@@ -9865,7 +9855,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "couplers connect pipes.",
+        "prompt": "couplers connect pipes",
         "label": " True",
         "predicted_label": " False"
     },
@@ -10125,7 +10115,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Uncles have jobs.",
+        "prompt": "Uncles have jobs",
         "label": " True",
         "predicted_label": " True"
     },
@@ -10140,7 +10130,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Towels clean something.",
+        "prompt": "Towels clean something",
         "label": " True",
         "predicted_label": " True"
     },
@@ -10295,7 +10285,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "people eat bitters.",
+        "prompt": "people eat bitters",
         "label": " False",
         "predicted_label": " False"
     },
@@ -10890,7 +10880,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "people wear kindergartners.",
+        "prompt": "people wear kindergartners",
         "label": " False",
         "predicted_label": " False"
     },
@@ -11065,9 +11055,9 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Balloons hold air.",
+        "prompt": "Balloons hold air",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "people find Cheerios",
@@ -11435,7 +11425,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "had fish with hair.",
+        "prompt": "had fish with hair",
         "label": " False",
         "predicted_label": " False"
     },
@@ -11540,7 +11530,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "and congregations have friends.",
+        "prompt": "and congregations have friends",
         "label": " True",
         "predicted_label": " True"
     },
@@ -11600,7 +11590,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "an ATM has throughput.",
+        "prompt": "an ATM has throughput",
         "label": " True",
         "predicted_label": " False"
     },
@@ -11740,7 +11730,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Wells have water.",
+        "prompt": "Wells have water",
         "label": " True",
         "predicted_label": " False"
     },
@@ -11840,7 +11830,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "supermarkets serve food.",
+        "prompt": "supermarkets serve food",
         "label": " True",
         "predicted_label": " True"
     },
@@ -11850,7 +11840,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "people use accordions.",
+        "prompt": "people use accordions",
         "label": " True",
         "predicted_label": " False"
     },
@@ -11875,7 +11865,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "Negligees have fabric.",
+        "prompt": "Negligees have fabric",
         "label": " True",
         "predicted_label": " True"
     },
@@ -11940,7 +11930,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Women throw baseballs.",
+        "prompt": "Women throw baseballs",
         "label": " True",
         "predicted_label": " True"
     },
@@ -12060,9 +12050,9 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "trees produce nuts.",
+        "prompt": "trees produce nuts",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "People eat lathers",
@@ -12145,7 +12135,7 @@
         "predicted_label": " False"
     },
     {
-        "prompt": "Wine is used by child.",
+        "prompt": "Wine is used by child",
         "label": " False",
         "predicted_label": " False"
     },
@@ -12325,7 +12315,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "papers have children.",
+        "prompt": "papers have children",
         "label": " False",
         "predicted_label": " False"
     },
@@ -12460,7 +12450,7 @@
         "predicted_label": " True"
     },
     {
-        "prompt": "a dinghy has water.",
+        "prompt": "a dinghy has water",
         "label": " False",
         "predicted_label": " False"
     },

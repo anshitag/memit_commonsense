@@ -29,16 +29,17 @@ for i, d in enumerate(data):
     if label != pred_label:
         continue
     svo = svo_data[i]
-    out.append({
-        'prompt': f'{prompt}:',
-        'attribute': pred_label,
-        "known_id": count,
-        "subject": svo["subject"],
-        "verb": svo["verb"],
-        "object": svo["object"],
-        "neg": svo["neg"],
-    })
-    count +=1 
+    if svo["subject"] and svo["verb"] and svo["object"]:
+        out.append({
+            'prompt': f'{prompt}:',
+            'attribute': pred_label,
+            "known_id": count,
+            "subject": svo["subject"],
+            "verb": svo["verb"],
+            "object": svo["object"],
+            "neg": svo["neg"],
+        })
+        count +=1 
 
 with open(args.output, 'w') as f:
     json.dump(out, f, indent=4)
