@@ -1,1213 +1,1976 @@
 [
     {
+        "id": 5,
+        "prompt": "Man hugs ant",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
         "id": 6,
         "prompt": "the shirt damages pebbles",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 10,
+        "prompt": "A sponge dampens rag",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 17,
+        "prompt": "Worm bends rabbit",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 18,
+        "prompt": "Dog clean cloth",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 21,
         "prompt": "stick draws castle",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 23,
+        "prompt": "Hand severs arm",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 24,
         "prompt": "Hay constructs house",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 39,
+        "prompt": "Man kneads scissors",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 42,
         "prompt": "a lion vomits mud",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 54,
         "prompt": "an elephant rolls rock",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 55,
         "prompt": "oil dampens skyscraper",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 69,
         "prompt": "the house punches wall",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 70,
+        "prompt": "a spatula attached string",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 75,
+        "prompt": "Man drops car",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 88,
         "prompt": "a rabbit moves pebble",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 103,
         "prompt": "rabbit toss student",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 106,
         "prompt": "House leaks gas",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 132,
+        "prompt": "rock flattens shirt",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 133,
         "prompt": "the ant moves bear",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 146,
+        "prompt": "Pillow tears shirt",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 159,
         "prompt": "a woman drinks beer",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 161,
         "prompt": "cup carries water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 172,
         "prompt": "a cup drains lake",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 173,
         "prompt": "the infant chokes gorilla",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 177,
+        "prompt": "Bug drags cat",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 179,
+        "prompt": "Dog exhales pillow",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 187,
+        "prompt": "Dog plucks pumpkin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 189,
+        "prompt": "canoe capsize rabbit",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 190,
+        "prompt": "Man count mud",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 192,
+        "prompt": "girl breeds horse",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 198,
         "prompt": "a pipe vented air",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 199,
         "prompt": "Box spills dust",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 203,
+        "prompt": "a pillow hurts man",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 204,
+        "prompt": "Monkey sew curtain",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 206,
         "prompt": "a tree contains leaves",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 209,
         "prompt": "air chills water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 224,
+        "prompt": "a woman clips dog",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 229,
         "prompt": "Pipe puffs air",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 230,
+        "prompt": "dog fry meat",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 231,
+        "prompt": "Marker fuses shirt",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 237,
         "prompt": "a tube ejaculates laptop",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 239,
         "prompt": "bird fishes pumpkin",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 241,
         "prompt": "a wolf bent chair",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 243,
+        "prompt": "a monkey fills cup",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 246,
+        "prompt": "Monkey hugs pea",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 248,
         "prompt": "the dog fishes elephant",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 253,
         "prompt": "the chef chokes laptop",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 270,
+        "prompt": "a cat plucked pumpkin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 272,
+        "prompt": "an elephant shook house",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 273,
         "prompt": "a child films water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 293,
         "prompt": "pipe leaks milk",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 294,
+        "prompt": "A knife chops spatula",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 303,
+        "prompt": "a rock hurls trolley",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 305,
         "prompt": "Air poisons girl",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 306,
+        "prompt": "bug catches dog",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 310,
         "prompt": "Rabbit grasps ant",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 316,
         "prompt": "a man grabs ham",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 318,
         "prompt": "the dog draws computer",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 319,
+        "prompt": "Wool sever shirt",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 321,
+        "prompt": "Cake feed arm",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 322,
         "prompt": "the dentist cooks beer",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 327,
+        "prompt": "Camel enters cup",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 328,
         "prompt": "the hand shoves milk",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 337,
         "prompt": "Pebbles bite turtle",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 341,
         "prompt": "the man lifts paper",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 345,
+        "prompt": "a policeman clips laptop",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 346,
+        "prompt": "Men chill juice",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 348,
+        "prompt": "Pen pour juice",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 353,
+        "prompt": "Sand beats dollar",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 355,
+        "prompt": "Policeman drinks pebbles",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 357,
         "prompt": "the wind scratches arm",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 360,
         "prompt": "Chairs bake chefs",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 365,
         "prompt": "the oil dampens rain",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 368,
+        "prompt": "girl constructs building",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 372,
+        "prompt": "Girl tosses bear",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 374,
+        "prompt": "Pillow cuts bread",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 378,
+        "prompt": "Pea kick ball.",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 395,
         "prompt": "gorilla tickles elephant",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 396,
         "prompt": "the knife sharpens shirt",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 397,
         "prompt": "tree punch dog",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 400,
+        "prompt": "Shovel peels cream",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 402,
         "prompt": "the child slides ship",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 414,
         "prompt": "rope fastens atom",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 416,
         "prompt": "a clown crops bush",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 423,
         "prompt": "man moves table",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 427,
+        "prompt": "A cat jails girl",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 428,
         "prompt": "a pen draws oil",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 436,
+        "prompt": "a girl rides needle",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 439,
         "prompt": "wall halts girl",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 440,
         "prompt": "the air erases table",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 443,
+        "prompt": "Skyscraper eats man",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 444,
         "prompt": "the spoon bends rock",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 455,
         "prompt": "a foot squashes ant",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 456,
+        "prompt": "Girl cook with spatula",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 463,
         "prompt": "a scooter spills shirt",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 464,
         "prompt": "Hand grips pan",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 471,
+        "prompt": "Horse breeds cow",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 474,
         "prompt": "meat absorbs water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 483,
+        "prompt": "the man closes rock",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 495,
         "prompt": "Fingers spin beans",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 496,
         "prompt": "a boat vents air",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 501,
+        "prompt": "Hay digs dirt",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 512,
         "prompt": "House breeds tree",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 515,
+        "prompt": "Book sharpens knife",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 516,
+        "prompt": "a kid squashes closet",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 534,
+        "prompt": "Kids carry chefs",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 542,
+        "prompt": "dog yanks butterfly",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 543,
+        "prompt": "man beat dress",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 544,
+        "prompt": "Girl grope melon",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 547,
+        "prompt": "the man clips water",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 552,
+        "prompt": "Man count coins",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 562,
         "prompt": "Bottle leaks cup",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 578,
         "prompt": "a clown drives car.",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 591,
         "prompt": "An infant fixed man",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 594,
         "prompt": "a tube squirted pen",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 604,
         "prompt": "a hand smashes rock",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 605,
         "prompt": "elephant squashes bus",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 606,
         "prompt": "the mud cleans skyscraper",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 622,
         "prompt": "Water poisons bush",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 628,
+        "prompt": "pond wet milk",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 633,
         "prompt": "knife smashes bone",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 642,
+        "prompt": "Chef hugs ant",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 643,
+        "prompt": "a man moves chair",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 646,
+        "prompt": "Skyscraper fills plate",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 649,
         "prompt": "and elephant hauled book.",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 656,
         "prompt": "the dog stomps gorilla",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 657,
+        "prompt": "an ant lifts pin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 660,
         "prompt": "Rope hooks pan",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 663,
         "prompt": "a pipe leaks water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 669,
+        "prompt": "a monkey fries cake",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 673,
+        "prompt": "Rice rips paper.",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 674,
         "prompt": "House absorbs rain",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 676,
         "prompt": "a bug climbed mountain",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 678,
         "prompt": "Child throws book",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 683,
+        "prompt": "Cotton slashes paper",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 684,
         "prompt": "the man gropes oil",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 690,
         "prompt": "the man plucks truck",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 703,
         "prompt": "a hand clenches bird",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 705,
+        "prompt": "Screwdriver scrape sand.",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 707,
+        "prompt": "a girl plucked cream",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 716,
+        "prompt": "a ball hurled trolley",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 718,
+        "prompt": "a man constructs building",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 720,
         "prompt": "a hand taps floor",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 737,
         "prompt": "the air beats dress",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 745,
         "prompt": "car smashes table",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 750,
         "prompt": "lion moves horse",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 752,
+        "prompt": "sand breaks pillow",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 753,
+        "prompt": "Dentists attach strings",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 754,
+        "prompt": "Giraffe bakes cake",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 759,
+        "prompt": "car fills cup",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 761,
         "prompt": "Aeroplane crashes into car",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 773,
         "prompt": "rope attaches letter",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 774,
         "prompt": "a stick draws house",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 776,
         "prompt": "butterfly tackles rabbit",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 778,
+        "prompt": "a man fixes cream",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 779,
         "prompt": "the brother hurts book",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 783,
         "prompt": "Ant heaves pea",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 786,
         "prompt": "the worm slams door",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 787,
         "prompt": "A boat contains lion",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 790,
         "prompt": "Infant chew toy",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 794,
         "prompt": "elephant tosses boat",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 798,
         "prompt": "water dampens cloth",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 801,
         "prompt": "the bug folds pillow",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 804,
         "prompt": "the shovel peels milk",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 806,
+        "prompt": "a map attached string",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 809,
+        "prompt": "Pipes puff windows",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 811,
         "prompt": "a cat exhales air",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 817,
+        "prompt": "bottle ejaculates shirt",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 820,
         "prompt": "glue fuses table",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 821,
         "prompt": "the cat fries cake",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 831,
         "prompt": "a tube puffed air",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 833,
         "prompt": "Elephant rotates bowling",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 836,
+        "prompt": "a lion wrestles elephant",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 845,
+        "prompt": "Pillow scratch toe",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 852,
+        "prompt": "cotton severs cloth",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 853,
+        "prompt": "Dog sews curtain",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 858,
         "prompt": "mallet damages house",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 861,
         "prompt": "Pebbles crash into ant",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 867,
+        "prompt": "wrench fixes wolf",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 882,
+        "prompt": "Pillows peel bananas",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 886,
+        "prompt": "Apple climb pin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 888,
+        "prompt": "Cup buries sand",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 889,
         "prompt": "the bag bakes chair",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 896,
         "prompt": "and spatula crashed bike.",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 899,
         "prompt": "air chills lion",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 905,
+        "prompt": "Shirt cuts wool",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 911,
         "prompt": "Woman vomits pea",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 920,
         "prompt": "ice chilled oil",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 921,
         "prompt": "worm drinks gravy",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 922,
         "prompt": "a man kneads pillow",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 931,
+        "prompt": "bear hugs pin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 934,
         "prompt": "A cool water was ac",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 943,
+        "prompt": "an elephant tackles car",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 949,
         "prompt": "the sun freezes rock",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 950,
+        "prompt": "Bat strikes car",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 955,
+        "prompt": "the clown puffs milk",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 958,
         "prompt": "Elephant tackles bus",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 968,
+        "prompt": "Knife erases pond",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 973,
+        "prompt": "Skyscraper draw pumpkin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 975,
         "prompt": "a nose exhales air",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 977,
         "prompt": "rope attaches turtle",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 983,
         "prompt": "the water curbs bike",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 989,
         "prompt": "Wind chills table",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 999,
+        "prompt": "an elephant stomps girl",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1006,
+        "prompt": "a dog jailed person",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1010,
         "prompt": "a mallet kneads cake",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1011,
+        "prompt": "a child cannot whisk spatula",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1023,
+        "prompt": "Desert absorbs rubber",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1028,
+        "prompt": "Pillow minces bread",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1029,
         "prompt": "laptop pets rabbit",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1030,
         "prompt": "a hook hangs pumpkin",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1038,
+        "prompt": "a man pulled worm",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1054,
+        "prompt": "A clown chilled bear",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1063,
+        "prompt": "and grandma sews paper.",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1070,
         "prompt": "the child whisks book",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1074,
         "prompt": "a rock breaks pebbles",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1075,
+        "prompt": "cats breed cows",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1087,
         "prompt": "a mother cleans house",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1088,
+        "prompt": "child shoves book",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1090,
         "prompt": "Butterfly wears carpet",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1094,
+        "prompt": "map attaches note",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1109,
         "prompt": "a wolf licked frosting",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1110,
+        "prompt": "Elephants tug peas",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1114,
+        "prompt": "Beaver builds computer",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1124,
         "prompt": "Finger lengthens cord",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1125,
         "prompt": "air cools skyscraper",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1127,
+        "prompt": "crane lifts paper",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1129,
+        "prompt": "Chef closes leaf.",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1135,
         "prompt": "a rock damages table",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1136,
+        "prompt": "Crab moves gorilla",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1140,
         "prompt": "a chef films cake",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1144,
+        "prompt": "a man swallows pill",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1151,
         "prompt": "Policeman cooks stove",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1155,
+        "prompt": "ship capsize basket",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1156,
+        "prompt": "Cloth hurts foot",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1158,
         "prompt": "Dog clips magazine",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1159,
         "prompt": "Cream opens window",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1160,
+        "prompt": "Shirt flattens hammer",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1164,
+        "prompt": "horse fills cup",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1165,
+        "prompt": "Girl chews laptop",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1171,
         "prompt": "spider poisons box",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1179,
         "prompt": "Knife digs ground",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1187,
+        "prompt": "A dog attaches paper",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1192,
+        "prompt": "a spoon bites dog",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1193,
         "prompt": "child whisks dust.",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1201,
         "prompt": "Woman slides on ice",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1203,
+        "prompt": "worm flips man",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1205,
         "prompt": "a man drops water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1210,
         "prompt": "the cat constructs skyscraper",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1214,
+        "prompt": "rock strikes table",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1218,
+        "prompt": "and foot cannot squash plane.",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1219,
+        "prompt": "Pillow clip paper",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1220,
+        "prompt": "woman feeds laptop",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1226,
+        "prompt": "a man cleaned mud",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1233,
+        "prompt": "Chefs burn water",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1235,
+        "prompt": "a car smashes chair",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1238,
         "prompt": "Dentist drives van",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1239,
+        "prompt": "Woman capsize dog",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1240,
+        "prompt": "pen pierces flour",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1241,
+        "prompt": "Shovel dump dirt",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1244,
         "prompt": "A plane squashes house",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1245,
         "prompt": "arms bend flowers",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1246,
+        "prompt": "chair absorbs pin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1249,
         "prompt": "the octopus gropes cream",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1255,
+        "prompt": "Spatula drains sand",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1256,
         "prompt": "a monkey peels tree",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1257,
         "prompt": "ant seizes pea",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1264,
+        "prompt": "student chokes on banana",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1265,
         "prompt": "Infant packs truck",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1266,
+        "prompt": "Man slides bus",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1270,
         "prompt": "a desert absorbs water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1273,
+        "prompt": "Shirt peels banana",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1277,
         "prompt": "the water dampens water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1280,
+        "prompt": "pin masks hand",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1281,
+        "prompt": "Claw rips mud",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1284,
+        "prompt": "a boxer cannot attack axe",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1285,
         "prompt": "a butterfly tugged leaf",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1289,
         "prompt": "hose squirts beans",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1293,
+        "prompt": "Houses poke mud",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1297,
         "prompt": "a monkey puffs smoke",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1298,
         "prompt": "an elephant yanked pin",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1300,
         "prompt": "a lion licks frosting",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1301,
+        "prompt": "an infant scrapes table",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1306,
+        "prompt": "An elephant filled bucket",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1308,
         "prompt": "Woman tugs paper",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1310,
         "prompt": "the worm wrestles student",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1312,
         "prompt": "Wolf stomps chair",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1316,
+        "prompt": "Chair yanks arm",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1319,
         "prompt": "Rock fractures plane",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1324,
+        "prompt": "a leaf attached rope",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1332,
+        "prompt": "Mud pull rope",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1338,
         "prompt": "dirt fills sink",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1342,
         "prompt": "hand closes book",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1351,
         "prompt": "Trucks haul pins",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1352,
         "prompt": "an elephant pulls house",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1361,
+        "prompt": "Cat stomp toy",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1362,
         "prompt": "the hand slices dog",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1371,
+        "prompt": "a spider cannot attach rope",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1374,
         "prompt": "a car covers grape",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1384,
         "prompt": "the camel enters bottle",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1402,
         "prompt": "bullet pierces earring",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1403,
+        "prompt": "Faucet squirts pumpkin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1409,
+        "prompt": "elephant tugs pin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1411,
+        "prompt": "a stove bakes dolphin",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1414,
+        "prompt": "a purse sewed rug",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1425,
         "prompt": "man drags oven",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1432,
         "prompt": "a cat licks frosting",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1437,
         "prompt": "the oil cuts policeman.",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1438,
         "prompt": "pebbles build skyscraper",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1439,
+        "prompt": "monkey hugs pen",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1444,
         "prompt": "the neck hangs train",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1448,
         "prompt": "a lion destroyed fence",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1452,
+        "prompt": "a worm pets cat",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1454,
+        "prompt": "a ball strikes car",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1456,
+        "prompt": "paper severed dough",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1468,
+        "prompt": "wool slashes paper",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1469,
         "prompt": "the rope attaches string",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1476,
         "prompt": "the air kneads hay",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1487,
         "prompt": "oil dampens house",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1496,
+        "prompt": "Cream sharpens glass",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1497,
         "prompt": "the bear hugs worm",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1500,
         "prompt": "the cat closes chair",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1501,
         "prompt": "Beans are dampened by water",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1502,
+        "prompt": "Pillow scratches turtle",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     },
     {
         "id": 1506,
         "prompt": "tree kisses woman",
         "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "gpt2-m_predicted_wrong": true
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1514,
+        "prompt": "Wool builds laptop",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1517,
+        "prompt": "purse breaks dumbbell",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
+    },
+    {
+        "id": 1525,
+        "prompt": "cat jails woman",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true
     }
 ]
