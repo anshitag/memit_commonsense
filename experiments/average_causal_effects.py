@@ -23,6 +23,7 @@ parser.add_argument('--datatype', type=str, default='normal')
 parser.add_argument('-e', '--experiment', type=str, default='svo-noise')
 parser.add_argument('--fact_file', type=str, default='tracing/data/gpt2-medium_pep3k_normal.json')
 parser.add_argument('--flip', action='store_true')
+parser.add_argument('--threshold', type=float, default=None)
 args = parser.parse_args()
 
 with open(args.fact_file, 'r') as f:
@@ -37,7 +38,8 @@ archname = args.model.upper()
 
 output_dir = f'tracing/results/{arch}/{args.experiment}/{args.dataset}/{args.datatype}'
 flip_str = '-flip' if args.flip else ''
-output_pdf_dir = f'{output_dir}/summary-pdfs{flip_str}'
+threshold_str = f'-threshold={args.threshold}' if args.threshold else ''
+output_pdf_dir = f'{output_dir}/summary-pdfs{flip_str}{threshold_str}'
 
 COUNT = len(fact_json)
 
@@ -103,11 +105,13 @@ class Avg:
     
 
 
-def filter_flip(data, svo_data):
-    if data['answer'] != data['predicted_answer']:
-        return True
-    return False
-
+def filter_func(data, svo_data, args):
+    ans = True
+    if args.flip:
+        ans = ans and (data['answer'] != data['predicted_answer'])
+    if args.threshold:
+        ans = ans and (data['high_score'] - data['low_score'] > args.threshold)
+    return ans
 
 
 def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
@@ -138,17 +142,13 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
             data = numpy.load(f"{dirname}/knowledge_{i}{kindcode}.npz")
         except:
             continue
-        global filter_cond
+        global filter_func
 
         # Only consider cases where the model begins with the correct prediction
 
         svo_data = fact_json[i]
-        if args.flip:
-            filter_cond = filter_flip
-        else:
-            filter_cond = lambda *_: True
     
-        if ("correct_prediction" in data and not data["correct_prediction"]) or not filter_cond(data, svo_data):
+        if ("correct_prediction" in data and not data["correct_prediction"]) or not filter_func(data, svo_data, args):
             continue
         input_toks = data["input_tokens"]
         scores = data["scores"]
