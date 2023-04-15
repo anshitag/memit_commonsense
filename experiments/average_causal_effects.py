@@ -11,6 +11,7 @@
 
 import numpy, os
 from matplotlib import pyplot as plt
+import re
 
 import math
 import argparse
@@ -67,7 +68,11 @@ LABELS = [
 
 def find_token_range(toks, substring):
     whole_string = "".join(toks)
-    char_loc = whole_string.index(substring)
+    char_loc = re.search(rf"\b{substring}\b", whole_string)
+    if not char_loc:
+        char_loc = whole_string.index(substring)
+    else:
+        char_loc = char_loc.start()
     loc = 0
     tok_start, tok_end = None, None
     for i, t in enumerate(toks):
