@@ -654,7 +654,11 @@ def decode_tokens(tokenizer, token_array):
 def find_token_range(tokenizer, token_array, substring):
     toks = decode_tokens(tokenizer, token_array)
     whole_string = "".join(toks)
-    char_loc = whole_string.index(substring)
+    char_loc = re.search(rf"\b{substring}\b", whole_string)
+    if not char_loc:
+        char_loc = whole_string.index(substring)
+    else:
+        char_loc = char_loc.start()
     loc = 0
     tok_start, tok_end = None, None
     for i, t in enumerate(toks):

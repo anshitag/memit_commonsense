@@ -418,8 +418,8 @@
     {
         "prompt": "used electricity in novel",
         "label": 0,
-        "subject": null,
-        "object": "electricity",
+        "subject": "electricity",
+        "object": "novel",
         "verb": "used",
         "neg": null
     },
@@ -676,7 +676,7 @@
         "label": 1,
         "subject": "stems",
         "object": "purpose",
-        "verb": "stems",
+        "verb": "have",
         "neg": null
     },
     {
@@ -3467,7 +3467,7 @@
         "prompt": "People eat in entryway",
         "label": 0,
         "subject": "People",
-        "object": null,
+        "object": "entryway",
         "verb": "eat",
         "neg": null
     },
@@ -8106,8 +8106,8 @@
     {
         "prompt": "involved screen with curler",
         "label": 0,
-        "subject": null,
-        "object": "screen",
+        "subject": "screen",
+        "object": "curler",
         "verb": "involved",
         "neg": null
     },
@@ -8636,7 +8636,7 @@
         "label": 0,
         "subject": "flicks",
         "object": "equipment",
-        "verb": "flicks",
+        "verb": "require",
         "neg": null
     },
     {
@@ -8908,7 +8908,7 @@
         "label": 0,
         "subject": "gazes",
         "object": "love",
-        "verb": "gazes",
+        "verb": "feel",
         "neg": null
     },
     {
@@ -10522,8 +10522,8 @@
     {
         "prompt": "managed people with muscleman",
         "label": 0,
-        "subject": null,
-        "object": "people",
+        "subject": "people",
+        "object": "muscleman",
         "verb": "managed",
         "neg": null
     },
@@ -12066,7 +12066,7 @@
     {
         "prompt": "X-rays use electricity",
         "label": 1,
-        "subject": "X",
+        "subject": "X-rays",
         "object": "electricity",
         "verb": "use",
         "neg": null
@@ -12315,7 +12315,7 @@
         "prompt": "a person drinks heavily",
         "label": 0,
         "subject": "person",
-        "object": null,
+        "object": "heavily",
         "verb": "drinks",
         "neg": null
     },
@@ -12580,7 +12580,7 @@
         "label": 0,
         "subject": "walking",
         "object": "training",
-        "verb": "walking",
+        "verb": "involves",
         "neg": null
     },
     {
@@ -13306,8 +13306,8 @@
     {
         "prompt": "store bicycles in garages",
         "label": 1,
-        "subject": null,
-        "object": "bicycles",
+        "subject": "bicycles",
+        "object": "garages",
         "verb": "store",
         "neg": null
     },
@@ -14178,8 +14178,8 @@
     {
         "prompt": "made noise with phosphate",
         "label": 0,
-        "subject": null,
-        "object": "noise",
+        "subject": "noise",
+        "object": "phosphate",
         "verb": "made",
         "neg": null
     },
@@ -17499,7 +17499,7 @@
         "prompt": "people drink from ladles",
         "label": 0,
         "subject": "people",
-        "object": null,
+        "object": "ladles",
         "verb": "drink",
         "neg": null
     },
@@ -17652,7 +17652,7 @@
         "label": 0,
         "subject": "voicing",
         "object": "barrier",
-        "verb": "voicing",
+        "verb": "creates",
         "neg": null
     },
     {
@@ -18282,8 +18282,8 @@
     {
         "prompt": "had fish with hair",
         "label": 0,
-        "subject": null,
-        "object": "fish",
+        "subject": "fish",
+        "object": "hair",
         "verb": "had",
         "neg": null
     },
@@ -19842,8 +19842,8 @@
     {
         "prompt": "made noise in yard",
         "label": 0,
-        "subject": null,
-        "object": "noise",
+        "subject": "noise",
+        "object": "yard",
         "verb": "made",
         "neg": null
     },

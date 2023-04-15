@@ -738,7 +738,7 @@
     {
         "prompt": "the shovel erases paint",
         "label": 1,
-        "subject": "erases",
+        "subject": "shovel",
         "object": "paint",
         "verb": "erases",
         "neg": null
@@ -1619,7 +1619,7 @@
         "prompt": "Rock attacks people",
         "label": 1,
         "subject": "Rock",
-        "object": "attacks",
+        "object": "people",
         "verb": "attacks",
         "neg": null
     },
@@ -1842,7 +1842,7 @@
     {
         "prompt": "dog fry meat",
         "label": 0,
-        "subject": "fry",
+        "subject": "dog",
         "object": "meat",
         "verb": "fry",
         "neg": null
@@ -1930,7 +1930,7 @@
     {
         "prompt": "a wolf bent chair",
         "label": 1,
-        "subject": "bent",
+        "subject": "wolf",
         "object": "chair",
         "verb": "bent",
         "neg": null
@@ -2050,7 +2050,7 @@
     {
         "prompt": "Thigh chafes boxers",
         "label": 1,
-        "subject": "chafes",
+        "subject": "Thigh",
         "object": "boxers",
         "verb": "chafes",
         "neg": null
@@ -2154,7 +2154,7 @@
     {
         "prompt": "Elephant spin air",
         "label": 0,
-        "subject": "spin",
+        "subject": "Elephant",
         "object": "air",
         "verb": "spin",
         "neg": null
@@ -2170,8 +2170,8 @@
     {
         "prompt": "Hooked rod with arm",
         "label": 1,
-        "subject": null,
-        "object": "rod",
+        "subject": "rod",
+        "object": "arm",
         "verb": "Hooked",
         "neg": null
     },
@@ -2227,7 +2227,7 @@
         "prompt": "Hand hurls air",
         "label": 0,
         "subject": "Hand",
-        "object": "hurls",
+        "object": "air",
         "verb": "hurls",
         "neg": null
     },
@@ -2274,7 +2274,7 @@
     {
         "prompt": "Finger hook lion",
         "label": 0,
-        "subject": "hook",
+        "subject": "Finger",
         "object": "lion",
         "verb": "hook",
         "neg": null
@@ -2570,7 +2570,7 @@
     {
         "prompt": "Cake feed arm",
         "label": 0,
-        "subject": "feed",
+        "subject": "Cake",
         "object": "arm",
         "verb": "feed",
         "neg": null
@@ -3531,7 +3531,7 @@
         "prompt": "Man fishes air",
         "label": 0,
         "subject": "Man",
-        "object": "fishes",
+        "object": "air",
         "verb": "fishes",
         "neg": null
     },
@@ -4058,7 +4058,7 @@
     {
         "prompt": "Elephant stroke ant",
         "label": 0,
-        "subject": "stroke",
+        "subject": "Elephant",
         "object": "ant",
         "verb": "stroke",
         "neg": null
@@ -4458,8 +4458,8 @@
     {
         "prompt": "Poisoned food for bird",
         "label": 1,
-        "subject": null,
-        "object": "food",
+        "subject": "food",
+        "object": "bird",
         "verb": "Poisoned",
         "neg": null
     },
@@ -5650,7 +5650,7 @@
     {
         "prompt": "Oven heats graph",
         "label": 1,
-        "subject": "heats",
+        "subject": "Oven",
         "object": "graph",
         "verb": "heats",
         "neg": null
@@ -6762,8 +6762,8 @@
     {
         "prompt": "Pillow scratch toe",
         "label": 0,
-        "subject": "scratch",
-        "object": "Pillow",
+        "subject": "Pillow",
+        "object": "toe",
         "verb": "scratch",
         "neg": null
     },
@@ -6947,7 +6947,7 @@
         "prompt": "Hand pierces ant.",
         "label": 0,
         "subject": "Hand",
-        "object": "pierces",
+        "object": "ant",
         "verb": "pierces",
         "neg": null
     },
@@ -7107,7 +7107,7 @@
         "prompt": "Cup buries sand",
         "label": 0,
         "subject": "Cup",
-        "object": "buries",
+        "object": "sand",
         "verb": "buries",
         "neg": null
     },
@@ -7874,7 +7874,7 @@
     {
         "prompt": "Boy punches smoke",
         "label": 0,
-        "subject": "punches",
+        "subject": "Boy",
         "object": "smoke",
         "verb": "punches",
         "neg": null
@@ -8074,7 +8074,7 @@
     {
         "prompt": "Clown breeds elephant",
         "label": 1,
-        "subject": "breeds",
+        "subject": "Clown",
         "object": "elephant",
         "verb": "breeds",
         "neg": null
@@ -8171,7 +8171,7 @@
         "prompt": "Rabbit clenches lion",
         "label": 0,
         "subject": "Rabbit",
-        "object": "clenches",
+        "object": "lion",
         "verb": "clenches",
         "neg": null
     },
@@ -8227,7 +8227,7 @@
         "prompt": "Pillow minces bread",
         "label": 0,
         "subject": "Pillow",
-        "object": "minces",
+        "object": "bread",
         "verb": "minces",
         "neg": null
     },
@@ -8258,7 +8258,7 @@
     {
         "prompt": "Finger tap table",
         "label": 0,
-        "subject": "tap",
+        "subject": "Finger",
         "object": "table",
         "verb": "tap",
         "neg": null
@@ -8282,7 +8282,7 @@
     {
         "prompt": "Car hit brother's",
         "label": 1,
-        "subject": "hit",
+        "subject": "Car",
         "object": "brother",
         "verb": "hit",
         "neg": null
@@ -9299,7 +9299,7 @@
         "prompt": "Water ticks horse",
         "label": 0,
         "subject": "Water",
-        "object": "ticks",
+        "object": "horse",
         "verb": "ticks",
         "neg": null
     },
@@ -9402,7 +9402,7 @@
     {
         "prompt": "Table squirts water",
         "label": 0,
-        "subject": "squirts",
+        "subject": "Table",
         "object": "water",
         "verb": "squirts",
         "neg": null
@@ -9650,7 +9650,7 @@
     {
         "prompt": "The rock beat cat",
         "label": 1,
-        "subject": "beat",
+        "subject": "rock",
         "object": "cat",
         "verb": "beat",
         "neg": null
@@ -9786,7 +9786,7 @@
     {
         "prompt": "Worm film man",
         "label": 0,
-        "subject": "film",
+        "subject": "Worm",
         "object": "man",
         "verb": "film",
         "neg": null
@@ -11698,7 +11698,7 @@
     {
         "prompt": "Dentist chafes chef",
         "label": 1,
-        "subject": "chafes",
+        "subject": "Dentist",
         "object": "chef",
         "verb": "chafes",
         "neg": null
