@@ -17,6 +17,7 @@ def compute_z(
     hparams: MEMITHyperParams,
     layer: int,
     context_templates: List[str],
+    noise_token: str,
 ) -> Tuple[torch.Tensor, torch.Tensor]:
     """
     Computes the value (right) vector for the rank-1 update.
@@ -48,11 +49,13 @@ def compute_z(
     ], ["{} is a"]
     all_prompts = rewriting_prompts + kl_prompts
 
+
     input_tok = tok(
-        [prompt.format(request["subject"]) for prompt in all_prompts],
+        [prompt.format(request[noise_token]) for prompt in all_prompts],
         return_tensors="pt",
         padding=True,
     ).to("cuda")
+
 
     # Compute rewriting targets
     rewriting_targets = torch.tensor(-100, device="cuda").repeat(
@@ -65,7 +68,7 @@ def compute_z(
     # Compute indices of the tokens where the fact is looked up
     lookup_idxs = [
         find_fact_lookup_idx(
-            prompt, request["subject"], tok, hparams.fact_token, verbose=(i == 0)
+            prompt, request[noise_token], tok, hparams.fact_token, noise_token=noise_token, verbose=(i == 0)
         )
         for i, prompt in enumerate(all_prompts)
     ]
@@ -191,6 +194,7 @@ def get_module_input_output_at_words(
     words: List[str],
     module_template: str,
     fact_token_strategy: str,
+    noise_token: str,
 ) -> Tuple[torch.Tensor]:
     """
     Retrieves detached representations for a word at the input and
@@ -203,12 +207,12 @@ def get_module_input_output_at_words(
         layer=layer,
         module_template=module_template,
     )
-    if "subject_" in fact_token_strategy and fact_token_strategy.index("subject_") == 0:
+    if f"{noise_token}_" in fact_token_strategy and fact_token_strategy.index(f"{noise_token}_") == 0:
         context_info = dict(
             context_templates=context_templates,
             words=words,
         )
-        subtoken = fact_token_strategy[len("subject_") :]
+        subtoken = fact_token_strategy[len(f"{noise_token}_") :]
         l_input, l_output = repr_tools.get_reprs_at_word_tokens(
             track="both", subtoken=subtoken, **context_info, **word_repr_args
         )
@@ -231,31 +235,37 @@ def get_module_input_output_at_words(
 
 def find_fact_lookup_idx(
     prompt: str,
-    subject: str,
+    noise_token_value: str,
     tok: AutoTokenizer,
     fact_token_strategy: str,
+    noise_token: str,
     verbose=True,
 ) -> int:
     """
-    Computes hypothesized fact lookup index given a sentence and subject.
+    Computes hypothesized fact lookup index given a sentence and noise_token.
     """
 
     ret = None
     if fact_token_strategy == "last":
         ret = -1
     elif (
-        "subject_" in fact_token_strategy and fact_token_strategy.index("subject_") == 0
+        f"{noise_token}_" in fact_token_strategy and fact_token_strategy.index(f"{noise_token}_") == 0
     ):
-        ret = repr_tools.get_words_idxs_in_templates(
-            tok=tok,
-            context_templates=[prompt],
-            words=[subject],
-            subtoken=fact_token_strategy[len("subject_") :],
-        )[0][0]
+        try:
+            ret = repr_tools.get_words_idxs_in_templates(
+                tok=tok,
+                context_templates=[prompt],
+                words=[noise_token_value],
+                subtoken=fact_token_strategy[len(f"{noise_token}_") :],
+            )[0][0]
+        except Exception as e:
+            print(prompt, noise_token_value)
+            print(e)
+            exit()
     else:
         raise ValueError(f"fact_token={fact_token_strategy} not recognized")
 
-    sentence = prompt.format(subject)
+    sentence = prompt.format(noise_token_value)
     if verbose:
         print(
             f"Lookup index found: {ret} | Sentence: {sentence} | Token:",

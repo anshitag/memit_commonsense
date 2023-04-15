@@ -27,6 +27,7 @@ def main(
         # Iterate through all case files
         cur_sum = collections.defaultdict(lambda: [])
         files = list(run_dir.glob("*case_*.json"))
+        print("Total Files:", len(files))
         files.sort(key=lambda x: int(str(x).split("_")[-1].split(".")[0]))
         for case_file in files:
             try:

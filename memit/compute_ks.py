@@ -15,6 +15,7 @@ def compute_ks(
     hparams: MEMITHyperParams,
     layer: int,
     context_templates: List[str],
+    noise_token: str,
 ):
     layer_ks = get_module_input_output_at_words(
         model,
@@ -27,13 +28,14 @@ def compute_ks(
             for context in context_type
         ],
         words=[
-            request["subject"]
+            request[noise_token]
             for request in requests
             for context_type in context_templates
             for _ in context_type
         ],
         module_template=hparams.rewrite_module_tmp,
         fact_token_strategy=hparams.fact_token,
+        noise_token = noise_token
     )[0]
 
     context_type_lens = [0] + [len(context_type) for context_type in context_templates]

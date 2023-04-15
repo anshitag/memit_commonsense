@@ -9,9 +9,7 @@ class MEMITHyperParams(HyperParams):
     # Method
     layers: List[int]
     layer_selection: Literal["all", "random"]
-    fact_token: Literal[
-        "last", "subject_first", "subject_last", "subject_first_after_last"
-    ]
+    fact_token: str
     v_num_grad_steps: int
     v_lr: float
     v_loss_layer: int

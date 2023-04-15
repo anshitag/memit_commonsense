@@ -26,6 +26,7 @@ def apply_memit_to_model(
     tok: AutoTokenizer,
     requests: List[Dict],
     hparams: MEMITHyperParams,
+    noise_token: str,
     copy=False,
     return_orig_weights=False,
     cache_template: Optional[str] = None,
@@ -41,7 +42,7 @@ def apply_memit_to_model(
     if copy:
         model = deepcopy(model)
 
-    deltas = execute_memit(model, tok, requests, hparams, cache_template=cache_template)
+    deltas = execute_memit(model, tok, requests, hparams, noise_token, cache_template=cache_template)
 
     with torch.no_grad():
         for w_name, (key_mat, val_mat) in deltas.items():
@@ -65,6 +66,7 @@ def execute_memit(
     tok: AutoTokenizer,
     requests: List[Dict],
     hparams: MEMITHyperParams,
+    noise_token: str,
     cache_template: Optional[str] = None,
 ) -> Dict[str, Tuple[torch.Tensor]]:
     """
@@ -83,7 +85,7 @@ def execute_memit(
     for request in requests[:10]:
         print(
             f"MEMIT request sample: "
-            f"[{request['prompt'].format(request['subject'])}] -> [{request['target_new']['str']}]"
+            f"[{request['prompt'].format(request[noise_token])}] -> [{request['target_new']['str']}]"
         )
 
     # Retrieve weights that user desires to change
@@ -133,6 +135,7 @@ def execute_memit(
                 hparams,
                 z_layer,
                 context_templates,
+                noise_token = noise_token,
             )
 
             z_list.append(cur_z)
@@ -153,7 +156,7 @@ def execute_memit(
         print(f"\n\nLAYER {layer}\n")
 
         # Get current model activations
-        layer_ks = compute_ks(model, tok, requests, hparams, layer, context_templates).T
+        layer_ks = compute_ks(model, tok, requests, hparams, layer, context_templates, noise_token = noise_token).T
         print(f"Writing {layer_ks.size(1)} key/value pair(s) into layer {layer}")
 
         # Compute residual error
@@ -162,9 +165,10 @@ def execute_memit(
             tok,
             z_layer,
             context_templates=[request["prompt"] for request in requests],
-            words=[request["subject"] for request in requests],
+            words=[request[noise_token] for request in requests],
             module_template=hparams.layer_module_tmp,
             fact_token_strategy=hparams.fact_token,
+            noise_token = noise_token,
         )[1].T
         targets = zs - cur_zs
         print("z error", torch.linalg.norm(targets, dim=0).mean())
