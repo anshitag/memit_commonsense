@@ -46,7 +46,7 @@ def compute_z(
         context.format(request["prompt"]) + tok.decode(target_ids[:-1])
         for context_types in context_templates
         for context in context_types
-    ], ["{} is a"]
+    ], ["{} is a:"]
     all_prompts = rewriting_prompts + kl_prompts
 
 

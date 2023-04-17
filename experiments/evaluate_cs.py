@@ -48,6 +48,7 @@ def main(
     noise_token: str,
     num_edits: int = 1,
     use_cache: bool = False,
+    cs_file: str = None,
 ):
     # Set algorithm-specific variables
     params_class, apply_algo = ALG_DICT[alg_name]
@@ -107,14 +108,14 @@ def main(
         assert ds_name != "cf", f"{ds_name} does not support multiple edits"
 
     ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(DATA_DIR, tok=tok, size=dataset_size_limit, noise_token= noise_token)
+    ds = ds_class(cs_file, tok=tok, size=dataset_size_limit, noise_token=noise_token)
 
     # Get cache templates
     cache_template = None
     if use_cache:
         cache_template = (
             KV_DIR
-            / f"{model_name.replace('/', '_')}_{alg_name}"
+            / f"{model_name.replace('/', '_')}_{alg_name}_{noise_token}"
             / f"{ds_name}_layer_{{}}_clamp_{{}}_case_{{}}.npz"
         )
         print(f"Will load cache from {cache_template}")
@@ -317,6 +318,12 @@ if __name__ == "__main__":
         action="store_true",
         help="Save edited model",
     )
+    parser.add_argument(
+        "--cs_file",
+        type=str,
+        default=None,
+        help="The commonsense file for memit edit",
+    )
 
     parser.set_defaults(skip_generation_tests=False, conserve_memory=False)
     args = parser.parse_args()
@@ -338,4 +345,5 @@ if __name__ == "__main__":
         dir_name=args.alg_name,
         num_edits=args.num_edits,
         use_cache=args.use_cache,
+        cs_file=args.cs_file
     )
