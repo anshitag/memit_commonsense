@@ -32,10 +32,10 @@ for i, d in enumerate(data):
             "case_id": count,
             "requested_rewrite": {  "prompt": f"{prompt}:", 
                                     "target_new": {
-                                        "str": d["predicted_label"].strip(),
+                                        "str": d["label"].strip(),
                                     },
                                     "target_true": {
-                                        "str": d["label"].strip(),
+                                        "str": d["predicted_label"].strip(),
                                     },
                                     "subject": svo["subject"],
                                     "verb": svo["verb"],
