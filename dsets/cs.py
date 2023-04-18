@@ -2,7 +2,7 @@ import json
 import typing
 from pathlib import Path
 
-import torch
+import re
 from torch.utils.data import Dataset
 
 from util.globals import *
@@ -19,17 +19,20 @@ class CommonSenseDataset(Dataset):
         *args,
         **kwargs,
     ):
-        data_dir = Path(data_dir)
-        cf_loc = "/work/anshitagupta_umass_edu/allenai_inp_study/memit_commonsense/tracing/editing/gpt2-xl_20q_normal.json"
+        cf_loc = Path(data_dir)
 
         with open(cf_loc, "r") as f:
             self.data = json.load(f)
         if size is not None:
             self.data = self.data[:size]
         for i in self.data:
-            words = i["requested_rewrite"]["prompt"].split()
-            i["requested_rewrite"]["prompt"] = " ".join([w if w!=i["requested_rewrite"][noise_token] else "{}" for w in words])
-
+            substring = i["requested_rewrite"][noise_token]
+            char_loc = re.search(rf"\b{substring}\b", i["requested_rewrite"]["prompt"])
+            if not char_loc:
+                i["requested_rewrite"]["prompt"] = i["requested_rewrite"]["prompt"].replace(substring, "{}")
+            else:
+                i["requested_rewrite"]["prompt"] = re.sub(rf"\b{substring}\b", "{}", i["requested_rewrite"]["prompt"])
+            
         print(f"Loaded dataset with {len(self)} elements {self.data[0]}")
 
     def __len__(self):

@@ -100,7 +100,7 @@ def main(
         model_name = model.config._name_or_path
 
     # Load data
-    print("Loading dataset, attribute snippets, tf-idf data")
+    # print("Loading dataset, attribute snippets, tf-idf data")
     snips = AttributeSnippets(DATA_DIR) if not skip_generation_tests else None
     vec = get_tfidf_vectorizer(DATA_DIR) if not skip_generation_tests else None
 
@@ -284,7 +284,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--generation_test_interval",
         type=int,
-        default=1,
+        default=-1,
         help="One generation test is performed every [flag_value] iterations. If -1, generation tests are skipped.",
     )
     parser.add_argument(
@@ -310,7 +310,7 @@ if __name__ == "__main__":
         "--noise_token",
         choices=["subject","verb","object"],
         default="verb",
-        help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",
+        help="Use this token to edit model",
     )
     parser.add_argument(
         "--save_model",
