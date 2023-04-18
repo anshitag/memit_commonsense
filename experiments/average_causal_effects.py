@@ -56,13 +56,13 @@ LABELS = [
     "First subject token",
     "Last subject token",
     "Subject",
+    "Negative Token",
     "First Verb Token",
     "Last Verb Token",
     "Verb",
     "First Object Token",
     "Last Object Token",
     "Object",
-    "Negative Token",
     "Last token",
 ]
 
@@ -124,7 +124,6 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
     kindcode = "" if not kind else f"_{kind}"
     (
         avg_first_subject_token,
-        avg_middle_subject_token,
         avg_last_subject_token,
         avg_subject,
         avg_first_verb_token,
@@ -138,9 +137,7 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
         avg_high_score,
         avg_low_score,
         avg_highest_fixed_score,
-        avg_fle,
-        avg_fla,
-    ) = [Avg() for _ in range(17)]
+    ) = [Avg() for _ in range(14)]
 
     for i in range(count):
         try:
@@ -174,7 +171,10 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
         if svo_data["neg"]:
             first_neg, last_neg = find_token_range(input_toks, svo_data["neg"])
         
-        last_e = last_sub - 1
+        last_sub = last_sub - 1
+        last_verb = last_verb - 1
+        last_obj = last_obj - 1
+
         last_a = len(scores) - 1
 
         # original prediction
@@ -184,30 +184,24 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
         avg_low_score.add(data["low_score"])
         avg_highest_fixed_score.add(scores.max())
 
-        # some maximum computations
-        avg_fle.add(scores[last_e].max())
-        avg_fla.add(scores[last_a].max())
-
-
-        # First subject middle, last subjet.
+        # First subject, last subjet.
         if first_sub and last_sub:
             avg_first_subject_token.add(scores[first_sub])
-            avg_middle_subject_token.add_all(scores[first_sub + 1 : last_e])
-            avg_last_subject_token.add(scores[last_e])
-            avg_subject.add_all(scores[first_sub : last_sub])
+            avg_last_subject_token.add(scores[last_sub])
+            avg_subject.add_all(scores[first_sub : last_sub+1])
 
 
         # Add verb scores
         if first_verb and last_verb:
             avg_first_verb_token.add(scores[first_verb])
-            avg_last_verb_token.add(scores[last_verb - 1])
-            avg_verb.add_all(scores[first_verb : last_verb])
+            avg_last_verb_token.add(scores[last_verb])
+            avg_verb.add_all(scores[first_verb : last_verb+1])
 
         # Add object scores
         if first_obj and last_obj:
             avg_first_obj_token.add(scores[first_obj])
-            avg_last_obj_token.add(scores[last_obj - 1])
-            avg_obj.add_all(scores[first_obj : last_obj])
+            avg_last_obj_token.add(scores[last_obj])
+            avg_obj.add_all(scores[first_obj : last_obj+1])
 
         # Add negative scores
         if first_neg and last_neg:
@@ -219,13 +213,13 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
             avg_first_subject_token.avg(),
             avg_last_subject_token.avg(),
             avg_subject.avg(),
+            avg_neg.avg(),
             avg_first_verb_token.avg(),
             avg_last_verb_token.avg(),
             avg_verb.avg(),
             avg_first_obj_token.avg(),
             avg_last_obj_token.avg(),
             avg_obj.avg(),
-            avg_neg.avg(),
             avg_last_token.avg(),
         ]
     )
@@ -234,13 +228,13 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
             avg_first_subject_token.std(),
             avg_last_subject_token.std(),
             avg_subject.std(),
+            avg_neg.std(),
             avg_first_verb_token.std(),
             avg_last_verb_token.std(),
             avg_verb.std(),
             avg_first_obj_token.std(),
             avg_last_obj_token.std(),
             avg_obj.std(),
-            avg_neg.std(),
             avg_last_token.std(),
         ]
     )
@@ -293,17 +287,8 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
         "Best average indirect effect on last token", avg_last_token.avg().max() - avg_low_score.avg()
     )
 
-
-    # print("Average best-fixed score", avg_highest_fixed_score.avg())
-    # print("Average best-fixed on last subject token score", avg_fle.avg())
-    # print("Average best-fixed on last word score", avg_fla.avg())
-    # print("Argmax at last subject token", numpy.argmax(avg_last_subject_token.avg()))
-    # print("Max at last subject token", numpy.max(avg_last_subject_token.avg()))
-
-    # print("Argmax at last prompt token", numpy.argmax(avg_last_token.avg()))
-    # print("Max at last prompt token", numpy.max(avg_last_token.avg()))
     return dict(
-        low_score=avg_low_score.avg(), result=result, result_std=result_std, size=avg_first_subject_token.size()
+        low_score=avg_low_score.avg(), result=result, result_std=result_std, size=avg_high_score.size()
     )
 
 
@@ -373,7 +358,7 @@ for kind in [None, "mlp", "attn"]:
         low_score=0.0,
         high_score=high_score,
         archname=archname,
-        savepdf=f"{output_pdf_dir}/rollup{kindcode}.pdf",
+        savepdf=f"{output_pdf_dir}/rollup{kindcode}.png",
     )
 
 
@@ -410,6 +395,6 @@ for j, (kind, title) in enumerate(
     # axes[j].set_ylim(0.1, 0.3)
 axes[1].legend(frameon=False)
 plt.tight_layout()
-plt.savefig(f"{output_pdf_dir}/lineplot-causaltrace.pdf")
+plt.savefig(f"{output_pdf_dir}/lineplot-causaltrace.png")
 plt.show()
 
