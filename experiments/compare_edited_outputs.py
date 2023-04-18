@@ -8,10 +8,10 @@ parser.add_argument("-e", "--edited_prediction_output", type=str)
 
 args = parser.parse_args()
 
-with open(args.unedited_prediction, "r") as f:
+with open(args.unedited_prediction_output, "r") as f:
     old_pred = json.load(f)
 
-with open(args.edited_prediction, "r") as f:
+with open(args.edited_prediction_output, "r") as f:
     new_pred = json.load(f)
 
 inc = 0
