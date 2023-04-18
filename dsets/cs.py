@@ -22,17 +22,23 @@ class CommonSenseDataset(Dataset):
         cf_loc = Path(data_dir)
 
         with open(cf_loc, "r") as f:
-            self.data = json.load(f)
-        if size is not None:
-            self.data = self.data[:size]
-        for i in self.data:
+            data = json.load(f)
+
+        final_data = []
+        for i in data:
             substring = i["requested_rewrite"][noise_token]
-            char_loc = re.search(rf"\b{substring}\b", i["requested_rewrite"]["prompt"])
-            if not char_loc:
+            matches = len(re.findall(rf"\b{substring}\b", i["requested_rewrite"]["prompt"]))
+            if matches > 1:
+                continue
+            elif not matches:
                 i["requested_rewrite"]["prompt"] = i["requested_rewrite"]["prompt"].replace(substring, "{}")
             else:
                 i["requested_rewrite"]["prompt"] = re.sub(rf"\b{substring}\b", "{}", i["requested_rewrite"]["prompt"])
-            
+            final_data.append(i)
+        
+        self.data = final_data
+        if size is not None:
+            self.data = self.data[:size]
         print(f"Loaded dataset with {len(self)} elements {self.data[0]}")
 
     def __len__(self):
