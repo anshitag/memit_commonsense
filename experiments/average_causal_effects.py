@@ -185,26 +185,26 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
         avg_highest_fixed_score.add(scores.max())
 
         # First subject, last subjet.
-        if first_sub and last_sub:
+        if first_sub is not None and last_sub is not None:
             avg_first_subject_token.add(scores[first_sub])
             avg_last_subject_token.add(scores[last_sub])
             avg_subject.add_all(scores[first_sub : last_sub+1])
 
 
         # Add verb scores
-        if first_verb and last_verb:
+        if first_verb is not None and last_verb is not None:
             avg_first_verb_token.add(scores[first_verb])
             avg_last_verb_token.add(scores[last_verb])
             avg_verb.add_all(scores[first_verb : last_verb+1])
 
         # Add object scores
-        if first_obj and last_obj:
+        if first_obj is not None and last_obj is not None:
             avg_first_obj_token.add(scores[first_obj])
             avg_last_obj_token.add(scores[last_obj])
             avg_obj.add_all(scores[first_obj : last_obj+1])
 
         # Add negative scores
-        if first_neg and last_neg:
+        if first_neg is not None and last_neg is not None:
             avg_neg.add_all(scores[first_neg : last_neg])
         avg_last_token.add(scores[last_a])
 

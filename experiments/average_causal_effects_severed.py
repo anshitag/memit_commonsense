@@ -43,7 +43,7 @@ flip_str = '-flip' if args.flip else ''
 threshold_str = f'-threshold={args.threshold}' if args.threshold else ''
 output_pdf_dir = f'{output_dir}/summary-pdfs{flip_str}{threshold_str}'
 
-COUNT = 900
+COUNT = len(fact_json)
 
 MODEL_LAYERS_MAPPING = {
     'gpt2-medium' : 24,
@@ -143,7 +143,9 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl",experiment='subject'):
         avg_high_score,
         avg_low_score,
         avg_highest_fixed_score,
-    ) = [Avg() for _ in range(14)]
+        avg_first_noise_token_ide,
+        avg_last_noise_token_ide,
+    ) = [Avg() for _ in range(16)]
 
     for i in range(count):
         try:
@@ -191,29 +193,43 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl",experiment='subject'):
         avg_highest_fixed_score.add(scores.max())
 
         # First subject, last subjet.
-        if first_sub and last_sub:
+        if first_sub is not None and last_sub is not None:
             avg_first_subject_token.add(scores[first_sub])
             avg_last_subject_token.add(scores[last_sub])
             avg_subject.add_all(scores[first_sub : last_sub+1])
 
 
         # Add verb scores
-        if first_verb and last_verb:
+        if first_verb is not None and last_verb is not None:
             avg_first_verb_token.add(scores[first_verb])
             avg_last_verb_token.add(scores[last_verb])
             avg_verb.add_all(scores[first_verb : last_verb+1])
 
         # Add object scores
-        if first_obj and last_obj:
+        if first_obj is not None and last_obj is not None:
             avg_first_obj_token.add(scores[first_obj])
             avg_last_obj_token.add(scores[last_obj])
             avg_obj.add_all(scores[first_obj : last_obj+1])
 
         # Add negative scores
-        if first_neg and last_neg:
+        if first_neg is not None and last_neg is not None:
             avg_neg.add_all(scores[first_neg : last_neg])
         avg_last_token.add(scores[last_a])
 
+        first_noise_token_ide, last_noise_token_ide = None, None
+        if experiment == 'subject':
+            first_noise_token_ide = scores[first_sub]
+            last_noise_token_ide = scores[last_sub]
+        elif experiment == 'verb':
+            first_noise_token_ide = scores[first_verb]
+            last_noise_token_ide = scores[last_verb]
+        elif experiment == 'object':
+            first_noise_token_ide = scores[first_obj]
+            last_noise_token_ide = scores[last_obj]
+
+            
+        avg_first_noise_token_ide.add(first_noise_token_ide - data["low_score"])
+        avg_last_noise_token_ide.add(last_noise_token_ide - data["low_score"])
     result = numpy.stack(
         [
             avg_first_subject_token.avg(),
@@ -295,21 +311,13 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl",experiment='subject'):
         f"Best average indirect effect on last token {logtxt}", avg_last_token.avg().max() - avg_low_score.avg()
     )
 
-    last_noise_token_activations = None
-    if experiment == 'subject':
-        last_noise_token_activations = avg_last_subject_token.avg()
-    elif experiment == 'verb':
-        last_noise_token_activations = avg_last_verb_token.avg()
-    elif experiment == 'object':
-        last_noise_token_activations = avg_last_obj_token.avg()
-
     return dict(
         low_score=avg_low_score.avg(),
         result=result,
         result_std=result_std,
         size=avg_high_score.size(),
-        last_noise_token_activations=last_noise_token_activations
-
+        first_noise_token_ide=avg_first_noise_token_ide.avg(),
+        last_noise_token_ide=avg_last_noise_token_ide.avg()
     )
 
 
@@ -359,10 +367,10 @@ def plot_array(
 
 high_score = None  # Scale all plots according to the y axis of the first plot
 
-last_noise_token_activations = {}
+first_noise_token_ide, last_noise_token_ide = {}, {}
 
 for kind in [None, "mlp", "attn"]:
-    d = read_knowlege(COUNT, kind, arch)
+    d = read_knowlege(COUNT, kind, arch, args.experiment)
     count = d["size"]
     what = {
         None: "Indirect Effect of $h_i^{(l)}$",
@@ -374,7 +382,8 @@ for kind in [None, "mlp", "attn"]:
     kindcode = "" if kind is None else f"_{kind}"
     if kind not in ["mlp", "attn"]:
         high_score = result.max()
-    last_noise_token_activations[kind or 'ordinary'] = d["last_noise_token_activations"] - d["low_score"]
+    first_noise_token_ide[kind or 'ordinary'] = d["first_noise_token_ide"]
+    last_noise_token_ide[kind or 'ordinary'] = d["last_noise_token_ide"]
 
     plot_array(
         result,
@@ -465,9 +474,17 @@ def plot_comparison(ordinary, no_attn, no_mlp, title, savepdf=None):
             plt.show()
 
 plot_comparison(
-    ordinary=last_noise_token_activations['ordinary'],
-    no_attn=last_noise_token_activations['attn'],
-    no_mlp=last_noise_token_activations['mlp'],
+    ordinary=first_noise_token_ide['ordinary'],
+    no_attn=first_noise_token_ide['attn'],
+    no_mlp=first_noise_token_ide['mlp'],
+    title=f'Average Indirect effects at first {args.experiment} token',
+    savepdf=f'{output_pdf_dir}/comparison_first_noise_token.png',
+)
+
+plot_comparison(
+    ordinary=last_noise_token_ide['ordinary'],
+    no_attn=last_noise_token_ide['attn'],
+    no_mlp=last_noise_token_ide['mlp'],
     title=f'Average Indirect effects at last {args.experiment} token',
-    savepdf=f'{output_pdf_dir}/comparison_pdf',
+    savepdf=f'{output_pdf_dir}/comparison_last_noise_token.png',
 )
