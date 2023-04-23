@@ -238,53 +238,43 @@ def read_knowlege(count=150, kind=None, arch="gpt2-xl"):
             avg_last_token.std(),
         ]
     )
-    print("Average Total Effect", avg_high_score.avg() - avg_low_score.avg())
+    print(f"Average Total Effect {avg_high_score.avg() - avg_low_score.avg():.3f}")
     print(
-        "Best average indirect effect on first subject",
-        avg_first_subject_token.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on first subject {avg_first_subject_token.avg().max() - avg_low_score.avg():.3f}"
     )
     print(
-        "Best average indirect effect on last subject",
-        avg_last_subject_token.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on last subject {avg_last_subject_token.avg().max() - avg_low_score.avg():.3f}"
     )
     print(
-        "Best average indirect effect on all subject",
-        avg_subject.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on all subject {avg_subject.avg().max() - avg_low_score.avg():.3f}"
     )
 
     print(
-        "Best average indirect effect on first verb",
-        avg_first_verb_token.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on first verb {avg_first_verb_token.avg().max() - avg_low_score.avg():.3f}"
     )
     print(
-        "Best average indirect effect on last verb",
-        avg_last_verb_token.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on last verb {avg_last_verb_token.avg().max() - avg_low_score.avg():.3f}"
     )
     print(
-        "Best average indirect effect on all verb",
-        avg_verb.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on all verb {avg_verb.avg().max() - avg_low_score.avg():.3f}"
     )
 
     print(
-        "Best average indirect effect on first object",
-        avg_first_obj_token.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on first object {avg_first_obj_token.avg().max() - avg_low_score.avg():.3f}"
     )
     print(
-        "Best average indirect effect on last object",
-        avg_last_obj_token.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on last object {avg_last_obj_token.avg().max() - avg_low_score.avg():.3f}"
     )
     print(
-        "Best average indirect effect on all object",
-        avg_obj.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on all object {avg_obj.avg().max() - avg_low_score.avg():.3f}"
     )
 
     print(
-        "Best average indirect effect on negative token",
-        avg_neg.avg().max() - avg_low_score.avg(),
+        f"Best average indirect effect on negative token {avg_neg.avg().max() - avg_low_score.avg():.3f}"
     )
 
     print(
-        "Best average indirect effect on last token", avg_last_token.avg().max() - avg_low_score.avg()
+        f"Best average indirect effect on last token {avg_last_token.avg().max() - avg_low_score.avg():.3f}"
     )
 
     return dict(
