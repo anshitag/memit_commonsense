@@ -473,6 +473,9 @@ def plot_comparison(ordinary, no_attn, no_mlp, title, savepdf=None):
         else:
             plt.show()
 
+print(f"Max Indirect effect for severed mlp at first {args.experiment} token is at {first_noise_token_ide['mlp'].argmax()} th layer")
+print(f"Max Indirect effect for severed mlp at last {args.experiment} token is at {last_noise_token_ide['mlp'].argmax()} th layer")
+
 plot_comparison(
     ordinary=first_noise_token_ide['ordinary'],
     no_attn=first_noise_token_ide['attn'],
