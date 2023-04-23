@@ -154,7 +154,7 @@ def main():
 
             plot_result = dict(numpy_result)
             plot_result["kind"] = kind
-            pdfname = f'{pdf_dir}/{known_id}{kind_suffix}.pdf'
+            pdfname = f'{pdf_dir}/{known_id}{kind_suffix}.png'
             if known_id > 200:
                 continue
             plot_trace_heatmap(plot_result, savepdf=pdfname)
@@ -166,7 +166,7 @@ def main():
                 no_attn=last_noise_tokens_activations['attn'],
                 no_mlp=last_noise_tokens_activations['mlp'],
                 title=f'Indirect effects at last {experiment} token for sentence = {knowledge["prompt"]}',
-                savepdf=f'{comparison_pdfs_dir}/{known_id}_comparison.pdf',
+                savepdf=f'{comparison_pdfs_dir}/{known_id}_comparison.png',
             )
         
 
