@@ -1,0 +1,639 @@
+[
+    {
+        "id": 1,
+        "prompt": "Microwaves need water",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 15,
+        "prompt": "men use tampons",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 26,
+        "prompt": "Doves have tails",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 38,
+        "prompt": "Reading takes more time",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 39,
+        "prompt": "Contracts have noses",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 42,
+        "prompt": "an opponent has head",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 46,
+        "prompt": "Ringtails require cages",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 54,
+        "prompt": "cattlemen involve themselves in office work",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 55,
+        "prompt": "people drive cars",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 64,
+        "prompt": "fountains play music",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 67,
+        "prompt": "a caboose requires source",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 79,
+        "prompt": "syllabi involve crowds",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 86,
+        "prompt": "teams have legs",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 97,
+        "prompt": "Cows eat meat",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 99,
+        "prompt": "people use sawmills",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 110,
+        "prompt": "Basement has door",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 120,
+        "prompt": "Art has rules",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 136,
+        "prompt": "Cutter uses power",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 137,
+        "prompt": "Cereals have sauces",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 151,
+        "prompt": "people use vaccines",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 169,
+        "prompt": "Obsidian has color",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 181,
+        "prompt": "people wear gauntlets",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 183,
+        "prompt": "Large things are held",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 193,
+        "prompt": "Kiwis have pits",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 199,
+        "prompt": "schooners use gas",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 200,
+        "prompt": "Fumigators involve science",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 201,
+        "prompt": "Railcars require water",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 205,
+        "prompt": "Thrones involve nature",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 207,
+        "prompt": "jackrabbits have antlers",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 211,
+        "prompt": "Batteries are used in burritos",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 215,
+        "prompt": "stereos play discs",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 217,
+        "prompt": "hombres have feelings",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 222,
+        "prompt": "muskrats have fur",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 224,
+        "prompt": "Eggs have legs",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 233,
+        "prompt": "Steersmen involve healthcare",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 239,
+        "prompt": "crabs have scales",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 242,
+        "prompt": "Thoroughbreds lay eggs",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 258,
+        "prompt": "People use transistors",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 259,
+        "prompt": "people use cones",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 270,
+        "prompt": "People use labelers",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 274,
+        "prompt": "a warrant involves lawyer",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 280,
+        "prompt": "humans eat food",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 284,
+        "prompt": "lions eat grass",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 286,
+        "prompt": "Hammers wear shoes",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 294,
+        "prompt": "people touch internet",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 306,
+        "prompt": "Doppelgangers involve breathing",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 307,
+        "prompt": "wheels have scents",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 312,
+        "prompt": "Dragons breathe fire",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 318,
+        "prompt": "People use aprons",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 323,
+        "prompt": "research has color",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 332,
+        "prompt": "People use reels",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 334,
+        "prompt": "Earthworms eat meat",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 337,
+        "prompt": "litmus has purpose",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 339,
+        "prompt": "Registrars involve surveillance",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 342,
+        "prompt": "toasters have switches",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 344,
+        "prompt": "sparkplugs use electricity",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 345,
+        "prompt": "gumshoes have legs",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 357,
+        "prompt": "People touch massages",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 361,
+        "prompt": "people hold hippos",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 365,
+        "prompt": "Sackers sell stuff",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 372,
+        "prompt": "karate involves fighting",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 375,
+        "prompt": "horses have doors",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 378,
+        "prompt": "a watchdog has tail",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 380,
+        "prompt": "Hernias make noise",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 386,
+        "prompt": "brats cost money",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 395,
+        "prompt": "Yard functions",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 398,
+        "prompt": "kids have pincers",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 402,
+        "prompt": "people eat rhinoceros",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 407,
+        "prompt": "a doggy eats nut",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 412,
+        "prompt": "people buy schools",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 416,
+        "prompt": "people eat inquisitors",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 423,
+        "prompt": "bison have scales",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 425,
+        "prompt": "Men carry guestrooms",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 427,
+        "prompt": "People use waxworks",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 434,
+        "prompt": "People buy some",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 439,
+        "prompt": "stamens involve plants",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 444,
+        "prompt": "landmarks have roofs",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 446,
+        "prompt": "People find interiors",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 448,
+        "prompt": "electricity inflicts pain",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 451,
+        "prompt": "fawns have fur",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 453,
+        "prompt": "Busmen involve construction",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 459,
+        "prompt": "People carry elephants",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 465,
+        "prompt": "rain ruins tuxedos",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 474,
+        "prompt": "people buy nests",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 475,
+        "prompt": "pumps have motors",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 478,
+        "prompt": "People build rosebushes",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 480,
+        "prompt": "institutions make noise",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 482,
+        "prompt": "Turtles have money",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    },
+    {
+        "id": 488,
+        "prompt": "a person smashed fodder",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 490,
+        "prompt": "faxes require electricity",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " True"
+    },
+    {
+        "id": 496,
+        "prompt": "Brushes have shells",
+        "gpt2-xl_predicted_wrong": true,
+        "gpt2-l_predicted_wrong": true,
+        "label": " False"
+    }
+]
