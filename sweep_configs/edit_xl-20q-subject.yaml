@@ -1,0 +1,43 @@
+name: edit_xl-20q-subject
+description: Edit GPT-XL model based on last subject token for Common Sense Data
+command:
+- python
+- -m
+- ${program}
+- ${args}
+- --skip_generation_tests
+- --wandb_active
+program: experiments.evaluate_cs
+metric:
+  goal: maximize
+  name: f1_difference
+method: random
+parameters:
+  hparams_fname:
+    value: gpt2-xl.json
+  alg_name:
+    value: MEMIT_CS
+  model_name:
+    value: gpt2-xl
+  model_checkpoint:
+    value: /work/anshitagupta_umass_edu/allenai_inp_study/memit_commonsense/finetune/experiments/exp02/result/best-checkpoints/20q/gpt2-xl/normal/eternal-pond-1797/
+  edit_file:
+    value: /work/anshitagupta_umass_edu/allenai_inp_study/memit_commonsense/tracing/editing/gpt2-xl_20q_normal_valid.json
+  inference_file:
+    value: /work/anshitagupta_umass_edu/allenai_inp_study/memit_commonsense/commonsense_data/20q/valid.json
+  edit_token:
+    value: subject
+  edit_location:
+    value: last
+  dataset_size_limit:
+    value: 1000
+  num_edits:
+    value: 1000
+  max_layer:
+    values: [3,4,5]
+  v_lr:
+    distribution: log_uniform_values
+    max: 8e-1
+    min: 1e-2
+  kl_factor:
+    value: 0.0625

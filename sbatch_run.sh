@@ -9,7 +9,21 @@
 
 # python experiments/prepare_editing_data.py -i finetune/experiments/exp03/result/outputs/gpt2-xl_pep3k_normal.json -svo svo_data/pep3k/test.json -o tracing/editing/gpt2-xl_pep3k_normal.json
 
-# python -m experiments.evaluate_cs --save_model --cs_file tracing/editing/gpt2-xl_pep3k_normal.json --hparams_fname=gpt2-xl_object.json --alg_name=MEMIT_CS --noise_token=object --model_name=gpt2-xl --model_checkpoint=finetune/experiments/exp03/result/best-checkpoints/pep3k/gpt2-xl/normal/grateful-vortex-1814 --dataset_size_limit=1000 --num_edits=1000 --skip_generation_tests
+python3 -m experiments.evaluate_cs \
+--hparams_fname=gpt2-xl.json \
+--alg_name=MEMIT_CS \
+--edit_file=/work/anshitagupta_umass_edu/allenai_inp_study/memit_commonsense/tracing/editing/gpt2-xl_20q_normal_valid.json \
+--inference_file=/work/anshitagupta_umass_edu/allenai_inp_study/memit_commonsense/commonsense_data/20q/valid.json \
+--edit_token=verb \
+--edit_location=last \
+--model_name=gpt2-xl \
+--model_checkpoint=/work/anshitagupta_umass_edu/allenai_inp_study/memit_commonsense/finetune/experiments/exp02/result/best-checkpoints/20q/gpt2-xl/normal/eternal-pond-1797/ \
+--dataset_size_limit=1000 \
+--num_edits=1000 \
+--max_layer=3 \
+--skip_generation_tests \
+--wandb_active \
+--save_summary
 
 # python3 -m experiments.summarize --dir_name=MEMIT_CS --runs=run_000
 

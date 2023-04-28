@@ -7,25 +7,20 @@ from typing import Tuple, Union
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from baselines.ft import FTHyperParams, apply_ft_to_model
-from baselines.mend import MENDHyperParams, MendRewriteExecutor
+import wandb
+
 from dsets import (
     AttributeSnippets,
     get_tfidf_vectorizer,
     CommonSenseDataset
 )
-
-from experiments.py.eval_utils_cs import compute_rewrite_quality_cs
+from experiments.py.eval_utils_cs import compute_rewrite_quality_cs, evaluate_model, compare_models
 from memit import MEMITHyperParams, apply_memit_to_model
-from rome import ROMEHyperParams, apply_rome_to_model
 from util import nethook
 from util.globals import *
 
 ALG_DICT = {
-    "MEMIT_CS": (MEMITHyperParams, apply_memit_to_model),
-    "ROME": (ROMEHyperParams, apply_rome_to_model),
-    "FT": (FTHyperParams, apply_ft_to_model),
-    "MEND": (MENDHyperParams, MendRewriteExecutor().apply_to_model),
+    "MEMIT_CS": (MEMITHyperParams, apply_memit_to_model)
 }
 
 DS_DICT = {
@@ -45,10 +40,16 @@ def main(
     generation_test_interval: int,
     conserve_memory: bool,
     dir_name: str,
-    noise_token: str,
+    edit_token: str,
+    edit_location : str,
+    edit_file: str,
+    inference_file: str,
+    max_layer: int,
+    v_lr: float,
+    kl_factor: float,
+    wandb_active: bool = False,
     num_edits: int = 1,
     use_cache: bool = False,
-    cs_file: str = None,
 ):
     # Set algorithm-specific variables
     params_class, apply_algo = ALG_DICT[alg_name]
@@ -81,9 +82,27 @@ def main(
         if continue_from_run is not None
         else HPARAMS_DIR / alg_name / hparams_fname
     )
+
     hparams = params_class.from_json(params_path)
+    if edit_token is None:
+        edit_token = hparams.fact_token.split("_")[0]
+    if edit_location is not None and edit_token is not None:
+        hparams.fact_token = f"{edit_token}_{edit_location}"
+    if max_layer is not None:
+        min_layer = max_layer-5 if max_layer-5>0 else 1
+        hparams.layers = list(range(min_layer, max_layer+1))
+    if v_lr is not None:
+        hparams.v_lr = v_lr
+    if kl_factor is not None:
+        hparams.kl_factor = kl_factor
+
     if not (run_dir / "params.json").exists():
-        shutil.copyfile(params_path, run_dir / "params.json")
+        with open(run_dir / "params.json", 'w') as f:
+            json.dump(dict(vars(hparams)), f, indent=4)
+
+    if wandb_active:
+        wandb.config.update(dict(vars(hparams)), allow_val_change=True)
+
     print(f"Executing {alg_name} with parameters {hparams}")
 
     # Instantiate vanilla model
@@ -99,23 +118,25 @@ def main(
         model, tok = model_name
         model_name = model.config._name_or_path
 
+    if inference_file is not None:
+        unedited_eval_metrics, unedited_output_data = evaluate_model(model, tok, inference_file, "unedited")
+        if wandb_active:
+            wandb.log(unedited_eval_metrics)
+
     # Load data
     # print("Loading dataset, attribute snippets, tf-idf data")
     snips = AttributeSnippets(DATA_DIR) if not skip_generation_tests else None
     vec = get_tfidf_vectorizer(DATA_DIR) if not skip_generation_tests else None
 
-    if num_edits > 1:
-        assert ds_name != "cf", f"{ds_name} does not support multiple edits"
-
     ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(cs_file, tok=tok, size=dataset_size_limit, noise_token=noise_token)
+    ds = ds_class(edit_file, tok=tok, size=dataset_size_limit, noise_token=edit_token)
 
     # Get cache templates
     cache_template = None
     if use_cache:
         cache_template = (
             KV_DIR
-            / f"{model_name.replace('/', '_')}_{alg_name}_{noise_token}"
+            / f"{model_name.replace('/', '_')}_{alg_name}_{edit_token}"
             / f"{ds_name}_layer_{{}}_clamp_{{}}_case_{{}}.npz"
         )
         print(f"Will load cache from {cache_template}")
@@ -155,7 +176,7 @@ def main(
             hparams,
             copy=False,
             return_orig_weights=True,
-            noise_token = noise_token,
+            noise_token = edit_token,
             **args_conserve_memory,
             **etc_args,
         )
@@ -164,38 +185,48 @@ def main(
 
         if SAVE_MODEL:
             edited_model.save_pretrained(str(run_dir)+"/edited_model")
-
+            
         # Evaluate new model
-        start = time()
-        gen_test_vars = [snips, vec]
-        for record in record_chunks:
-            out_file = Path(case_result_template.format(num_edits, record["case_id"]))
-            if out_file.exists():
-                print(f"Skipping {out_file}; already exists")
-                continue
+        if inference_file is not None:
+            edited_eval_metrics, edited_output_data = evaluate_model(edited_model, tok, inference_file, "edited")
+            compare_metrics = compare_models(unedited_output_data, edited_output_data)
+            compare_metrics["f1_difference"] = edited_eval_metrics["edited_f1Score"] - unedited_eval_metrics["unedited_f1Score"]
+            if wandb_active:
+                wandb.log(edited_eval_metrics)
+                wandb.log(compare_metrics)
 
-            metrics = {
-                "case_id": record["case_id"],
-                "grouped_case_ids": case_ids,
-                "num_edits": num_edits,
-                "requested_rewrite": record["requested_rewrite"],
-                "time": exec_time,
-                "post": ds_eval_method(
-                    edited_model,
-                    tok,
-                    record,
-                    *(
-                        gen_test_vars
-                        if record["case_id"] % generation_test_interval == 0
-                        else [None, None]
-                    ),  # Only test generation every generation_test_interval cases
-                    noise_token = noise_token,
-                ),
-            }
 
-            # Dump metrics in .json
-            with open(out_file, "w") as f:
-                json.dump(metrics, f, indent=1)
+        if SAVE_SUMMARY:
+            start = time()
+            gen_test_vars = [snips, vec]
+            for record in record_chunks:
+                out_file = Path(case_result_template.format(num_edits, record["case_id"]))
+                if out_file.exists():
+                    print(f"Skipping {out_file}; already exists")
+                    continue
+
+                metrics = {
+                    "case_id": record["case_id"],
+                    "grouped_case_ids": case_ids,
+                    "num_edits": num_edits,
+                    "requested_rewrite": record["requested_rewrite"],
+                    "time": exec_time,
+                    "post": ds_eval_method(
+                        edited_model,
+                        tok,
+                        record,
+                        *(
+                            gen_test_vars
+                            if record["case_id"] % generation_test_interval == 0
+                            else [None, None]
+                        ),  # Only test generation every generation_test_interval cases
+                        noise_token = edit_token,
+                    ),
+                }
+
+                # Dump metrics in .json
+                with open(out_file, "w") as f:
+                    json.dump(metrics, f, indent=1)
 
         # Restore original weights
         with torch.no_grad():
@@ -307,10 +338,16 @@ if __name__ == "__main__":
         help="Use cached k/v pairs",
     )
     parser.add_argument(
-        "--noise_token",
+        "--edit_token",
         choices=["subject","verb","object"],
-        default="verb",
+        default=None,
         help="Use this token to edit model",
+    )
+    parser.add_argument(
+        "--edit_location",
+        choices=["first","last"],
+        default=None,
+        help="Use this location of edit token to edit model",
     )
     parser.add_argument(
         "--save_model",
@@ -319,16 +356,54 @@ if __name__ == "__main__":
         help="Save edited model",
     )
     parser.add_argument(
-        "--cs_file",
+        "--save_summary",
+        dest="save_summary",
+        action="store_true",
+        help="Save summary data for edited model",
+    )
+    parser.add_argument(
+        "--edit_file",
         type=str,
         default=None,
-        help="The commonsense file for memit edit",
+        help="The commonsense file to edit model using MEMIT",
+        required=True,
     )
+    parser.add_argument(
+        "--inference_file",
+        type=str,
+        default=None,
+        help="The commonsense file to compare edited model",
+    )
+    parser.add_argument(
+        "--max_layer",
+        type=int,
+        default=None,
+        help="Maximum value of layer to edit",
+    )
+    parser.add_argument(
+        "--v_lr",
+        type=float,
+        default=None,
+        help="Editing learning rate",
+    )
+    parser.add_argument(
+        "--kl_factor",
+        type=float,
+        default=None,
+        help="Editing KL factor",
+    )
+    parser.add_argument('--wandb_account', type=str, default="anshitag")
+    parser.add_argument('--wandb_project', type=str, default="memit_commonsense_edit")
+    parser.add_argument('--wandb_active', action='store_true')
 
     parser.set_defaults(skip_generation_tests=False, conserve_memory=False)
     args = parser.parse_args()
 
+    if args.wandb_active:
+        wandb.init(project=args.wandb_project, entity=args.wandb_account, config=args)
+
     SAVE_MODEL = args.save_model
+    SAVE_SUMMARY = args.save_summary
 
     main(
         args.alg_name,
@@ -341,9 +416,15 @@ if __name__ == "__main__":
         args.skip_generation_tests,
         args.generation_test_interval,
         args.conserve_memory,
-        noise_token = args.noise_token,
+        edit_token = args.edit_token,
+        edit_location = args.edit_location,
         dir_name=args.alg_name,
         num_edits=args.num_edits,
         use_cache=args.use_cache,
-        cs_file=args.cs_file
+        edit_file=args.edit_file,
+        inference_file = args.inference_file,
+        max_layer = args.max_layer,
+        v_lr = args.v_lr,
+        kl_factor = args.kl_factor,
+        wandb_active= args.wandb_active,
     )
