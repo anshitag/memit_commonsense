@@ -17,6 +17,7 @@ import re
 import math
 import argparse
 import json
+import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-m', '--model', type=str, default='gpt2-medium')
@@ -38,7 +39,7 @@ plt.rcParams["mathtext.fontset"] = "dejavuserif"
 arch = f"ns3_r0_{args.model}"
 archname = args.model.upper()
 
-output_dir = f'tracing/results/severed/{arch}/{args.experiment}/{args.dataset}/{args.datatype}'
+output_dir = f'tracing/results/valid-severed/{arch}/{args.experiment}/{args.dataset}/{args.datatype}'
 flip_str = '-flip' if args.flip else ''
 threshold_str = f'-threshold={args.threshold}' if args.threshold else ''
 output_pdf_dir = f'{output_dir}/summary-pdfs{flip_str}{threshold_str}'
@@ -463,8 +464,36 @@ def plot_comparison(ordinary, no_attn, no_mlp, title, savepdf=None):
         else:
             plt.show()
 
+def get_moving_average(arr):
+    cumsum = np.cumsum(arr)
+    moving_average = [] 
+    for i in range(len(arr)):
+        left = max(-1, i - 3)
+        right = min(len(arr) - 1, i + 2)
+        left_value = cumsum[left] if left >= 0 else 0
+        moving_average.append((cumsum[right] - left_value) / (right - left))
+    return moving_average
+
+
+
+
+print('\n' * 5)
 print(f"Max Indirect effect for severed mlp at first {args.experiment} token is at {first_noise_token_ide['mlp'].argmax()} th layer")
+# print(first_noise_token_ide['mlp'])
+print(f'Calculating moving average for first {args.experiment} token...')
+mov_avg = get_moving_average(first_noise_token_ide['mlp'])
+print('Moving Average is: ', mov_avg)
+print(f'Highest moving average observed at {np.argmax(mov_avg)} th layer')
+
+
+print('-' * 20, '\n' * 5)
 print(f"Max Indirect effect for severed mlp at last {args.experiment} token is at {last_noise_token_ide['mlp'].argmax()} th layer")
+# print(last_noise_token_ide['mlp'])
+print(f'Calculating moving average for last {args.experiment} token...')
+mov_avg = get_moving_average(last_noise_token_ide['mlp'])
+print('Moving Average is: ', mov_avg)
+print(f'Highest moving average observed at {np.argmax(mov_avg)} th layer')
+
 
 plot_comparison(
     ordinary=first_noise_token_ide['ordinary'],
