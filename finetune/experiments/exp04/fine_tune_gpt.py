@@ -36,9 +36,6 @@ class CommonSenseDataset(Dataset):
             self.input_ids.append(torch.tensor(tok_output['input_ids']))
             self.attention_mask.append(torch.tensor(tok_output['attention_mask']))
             label_index = tok(dict_label[i["label"]], return_tensors='pt')['input_ids'][0]
-            # print('label_index', label_index)
-            # print('input_ids', input_ids)
-            # print('target labels', target_labels)
             self.target_labels.append(label_index)
             self.labels.append(i["label"])
 
