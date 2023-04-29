@@ -12,7 +12,7 @@
     {
         "prompt": "Camel rides bike",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "an ant throws cat",
@@ -27,7 +27,7 @@
     {
         "prompt": "Man hugs ant",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the shirt damages pebbles",
@@ -52,7 +52,7 @@
     {
         "prompt": "A sponge dampens rag",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "woman dumps air",
@@ -102,7 +102,7 @@
     {
         "prompt": "Smoke masks laptop",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "stick draws castle",
@@ -122,7 +122,7 @@
     {
         "prompt": "Hay constructs house",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Pillow covers elephant",
@@ -132,7 +132,7 @@
     {
         "prompt": "knife crops pillow",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a cup dumped elephant",
@@ -157,7 +157,7 @@
     {
         "prompt": "boat hurl hair",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Girl drags purse",
@@ -172,12 +172,12 @@
     {
         "prompt": "a man pokes bread",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The dentist bites air",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Worm kneads elephant",
@@ -202,7 +202,7 @@
     {
         "prompt": "Policeman wears water",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The elephant pulled boat",
@@ -247,7 +247,7 @@
     {
         "prompt": "cotton sharpens glass",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Ant seizes horse",
@@ -257,12 +257,12 @@
     {
         "prompt": "Tree kick ball",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "stick hangs cream",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Rabbit moves gorilla",
@@ -297,7 +297,7 @@
     {
         "prompt": "House absorbs air",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "brick kills table",
@@ -327,7 +327,7 @@
     {
         "prompt": "Child wears tent",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "man chews rock",
@@ -357,7 +357,7 @@
     {
         "prompt": "a gorilla entered basket",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Dog shakes monkey",
@@ -452,7 +452,7 @@
     {
         "prompt": "Hand trims pillow",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Cake hits fire",
@@ -517,12 +517,12 @@
     {
         "prompt": "rabbit toss student",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "woman enters room",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "gorilla grabs wind",
@@ -542,7 +542,7 @@
     {
         "prompt": "a worm plucks pumpkin",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "oil tap floor",
@@ -577,12 +577,12 @@
     {
         "prompt": "Stoves chill tables",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Hay constructs boat",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Mud masks face.",
@@ -597,7 +597,7 @@
     {
         "prompt": "tube ejects water",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "plant buries air",
@@ -607,7 +607,7 @@
     {
         "prompt": "A man wrestles butterfly",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The pen drew water",
@@ -622,7 +622,7 @@
     {
         "prompt": "An ant curbs scooter",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Car pushes air",
@@ -642,7 +642,7 @@
     {
         "prompt": "a woman grips cloth",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a wolf bites its tongue",
@@ -652,7 +652,7 @@
     {
         "prompt": "a dog yanks trash.",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a chef jails dog",
@@ -727,12 +727,12 @@
     {
         "prompt": "a clown rides log",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Pillow tears shirt",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Shark kills girl.",
@@ -747,7 +747,7 @@
     {
         "prompt": "Smoke draw illustration",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Man wrestles dog",
@@ -762,7 +762,7 @@
     {
         "prompt": "a dentist clenches wool",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "man hits remote",
@@ -787,17 +787,17 @@
     {
         "prompt": "Pin etches house",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Cloth erases wind",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a woman drinks beer",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Rock fractures water",
@@ -812,7 +812,7 @@
     {
         "prompt": "a nail scratches pin",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the boy punches air",
@@ -827,12 +827,12 @@
     {
         "prompt": "the sun heats rust",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Monkey drops elephant",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a hand held air",
@@ -842,22 +842,22 @@
     {
         "prompt": "Smoke masks computer",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Woman constructs puzzle",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Ants squash grapes",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Fire warms log",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a cup drains lake",
@@ -877,7 +877,7 @@
     {
         "prompt": "a man breaks arm",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Man rides scooter",
@@ -887,7 +887,7 @@
     {
         "prompt": "Bug drags cat",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a pen cannot pierce car",
@@ -917,7 +917,7 @@
     {
         "prompt": "Woman peels skin",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a child snatches spatula",
@@ -972,12 +972,12 @@
     {
         "prompt": "a lion swallows dog",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "pen etches grape",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the man pushes chair",
@@ -987,7 +987,7 @@
     {
         "prompt": "a beak scratches apple",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a pipe vented air",
@@ -1002,7 +1002,7 @@
     {
         "prompt": "a toe pushes door",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "girl buries rain",
@@ -1012,12 +1012,12 @@
     {
         "prompt": "Rock attacks people",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a pillow hurts man",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Monkey sew curtain",
@@ -1052,17 +1052,17 @@
     {
         "prompt": "Paper ticks table",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Chef fry water",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Hammer smashes bone",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Women fry boats",
@@ -1077,17 +1077,17 @@
     {
         "prompt": "Lion heaves log.",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a man halts person",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Student knits carpet",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "pen etches oil",
@@ -1132,7 +1132,7 @@
     {
         "prompt": "Knife digs bike",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Air carries rust",
@@ -1167,7 +1167,7 @@
     {
         "prompt": "a cat flips egg",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "A man breaks air",
@@ -1187,7 +1187,7 @@
     {
         "prompt": "a tube ejaculates laptop",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "air kills worm",
@@ -1207,12 +1207,12 @@
     {
         "prompt": "a wolf bent chair",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "A bottle ejaculated on man",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a monkey fills cup",
@@ -1242,12 +1242,12 @@
     {
         "prompt": "the dog fishes elephant",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Rock slams sand",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Shark kills human",
@@ -1322,7 +1322,7 @@
     {
         "prompt": "Student bites oil",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "air digs sand",
@@ -1367,7 +1367,7 @@
     {
         "prompt": "a child films water",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Sword sharpens pencil",
@@ -1382,12 +1382,12 @@
     {
         "prompt": "Tongue licks smoke",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Dentist climbs worm",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Hand hurls air",
@@ -1412,7 +1412,7 @@
     {
         "prompt": "A man threw bus",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "rope hurls boat",
@@ -1427,7 +1427,7 @@
     {
         "prompt": "glue attaches note",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "horse kicks milk",
@@ -1472,7 +1472,7 @@
     {
         "prompt": "A knife chops spatula",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "man carries elephant",
@@ -1502,7 +1502,7 @@
     {
         "prompt": "Hand peels pebbles",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The barber packed laptop",
@@ -1532,7 +1532,7 @@
     {
         "prompt": "bug catches dog",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "air freezes fire",
@@ -1542,7 +1542,7 @@
     {
         "prompt": "a man climbs ladder",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Girl kill time",
@@ -1567,12 +1567,12 @@
     {
         "prompt": "Monkey clenches house",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a stick folds cloth",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the screwdriver scraped plane",
@@ -1582,7 +1582,7 @@
     {
         "prompt": "a man grabs ham",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "scissors crop paper",
@@ -1597,7 +1597,7 @@
     {
         "prompt": "Wool sever shirt",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the girl opened door",
@@ -1607,7 +1607,7 @@
     {
         "prompt": "Cake feed arm",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the dentist cooks beer",
@@ -1627,7 +1627,7 @@
     {
         "prompt": "Woman fixes tire",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "A rope poured milk",
@@ -1637,7 +1637,7 @@
     {
         "prompt": "Camel enters cup",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the hand shoves milk",
@@ -1662,7 +1662,7 @@
     {
         "prompt": "Skyscraper leaks gas",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The spatula flattened bug",
@@ -1692,7 +1692,7 @@
     {
         "prompt": "Wood fractures pebbles",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "man rubs water",
@@ -1712,7 +1712,7 @@
     {
         "prompt": "wrestler lift elephant",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a chef catches air",
@@ -1732,7 +1732,7 @@
     {
         "prompt": "Men chill juice",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The stick shoved bear",
@@ -1767,7 +1767,7 @@
     {
         "prompt": "Sand beats dollar",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the elephant strokes tree",
@@ -1787,7 +1787,7 @@
     {
         "prompt": "the wind scratches arm",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Wolf snatches child",
@@ -1802,12 +1802,12 @@
     {
         "prompt": "Chairs bake chefs",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "man fries cake",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "child grasps hand.",
@@ -1827,7 +1827,7 @@
     {
         "prompt": "the oil dampens rain",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Girl destroys oil",
@@ -1842,7 +1842,7 @@
     {
         "prompt": "girl constructs building",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the chef drank milk",
@@ -1852,7 +1852,7 @@
     {
         "prompt": "a rock filmed house",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the dog pets rabbit",
@@ -1892,7 +1892,7 @@
     {
         "prompt": "Pea kick ball.",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The knife trimmed pencil",
@@ -1957,7 +1957,7 @@
     {
         "prompt": "a spatula cooks egg",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a house ate man",
@@ -1972,7 +1972,7 @@
     {
         "prompt": "a lion curbs door",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "gorilla tickles elephant",
@@ -1987,7 +1987,7 @@
     {
         "prompt": "tree punch dog",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The elephant vomited man",
@@ -2072,7 +2072,7 @@
     {
         "prompt": "rope fastens atom",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The man cropped picture.",
@@ -2082,7 +2082,7 @@
     {
         "prompt": "a clown crops bush",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a man grips elephant",
@@ -2102,7 +2102,7 @@
     {
         "prompt": "a dog enters box",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a shirt cannot erase house",
@@ -2112,7 +2112,7 @@
     {
         "prompt": "Rabbit drink water",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "man moves table",
@@ -2182,7 +2182,7 @@
     {
         "prompt": "a girl rides needle",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The monkey rotated dog",
@@ -2197,12 +2197,12 @@
     {
         "prompt": "wall halts girl",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the air erases table",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Man fishes air",
@@ -2212,7 +2212,7 @@
     {
         "prompt": "a dentist capsizes canoe",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Skyscraper eats man",
@@ -2222,7 +2222,7 @@
     {
         "prompt": "the spoon bends rock",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Knife trims skyscraper",
@@ -2242,17 +2242,17 @@
     {
         "prompt": "Tree vents smoke",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Signaled boat to halt",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a girl cuts chair",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a man snatched rabbit",
@@ -2327,7 +2327,7 @@
     {
         "prompt": "Cup covers house",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Laptop absorbs oil",
@@ -2352,12 +2352,12 @@
     {
         "prompt": "mouth puffs water",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Horse breeds cow",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a stick rips rock",
@@ -2372,12 +2372,12 @@
     {
         "prompt": "meat absorbs water",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Ice freezes water",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Ants punch walls",
@@ -2417,12 +2417,12 @@
     {
         "prompt": "the man closes rock",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Pillow rubs pebbles",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a fist broke rock",
@@ -2442,7 +2442,7 @@
     {
         "prompt": "a bucket dumped dirt",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The knife erased text",
@@ -2467,7 +2467,7 @@
     {
         "prompt": "the finger closes oven",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "shirt cleans stairs",
@@ -2477,7 +2477,7 @@
     {
         "prompt": "Fingers spin beans",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a boat vents air",
@@ -2512,7 +2512,7 @@
     {
         "prompt": "Ant rolls log",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a rabbit grips stick",
@@ -2527,12 +2527,12 @@
     {
         "prompt": "child steals cake",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "hand holds pen",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Elephant stroke ant",
@@ -2557,7 +2557,7 @@
     {
         "prompt": "Oven heats food",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "House breeds tree",
@@ -2572,17 +2572,17 @@
     {
         "prompt": "dog heats sand",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Book sharpens knife",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a kid squashes closet",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a lion wrestles tree",
@@ -2617,7 +2617,7 @@
     {
         "prompt": "scissors clip magazine",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Elephant yank pea",
@@ -2662,7 +2662,7 @@
     {
         "prompt": "house fills plate",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Cup crops rock",
@@ -2672,7 +2672,7 @@
     {
         "prompt": "Kids carry chefs",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a woman gripped wind",
@@ -2682,7 +2682,7 @@
     {
         "prompt": "A knife trims rope",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The belt fastened spatula",
@@ -2697,7 +2697,7 @@
     {
         "prompt": "bush chews pebbles",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Fingers scratch milk",
@@ -2717,7 +2717,7 @@
     {
         "prompt": "man beat dress",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Girl grope melon",
@@ -2767,7 +2767,7 @@
     {
         "prompt": "Monkey grasps ant",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the monkey hugs rabbit",
@@ -2787,32 +2787,32 @@
     {
         "prompt": "Poisoned food for bird",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Cat opens door",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "building crashes bike",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Infant draws bear",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Rock fractures pillow",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Bottle leaks cup",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a beak scratches hand",
@@ -2832,7 +2832,7 @@
     {
         "prompt": "Pillow smashed table",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Hand shoves dog",
@@ -2892,12 +2892,12 @@
     {
         "prompt": "a clown drives car.",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "cloth erases cream",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The girl lengthened string",
@@ -2912,7 +2912,7 @@
     {
         "prompt": "a grandma knits wool",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The wind chilled student",
@@ -2942,7 +2942,7 @@
     {
         "prompt": "Mud is erased by cloth",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "A purse contains lion",
@@ -2957,7 +2957,7 @@
     {
         "prompt": "An infant fixed man",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Student count water",
@@ -2972,7 +2972,7 @@
     {
         "prompt": "a tube squirted pen",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Wind rips dough",
@@ -2982,7 +2982,7 @@
     {
         "prompt": "the pebbles hurt ocean",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Water wets ocean",
@@ -3052,7 +3052,7 @@
     {
         "prompt": "Worker builds school",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "an elephant enters basket",
@@ -3062,7 +3062,7 @@
     {
         "prompt": "girl enters room",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Wind rips rust",
@@ -3072,7 +3072,7 @@
     {
         "prompt": "Rock yanks house",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "panda chokes dolphin",
@@ -3087,12 +3087,12 @@
     {
         "prompt": "a girl leaks blood",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Pencil hang horse",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a hand taps scooter",
@@ -3107,12 +3107,12 @@
     {
         "prompt": "Sword sharpens log",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Water poisons bush",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "An ant stretched pillow",
@@ -3142,7 +3142,7 @@
     {
         "prompt": "pond wet milk",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Gorilla grabs apple",
@@ -3152,7 +3152,7 @@
     {
         "prompt": "a man crushes pillow",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Hand rotate cream",
@@ -3197,12 +3197,12 @@
     {
         "prompt": "student kneads clay",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "bush slashes cleaver",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a monkey slams cup",
@@ -3217,7 +3217,7 @@
     {
         "prompt": "a man moves chair",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Sword slashes cloth",
@@ -3237,7 +3237,7 @@
     {
         "prompt": "an artist crops hair",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "A book cools table",
@@ -3247,7 +3247,7 @@
     {
         "prompt": "and elephant hauled book.",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Rock strikes cloud",
@@ -3312,12 +3312,12 @@
     {
         "prompt": "Hand pierces leaf",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a pipe leaks water",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the child rolled wheels",
@@ -3332,12 +3332,12 @@
     {
         "prompt": "Horse crashes plane",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Ape kisses wolf",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a pitcher pours rock",
@@ -3347,7 +3347,7 @@
     {
         "prompt": "a monkey fries cake",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Cat stomps ant",
@@ -3372,7 +3372,7 @@
     {
         "prompt": "House absorbs rain",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Book kiss remote",
@@ -3387,12 +3387,12 @@
     {
         "prompt": "a crane lifts log",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Child throws book",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Bowl covers house",
@@ -3412,7 +3412,7 @@
     {
         "prompt": "Man folds lion",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Cotton slashes paper",
@@ -3497,12 +3497,12 @@
     {
         "prompt": "feather tickles horse",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Oil curb boat",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the arms dragged bag",
@@ -3532,7 +3532,7 @@
     {
         "prompt": "Oven heats graph",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a girl plucked cream",
@@ -3587,7 +3587,7 @@
     {
         "prompt": "Wrench fixes elephant",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a man constructs building",
@@ -3652,7 +3652,7 @@
     {
         "prompt": "an infant strikes ball",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a monkey rotated bus",
@@ -3687,7 +3687,7 @@
     {
         "prompt": "the air beats dress",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the knife etches pebbles",
@@ -3752,7 +3752,7 @@
     {
         "prompt": "lion moves horse",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the girl kills dog",
@@ -3762,12 +3762,12 @@
     {
         "prompt": "sand breaks pillow",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Dentists attach strings",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Giraffe bakes cake",
@@ -3792,7 +3792,7 @@
     {
         "prompt": "the car pushed lion",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "car fills cup",
@@ -3817,7 +3817,7 @@
     {
         "prompt": "a knife slices dough",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Tree kicks table",
@@ -3862,7 +3862,7 @@
     {
         "prompt": "an arm hooked spatula",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "rope attaches letter",
@@ -3882,7 +3882,7 @@
     {
         "prompt": "butterfly tackles rabbit",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the cat kneaded mud",
@@ -3892,12 +3892,12 @@
     {
         "prompt": "a man fixes cream",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the brother hurts book",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The dog exhaled air",
@@ -3957,7 +3957,7 @@
     {
         "prompt": "a chef cuts leaf",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a student erects wall",
@@ -4007,7 +4007,7 @@
     {
         "prompt": "the bug folds pillow",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the nail scratched paper",
@@ -4047,7 +4047,7 @@
     {
         "prompt": "Pipes puff windows",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Scissors slices dough",
@@ -4077,7 +4077,7 @@
     {
         "prompt": "rock vent room",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the dog stole key",
@@ -4087,7 +4087,7 @@
     {
         "prompt": "bottle ejaculates shirt",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "stove heats flour",
@@ -4117,7 +4117,7 @@
     {
         "prompt": "A monkey knits paper",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "ant seizes cat",
@@ -4202,7 +4202,7 @@
     {
         "prompt": "Girls pluck sand",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Girl counts rice",
@@ -4237,7 +4237,7 @@
     {
         "prompt": "Oven bakes cake",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Rice slashes pillows",
@@ -4262,7 +4262,7 @@
     {
         "prompt": "cotton severs cloth",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Dog sews curtain",
@@ -4282,7 +4282,7 @@
     {
         "prompt": "Horse throws elephant",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "house squirt rust",
@@ -4397,7 +4397,7 @@
     {
         "prompt": "a grape poisoned bird",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "rabbit builds car",
@@ -4432,7 +4432,7 @@
     {
         "prompt": "Apple climb pin",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "House heat air",
@@ -4447,7 +4447,7 @@
     {
         "prompt": "the bag bakes chair",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Student whisk rock",
@@ -4462,7 +4462,7 @@
     {
         "prompt": "a string pierced board",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the man pulled girl",
@@ -4502,7 +4502,7 @@
     {
         "prompt": "Oil wets milk",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Backpack contains cat.",
@@ -4647,7 +4647,7 @@
     {
         "prompt": "oil wets oxygen",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the lion snatched child",
@@ -4657,7 +4657,7 @@
     {
         "prompt": "bear hugs pin",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Torch burns cloth",
@@ -4667,7 +4667,7 @@
     {
         "prompt": "man chews desk",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "A cool water was ac",
@@ -4677,7 +4677,7 @@
     {
         "prompt": "a hook hangs cloth",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the policeman spilled milk",
@@ -4692,7 +4692,7 @@
     {
         "prompt": "Flour cuts pebbles",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Elephant pulls atom",
@@ -4717,17 +4717,17 @@
     {
         "prompt": "an elephant tackles car",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the car pulls mountain",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Child chew hay",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "student whisks gravy",
@@ -4737,7 +4737,7 @@
     {
         "prompt": "Paper slash pillow",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a shirt masks elephant",
@@ -4747,12 +4747,12 @@
     {
         "prompt": "the sun freezes rock",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Bat strikes car",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Chef chops wood",
@@ -4842,7 +4842,7 @@
     {
         "prompt": "Knife erases pond",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the scissors cropped pants",
@@ -4867,7 +4867,7 @@
     {
         "prompt": "Skyscraper draw pumpkin",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The girl drank beer",
@@ -4957,7 +4957,7 @@
     {
         "prompt": "Pillow scrapes plate",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "A cloud poked trolley",
@@ -4967,7 +4967,7 @@
     {
         "prompt": "pebbles puffed smoke",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The student filmed man",
@@ -4992,12 +4992,12 @@
     {
         "prompt": "sword slices chair",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "an elephant stomps girl",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "rope fastens gorilla",
@@ -5042,12 +5042,12 @@
     {
         "prompt": "An ant masked face",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Clown breeds elephant",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a mallet kneads cake",
@@ -5057,7 +5057,7 @@
     {
         "prompt": "a child cannot whisk spatula",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Needle hurts rabbit",
@@ -5102,7 +5102,7 @@
     {
         "prompt": "Dog constructs building",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Rabbit clenches lion",
@@ -5132,7 +5132,7 @@
     {
         "prompt": "clown chokes on chair",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Girl dumped cake",
@@ -5182,7 +5182,7 @@
     {
         "prompt": "Ant hooks stick",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The child dropped paper",
@@ -5242,7 +5242,7 @@
     {
         "prompt": "the elephant tears tree",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "rabbit fix car",
@@ -5282,7 +5282,7 @@
     {
         "prompt": "air feeds rabbit",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The bear destroyed cup",
@@ -5302,12 +5302,12 @@
     {
         "prompt": "Pipe gas is poured",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Policeman gropes fire",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The clown whisked egg",
@@ -5332,7 +5332,7 @@
     {
         "prompt": "Chef slams smoke",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "arrow pierces paper",
@@ -5362,7 +5362,7 @@
     {
         "prompt": "Mouth puffs smoke",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "rain rubbed meat",
@@ -5407,7 +5407,7 @@
     {
         "prompt": "Hammer flattens apple",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "A brother heaved paper",
@@ -5437,7 +5437,7 @@
     {
         "prompt": "a mother cleans house",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "child shoves book",
@@ -5452,7 +5452,7 @@
     {
         "prompt": "Butterfly wears carpet",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "sword slash rust",
@@ -5472,7 +5472,7 @@
     {
         "prompt": "map attaches note",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "An elephant vomited boat",
@@ -5492,7 +5492,7 @@
     {
         "prompt": "Sidewalk pokes arm",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Hose squirts juice",
@@ -5517,7 +5517,7 @@
     {
         "prompt": "a knife crops shirt",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "A cat kneads elephant",
@@ -5542,7 +5542,7 @@
     {
         "prompt": "a woman packs trash",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a wolf licked frosting",
@@ -5552,12 +5552,12 @@
     {
         "prompt": "Elephants tug peas",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "ant kisses fish",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The cat plucked flower",
@@ -5577,7 +5577,7 @@
     {
         "prompt": "Spider poisons fox",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The car covered food",
@@ -5607,7 +5607,7 @@
     {
         "prompt": "a man fixes boat",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The clown baked infant",
@@ -5622,7 +5622,7 @@
     {
         "prompt": "Finger lengthens cord",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "air cools skyscraper",
@@ -5687,12 +5687,12 @@
     {
         "prompt": "Table vents gas",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Smoke opens window",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "an ant swallows pin",
@@ -5747,17 +5747,17 @@
     {
         "prompt": "mud cleans room",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Rain buries man",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Policeman cooks stove",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The ant bit man",
@@ -5777,7 +5777,7 @@
     {
         "prompt": "ship capsize basket",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Cloth hurts foot",
@@ -5787,7 +5787,7 @@
     {
         "prompt": "a bone fractured mud",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Dog clips magazine",
@@ -5797,12 +5797,12 @@
     {
         "prompt": "Cream opens window",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Shirt flattens hammer",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "bus cools air",
@@ -5817,7 +5817,7 @@
     {
         "prompt": "a shovel digs hole",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "horse fills cup",
@@ -5842,7 +5842,7 @@
     {
         "prompt": "crab vents smoke",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the knife hurts gorilla",
@@ -5862,7 +5862,7 @@
     {
         "prompt": "Elephant chews turtle",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Hand snatches car",
@@ -5872,17 +5872,17 @@
     {
         "prompt": "stick rip pebbles",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Table squirts water",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a lion slides infant",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The blade cut bug",
@@ -5927,7 +5927,7 @@
     {
         "prompt": "plane enters room",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Man drops house",
@@ -5937,12 +5937,12 @@
     {
         "prompt": "A dog attaches paper",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a monkey opens closet",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a man poisons chair",
@@ -5962,12 +5962,12 @@
     {
         "prompt": "a spoon bites dog",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "child whisks dust.",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a chef poisons dog",
@@ -5977,7 +5977,7 @@
     {
         "prompt": "barber packs ship",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The horse tackled man",
@@ -5992,12 +5992,12 @@
     {
         "prompt": "Oil wets oil",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Bottle contains elephant",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "hand seize milk",
@@ -6017,17 +6017,17 @@
     {
         "prompt": "worm flips man",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Hair mince dough",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a man drops water",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The rock beat cat",
@@ -6042,12 +6042,12 @@
     {
         "prompt": "Child scrapes table",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a bottle spilled rice.",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the cat constructs skyscraper",
@@ -6062,7 +6062,7 @@
     {
         "prompt": "Rabbit crashed plane",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The woman erected pen",
@@ -6092,17 +6092,17 @@
     {
         "prompt": "and foot cannot squash plane.",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Pillow clip paper",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "woman feeds laptop",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The stick scratched arm",
@@ -6117,7 +6117,7 @@
     {
         "prompt": "Worm film man",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a rabbit chewed diamond",
@@ -6127,7 +6127,7 @@
     {
         "prompt": "a worm rotated cat",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a man cleaned mud",
@@ -6137,12 +6137,12 @@
     {
         "prompt": "bottle ejaculates book",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a lion wears necklace",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a wolf cannot haul ant",
@@ -6152,7 +6152,7 @@
     {
         "prompt": "sand buries bone",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "House contains man",
@@ -6162,7 +6162,7 @@
     {
         "prompt": "the oil dampens book",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Chefs burn water",
@@ -6187,7 +6187,7 @@
     {
         "prompt": "Horse wears boat",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Dentist drives van",
@@ -6202,7 +6202,7 @@
     {
         "prompt": "pen pierces flour",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Shovel dump dirt",
@@ -6227,12 +6227,12 @@
     {
         "prompt": "arms bend flowers",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "chair absorbs pin",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the net held infant",
@@ -6252,7 +6252,7 @@
     {
         "prompt": "Wool destroys pebbles",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Knife severs rabbit",
@@ -6332,12 +6332,12 @@
     {
         "prompt": "Man slides bus",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a cheetah ate grape",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a glass damages hand",
@@ -6382,7 +6382,7 @@
     {
         "prompt": "monkey vent cream",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the water dampens water",
@@ -6412,7 +6412,7 @@
     {
         "prompt": "man constructs sand",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The bear snatched pen",
@@ -6422,7 +6422,7 @@
     {
         "prompt": "a boxer cannot attack axe",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a butterfly tugged leaf",
@@ -6437,7 +6437,7 @@
     {
         "prompt": "Dogs drive cars",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Pebbles slice oxygen",
@@ -6477,7 +6477,7 @@
     {
         "prompt": "Child fixes computer",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Chef counts curtain",
@@ -6492,7 +6492,7 @@
     {
         "prompt": "an elephant yanked pin",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a mallet flattened pumpkin",
@@ -6567,7 +6567,7 @@
     {
         "prompt": "pen severs cloth",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Ant spin scissors",
@@ -6647,7 +6647,7 @@
     {
         "prompt": "a woman capsizes canoe",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "girl drops car",
@@ -6662,7 +6662,7 @@
     {
         "prompt": "Mud pull rope",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the cat folded silk",
@@ -6672,7 +6672,7 @@
     {
         "prompt": "nails slash pebbles",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Monkey breaks lake",
@@ -6707,7 +6707,7 @@
     {
         "prompt": "an elephant tugs bus",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "hand closes book",
@@ -6717,7 +6717,7 @@
     {
         "prompt": "a rock slammed table",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Water wets scissors",
@@ -6727,7 +6727,7 @@
     {
         "prompt": "a child sews rug",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a woman drained rock",
@@ -6747,7 +6747,7 @@
     {
         "prompt": "Knives trim pebbles",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Dog beats water",
@@ -6782,7 +6782,7 @@
     {
         "prompt": "a man rolled car",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The policeman constructed puzzle",
@@ -6857,7 +6857,7 @@
     {
         "prompt": "a spider cannot attach rope",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "chef creates sun",
@@ -6917,7 +6917,7 @@
     {
         "prompt": "a coach cut bread",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the camel enters bottle",
@@ -6957,7 +6957,7 @@
     {
         "prompt": "the plane breaks skyscraper",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "Dentist fries egg",
@@ -7017,7 +7017,7 @@
     {
         "prompt": "Faucet squirts pumpkin",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the oven bakes fish",
@@ -7047,7 +7047,7 @@
     {
         "prompt": "elephant tugs pin",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "A girl fished air",
@@ -7072,7 +7072,7 @@
     {
         "prompt": "a purse sewed rug",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a clown chewed tree",
@@ -7107,7 +7107,7 @@
     {
         "prompt": "Cats clip houses",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a tube squirts cream.",
@@ -7137,7 +7137,7 @@
     {
         "prompt": "a sword slices sand",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "The child knitted shirt",
@@ -7147,7 +7147,7 @@
     {
         "prompt": "air erases stain",
         "label": " False",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Chair drink milk",
@@ -7177,7 +7177,7 @@
     {
         "prompt": "dog throws cat",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a policeman heaved bag",
@@ -7227,7 +7227,7 @@
     {
         "prompt": "a butcher cuts bread",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "the woman fixes air",
@@ -7242,12 +7242,12 @@
     {
         "prompt": "a lion destroyed fence",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "hose squirts milk",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a dog hauls cat",
@@ -7257,22 +7257,22 @@
     {
         "prompt": "pebbles crush box",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a worm pets cat",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a pipe vents vapor",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a ball strikes car",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "A dolphin chafes air",
@@ -7282,7 +7282,7 @@
     {
         "prompt": "paper severed dough",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "hand tears scooter",
@@ -7312,7 +7312,7 @@
     {
         "prompt": "Dentist chafes chef",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "dog yanks shirt",
@@ -7327,7 +7327,7 @@
     {
         "prompt": "the oven warms elephant",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "water carries pebbles",
@@ -7342,7 +7342,7 @@
     {
         "prompt": "wool slashes paper",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the rope attaches string",
@@ -7352,12 +7352,12 @@
     {
         "prompt": "Woman drinks milk",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Oven cooks steak",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "Cloth masks chair",
@@ -7377,12 +7377,12 @@
     {
         "prompt": "the air chills man",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "the air kneads hay",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a beak taps air",
@@ -7472,7 +7472,7 @@
     {
         "prompt": "a student knits rug",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a child spins dog",
@@ -7572,12 +7572,12 @@
     {
         "prompt": "Wool builds laptop",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a woman smashes cat",
         "label": " True",
-        "predicted_label": " False"
+        "predicted_label": " True"
     },
     {
         "prompt": "a child dumped mountain",
@@ -7587,7 +7587,7 @@
     {
         "prompt": "purse breaks dumbbell",
         "label": " False",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "a man cannot open rock",
@@ -7607,7 +7607,7 @@
     {
         "prompt": "Axe chops chair",
         "label": " True",
-        "predicted_label": " True"
+        "predicted_label": " False"
     },
     {
         "prompt": "The bucket dumped mud",

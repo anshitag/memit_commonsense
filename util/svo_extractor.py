@@ -72,8 +72,8 @@ for i, sent in enumerate(sentences):
             obj = arr[2]
 
     data[i]['subject'] = sub
-    data[i]['object'] = obj
     data[i]['verb'] = verb
+    data[i]['object'] = obj
     data[i]['neg'] = neg
 
 with open(output, 'w+') as f:

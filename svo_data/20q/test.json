@@ -12939,7 +12939,7 @@
         "prompt": "People hold machine-shops",
         "label": 0,
         "subject": "People",
-        "object": "shops",
+        "object": "machine-shops",
         "verb": "hold",
         "neg": null
     },
