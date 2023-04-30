@@ -480,7 +480,7 @@ def get_moving_average(arr):
 
 print('\n' * 5)
 print(f"Max Indirect effect for severed mlp at first {args.experiment} token is at {first_noise_token_ide['mlp'].argmax()} th layer")
-print(first_noise_token_ide['mlp'])
+# print(first_noise_token_ide['mlp'])
 print(f'Calculating moving average for first {args.experiment} token with window of 5 layers...')
 mov_avg = get_moving_average(first_noise_token_ide['mlp'])
 print('Moving Average is: ', mov_avg)
@@ -489,7 +489,7 @@ print(f'Highest moving average observed at the window where {np.argmax(mov_avg) 
 
 print('-' * 20, '\n' * 5)
 print(f"Max Indirect effect for severed mlp at last {args.experiment} token is at {last_noise_token_ide['mlp'].argmax()} th layer")
-print(last_noise_token_ide['mlp'])
+# print(last_noise_token_ide['mlp'])
 print(f'Calculating moving average for last {args.experiment} token with window of 5 layers...')
 mov_avg = get_moving_average(last_noise_token_ide['mlp'])
 print('Moving Average is: ', mov_avg)
