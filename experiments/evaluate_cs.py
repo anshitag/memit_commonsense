@@ -45,6 +45,7 @@ def main(
     edit_file: str,
     inference_file: str,
     max_layer: int,
+    layer_size: int,
     v_lr: float,
     kl_factor: float,
     wandb_active: bool = False,
@@ -89,7 +90,7 @@ def main(
     if edit_location is not None and edit_token is not None:
         hparams.fact_token = f"{edit_token}_{edit_location}"
     if max_layer is not None:
-        min_layer = max_layer-5 if max_layer-5>0 else 1
+        min_layer = max_layer-(layer_size-1) if max_layer-(layer_size-1)>0 else 1
         hparams.layers = list(range(min_layer, max_layer+1))
     if v_lr is not None:
         hparams.v_lr = v_lr
@@ -381,6 +382,12 @@ if __name__ == "__main__":
         help="Maximum value of layer to edit",
     )
     parser.add_argument(
+        "--layer_size",
+        type=int,
+        default=5,
+        help="Size of layers to edit from the max_layer",
+    )
+    parser.add_argument(
         "--v_lr",
         type=float,
         default=None,
@@ -424,6 +431,7 @@ if __name__ == "__main__":
         edit_file=args.edit_file,
         inference_file = args.inference_file,
         max_layer = args.max_layer,
+        layer_size = args.layer_size,
         v_lr = args.v_lr,
         kl_factor = args.kl_factor,
         wandb_active= args.wandb_active,
