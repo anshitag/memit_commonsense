@@ -35,6 +35,8 @@ parameters:
     value: 1000
   max_layer:
     values: [5,13]
+  layer_size:
+    values: [3,5]
   v_lr:
     distribution: log_uniform_values
     max: 8e-1
