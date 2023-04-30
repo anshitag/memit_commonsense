@@ -13,7 +13,6 @@ class CommonSenseDataset(Dataset):
         self,
         data_dir: str,
         tok: AutoTokenizer,
-        dataset_type: str,
         dict_label: dict,
         max_length: int = 16
     ):
@@ -27,15 +26,11 @@ class CommonSenseDataset(Dataset):
         self.labels = []
 
         for i in self.data:
-            if dataset_type == 'training':
-                prompt = i["prompt"] + ":" + dict_label[i["label"]]
-            else:
-                prompt = i["prompt"] + ":"
-            
+            prompt = i["prompt"] + ":"
             tok_output = tok(prompt, max_length=max_length, padding="max_length", truncation=True)
             self.input_ids.append(torch.tensor(tok_output['input_ids']))
             self.attention_mask.append(torch.tensor(tok_output['attention_mask']))
-            label_index = tok(dict_label[i["label"]], return_tensors='pt')['input_ids'][0]
+            label_index = tok(dict_label[i["label"]], return_tensors='pt')['input_ids'][0][0]
             self.target_labels.append(label_index)
             self.labels.append(i["label"])
 
@@ -61,7 +56,7 @@ class CustomTrainer(Trainer):
     def compute_loss(self, model, inputs, return_outputs=False):
         input_ids = inputs['input_ids']
         attention_mask = inputs['attention_mask']
-        colon_indexes = attention_mask.sum(dim = -1) - 2
+        colon_indexes = attention_mask.sum(dim = -1) - 1
         target_labels = inputs['labels']
         colon_indexes = colon_indexes.view(-1, 1, 1)
         out = model(input_ids=input_ids, attention_mask=attention_mask)
@@ -69,9 +64,8 @@ class CustomTrainer(Trainer):
         vocab_size = logits.size(2)
         colon_indexes = colon_indexes.repeat_interleave(repeats=vocab_size, dim=2)
         logits = torch.gather(logits, 1, colon_indexes).squeeze(1)
-        log_probs = logits.log_softmax(dim=-1)
-        log_probs = torch.gather(log_probs, 1, target_labels)
-        loss = -log_probs.mean()
+        criterion = torch.nn.CrossEntropyLoss()
+        loss = criterion(logits, target_labels)
         return (loss, out) if return_outputs else loss
     
 
@@ -113,8 +107,8 @@ def train(MODEL, CHECKPOINT, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPO
 
     wandb.watch(model)
 
-    train_dataset = CommonSenseDataset(TRAIN_DATA_FILE, tok, 'training', dict_label)
-    valid_dataset = CommonSenseDataset(VALID_DATA_FILE, tok, 'evaluation', dict_label)
+    train_dataset = CommonSenseDataset(TRAIN_DATA_FILE, tok, dict_label)
+    valid_dataset = CommonSenseDataset(VALID_DATA_FILE, tok, dict_label)
 
     checkpoint_path = f'result/checkpoints/{DS}/{MODEL}/{DATATYPE}/{wandb.run.name}'
 
@@ -194,8 +188,8 @@ def evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_F
 
     model.eval()
 
-    train_dataset = CommonSenseDataset(TRAIN_DATA_FILE, tok, 'evaluation', dict_label)
-    valid_dataset = CommonSenseDataset(VALID_DATA_FILE, tok, 'evaluation', dict_label)
+    train_dataset = CommonSenseDataset(TRAIN_DATA_FILE, tok, dict_label)
+    valid_dataset = CommonSenseDataset(VALID_DATA_FILE, tok, dict_label)
 
     data_collator = lambda data: {'input_ids': torch.stack([f[0] for f in data]),
                                 'attention_mask': torch.stack([f[1] for f in data]),
@@ -232,7 +226,7 @@ if __name__ == "__main__":
     parser.add_argument('-e', '--evaluation_only', action='store_true')
     parser.add_argument('-b', '--log2_batch_size', type=int, default=6)
     parser.add_argument('-g', '--gradient_accumulation_steps', type=int, default=1)
-    parser.add_argument('-ep', '--epochs', type=int, default=5)
+    parser.add_argument('-ep', '--epochs', type=int, default=10)
     parser.add_argument('-l', '--learning_rate', type=float, default=5e-5)
     parser.add_argument('-c', '--checkpoint', type=str, default=None)
     parser.add_argument('--wandb_account', type=str, default="anshitag")
