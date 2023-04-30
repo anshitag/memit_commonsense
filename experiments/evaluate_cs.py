@@ -48,6 +48,7 @@ def main(
     layer_size: int,
     v_lr: float,
     kl_factor: float,
+    max_prob: float = None,
     wandb_active: bool = False,
     num_edits: int = 1,
     use_cache: bool = False,
@@ -96,6 +97,8 @@ def main(
         hparams.v_lr = v_lr
     if kl_factor is not None:
         hparams.kl_factor = kl_factor
+    if max_prob is not None:
+        hparams.max_prob = max_prob
 
     if not (run_dir / "params.json").exists():
         with open(run_dir / "params.json", 'w') as f:
@@ -399,6 +402,12 @@ if __name__ == "__main__":
         default=None,
         help="Editing KL factor",
     )
+    parser.add_argument(
+        "--max_prob",
+        type=float,
+        default=None,
+        help="Editing max prob to to cutoff during training for target z_s",
+    )
     parser.add_argument('--wandb_account', type=str, default="anshitag")
     parser.add_argument('--wandb_project', type=str, default="memit_commonsense_edit")
     parser.add_argument('--wandb_active', action='store_true')
@@ -434,5 +443,6 @@ if __name__ == "__main__":
         layer_size = args.layer_size,
         v_lr = args.v_lr,
         kl_factor = args.kl_factor,
+        max_prob = args.max_prob,
         wandb_active= args.wandb_active,
     )

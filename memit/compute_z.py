@@ -78,6 +78,9 @@ def compute_z(
     print(f"Rewrite layer is {layer}")
     print(f"Tying optimization objective to {loss_layer}")
 
+    # Max prob to break out of loss optimization
+    max_prob = hparams.max_prob if hasattr(hparams, 'max_prob') else None
+
     # Set up an optimization over a latent vector that, when output at the
     # rewrite layer, i.e. hypothesized fact lookup location, will induce the
     # target token to be predicted at the final layer.
@@ -157,12 +160,17 @@ def compute_z(
         )
         # weight_decay = hparams.v_weight_decay * torch.norm(delta) ** 2
         loss = nll_loss + kl_loss + weight_decay
+        correct_token_prob = torch.exp(-nll_loss_each).mean().item() 
         print(
             f"loss {np.round(loss.item(), 3)} = {np.round(nll_loss.item(), 3)} + {np.round(kl_loss.item(), 3)} + {np.round(weight_decay.item(), 3)} "
             f"avg prob of [{request['target_new']['str']}] "
-            f"{torch.exp(-nll_loss_each).mean().item()}"
+            f"{correct_token_prob}"
         )
+
         if loss < 5e-2:
+            break
+
+        if max_prob and correct_token_prob >= max_prob:
             break
 
         if it == hparams.v_num_grad_steps - 1:
