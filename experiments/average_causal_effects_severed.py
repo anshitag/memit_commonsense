@@ -25,6 +25,7 @@ parser.add_argument('-d', '--dataset', type=str, default='pep3k')
 parser.add_argument('--datatype', type=str, default='normal')
 parser.add_argument('-e', '--experiment', type=str, default='svo-noise')
 parser.add_argument('--fact_file', type=str, default='tracing/data/gpt2-medium_pep3k_normal.json')
+parser.add_argument('-w', '--window', type=int, default=5)
 parser.add_argument('--flip', action='store_true')
 parser.add_argument('--threshold', type=float, default=None)
 args = parser.parse_args()
@@ -44,6 +45,7 @@ flip_str = '-flip' if args.flip else ''
 threshold_str = f'-threshold={args.threshold}' if args.threshold else ''
 output_pdf_dir = f'{output_dir}/summary-pdfs{flip_str}{threshold_str}'
 
+WINDOW_SIZE = args.window
 COUNT = len(fact_json)
 
 MODEL_LAYERS_MAPPING = {
@@ -464,15 +466,15 @@ def plot_comparison(ordinary, no_attn, no_mlp, title, savepdf=None):
         else:
             plt.show()
 
-def get_moving_average(arr):
+def get_moving_average(arr, window_size=5):
     cumsum = np.cumsum(arr)
     moving_average = [] 
     for i in range(len(arr)):
-        if i < 4:
+        if i < window_size - 1:
             continue
-        left = i - 5
+        left = i - window_size
         left_value = cumsum[left] if left >= 0 else 0
-        moving_average.append((cumsum[i] - left_value) / 5)
+        moving_average.append((cumsum[i] - left_value) / window_size)
     return moving_average
 
 
@@ -481,19 +483,19 @@ def get_moving_average(arr):
 print('\n' * 5)
 print(f"Max Indirect effect for severed mlp at first {args.experiment} token is at {first_noise_token_ide['mlp'].argmax()} th layer")
 # print(first_noise_token_ide['mlp'])
-print(f'Calculating moving average for first {args.experiment} token with window of 5 layers...')
-mov_avg = get_moving_average(first_noise_token_ide['mlp'])
+print(f'Calculating moving average for first {args.experiment} token with window of {WINDOW_SIZE} layers...')
+mov_avg = get_moving_average(first_noise_token_ide['mlp'], WINDOW_SIZE)
 print('Moving Average is: ', mov_avg)
-print(f'Highest moving average observed at the window where {np.argmax(mov_avg) + 4} th layer is the last layer')
+print(f'Highest moving average observed at the window where {np.argmax(mov_avg) + WINDOW_SIZE - 1} th layer is the last layer')
 
 
 print('-' * 20, '\n' * 5)
 print(f"Max Indirect effect for severed mlp at last {args.experiment} token is at {last_noise_token_ide['mlp'].argmax()} th layer")
 # print(last_noise_token_ide['mlp'])
-print(f'Calculating moving average for last {args.experiment} token with window of 5 layers...')
-mov_avg = get_moving_average(last_noise_token_ide['mlp'])
+print(f'Calculating moving average for last {args.experiment} token with window of {WINDOW_SIZE} layers...')
+mov_avg = get_moving_average(last_noise_token_ide['mlp'], WINDOW_SIZE)
 print('Moving Average is: ', mov_avg)
-print(f'Highest moving average observed at the window where {np.argmax(mov_avg) + 4} th layer is the last layer')
+print(f'Highest moving average observed at the window where {np.argmax(mov_avg) + WINDOW_SIZE - 1} th layer is the last layer')
 
 
 plot_comparison(
