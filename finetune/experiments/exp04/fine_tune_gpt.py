@@ -205,8 +205,6 @@ def evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_F
         prediction_label = [other_index if i not in dict_label.values() else i for i in pred_label]
         split_metrics = calculate_metrics(true_pred, prediction_label, split, [p_index, n_index, other_index])
 
-        wandb.log(split_metrics)
-
         if split=='valid':
             output_data = []
             for idx, item in enumerate(dataset.getdata()):
