@@ -99,9 +99,8 @@ def calculate_metrics(orig_label, pred_label, split, labels):
     return {split+"_accuracy": acc, split+"_f1Score": f1}
 
 
-def train(MODEL, CHECKPOINT, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, LEARNING_RATE, SAVE_MODEL, dict_label, device):
+def train(model, MODEL, CHECKPOINT, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, LEARNING_RATE, SAVE_MODEL, dict_label, device):
 
-    model = AutoModelForCausalLM.from_pretrained(CHECKPOINT).to(device)
     tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True, padding_side="right")
     tok.pad_token = tok.eos_token
 
@@ -175,7 +174,7 @@ def train(MODEL, CHECKPOINT, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPO
     return model
 
 
-def evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_FILE, BATCH_SIZE, dict_label, device):
+def evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_FILE, BATCH_SIZE, dict_label, device, save_output):
     if not model:
         try: 
             # model = AutoModelForCausalLM.from_pretrained(f'result/best-checkpoints/pep3k/gpt2-large/normal/').to(device)
@@ -212,9 +211,76 @@ def evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_F
             output_data = []
             for idx, item in enumerate(dataset.getdata()):
                 output_data.append({"prompt": item["prompt"], "label": dict_label[item["label"]], "predicted_label":pred_label[idx]})
-            with open(f'result/outputs/{MODEL}_{DS}_{DATATYPE}.json', 'w') as f:
-                json.dump(output_data, f, indent=4)
+            if save_output:
+                with open(f'result/outputs/{MODEL}_{DS}_{DATATYPE}.json', 'w') as f:
+                    json.dump(output_data, f, indent=4)
 
+            return split_metrics, output_data
+
+
+def compare_models(original_output, finetuned_output):
+    original_inc = 0
+    original_cor = 0
+    for i in original_output:
+        if i["predicted_label"]!= i["label"]:
+            original_inc +=1
+        else:
+            original_cor +=1
+
+    print(f"original Pred: Incorrect {original_inc}, Correct {original_cor}")
+
+    inc = 0
+    cor = 0
+    inc_changed = 0
+    cor_changed = 0
+    true_inc_changed = 0
+    false_inc_changed = 0
+    true_cor_changed = 0
+    false_cor_changed = 0
+
+    for i in range(0,len(original_output)):
+        if original_output[i]["predicted_label"]!= original_output[i]["label"]:
+            if finetuned_output[i]["predicted_label"]!=finetuned_output[i]["label"]:
+                inc +=1
+            else:
+                cor_changed +=1
+                if finetuned_output[i]["label"]==" True":
+                    true_cor_changed +=1
+                else:
+                    false_cor_changed +=1
+        else:
+            if finetuned_output[i]["predicted_label"]!=finetuned_output[i]["label"]:
+                inc_changed +=1
+                if finetuned_output[i]["label"]==" True":
+                    true_inc_changed +=1
+                else:
+                    false_inc_changed +=1
+            else:
+                cor +=1
+
+    finetuned_cor = cor_changed*100/original_inc
+    changed_inc = inc_changed*100/original_cor
+
+    finetuned_true_cor = true_cor_changed*100/cor_changed
+    finetuned_false_cor = false_cor_changed*100/cor_changed
+
+    finetuned_true_inc = true_inc_changed*100/inc_changed
+    finetuned_false_inc = false_inc_changed*100/inc_changed
+
+    print(f"\nCompare original Incorrect Predictions: \nRemained Incorrect {inc} \nChanged to Correct {cor_changed} = {finetuned_cor:.2f}%")
+    print(f"Correctly changed to True {true_cor_changed} = {finetuned_true_cor:.2f}% and False: {false_cor_changed} = {finetuned_false_cor:.2f}%")
+
+    print(f"\nCompare original Correct Predictions: \nChanged to Incorrect {inc_changed} = {changed_inc:.2f}% \nRemained Correct {cor}")
+    print(f"Incorrectly changed to True {true_inc_changed} = {finetuned_true_inc:.2f}% and False: {false_inc_changed} = {finetuned_false_inc:.2f}%")
+
+    return {
+        "changed_correct" : finetuned_cor,
+        "changed_incorrect" : changed_inc,
+        "changed_correct_true": finetuned_true_cor,
+        "changed_correct_false": finetuned_false_cor,
+        "changed_incorrect_true": finetuned_true_inc,
+        "changed_incorrect_false": finetuned_false_inc,
+    }
 
 
 if __name__ == "__main__":
@@ -259,5 +325,20 @@ if __name__ == "__main__":
     
     model = None
     if not args.evaluation_only:
-        model = train(MODEL, CHECKPOINT, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, LEARNING_RATE, SAVE_MODEL, dict_label, device)
-    evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_FILE, BATCH_SIZE, dict_label, device)
+
+        model = AutoModelForCausalLM.from_pretrained(CHECKPOINT).to(device)
+        print("Original Model Evaluation:")
+        original_eval_metrics, original_output_data = evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_FILE, BATCH_SIZE, dict_label, device, save_output=False)
+        
+        model = train(model, MODEL, CHECKPOINT, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FILE, EPOCHS, BATCH_SIZE, GRADIENT_ACCUMULATION_STEPS, LEARNING_RATE, SAVE_MODEL, dict_label, device)
+        print("Finetuned Model Evaluation:")
+
+        finetuned_eval_metrics, finetuned_output_data = evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_FILE, BATCH_SIZE, dict_label, device, save_output=True)
+        
+        compare_metrics = compare_models(original_output_data, finetuned_output_data)
+        compare_metrics["f1_difference"] = finetuned_eval_metrics["valid_f1Score"] - original_eval_metrics["valid_f1Score"]
+        print(f"\nF1 difference: {compare_metrics['f1_difference']}\n\n")
+        wandb.log(finetuned_eval_metrics)
+        wandb.log(compare_metrics)
+    else:
+        _ = evaluate(model, MODEL, DS, DATATYPE, RUN_NAME, TRAIN_DATA_FILE, VALID_DATA_FILE, BATCH_SIZE, dict_label, device, save_output=True)
