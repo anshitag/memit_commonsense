@@ -13,8 +13,6 @@ class CommonSenseDataset(Dataset):
         data_dir: str,
         zero_shot_prompt: str,
         tok: AutoTokenizer,
-        dict_label: dict,
-        max_length: int = 16
     ):
         data_dir = Path(data_dir)
         with open(data_dir, "r") as f:
@@ -28,7 +26,7 @@ class CommonSenseDataset(Dataset):
         
             prompt = i["prompt"] + ". " + zero_shot_prompt 
 
-            tok_output = tok(prompt, max_length=max_length, padding="max_length", truncation=False)
+            tok_output = tok(prompt, truncation=False)
             self.input_ids.append(torch.tensor(tok_output['input_ids']))
             self.attention_mask.append(torch.tensor(tok_output['attention_mask']))
             self.labels.append(i["label"])
@@ -104,7 +102,7 @@ def evaluate(MODEL, DS, DATATYPE, BATCH_SIZE, TEST_DATA_DIR, SPLIT, PMI, zero_sh
     tok = AutoTokenizer.from_pretrained(MODEL, use_fast=True, padding_side="left")
     tok.pad_token = tok.eos_token
 
-    dataset = CommonSenseDataset(TEST_DATA_DIR, zero_shot_prompt, tok, dict_label)
+    dataset = CommonSenseDataset(TEST_DATA_DIR, zero_shot_prompt, tok)
 
     data_collator = lambda data: { 'input_ids': torch.stack([f[0] for f in data]),
                                     'attention_mask': torch.stack([f[1] for f in data])}
@@ -128,7 +126,8 @@ def evaluate(MODEL, DS, DATATYPE, BATCH_SIZE, TEST_DATA_DIR, SPLIT, PMI, zero_sh
     for idx, item in enumerate(dataset.getdata()):
         output_data.append({"prompt": item["prompt"], "label": dict_label[item["label"]], "predicted_label":pred_label[idx]})
 
-    with open(f'results/outputs/zero_shot_{MODEL}_{DS}_{DATATYPE}_{SPLIT}.json', 'w') as f:
+    pmi_name = '_pmi' if PMI else ''
+    with open(f'results/outputs/zero_shot_{MODEL}_{DS}_{DATATYPE}_{SPLIT}{pmi_name}.json', 'w') as f:
         json.dump(output_data, f, indent=4)
 
 
@@ -139,7 +138,7 @@ if __name__ == "__main__":
     parser.add_argument('-d', '--dataset', type=str, default='20q')
     parser.add_argument('--datatype', type=str, default='normal')
     parser.add_argument('--split', type=str, default='valid')
-    parser.add_argument('-b', '--log2_batch_size', type=int, default=6)
+    parser.add_argument('-b', '--log2_batch_size', type=int, default=0)
     parser.add_argument('--pmi', action='store_true')
 
     args = parser.parse_args()

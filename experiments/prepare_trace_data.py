@@ -6,6 +6,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-i', '--input', type=str)
 parser.add_argument('-svo', '--svo', type=str)
 parser.add_argument('-o', '--output', type=str)
+parser.add_argument('--zero_shot', action='store_true')
+parser.add_argument('-z', '--zero_shot_prompt', default='True or False?')
 
 args = parser.parse_args()
 
@@ -30,8 +32,13 @@ for i, d in enumerate(data):
         continue
     svo = svo_data[i]
     if svo["subject"] and svo["verb"] and svo["object"]:
+        if args.zero_shot:
+            prompt = f'{prompt}. {args.zero_shot_prompt}'
+        else:
+            prompt = f'{prompt}:'
+
         out.append({
-            'prompt': f'{prompt}:',
+            'prompt': prompt,
             'attribute': pred_label,
             "known_id": count,
             "subject": svo["subject"],
