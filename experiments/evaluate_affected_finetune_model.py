@@ -25,15 +25,22 @@ class CommonSenseDataset(Dataset):
         self.labels = []
 
         for e in self.data:
-            for i in e[eval_dataset_type]:
-                prompt = i + ":"
+            if eval_dataset_type == 'efficacy':
+                prompt = e["prompt"] + ":"
                 tok_output = tok(prompt, max_length=max_length, padding="max_length", truncation=False)
                 self.input_ids.append(torch.tensor(tok_output['input_ids']))
                 self.attention_mask.append(torch.tensor(tok_output['attention_mask']))
-                if eval_dataset_type == "affected_reasoning":
-                    self.labels.append(dict_label[1])
-                else:
-                    self.labels.append(e["label"])
+                self.labels.append(e["label"])
+            else:
+                for i in e[eval_dataset_type]:
+                    prompt = i + ":"
+                    tok_output = tok(prompt, max_length=max_length, padding="max_length", truncation=False)
+                    self.input_ids.append(torch.tensor(tok_output['input_ids']))
+                    self.attention_mask.append(torch.tensor(tok_output['attention_mask']))
+                    if eval_dataset_type == "affected_reasoning":
+                        self.labels.append(dict_label[1])
+                    else:
+                        self.labels.append(e["label"])
 
         print(f"Loaded {eval_dataset_type} dataset with {len(self)} elements")
 
@@ -82,7 +89,7 @@ def evaluate(model, MODEL, DATA_FILE, BATCH_SIZE, dict_label, device):
 
     model.eval()
 
-    eval_types = ['affected_reasoning', 'affected_neighborhood_subject', 'affected_neighborhood_object', 'affected_neighborhood_verb', 'affected_paraphrase']
+    eval_types = ['efficacy', 'affected_reasoning', 'affected_neighborhood_subject', 'affected_neighborhood_object', 'affected_neighborhood_verb', 'affected_paraphrase']
 
     for e_type in eval_types:
         dataset = CommonSenseDataset(DATA_FILE, tok, e_type, dict_label)
