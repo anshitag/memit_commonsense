@@ -6,6 +6,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--input", type=str)
 parser.add_argument("-svo", "--svo", type=str)
 parser.add_argument("-o", "--output", type=str)
+parser.add_argument("-oi", "--output_infer", type=str)
 
 args = parser.parse_args()
 
@@ -20,13 +21,15 @@ if not os.path.exists(outdir):
     os.makedirs(outdir)
 
 out = []
+out_infer =[]
 count = 0
 for i, d in enumerate(data):
     prompt = d["prompt"]
-    # print(prompt, label, pred_label)
-    if  d["predicted_label"] == d["label"]:
-        continue
     svo = svo_data[i]
+    if d["label"].strip() == "True":
+        d["predicted_label"] = "False"
+    else:
+        d["predicted_label"] = "True"
     if svo["subject"] and svo["verb"] and svo["object"]:
         out.append({
             "case_id": count,
@@ -42,7 +45,12 @@ for i, d in enumerate(data):
                                     "object": svo["object"],
                                 }
         })
+        out_infer.append(data[i])
+
         count +=1 
 
 with open(args.output, "w") as f:
     json.dump(out, f, indent=4)
+
+with open(args.output_infer, "w") as f:
+    json.dump(out_infer, f, indent=4)

@@ -14,7 +14,7 @@ from dsets import (
     get_tfidf_vectorizer,
     CommonSenseDataset
 )
-from experiments.py.eval_utils_cs import compute_rewrite_quality_cs, evaluate_model, compare_models
+from experiments.py.eval_utils_cs import compute_rewrite_quality_cs, evaluate_model, compare_models, compare_unaffected_output
 from memit import MEMITHyperParams, apply_memit_to_model
 from util import nethook
 from util.globals import *
@@ -34,7 +34,6 @@ def main(
     model_checkpoint: str,
     hparams_fname: str,
     ds_name: str,
-    dataset_size_limit: int,
     continue_from_run: str,
     skip_generation_tests: bool,
     generation_test_interval: int,
@@ -44,10 +43,13 @@ def main(
     edit_location : str,
     edit_file: str,
     inference_file: str,
+    inference_type: str,
     max_layer: int,
     layer_size: int,
     v_lr: float,
+    v_num_grad_steps: int,
     kl_factor: float,
+    k_sample_size: int = None,
     max_prob: float = None,
     wandb_active: bool = False,
     num_edits: int = 1,
@@ -95,6 +97,8 @@ def main(
         hparams.layers = list(range(min_layer, max_layer+1))
     if v_lr is not None:
         hparams.v_lr = v_lr
+    if v_num_grad_steps is not None:
+        hparams.v_num_grad_steps = v_num_grad_steps
     if kl_factor is not None:
         hparams.kl_factor = kl_factor
     if max_prob is not None:
@@ -122,18 +126,21 @@ def main(
         model, tok = model_name
         model_name = model.config._name_or_path
 
-    if inference_file is not None:
-        unedited_eval_metrics, unedited_output_data = evaluate_model(model, tok, inference_file, "unedited")
-        if wandb_active:
-            wandb.log(unedited_eval_metrics)
-
     # Load data
     # print("Loading dataset, attribute snippets, tf-idf data")
     snips = AttributeSnippets(DATA_DIR) if not skip_generation_tests else None
     vec = get_tfidf_vectorizer(DATA_DIR) if not skip_generation_tests else None
 
     ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(edit_file, tok=tok, size=dataset_size_limit, noise_token=edit_token)
+    ds = ds_class(edit_file, tok=tok, noise_token=edit_token, k_sample_size=k_sample_size)
+
+    if inference_file is not None:
+        compare_metrics = {}
+        sample_indexes = ds.getindexes()
+        unedited_eval_metrics, unedited_output_data = evaluate_model(model, tok, inference_file, "unedited", inference_type, sample_indexes)
+        compare_metrics.update(unedited_eval_metrics)
+        if wandb_active:
+            wandb.log(unedited_eval_metrics)
 
     # Get cache templates
     cache_template = None
@@ -192,12 +199,24 @@ def main(
             
         # Evaluate new model
         if inference_file is not None:
-            edited_eval_metrics, edited_output_data = evaluate_model(edited_model, tok, inference_file, "edited")
-            compare_metrics = compare_models(unedited_output_data, edited_output_data)
-            compare_metrics["f1_difference"] = edited_eval_metrics["edited_f1Score"] - unedited_eval_metrics["unedited_f1Score"]
+            edited_eval_metrics, edited_output_data = evaluate_model(edited_model, tok, inference_file, "edited", inference_type, sample_indexes)
+            compare_metrics.update(edited_eval_metrics)
+            
+            if inference_type=="config":
+                compare_metrics.update(compare_models(unedited_output_data, edited_output_data))
+                compare_metrics["f1_difference"] = edited_eval_metrics["edited_f1Score"] - unedited_eval_metrics["unedited_f1Score"]
+            else:
+                compare_metrics.update(compare_unaffected_output(unedited_output_data, edited_output_data))
             if wandb_active:
-                wandb.log(edited_eval_metrics)
                 wandb.log(compare_metrics)
+
+            out_file = str(run_dir)+"/inference_result_summary.json"
+            print(f"Output metrics saved at {out_file}")
+            with open(out_file, "w") as f:
+                json.dump(compare_metrics, f, indent=1)
+
+            if k_sample_size:
+                return compare_metrics
 
 
         if SAVE_SUMMARY:
@@ -390,6 +409,12 @@ if __name__ == "__main__":
         help="The commonsense file to compare edited model",
     )
     parser.add_argument(
+        "--inference_type",
+        type=str,
+        default='config', 
+        help="The commonsense inference type to measure editing performance",
+    )
+    parser.add_argument(
         "--max_layer",
         type=int,
         default=None,
@@ -408,6 +433,12 @@ if __name__ == "__main__":
         help="Editing learning rate",
     )
     parser.add_argument(
+        "--v_num_grad_steps",
+        type=int,
+        default=None,
+        help="Editing number of gradient steps",
+    )
+    parser.add_argument(
         "--kl_factor",
         type=float,
         default=None,
@@ -418,6 +449,18 @@ if __name__ == "__main__":
         type=float,
         default=None,
         help="Editing max prob to to cutoff during training for target z_s",
+    )
+    parser.add_argument(
+        "--k_samples",
+        dest="k_samples",
+        action="store_true",
+        help="Run experiment for K random samples",
+    )
+    parser.add_argument(
+        "--k_samples_metrics_file",
+        type=str,
+        default=None, 
+        help="Store output metrics in this location for K random samples",
     )
     parser.add_argument('--wandb_account', type=str, default="anshitag")
     parser.add_argument('--wandb_project', type=str, default="memit_commonsense_edit")
@@ -433,28 +476,68 @@ if __name__ == "__main__":
     SAVE_MODEL = args.save_model
     SAVE_SUMMARY = args.save_summary
 
-    main(
-        args.alg_name,
-        args.model_name,
-        args.model_checkpoint,
-        args.hparams_fname,
-        args.ds_name,
-        args.dataset_size_limit,
-        args.continue_from_run,
-        args.skip_generation_tests,
-        args.generation_test_interval,
-        args.conserve_memory,
-        edit_token = args.edit_token,
-        edit_location = args.edit_location,
-        dir_name=args.alg_name,
-        num_edits=args.num_edits,
-        use_cache=args.use_cache,
-        edit_file=args.edit_file,
-        inference_file = args.inference_file,
-        max_layer = args.max_layer,
-        layer_size = args.layer_size,
-        v_lr = args.v_lr,
-        kl_factor = args.kl_factor,
-        max_prob = args.max_prob,
-        wandb_active= args.wandb_active,
-    )
+    if args.k_samples:
+        metrics = []
+        for i in range(0,9):
+            k = 2 ** i
+            print(f'Starting finetuning for k = {k}')
+            compare_metrics = main(
+                args.alg_name,
+                args.model_name,
+                args.model_checkpoint,
+                args.hparams_fname,
+                args.ds_name,
+                args.continue_from_run,
+                args.skip_generation_tests,
+                args.generation_test_interval,
+                args.conserve_memory,
+                edit_token = args.edit_token,
+                edit_location = args.edit_location,
+                dir_name=args.alg_name,
+                num_edits=args.num_edits,
+                use_cache=args.use_cache,
+                edit_file=args.edit_file,
+                inference_file = args.inference_file,
+                inference_type = args.inference_type,
+                max_layer = args.max_layer,
+                layer_size = args.layer_size,
+                v_lr = args.v_lr,
+                v_num_grad_steps = args.v_num_grad_steps,
+                kl_factor = args.kl_factor,
+                k_sample_size = k,
+                max_prob = args.max_prob,
+                wandb_active= args.wandb_active,
+            )
+            compare_metrics["k"] = k
+            metrics.append(compare_metrics)
+        with open(args.k_samples_metrics_file, "w") as f:
+                json.dump(metrics, f, indent=1)
+            
+    else:
+
+        main(
+            args.alg_name,
+            args.model_name,
+            args.model_checkpoint,
+            args.hparams_fname,
+            args.ds_name,
+            args.continue_from_run,
+            args.skip_generation_tests,
+            args.generation_test_interval,
+            args.conserve_memory,
+            edit_token = args.edit_token,
+            edit_location = args.edit_location,
+            dir_name=args.alg_name,
+            num_edits=args.num_edits,
+            use_cache=args.use_cache,
+            edit_file=args.edit_file,
+            inference_file = args.inference_file,
+            inference_type = args.inference_type,
+            max_layer = args.max_layer,
+            layer_size = args.layer_size,
+            v_lr = args.v_lr,
+            v_num_grad_steps = args.v_num_grad_steps,
+            kl_factor = args.kl_factor,
+            max_prob = args.max_prob,
+            wandb_active= args.wandb_active,
+        )

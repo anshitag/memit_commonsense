@@ -7,38 +7,42 @@ from torch.utils.data import Dataset
 
 from util.globals import *
 
+import random
+
 REMOTE_ROOT = f"{REMOTE_ROOT_URL}/data/dsets"
 
+random.seed(0)
 
 class CommonSenseDataset(Dataset):
     def __init__(
         self,
         data_dir: str,
         noise_token: str,
-        size: typing.Optional[int] = None,
+        k_sample_size: int = None,
         *args,
         **kwargs,
     ):
         cf_loc = Path(data_dir)
+        self.indexes = None
 
         with open(cf_loc, "r") as f:
-            data = json.load(f)
+            self.data = json.load(f)
+        if k_sample_size is not None:
+            print(f"Creating sample dataset of size: {k_sample_size}")
+            self.indexes = random.sample(range(len(self.data)), k_sample_size)
+            samples = []
+            for idx in self.indexes:
+                samples.append(self.data[idx])
+            self.data = samples
 
-        final_data = []
-        for i in data:
+        for i in self.data:
             substring = i["requested_rewrite"][noise_token]
-            matches = len(re.findall(rf"\b{substring}\b", i["requested_rewrite"]["prompt"]))
-            if matches > 1:
-                continue
-            elif not matches:
+            char_loc = re.search(rf"\b{substring}\b", i["requested_rewrite"]["prompt"])
+            if not char_loc:
                 i["requested_rewrite"]["prompt"] = i["requested_rewrite"]["prompt"].replace(substring, "{}")
             else:
                 i["requested_rewrite"]["prompt"] = re.sub(rf"\b{substring}\b", "{}", i["requested_rewrite"]["prompt"])
-            final_data.append(i)
-        
-        self.data = final_data
-        if size is not None:
-            self.data = self.data[:size]
+            
         print(f"Loaded dataset with {len(self)} elements {self.data[0]}")
 
     def __len__(self):
@@ -46,3 +50,6 @@ class CommonSenseDataset(Dataset):
 
     def __getitem__(self, item):
         return self.data[item]
+
+    def getindexes(self):
+        return self.indexes

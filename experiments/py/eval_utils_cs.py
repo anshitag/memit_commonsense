@@ -5,6 +5,7 @@ appropriate arguments, which returns a dictionary containing them.
 """
 
 import typing
+from typing import List
 from itertools import chain
 
 import nltk
@@ -264,34 +265,52 @@ def tfidf_similarity(text_a, text_b, vec):
 
 
 class CommonSenseDataset(Dataset):
-
     def __init__(
         self,
         data_dir: str,
         tok: AutoTokenizer,
-        dataset_type: str,
+        eval_dataset_type: str,
         dict_label: dict,
-        max_length: int = 16
+        sample_indexes: List[int] = None,
+        max_length: int = 32,
     ):
         data_dir = Path(data_dir)
         with open(data_dir, "r") as f:
             self.data = json.load(f)
 
+        if sample_indexes is not None:
+            samples = []
+            for idx in sample_indexes:
+                samples.append(self.data[idx])
+            self.data = samples
+            print("Eval", self.data)
+
         self.input_ids = []
         self.attention_mask = []
         self.labels = []
 
-        for i in self.data:
-            prompt = i["prompt"] + ":"
-            tok_output = tok(prompt, max_length=max_length, padding="max_length", truncation=True)
-            self.input_ids.append(torch.tensor(tok_output['input_ids']))
-            self.attention_mask.append(torch.tensor(tok_output['attention_mask']))
-            self.labels.append(i["label"])
+        for e in self.data:
+            if eval_dataset_type == 'efficacy':
+                prompt = e["prompt"] + ":"
+                tok_output = tok(prompt, max_length=max_length, padding="max_length", truncation=False)
+                self.input_ids.append(torch.tensor(tok_output['input_ids']))
+                self.attention_mask.append(torch.tensor(tok_output['attention_mask']))
+                self.labels.append(e["label"])
+            else:
+                for i in e[eval_dataset_type]:
+                    prompt = i + ":"
+                    tok_output = tok(prompt, max_length=max_length, padding="max_length", truncation=False)
+                    self.input_ids.append(torch.tensor(tok_output['input_ids']))
+                    self.attention_mask.append(torch.tensor(tok_output['attention_mask']))
+                    if eval_dataset_type == "affected_reasoning":
+                        self.labels.append(dict_label[1])
+                    else:
+                        self.labels.append(e["label"])
 
-        print(f"Loaded dataset with {len(self)} elements")
+        print(f"Loaded {eval_dataset_type} dataset with {len(self)} elements")
 
     def __len__(self):
-        return len(self.data)
+        return len(self.input_ids)
 
     def __getitem__(self, item):
         return self.input_ids[item], self.attention_mask[item]
@@ -303,8 +322,12 @@ class CommonSenseDataset(Dataset):
         return self.data
 
 
-def next_word_prediction(model, dataloader, tok, device):
-    pred_list = []
+def next_word_prediction(
+    model: AutoModelForCausalLM,
+    dataloader: DataLoader, 
+    tok: AutoTokenizer, 
+    device: str
+):
     pred_label = []
     with torch.no_grad():
         for batch in dataloader:
@@ -313,68 +336,122 @@ def next_word_prediction(model, dataloader, tok, device):
             colon_indexes = colon_indexes.view(-1, 1)
             out = model(**batch).logits.argmax(dim=-1)
             prediction = torch.gather(out, 1, colon_indexes)
-            pred_list += prediction.tolist()
             pred_label += tok.batch_decode(prediction)
-    return pred_list, pred_label
+    return pred_label
 
 
-def calculate_metrics(orig_label, pred_label, split, labels):
-
+def calculate_metrics(
+    orig_label: List[str], 
+    pred_label: List[str],
+    eval_type: str,
+    labels: List[str]
+):
     acc = metrics.accuracy_score(orig_label, pred_label) * 100
     f1 = metrics.f1_score(orig_label, pred_label, average='weighted', labels=labels, zero_division=1) * 100
-    print(f'{split} Accuracy = ', acc)
-    print(f'{split} F1 score = ', f1)
+    print(f'{eval_type} Accuracy = ', acc)
+    print(f'{eval_type} F1 score = ', f1)
     try:
-        print(f'{split} Confusion Matrix = \n', metrics.confusion_matrix(orig_label, pred_label, labels=labels))
+        print(f'{eval_type} Confusion Matrix = \n', metrics.confusion_matrix(orig_label, pred_label, labels=labels))
     except:
         print('Confusion matrix cannot be calculated')
     print('Classification Report: \n',  metrics.classification_report(orig_label, pred_label, labels=labels, zero_division=1))
     return {
-        split+"_accuracy": acc, 
-        split+"_f1Score": f1
+        eval_type+"_accuracy": acc, 
+        eval_type+"_f1Score": f1
         }
 
 
-def evaluate(model, tok, data_file, dict_label, model_type, device):
+def evaluate(
+    model: AutoModelForCausalLM, 
+    tok: AutoTokenizer, 
+    data_file: str, 
+    dict_label: dict,
+    model_type: str, 
+    inference_type: str, 
+    device: str,
+    sample_indexes: List[int]
+):
     model.eval()
 
-    dataset = CommonSenseDataset(data_file, tok, 'evaluation', dict_label)
+    if inference_type=='config':
+        dataset = CommonSenseDataset(data_file, tok, 'efficacy', dict_label)
 
-    data_collator = lambda data: {'input_ids': torch.stack([f[0] for f in data]),
-                                'attention_mask': torch.stack([f[1] for f in data]),
-                                'labels': torch.stack([f[0] for f in data])}
+        data_collator = lambda data: {'input_ids': torch.stack([f[0] for f in data]),
+                                    'attention_mask': torch.stack([f[1] for f in data])}
 
-    dataloader = DataLoader(dataset, batch_size=64, collate_fn=data_collator)
+        dataloader = DataLoader(dataset, batch_size=16, collate_fn=data_collator)
 
-    p_index, n_index, other_index = dict_label[1], dict_label[0], "None"
+        p_index, n_index, other_index = dict_label[1], dict_label[0], "None"
 
-    prediction, pred_label = next_word_prediction(model, dataloader, tok, device)
-    true_pred = [dict_label[i] for i in dataset.getlabel()]
-    prediction_label = [other_index if i not in dict_label.values() else i for i in pred_label]
-    split_metrics = calculate_metrics(true_pred, prediction_label, model_type, [p_index, n_index, other_index])
+        pred_label = next_word_prediction(model, dataloader, tok, device)
+        true_pred = [dict_label[i] for i in dataset.getlabel()]
+        prediction_label = [other_index if i not in dict_label.values() else i for i in pred_label]
+        split_metrics = calculate_metrics(true_pred, prediction_label, model_type, [p_index, n_index, other_index])
 
-    output_data = []
-    for idx, item in enumerate(dataset.getdata()):
-        output_data.append({"prompt": item["prompt"], "label": dict_label[item["label"]], "predicted_label":pred_label[idx]})
+        output_data = []
+        for idx, item in enumerate(dataset.getdata()):
+            output_data.append({"prompt": item["prompt"], "label": dict_label[item["label"]], "predicted_label":prediction_label[idx]})
 
+
+    else:
+        eval_types = ['efficacy', 'unaffected_neighborhood_subject', 'unaffected_neighborhood_object', 'affected_neighborhood_subject', 'affected_neighborhood_object', 'affected_neighborhood_verb', 'affected_paraphrase', 'affected_reasoning']
+
+        output_data = {}
+        split_metrics = {}
+        for e_type in eval_types:
+            dataset = CommonSenseDataset(data_file, tok, e_type, dict_label, sample_indexes)
+
+            data_collator = lambda data: {'input_ids': torch.stack([f[0] for f in data]),
+                                        'attention_mask': torch.stack([f[1] for f in data])}
+
+            dataloader = DataLoader(dataset, batch_size=16, collate_fn=data_collator)
+
+            p_index, n_index, other_index = dict_label[1], dict_label[0], "None"
+
+            pred_label = next_word_prediction(model, dataloader, tok, device)
+            prediction_label = [other_index if i not in dict_label.values() else i for i in pred_label]
+
+            if e_type in ['unaffected_neighborhood_subject', 'unaffected_neighborhood_object']:
+                output_data[e_type] = prediction_label
+            else:
+                true_pred = dataset.getlabel()
+                split_metrics.update(calculate_metrics(true_pred, prediction_label, f'{model_type}_{e_type}', [p_index, n_index, other_index]))
 
     return split_metrics, output_data
+
 
 def evaluate_model(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer, 
     inference_file: str, 
-    model_type: str):
-
+    model_type: str,
+    inference_type: str,
+    sample_indexes: List[int] = None
+):
     dict_label = {1: " True", 0: " False"}
-
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
-    eval_metrics, output_data = evaluate(model, tok, inference_file, dict_label, model_type, device)
-
+    eval_metrics, output_data = evaluate(model, tok, inference_file, dict_label, model_type, inference_type, device, sample_indexes)
     return eval_metrics, output_data
 
-def compare_models(unedited_output, edited_output):
+
+def compare_unaffected_output(
+    unedited_output: dict, 
+    edited_output: dict
+):
+    dict_label = {1: " True", 0: " False"}
+    p_index, n_index, other_index = dict_label[1], dict_label[0], "None"
+
+    for e_type in ['unaffected_neighborhood_subject', 'unaffected_neighborhood_object']:
+        true_label = unedited_output[e_type]
+        prediction_label = edited_output[e_type]
+        split_metrics = calculate_metrics(true_label, prediction_label, e_type, [p_index, n_index, other_index])
+    return split_metrics
+
+
+def compare_models(
+    unedited_output: dict, 
+    edited_output: dict
+):
     unedited_inc = 0
     unedited_cor = 0
     for i in unedited_output:
@@ -389,10 +466,6 @@ def compare_models(unedited_output, edited_output):
     cor = 0
     inc_changed = 0
     cor_changed = 0
-    true_inc_changed = 0
-    false_inc_changed = 0
-    true_cor_changed = 0
-    false_cor_changed = 0
 
     for i in range(0,len(unedited_output)):
         if unedited_output[i]["predicted_label"]!= unedited_output[i]["label"]:
@@ -400,40 +473,20 @@ def compare_models(unedited_output, edited_output):
                 inc +=1
             else:
                 cor_changed +=1
-                if edited_output[i]["label"]==" True":
-                    true_cor_changed +=1
-                else:
-                    false_cor_changed +=1
         else:
             if edited_output[i]["predicted_label"]!=edited_output[i]["label"]:
                 inc_changed +=1
-                if edited_output[i]["label"]==" True":
-                    true_inc_changed +=1
-                else:
-                    false_inc_changed +=1
             else:
                 cor +=1
 
     edited_cor = cor_changed*100/unedited_inc
     changed_inc = inc_changed*100/unedited_cor
 
-    edited_true_cor = true_cor_changed*100/cor_changed
-    edited_false_cor = false_cor_changed*100/cor_changed
-
-    edited_true_inc = true_inc_changed*100/inc_changed
-    edited_false_inc = false_inc_changed*100/inc_changed
-
     print(f"\nCompare Unedited Incorrect Predictions: \nRemained Incorrect {inc} \nChanged to Correct {cor_changed} = {edited_cor:.2f}%")
-    print(f"Correctly changed to True {true_cor_changed} = {edited_true_cor:.2f}% and False: {false_cor_changed} = {edited_false_cor:.2f}%")
 
     print(f"\nCompare Unedited Correct Predictions: \nChanged to Incorrect {inc_changed} = {changed_inc:.2f}% \nRemained Correct {cor}")
-    print(f"Incorrectly changed to True {true_inc_changed} = {edited_true_inc:.2f}% and False: {false_inc_changed} = {edited_false_inc:.2f}%")
 
     return {
         "changed_correct" : edited_cor,
-        "changed_incorrect" : changed_inc,
-        "changed_correct_true": edited_true_cor,
-        "changed_correct_false": edited_false_cor,
-        "changed_incorrect_true": edited_true_inc,
-        "changed_incorrect_false": edited_false_inc,
+        "changed_incorrect" : changed_inc
     }
