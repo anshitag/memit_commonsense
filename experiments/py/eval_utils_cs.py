@@ -440,11 +440,12 @@ def compare_unaffected_output(
 ):
     dict_label = {1: " True", 0: " False"}
     p_index, n_index, other_index = dict_label[1], dict_label[0], "None"
+    split_metrics = {}
 
     for e_type in ['unaffected_neighborhood_subject', 'unaffected_neighborhood_object']:
         true_label = unedited_output[e_type]
         prediction_label = edited_output[e_type]
-        split_metrics = calculate_metrics(true_label, prediction_label, e_type, [p_index, n_index, other_index])
+        split_metrics.update(calculate_metrics(true_label, prediction_label, e_type, [p_index, n_index, other_index]))
     return split_metrics
 
 
