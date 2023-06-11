@@ -164,7 +164,7 @@ def train(model, MODEL, CHECKPOINT, DS, DATATYPE, TRAIN_DATA_FILE, VALID_DATA_FI
     print(trainer.evaluate())
 
     if SAVE_MODEL:
-        trainer.save_model(output_dir=f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}/inf_set_2/')
+        trainer.save_model(output_dir=f'result/best-checkpoints/{DS}/{MODEL}/{DATATYPE}/inf_set/')
 
     os.system(f"rm -rf {checkpoint_path}")
     return model
