@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --job-name=finetune_inf_experiment
+#SBATCH --job-name=finetune_inclef_experiment
 #SBATCH --partition=gypsum-m40
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50G

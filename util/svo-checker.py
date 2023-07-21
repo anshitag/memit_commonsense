@@ -11,4 +11,4 @@ with open(args.input, 'r') as f:
     data = json.load(f)
 for d in data:
     if d['subject'] == d['object'] or d['object'] == d['verb'] or d['subject'] == d['verb']:
-        print(d)
+        print(f"Invalid SVO for instance: \n{d}")

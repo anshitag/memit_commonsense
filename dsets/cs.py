@@ -5,11 +5,7 @@ from pathlib import Path
 import re
 from torch.utils.data import Dataset
 
-from util.globals import *
-
 import random
-
-REMOTE_ROOT = f"{REMOTE_ROOT_URL}/data/dsets"
 
 random.seed(0)
 

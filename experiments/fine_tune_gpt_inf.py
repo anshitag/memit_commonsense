@@ -268,12 +268,12 @@ def compare_models(original_output, finetuned_output):
     print(f"Incorrectly changed to True {true_inc_changed} = {finetuned_true_inc:.2f}% and False: {false_inc_changed} = {finetuned_false_inc:.2f}%")
 
     return {
-        "changed_correct" : finetuned_cor,
-        "changed_incorrect" : changed_inc,
-        "changed_correct_true": finetuned_true_cor,
-        "changed_correct_false": finetuned_false_cor,
-        "changed_incorrect_true": finetuned_true_inc,
-        "changed_incorrect_false": finetuned_false_inc,
+        "efficacy" : finetuned_cor,
+        "relapse" : changed_inc,
+        "efficacy_true": finetuned_true_cor,
+        "efficacy_false": finetuned_false_cor,
+        "relapse_true": finetuned_true_inc,
+        "relapse_false": finetuned_false_inc,
     }
 
 

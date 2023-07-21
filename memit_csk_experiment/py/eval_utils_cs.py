@@ -20,7 +20,6 @@ from torch.utils.data import Dataset, DataLoader
 from pathlib import Path
 from sklearn import metrics
 
-from dsets import AttributeSnippets
 from util.generate import generate_fast
 from util.perplexity import perplexity
 
@@ -29,8 +28,6 @@ def compute_rewrite_quality_cs(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
     record: typing.Dict,
-    snips: AttributeSnippets,
-    vec: TfidfVectorizer,
     noise_token: str,
 ) -> typing.Dict:
     """
@@ -41,8 +38,6 @@ def compute_rewrite_quality_cs(
     :param model: Rewritten model
     :param tok: Tokenizer
     :param record: CounterFact dataset record
-    :paran snips: ???
-    :param vec: ???
 
     :return: Dictionary containing rewriting metrics
     """
@@ -483,9 +478,9 @@ def compare_models(
     edited_cor = cor_changed*100/unedited_inc
     changed_inc = inc_changed*100/unedited_cor
 
-    print(f"\nCompare Unedited Incorrect Predictions: \nRemained Incorrect {inc} \nChanged to Correct {cor_changed} = {edited_cor:.2f}%")
+    print(f"\nCompare Unedited Incorrect Predictions: \nRemained Incorrect {inc} \nChanged to Correct i.e. Efficacy {cor_changed} = {edited_cor:.2f}%")
 
-    print(f"\nCompare Unedited Correct Predictions: \nChanged to Incorrect {inc_changed} = {changed_inc:.2f}% \nRemained Correct {cor}")
+    print(f"\nCompare Unedited Correct Predictions: \nChanged to Incorrect i.e. Relapse {inc_changed} = {changed_inc:.2f}% \nRemained Correct {cor}")
 
     return {
         "efficacy" : edited_cor,

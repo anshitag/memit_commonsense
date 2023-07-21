@@ -1,4 +1,4 @@
-#!/bin/bash
+git#!/bin/bash
 #
 #SBATCH --job-name=gpt2-eval
 #SBATCH --partition=gypsum-m40

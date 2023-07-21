@@ -81,10 +81,10 @@ Running `python3 -m experiments.evaluate -h` or `python3 -m experiments.summariz
 ## How to Cite
 
 ```bibtex
-@article{meng2022memit,
-  title={Mass Editing Memory in a Transformer},
-  author={Kevin Meng and Sen Sharma, Arnab and Alex Andonian and Yonatan Belinkov and David Bau},
-  journal={arXiv preprint arXiv:2210.07229},
-  year={2022}
+@article{gupta2023editing,
+  title={Editing Commonsense Knowledge in GPT},
+  author={Gupta, Anshita and Mondal, Debanjan and Sheshadri, Akshay Krishna and Zhao, Wenlong and Li, Xiang Lorraine and Wiegreffe, Sarah and Tandon, Niket},
+  journal={arXiv preprint arXiv:2305.14956},
+  year={2023}
 }
 ```

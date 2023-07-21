@@ -122,7 +122,7 @@ def layer_stats(
     filename = stats_dir / file_extension
 
     if not filename.exists() and download:
-        remote_url = f"{REMOTE_ROOT_URL}/data/stats/{file_extension}"
+        remote_url = f"https://memit.baulab.info/data/stats/{file_extension}"
         try:
             print(f"Attempting to download {file_extension} from {remote_url}.")
             (stats_dir / "/".join(file_extension.split("/")[:-1])).mkdir(

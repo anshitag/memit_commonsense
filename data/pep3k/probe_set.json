@@ -55,7 +55,8 @@
             "The rabbit is curved by the worm",
             "The rabbit is distorted by the worm",
             "The worm contorts the rabbit"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 18,
@@ -113,7 +114,8 @@
             "Dog purifying cloth",
             "Canine hygienic fabric",
             "Dog washing material"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 21,
@@ -171,7 +173,8 @@
             "A stick is employed to sketch a castle",
             "A stick is utilized to draw a castle",
             "A stick is utilized to construct a castle"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 23,
@@ -229,7 +232,8 @@
             "Hand amputates arm",
             "Hand chops arm",
             "Hand cuts off arm"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 29,
@@ -287,7 +291,8 @@
             "The land absorbs oil",
             "The soil ingests oil",
             "The earth assimilates oil"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 31,
@@ -345,7 +350,8 @@
             "Boat throw locks",
             "Vessel fling tresses",
             "Launch cast locks"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 39,
@@ -403,7 +409,8 @@
             "A person manipulates scissors with their hands",
             "An individual manipulates scissors with their palms",
             "A human being works scissors with their fingers"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 42,
@@ -461,7 +468,8 @@
             "A lion spews mud",
             "A lion regurgitates dirt",
             "A lion expels mud from its mouth"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 51,
@@ -519,7 +527,8 @@
             "A tree was used to strike a ball",
             "A tree was used to hit a ball",
             "A tree was used to boot a ball"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 54,
@@ -577,7 +586,8 @@
             "An elephant pushes stones",
             "An elephant moves rocks",
             "An elephant manipulates rocks"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 55,
@@ -635,7 +645,8 @@
             "Oil reduces the height of skyscrapers",
             "Oil hinders the growth of skyscrapers",
             "Oil lowers the elevation of skyscrapers"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 68,
@@ -693,7 +704,8 @@
             "The worm is traversing the turtle",
             "The worm is relocating the turtle",
             "The worm is shifting the turtle"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 69,
@@ -751,7 +763,8 @@
             "The abode strikes the wall with a fist",
             "The domicile delivers a blow to the wall",
             "The dwelling delivers a punch to the wall"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 70,
@@ -809,7 +822,8 @@
             "A string tied to a spatula",
             "A string fastened to a spatula",
             "A string affixed to a spatula"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 71,
@@ -867,7 +881,8 @@
             "A gorilla climbed into the basket",
             "A gorilla clambered into the basket",
             "A gorilla made its way into the basket"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 75,
@@ -925,7 +940,8 @@
             "The man let go of the car",
             "The man released the car",
             "The man abandoned the car"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 88,
@@ -983,7 +999,8 @@
             "A rabbit rearranges a pebble",
             "A rabbit manipulates a pebble",
             "A rabbit shifts a small stone"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 90,
@@ -1041,7 +1058,8 @@
             "Sculpting the pillow with one's hands",
             "Pruning the pillow with scissors",
             "Cutting the pillow by hand"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 96,
@@ -1099,7 +1117,8 @@
             "Clasp a ring with a digit",
             "Clutch a band with a finger",
             "Grasp a hoop with a digit"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 116,
@@ -1157,7 +1176,8 @@
             "Hay assembles boats",
             "Hay manufactures ships",
             "Hay fabricates boats"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 132,
@@ -1215,7 +1235,8 @@
             "The rock presses the shirt flat",
             "The rock smoothes out the shirt",
             "The rock flattened the shirt"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 133,
@@ -1273,7 +1294,8 @@
             "The ant is progressing bear",
             "The ant is relocating itself",
             "The ant is shifting its position"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 134,
@@ -1331,7 +1353,8 @@
             "Gorilla unlocks cupboard",
             "Gorilla unlocks armoire",
             "Gorilla unlocks cabinet"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 152,
@@ -1389,7 +1412,8 @@
             "A dentist tightens wool",
             "A dentist grips wool",
             "A dentist squeezes wool"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 153,
@@ -1447,7 +1471,8 @@
             "The man activated the remote",
             "The man operated the remote",
             "The man pressed the remote control"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 161,
@@ -1505,7 +1530,8 @@
             "Vessel contains H2O",
             "Beaker bears aqua",
             "Mug transports liquid"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 165,
@@ -1563,7 +1589,8 @@
             "The sun causes rust to become warm",
             "The sun's heat causes rust to warm",
             "The sun's energy causes rust to become hot"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 168,
@@ -1621,7 +1648,8 @@
             "Smoke veils computer",
             "Smoke obscures computer",
             "Smoke cloaks computer"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 172,
@@ -1679,7 +1707,8 @@
             "A container depletes the lake",
             "A receptacle empties the lake",
             "A mug empties the lake"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 173,
@@ -1737,7 +1766,8 @@
             "The gorilla is causing the infant to choke",
             "The baby is having difficulty breathing due to the gorilla",
             "The gorilla is making it hard for the baby to breathe"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 182,
@@ -1795,7 +1825,8 @@
             "A pen inscribes cake",
             "A pen indents cake",
             "A pen carves into cake"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 187,
@@ -1853,7 +1884,8 @@
             "Fido collects pumpkin",
             "Pooch plucks pumpkin",
             "Canine harvests squash"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 189,
@@ -1911,7 +1943,8 @@
             "Tipping over of a canoe with a rabbit inside",
             "Flipping of a canoe with a rabbit inside",
             "Inversion of a canoe with a rabbit inside"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 192,
@@ -1969,7 +2002,8 @@
             "Dam propagates equine",
             "Woman nurtures steed",
             "Maiden cultivates equine"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 194,
@@ -2027,7 +2061,8 @@
             "A lion devours a pup",
             "A lion gulps down a pooch",
             "A lion ingests a canine"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 198,
@@ -2085,7 +2120,8 @@
             "A tube that expels air",
             "An air duct that releases air",
             "A channel that lets out air"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 209,
@@ -2143,7 +2179,8 @@
             "The air temperature lowers the temperature of the water",
             "The air causes the water to become cold",
             "The air temperature makes the water colder"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 217,
@@ -2201,7 +2238,8 @@
             "Apprentice constructs carpeting",
             "Scholar crochets rug",
             "Apprentice creates tapestry"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 224,
@@ -2259,7 +2297,8 @@
             "A female binds the pup",
             "A female secures the pooch",
             "A female ties the hound"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 226,
@@ -2317,7 +2356,8 @@
             "The knife pierces the bicycle",
             "The knife penetrates the bicycle",
             "The knife punctures the bicycle"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 229,
@@ -2375,7 +2415,8 @@
             "Pipe expels air",
             "Pipe exhales air",
             "Pipe emits air"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 231,
@@ -2433,7 +2474,8 @@
             "Marker melds shirt",
             "Marker amalgamates shirt",
             "Marker combines shirt"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 239,
@@ -2491,7 +2533,8 @@
             "Birding for pumpkins",
             "Fowl catches squash",
             "Avian fishing for pumpkins"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 243,
@@ -2549,7 +2592,8 @@
             "A monkey is filling a cup with a substance",
             "A monkey is putting something into a cup",
             "A primate is filling a mug"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 246,
@@ -2607,7 +2651,8 @@
             "The monkey embraced the pea",
             "The primate embraced the legume",
             "The monkey gave the pea a hug"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 249,
@@ -2665,7 +2710,8 @@
             "Rock strikes sand",
             "Rock smashes into sand",
             "Rock crashes into sand"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 253,
@@ -2723,7 +2769,8 @@
             "The chef constricts the laptop",
             "The chef suffocates the laptop",
             "The chef clasps the laptop"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 272,
@@ -2781,7 +2828,8 @@
             "A pachyderm caused the building to tremble",
             "A huge beast caused the abode to shake",
             "A colossal creature caused the domicile to shudder"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 293,
@@ -2839,7 +2887,8 @@
             "The pipe is leaking milk",
             "Milk is seeping out of the pipe",
             "Milk is oozing from the pipe"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 300,
@@ -2897,7 +2946,8 @@
             "Hand plucks pebbles",
             "Hand strips away pebbles",
             "Hand removes stones"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 303,
@@ -2955,7 +3005,8 @@
             "A boulder throws a streetcar",
             "A boulder flings a trolley",
             "A stone tosses a trolley vehicle"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 305,
@@ -3013,7 +3064,8 @@
             "The air is a hazard to the girl",
             "The air is causing harm to the girl",
             "The air is a contaminant to the girl"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 310,
@@ -3071,7 +3123,8 @@
             "The rabbit clutches the ant",
             "The rabbit seizes the ant",
             "The rabbit holds the ant tightly"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 318,
@@ -3129,7 +3182,8 @@
             "The pooch is producing digital images",
             "The canine is generating artwork on the computer",
             "The pup is making pictures on the computer"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 328,
@@ -3187,7 +3241,8 @@
             "The hand pushes the milk",
             "The hand thrusts the milk",
             "The hand shoves the milk forward"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 334,
@@ -3245,7 +3300,8 @@
             "A small child makes a representation of a pumpkin",
             "A baby creates a picture of a pumpkin",
             "A newborn produces an illustration of a pumpkin"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 337,
@@ -3303,7 +3359,8 @@
             "The turtle is receiving a bite from the pebbles",
             "The turtle is nipped by the pebbles",
             "Pebbles are inflicting a bite on the turtle"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 341,
@@ -3361,7 +3418,8 @@
             "The man is hoisting the paper",
             "The man is raising the paper",
             "The man is hefting the paper"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 345,
@@ -3419,7 +3477,8 @@
             "An officer attaches a laptop",
             "A police officer fastens a laptop",
             "A cop connects a laptop"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 355,
@@ -3477,7 +3536,8 @@
             "A police officer ingests pebbles",
             "A cop partakes of gravel",
             "A law enforcement officer imbibes small stones"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 372,
@@ -3535,7 +3595,8 @@
             "The young lady threw the teddy bear",
             "The girl flung the bear",
             "The female hurled the bear"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 374,
@@ -3593,7 +3654,8 @@
             "A pillow is used to slice a loaf of bread",
             "A pillow is utilized to cut a loaf of bread",
             "A cushion slices a loaf of bread"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 395,
@@ -3651,7 +3713,8 @@
             "A gorilla is amusing an elephant with a tickle",
             "A gorilla is amusing an elephant with a playful touch",
             "A gorilla is amusing an elephant with a gentle caress"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 396,
@@ -3709,7 +3772,8 @@
             "The blade honing fabric",
             "The sharpener honing the shirt",
             "The blade refining the shirt"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 400,
@@ -3767,7 +3831,8 @@
             "Dig out slices of cream",
             "Scrape away layers of cream",
             "Scrape off layers of cream"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 402,
@@ -3825,7 +3890,8 @@
             "The young one is sailing down the ship",
             "The kid is gliding down the boat",
             "The minor is slipping down the boat"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 423,
@@ -3883,7 +3949,8 @@
             "The man adjusted the table's position",
             "The man repositioned the table",
             "The man shifted the table"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 428,
@@ -3941,7 +4008,8 @@
             "A pen is used to create a picture with oil",
             "A pen applies oil to a surface",
             "A pen is used to create an image with oil"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 443,
@@ -3999,7 +4067,8 @@
             "A tall building devours a human",
             "A person is consumed by a high-rise",
             "A man is swallowed up by a skyscraper"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 448,
@@ -4057,7 +4126,8 @@
             "Trees emit smoke",
             "Trees exhale smoke",
             "Trees spew smoke"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 455,
@@ -4115,7 +4185,8 @@
             "A foot flattens an ant",
             "A foot stomps on an ant",
             "A foot crushes an ant"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 456,
@@ -4173,7 +4244,8 @@
             "The female was stirring food with a spatula",
             "The young lady was wielding a spatula in the kitchen",
             "The girl was manipulating food with a spatula"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 463,
@@ -4231,7 +4303,8 @@
             "A scooter upends a shirt",
             "A scooter tips over a shirt",
             "A scooter dumps a shirt"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 469,
@@ -4289,7 +4362,8 @@
             "A spatula crushes an ant",
             "A spatula pulverizes an ant",
             "A spatula compresses an ant"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 470,
@@ -4347,7 +4421,8 @@
             "Oral exhalations spray liquid",
             "Blowing out liquid from the lips",
             "Spitting out liquid from the mouth"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 484,
@@ -4405,7 +4480,8 @@
             "Massaging pillows with rocks",
             "Tenderly rubbing pillows with stones",
             "Gently stroking pillows with pebbles"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 494,
@@ -4463,7 +4539,8 @@
             "A shirt is employed to clean the stairs",
             "A shirt is utilized to mop the stairs",
             "A shirt is used to scrub the stairs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 496,
@@ -4521,7 +4598,8 @@
             "A craft vents air",
             "A boat expels air",
             "A ship exhales air"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 499,
@@ -4579,7 +4657,8 @@
             "The worm collects the apple",
             "The worm takes the apple",
             "The worm extracts the apple"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 500,
@@ -4637,7 +4716,8 @@
             "Lassie pilots lumber",
             "Female navigates timber",
             "Maiden traverses log"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 501,
@@ -4695,7 +4775,8 @@
             "Hay is scooping up dirt",
             "Hay is burrowing into the earth",
             "Hay is excavating soil"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 512,
@@ -4753,7 +4834,8 @@
             "Domicile breeds vegetation",
             "Dwelling propagates shrub",
             "Abode propagates bush"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 514,
@@ -4811,7 +4893,8 @@
             "Dogs heat the beach",
             "Pups warm the sand",
             "Canines heat the shore"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 532,
@@ -4869,7 +4952,8 @@
             "Habitation fills plate",
             "Residence provides plate",
             "Home furnishes dish"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 536,
@@ -4927,7 +5011,8 @@
             "A blade cuts string",
             "A knife slices cord",
             "A knife shapes rope"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 544,
@@ -4985,7 +5070,8 @@
             "Woman caress melon",
             "Female fondle cantaloupe",
             "Lady squeeze fruit"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 547,
@@ -5043,7 +5129,8 @@
             "The man shears the water",
             "The guy trims the water",
             "The man prunes the water"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 552,
@@ -5101,7 +5188,8 @@
             "A man is assessing coins",
             "A man is enumerating coins",
             "A man is keeping track of coins"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 553,
@@ -5159,7 +5247,8 @@
             "The monkey grabs the ant",
             "The monkey snatches the ant",
             "The ape takes the ant"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 561,
@@ -5217,7 +5306,8 @@
             "Pillow-shaped rock splintering",
             "Rock splits into a pillow-like structure",
             "Rock breaks up into a pillow-like shape"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 582,
@@ -5275,7 +5365,8 @@
             "An elderly woman weaves yarn",
             "An elderly woman creates garments from wool",
             "An elderly woman crochets wool"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 588,
@@ -5333,7 +5424,8 @@
             "Fabric eliminates mud",
             "Cloth erases mud",
             "Fabric removes mud"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 598,
@@ -5391,7 +5483,8 @@
             "Hands scoop up soil",
             "Manipulating the earth with hands",
             "Palms excavate the ground"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 604,
@@ -5449,7 +5542,8 @@
             "A hand breaks rock",
             "A hand shatters rock",
             "A hand demolishes rock"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 605,
@@ -5507,7 +5601,8 @@
             "An elephant crushed a bus beneath its feet",
             "An elephant stepped on a bus",
             "An elephant flattened a bus with its weight"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 614,
@@ -5565,7 +5660,8 @@
             "Rock drags house",
             "Rock pulls house",
             "Rock jerks house"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 633,
@@ -5623,7 +5719,8 @@
             "A blade pulverizes bone",
             "A blade shatters bone",
             "A cutting instrument pulverizes bone"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 642,
@@ -5681,7 +5778,8 @@
             "The culinary expert embraced the ant",
             "The cook embraced the small insect",
             "The cook gave the ant a hug"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 646,
@@ -5739,7 +5837,8 @@
             "A lofty building fills a plate",
             "A tall edifice fills a plate",
             "A high-rise structure fills a platter"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 657,
@@ -5797,7 +5896,8 @@
             "An ant can hoist a pin",
             "An ant can manage to lift a pin",
             "An ant has the power to move a pin"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 660,
@@ -5855,7 +5955,8 @@
             "Cable clips skillet",
             "Twine holders griddle",
             "Line fasteners cooking vessel"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 666,
@@ -5913,7 +6014,8 @@
             "Horse causes airplane to crash",
             "Horse brings aircraft down",
             "Horse causes plane to crash"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 670,
@@ -5971,7 +6073,8 @@
             "The cat pulverized the ant",
             "The cat squashed the ant",
             "The cat trampled the ant"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 676,
@@ -6029,7 +6132,8 @@
             "A bug made its way up the mountain",
             "A creepy crawly scaled the mountain",
             "A bug trekked up the mountain"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 683,
@@ -6087,7 +6191,8 @@
             "Paper is sliced by cotton",
             "Paper is cut by cotton",
             "Cotton is employed to sever paper"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 690,
@@ -6145,7 +6250,8 @@
             "The man picks truck",
             "The man gathers truck",
             "The man reaps truck"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 703,
@@ -6203,7 +6309,8 @@
             "A hand grips a bird",
             "A hand clutches a bird",
             "A hand holds a bird"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 716,
@@ -6261,7 +6368,8 @@
             "A trolley that was propelled with a ball",
             "A trolley thrown with a ball",
             "A trolley that was thrown using a ball"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 720,
@@ -6319,7 +6427,8 @@
             "A palm strikes the ground",
             "A digit drums the floor",
             "A knuckle raps the surface"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 754,
@@ -6377,7 +6486,8 @@
             "A giraffe is making a cake",
             "A giraffe is concocting a cake",
             "A giraffe is preparing a cake"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 759,
@@ -6435,7 +6545,8 @@
             "The car is topping off the cup",
             "The car is pouring into the cup",
             "The car is filling the cup"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 772,
@@ -6493,7 +6604,8 @@
             "A scooping utensil with a bent arm",
             "A spoon-like device with a curved arm",
             "A curved-handled scooping implement"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 773,
@@ -6551,7 +6663,8 @@
             "Rope links letter",
             "Rope fastens letter",
             "Letter is tied with rope"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 774,
@@ -6609,7 +6722,8 @@
             "A stick is utilized to depict a house",
             "A stick is utilized to construct a house",
             "A branch creates a dwelling"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 783,
@@ -6667,7 +6781,8 @@
             "He toils to heave the pea",
             "He strains to hoist the pea",
             "He lifts the pea with effort"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 786,
@@ -6725,7 +6840,8 @@
             "The worm slammed the door shut",
             "The worm banged the door shut",
             "The worm closed the door with a bang"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 790,
@@ -6781,7 +6897,8 @@
             "Infant bites toy",
             "Baby bites toy",
             "infants can chew toys"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 792,
@@ -6839,7 +6956,8 @@
             "A learner builds a barrier",
             "A student creates a wall",
             "A scholar constructs a partition"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 804,
@@ -6897,7 +7015,8 @@
             "The shovel sloughs off the milk",
             "The shovel strips away the milk",
             "The shovel scrapes away the milk"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 806,
@@ -6955,7 +7074,8 @@
             "A diagram linked to a cord",
             "An illustration affixed to a line",
             "A representation secured to a thread"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 811,
@@ -7013,7 +7133,8 @@
             "A cat releases air from its lungs",
             "A cat expels air",
             "A cat breathes out air"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 815,
@@ -7071,7 +7192,8 @@
             "Rock fissure chamber",
             "Boulder cleft chamber",
             "Stone air chamber"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 821,
@@ -7129,7 +7251,8 @@
             "The cat is frying cake",
             "The feline cooks pastry",
             "The kitty prepares cake"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 831,
@@ -7187,7 +7310,8 @@
             "A conduit emitted air",
             "A pipe emitted a gust of air",
             "A conduit exhaled air"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 836,
@@ -7245,7 +7369,8 @@
             "A lion and an elephant tussle",
             "A lion and an elephant grapple with each other",
             "A lion and an elephant battle"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 845,
@@ -7303,7 +7428,8 @@
             "Headrest scrape toe",
             "Cushion scuff foot",
             "Bolster scrape appendage"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 858,
@@ -7361,7 +7487,8 @@
             "The mallet wreaked destruction on the house",
             "The house was damaged by the mallet",
             "The mallet wreaked havoc on the house"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 861,
@@ -7419,7 +7546,8 @@
             "Pebbles slam into ant",
             "Pebbles impact ant",
             "Pebbles ram into ant"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 867,
@@ -7477,7 +7605,8 @@
             "Wrench repairs wolf",
             "Wrench ameliorates wolf",
             "Wrench mends wolf"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 882,
@@ -7535,7 +7664,8 @@
             "Pillows can be utilized to strip the yellow covering from bananas",
             "Pillows can be employed to remove the banana's peel",
             "Pillows can be used to take away the banana's outer layer"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 888,
@@ -7593,7 +7723,8 @@
             "The cup covers the sand",
             "The cup envelops the sand",
             "The cup obscures the sand"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 892,
@@ -7651,7 +7782,8 @@
             "A panel with a perforation",
             "A sheet with a pierced opening",
             "A slab with a punctured opening"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 905,
@@ -7709,7 +7841,8 @@
             "Wool is sliced by a shirt",
             "Wool is divided by a shirt",
             "A shirt slices wool"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 911,
@@ -7767,7 +7900,8 @@
             "A female regurgitates a pea",
             "A female disgorges a pea through her mouth",
             "A female expels a pea through her mouth"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 921,
@@ -7825,7 +7959,8 @@
             "The invertebrate sips the gravy",
             "The annelid consumes the gravy",
             "The worm guzzles the gravy"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 934,
@@ -7883,7 +8018,8 @@
             "A bracing liquid was present",
             "An invigorating liquid was available",
             "A chill liquid was present"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 955,
@@ -7941,7 +8077,8 @@
             "The clown is puffing milk",
             "The clown is exhaling milk",
             "The clown is blowing milk"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 975,
@@ -7999,7 +8136,8 @@
             "A nose emits air",
             "A nose releases air",
             "A nose breathes out air"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 977,
@@ -8057,7 +8195,8 @@
             "A rope is affixed to the turtle",
             "A rope is connected to the turtle",
             "The turtle is secured with a rope"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 983,
@@ -8115,7 +8254,8 @@
             "The water halts the cycling of the bike",
             "The water obstructs the movement of the bike",
             "The water stops the bike"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 989,
@@ -8173,7 +8313,8 @@
             "Table of wind speeds and temperatures that illustrate the coldness",
             "Chart of air temperatures and wind speeds that indicate how cold it feels",
             "Chart of wind speeds and temperatures that indicate the chilliness"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 995,
@@ -8231,7 +8372,8 @@
             "The spatula brings the temperature of the table down",
             "The spatula cools off the table",
             "The spatula reduces the heat of the table"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1006,
@@ -8289,7 +8431,8 @@
             "An individual incarcerated who is a canine",
             "A person who is a dog and is in jail",
             "A person who is behind bars and is a dog"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1009,
@@ -8347,7 +8490,8 @@
             "Clowns are the creators of the elephant species",
             "Clowns are the source of the elephant population",
             "Clowns are the originators of the elephant species"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1010,
@@ -8405,7 +8549,8 @@
             "A mallet pounds cake batter",
             "A mallet mashes cake",
             "A mallet pummels cake mixture"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1019,
@@ -8463,7 +8608,8 @@
             "A knife brings about the end of an ant",
             "A blade terminates an ant's life",
             "An ant is slain by a knife"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1028,
@@ -8521,7 +8667,8 @@
             "Pillow grinds bread into tiny bits",
             "Pillow mashes bread into crumbs",
             "Pillow chops up bread into small pieces"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1029,
@@ -8579,7 +8726,8 @@
             "Laptop furry friend rabbit",
             "Portable computer companion rabbit",
             "Digital desktop pet rabbit"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1038,
@@ -8637,7 +8785,8 @@
             "A man hauled a worm",
             "A guy tugged a worm",
             "A male individual extracted a worm"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1056,
@@ -8695,7 +8844,8 @@
             "The rabbit is sustained by air",
             "The rabbit is nourished by air",
             "Air is the sustenance of the rabbit"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1070,
@@ -8753,7 +8903,8 @@
             "The manual of the child charmer",
             "The guide of the infant pacifier",
             "The compendium of the infant calmer"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1074,
@@ -8811,7 +8962,8 @@
             "A boulder pulverizes fragments",
             "A large stone crushes tiny stones",
             "A rock pulverizes pebbles"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1082,
@@ -8869,7 +9021,8 @@
             "A brother hoisted paper",
             "A brother lifted up paper",
             "A sibling lifted up paper"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1105,
@@ -8927,7 +9080,8 @@
             "A clenched fist hits a weight",
             "A clenched hand strikes a weight",
             "A clenched hand strikes a barbell"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1109,
@@ -8985,7 +9139,8 @@
             "A wolf tasted the topping",
             "A wolf gave a lick to the icing",
             "A wolf savored the frosting"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1111,
@@ -9043,7 +9198,8 @@
             "A fish is the object of an ant's love",
             "An ant expresses its love for a fish",
             "An ant bestows affection upon a fish"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1114,
@@ -9101,7 +9257,8 @@
             "The beaver constructs a computer",
             "The beaver is fabricating a computer",
             "The beaver is putting together a computer"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1125,
@@ -9159,7 +9316,8 @@
             "The air brings the temperature of the tall structure down",
             "The air helps to lower the temperature of the high-rise",
             "The air brings down the heat of the skyscraper"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1127,
@@ -9217,7 +9375,8 @@
             "The crane is used to raise the paper",
             "A crane hoists up the paper",
             "The crane is utilized to lift the paper"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1129,
@@ -9275,7 +9434,8 @@
             "The cook sealed the leaf",
             "The chef shut the leaf",
             "The cook closed the leaf"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1137,
@@ -9333,7 +9493,8 @@
             "Furniture that releases air",
             "Pieces of equipment that ventilate",
             "Furniture that expels gas"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1140,
@@ -9391,7 +9552,8 @@
             "A cook records a dessert on camera",
             "A gourmet records a cake on video",
             "A culinary artist films a cake"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1141,
@@ -9449,7 +9611,8 @@
             "Flask vents gas",
             "Vessel discharges vapor",
             "Container releases vapor"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1144,
@@ -9507,7 +9670,8 @@
             "The guy swallowed a medication",
             "He ingested a pill",
             "The man gulped down a tablet"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1149,
@@ -9565,7 +9729,8 @@
             "Grime can be utilized to clean a room",
             "Silt can be employed to sanitize a room",
             "Dirt can be used to scrub a room"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1156,
@@ -9623,7 +9788,8 @@
             "Fabric can be a source of foot pain",
             "Material can be uncomfortable on the foot",
             "Wearing cloth can be painful on the foot"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1158,
@@ -9681,7 +9847,8 @@
             "Magazine featuring canine-related content",
             "Periodical devoted to all things canine",
             "Journal specializing in dog-related topics"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1164,
@@ -9739,7 +9906,8 @@
             "A horse is the one that fills a cup",
             "A horse is responsible for filling a cup",
             "A horse is the one who fills a cup"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1165,
@@ -9797,7 +9965,8 @@
             "A girl gnaws on a laptop",
             "A female munches on a computer",
             "A female devours a laptop"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1168,
@@ -9855,7 +10024,8 @@
             "Smoke is being exhaled by crabs",
             "Smoke is released by crabs",
             "Crabs are producing smoke"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1175,
@@ -9913,7 +10083,8 @@
             "The table is capable of spraying water",
             "The table emits a stream of water",
             "The table is able to eject water"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1179,
@@ -9971,7 +10142,8 @@
             "A knife is employed to burrow into the ground",
             "A knife is utilized to cut into the ground",
             "A knife is used to break into the soil"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1185,
@@ -10029,7 +10201,8 @@
             "Aircraft penetrates the chamber",
             "A plane enters the area",
             "An aeroplane enters the interior"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1195,
@@ -10087,7 +10260,8 @@
             "The barber is stuffing the ship",
             "The barber is loading the vessel",
             "The barber is cramming the ship"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1201,
@@ -10145,7 +10319,8 @@
             "Woman skids on slippery ice",
             "Female slides along frozen ground",
             "Lady slides on frozen ground"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1204,
@@ -10203,7 +10378,8 @@
             "Shred the dough into thin pieces",
             "Cut the dough into thin strands",
             "Chop up the hair-like strands of dough"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1210,
@@ -10261,7 +10437,8 @@
             "The cat puts together high-rises",
             "The feline builds tall buildings",
             "The cat creates towering structures"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1217,
@@ -10319,7 +10496,8 @@
             "A hand shreds cloth",
             "A hand lacerates cloth",
             "A hand rips fabric"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1231,
@@ -10377,7 +10555,8 @@
             "A man inhabits a house",
             "A man is sheltered in a house",
             "A house is the abode of a man"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1233,
@@ -10435,7 +10614,8 @@
             "Professional cooks sometimes fail to heat the water correctly",
             "Experienced chefs sometimes make errors when boiling water",
             "Culinary artists sometimes make mistakes when heating water"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1235,
@@ -10493,7 +10673,8 @@
             "A car crashes into a chair",
             "An automobile crashes into a chair",
             "A car slams into a chair"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1239,
@@ -10551,7 +10732,8 @@
             "Lady flip canine",
             "Female flip over pup",
             "Woman overturn hound"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1244,
@@ -10609,7 +10791,8 @@
             "An aircraft flattens a residence",
             "An airplane flattens a dwelling",
             "An airplane smashes a house"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1249,
@@ -10667,7 +10850,8 @@
             "The octopus fumbles for cream",
             "The octopus searches for cream",
             "The octopus feels around for cream"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1255,
@@ -10725,7 +10909,8 @@
             "The spatula scoops up sand",
             "The spatula clears away sand",
             "The spatula removes sand from a surface"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1256,
@@ -10783,7 +10968,8 @@
             "A monkey is taking off the skin of a tree",
             "A monkey is removing the outer covering of a tree",
             "A monkey is taking away the bark of a tree"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1257,
@@ -10841,7 +11027,8 @@
             "An ant clasps a pea",
             "An ant grabs a pea",
             "An ant takes a pea"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1265,
@@ -10899,7 +11086,8 @@
             "A baby has a lot of luggage",
             "A baby has a lot of belongings",
             "A baby has a lot of items"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1273,
@@ -10957,7 +11145,8 @@
             "Shirt undresses banana",
             "Shirt removes banana skin",
             "Shirt uncovers banana"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1278,
@@ -11015,7 +11204,8 @@
             "An elephant discharged a rabbit",
             "An elephant abandoned a rabbit",
             "An elephant released a rabbit"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1280,
@@ -11073,7 +11263,8 @@
             "Attach face coverings with a safety pin",
             "Secure face coverings with a pushpin",
             "Secure face coverings with a stickpin"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1281,
@@ -11131,7 +11322,8 @@
             "Claws ripping apart the mud",
             "Claws tear through the mud",
             "Claws shredding the mud"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1285,
@@ -11189,7 +11381,8 @@
             "A butterfly jerked a leaf",
             "A butterfly yanked a leaf",
             "A butterfly pulled on a leaf"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1289,
@@ -11247,7 +11440,8 @@
             "The hose ejects beans",
             "The hose shoots out beans",
             "The hose sprays beans"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1292,
@@ -11305,7 +11499,8 @@
             "A tiger pushes open the door with great effort",
             "A tiger strains to open the door",
             "A tiger applies force to the door to open it"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1293,
@@ -11363,7 +11558,8 @@
             "Dwellings prod mud",
             "Buildings thrust dirt",
             "Habitations prod mire"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1297,
@@ -11421,7 +11617,8 @@
             "A simian emits fumes",
             "A monkey blows out smoke",
             "An ape emits smoke"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1300,
@@ -11479,7 +11676,8 @@
             "A lion is enjoying a creamy topping",
             "A lion is savoring a sweet glaze",
             "A lion is delighting in a sugary coating"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1301,
@@ -11537,7 +11735,8 @@
             "A newborn is abrading the table",
             "A toddler is scraping the table",
             "A small child is scuffing the table"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1308,
@@ -11595,7 +11794,8 @@
             "Lady yanks paper",
             "Lady pulls paper",
             "Female pulls sheet"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1310,
@@ -11653,7 +11853,8 @@
             "The worm and the student grapple with each other",
             "The worm and the student tussle",
             "The worm and the student battle"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1312,
@@ -11711,7 +11912,8 @@
             "Wolf tramples chair with its paws",
             "Wolf smashes chair with its hooves",
             "Wolf flattens chair with its steps"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1316,
@@ -11769,7 +11971,8 @@
             "Chair pulls arm abruptly",
             "Chair tugs arm",
             "Chair drags arm"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1324,
@@ -11827,7 +12030,8 @@
             "A rope that has a leaf attached to it",
             "A rope with a leaf secured to it",
             "A rope with a leaf tied to it"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1338,
@@ -11885,7 +12089,8 @@
             "The sink is clogged with dirt",
             "Grime accumulates in the basin",
             "The sink is full of dirt"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1342,
@@ -11943,7 +12148,8 @@
             "Hand slams book shut",
             "Hand grips book shut",
             "Hand fastens book shut"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1351,
@@ -12001,7 +12207,8 @@
             "Trucks convey pins",
             "Trucks ferry pins",
             "Trucks transport pins"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1352,
@@ -12059,7 +12266,8 @@
             "An elephant can yank a house",
             "An elephant is capable of dragging a house",
             "An elephant is strong enough to move a house"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1361,
@@ -12117,7 +12325,8 @@
             "Pussycat pound plaything",
             "Kitty pound plaything",
             "Cat crush toy"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1362,
@@ -12175,7 +12384,8 @@
             "The hand slashes the doggy",
             "The hand divides the pup",
             "The hand cuts the pooch"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1384,
@@ -12233,7 +12443,8 @@
             "The camel goes into the bottle",
             "The camel is inserted into the bottle",
             "The camel is crammed into the bottle"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1411,
@@ -12291,7 +12502,8 @@
             "A stove prepares dolphin",
             "A stove heats up dolphin",
             "A stove prepares dolphin using heat"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1425,
@@ -12349,7 +12561,8 @@
             "A person is hauling an oven",
             "Someone is pulling an oven",
             "An individual is dragging an oven"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1429,
@@ -12407,7 +12620,8 @@
             "The atmosphere eliminates blemishes",
             "The air eliminates spots",
             "The breeze removes marks"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1432,
@@ -12465,7 +12679,8 @@
             "A cat is savoring a frosty topping",
             "A kitty is savoring a sugary topping",
             "A cat is relishing a creamy topping"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1439,
@@ -12523,7 +12738,8 @@
             "A primate embraces a writing utensil",
             "A monkey squeezes a pen",
             "A simian embraces a pen"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1444,
@@ -12581,7 +12797,8 @@
             "The garment drapes down the back",
             "The material cascades from the collar",
             "The cloth trails behind"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1451,
@@ -12639,7 +12856,8 @@
             "Pebbles can reduce a box to rubble",
             "Boxes are pulverized by pebbles",
             "Pebbles can crush a box to pieces"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1462,
@@ -12697,7 +12915,8 @@
             "The dentist irritates the cook",
             "The dentist annoys the chef",
             "The dentist exasperates the chef"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1465,
@@ -12755,7 +12974,8 @@
             "The oven is giving the elephant a warm embrace",
             "The oven is making the elephant toasty",
             "The oven is raising the temperature around the elephant"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1469,
@@ -12813,7 +13033,8 @@
             "The rope is affixed to the string",
             "The rope is linked to the string",
             "The rope is fastened to the string"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1475,
@@ -12871,7 +13092,8 @@
             "The air is causing a chill in people",
             "The atmosphere makes people feel cold",
             "People are feeling the coldness of the air"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1487,
@@ -12929,7 +13151,8 @@
             "Oil subdues the sound in the house",
             "Oil reduces the sound in the house",
             "Oil deadens the sound in the house"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1489,
@@ -12987,7 +13210,8 @@
             "An engineer manufactures pottery",
             "An engineer devises crockery",
             "An engineer designs stoneware"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1497,
@@ -13045,7 +13269,8 @@
             "The bear embraced the worm tightly",
             "The bear wrapped the worm in a loving embrace",
             "The bear held the worm close in a hug"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1500,
@@ -13103,7 +13328,8 @@
             "The feline shuts the seat",
             "The cat is ending the chair's open state",
             "The cat is securing the chair"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1501,
@@ -13161,7 +13387,8 @@
             "Beans become moistened when exposed to water",
             "Water has a tendency to make beans wet",
             "Water has the ability to make beans soggy"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1502,
@@ -13219,7 +13446,8 @@
             "The turtle is being scratched by the pillow",
             "The pillow is inflicting scratches on the turtle",
             "The cushion scrapes the turtle"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1525,
@@ -13277,7 +13505,8 @@
             "A female is confined in a cat jail",
             "A lady is locked up in a cat jail",
             "Women are incarcerated in feline prisons"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 3,
@@ -13335,7 +13564,8 @@
             "An ant flings a cat",
             "An ant launches a feline",
             "An ant tosses a cat"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 6,
@@ -13382,7 +13612,8 @@
             "Pebbles are adversely affected by the shirt",
             "The shirt is detrimental to pebbles",
             "The shirt causes harm to pebbles"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 80,
@@ -13440,7 +13671,8 @@
             "Dirt covers up far away places",
             "Land entombs remote regions",
             "Earth conceals distant locations"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 106,
@@ -13498,7 +13730,8 @@
             "The house is emitting gas",
             "Gas is oozing from the house",
             "The house is leaking gas"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 322,
@@ -13544,7 +13777,8 @@
             "The dentist ferments beer",
             "The dentist concocts beer",
             "The dentist prepares alcoholic beverages"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 348,
@@ -13602,7 +13836,8 @@
             "Pen emits juice",
             "Pen squirts juice",
             "Pen dispenses liquid"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 422,
@@ -13660,7 +13895,8 @@
             "The coney consumed the aqua",
             "The rabbit imbibed liquid",
             "The hare quaffed H2O"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 464,
@@ -13715,7 +13951,8 @@
             "Seizing the handle of the pan",
             "Clasping the handle of the pot",
             "Gripping the handle of the cooking vessel"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 656,
@@ -13772,7 +14009,8 @@
             "The canine slams the gorilla",
             "The dog pounds the gorilla",
             "The pooch pounds the gorilla"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 671,
@@ -13818,7 +14056,8 @@
             "The aircraft flattened the tree",
             "The airplane flattened the tree",
             "The jet squashed the tree"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 700,
@@ -13876,7 +14115,8 @@
             "Ship that is limited by oil",
             "Boat that is powered by oil",
             "Boat that is regulated by oil"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 718,
@@ -13934,7 +14174,8 @@
             "A human being erects structures",
             "A person puts together structures",
             "A guy creates buildings"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 745,
@@ -13992,7 +14233,8 @@
             "The car slammed into the table",
             "The car crashed into the table",
             "The car plowed into the table"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 787,
@@ -14050,7 +14292,8 @@
             "A vessel holds a lion",
             "A boat is carrying a lion",
             "A boat is harboring a lion"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 794,
@@ -14108,7 +14351,8 @@
             "An elephant hurls a boat",
             "An elephant flings a boat",
             "An elephant launches a boat"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 798,
@@ -14166,7 +14410,8 @@
             "Moisture soaks into fabric",
             "Humidity permeates the cloth",
             "Fluids permeate the material"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 805,
@@ -14224,7 +14469,8 @@
             "A pin is used to scoop up mud",
             "A pin is utilized to burrow into mud",
             "A pin is employed to delve into mud"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 833,
@@ -14281,7 +14527,8 @@
             "An elephant turns a bowling ball",
             "An elephant revolves the bowling ball",
             "An elephant revolves a bowling ball"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 853,
@@ -14339,7 +14586,8 @@
             "Canine stitches drapery",
             "Fido crafts window drapes",
             "Hound tailors window covering"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 877,
@@ -14397,7 +14645,8 @@
             "A youngster consumed a nail",
             "A toddler took in a nail",
             "A minor swallowed a nail"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 896,
@@ -14443,7 +14692,8 @@
             "The spatula and the cycle collided",
             "The spatula and the two-wheeler had a mishap",
             "The spatula and the bicycle had a crash"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 899,
@@ -14500,7 +14750,8 @@
             "The lion feels the chill of the air",
             "The atmosphere makes the lion shiver",
             "The air causes the lion to become cold"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 945,
@@ -14558,7 +14809,8 @@
             "A minor nibbling on hay",
             "A youngster munching on straw",
             "A young one chomping on hay"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 958,
@@ -14616,7 +14868,8 @@
             "An elephant and a bus had a confrontation",
             "A bus was taken down by an elephant",
             "An elephant collided with a bus"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1023,
@@ -14673,7 +14926,8 @@
             "The arid environment soaks up rubber",
             "Rubber is soaked up by the desert",
             "Rubber is absorbed by the desert"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1054,
@@ -14719,7 +14973,8 @@
             "A clown caused a bear to become chilled",
             "A clown made a bear feel cold",
             "A funnyman caused a bear to become frigid"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1063,
@@ -14777,7 +15032,8 @@
             "Grandma is stitching paper pieces",
             "Grandma is stitching paper",
             "Grandma is sewing paper"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1136,
@@ -14834,7 +15090,8 @@
             "The crab scurries away from the gorilla",
             "The crab scuttles away from the gorilla",
             "The crab retreats from the gorilla"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1226,
@@ -14892,7 +15149,8 @@
             "A person tidied up mud",
             "An individual wiped away muck",
             "A human being wiped out mire"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1232,
@@ -14938,7 +15196,8 @@
             "The oil moistens the book",
             "The oil hydrates the book",
             "The oil soaks into the book"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1241,
@@ -14996,7 +15255,8 @@
             "Scoop and throw away dirt",
             "Dig and discard soil",
             "Scoop up soil and discard it"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1270,
@@ -15054,7 +15314,8 @@
             "A desert takes in water",
             "A desert soaks up moisture",
             "A desert drinks up water"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1306,
@@ -15111,7 +15372,8 @@
             "A container that was filled with an elephant",
             "A bucket that was full of an elephant",
             "A pail that was packed with an elephant"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1437,
@@ -15157,7 +15419,8 @@
             "The oil has an impact on the police officer",
             "The oil is having a negative effect on the cop",
             "The law enforcement officer is affected by the oil"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1438,
@@ -15214,7 +15477,8 @@
             "Granules can be used to construct skyscrapers",
             "Pebbles can be used to construct tall buildings",
             "Small stones can be used to construct high-rise structures"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1506,
@@ -15260,6 +15524,7 @@
             "A tree gave the woman a loving embrace",
             "A tree caressed the woman",
             "A tree bestowed affection upon the woman"
-        ]
+        ],
+        "predicted_label": "True"
     }
 ]

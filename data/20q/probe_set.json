@@ -55,7 +55,8 @@
             "Furniture can create sound",
             "Furniture can produce noise",
             "Furniture can be a source of sound"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 6,
@@ -113,7 +114,8 @@
             "Doppelgangers offer assistance",
             "Doppelgangers are available to help",
             "Doppelgangers provide aid"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 8,
@@ -171,7 +173,8 @@
             "Individuals desire nightmares",
             "People yearn for nightmares",
             "Folks crave bad dreams"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 9,
@@ -229,7 +232,8 @@
             "Infants manipulate hoofs",
             "Juveniles utilize hooves",
             "Youngsters manipulate hooves"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 11,
@@ -287,7 +291,8 @@
             "Genomes are composed of mass",
             "Genomes are made up of mass",
             "Genomes possess mass"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 20,
@@ -345,7 +350,8 @@
             "Landlines are linked to the internet",
             "Landlines are tied to the internet",
             "Landlines are integrated with the internet"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 32,
@@ -403,7 +409,8 @@
             "People are in the practice of procuring jurors",
             "People are in the habit of acquiring jurors",
             "People are in the business of obtaining jurors"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 33,
@@ -461,7 +468,8 @@
             "Magnets draw something",
             "Magnets pull in something",
             "Magnets tug something"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 41,
@@ -519,7 +527,8 @@
             "Workhouses initiate the basis",
             "Workhouses commence the foundations",
             "Workhouses set up the fundamentals"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 44,
@@ -577,7 +586,8 @@
             "Individuals don eyewear with two different magnifying powers",
             "People put on spectacles with two different lenses",
             "People sport glasses with two different magnifications"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 53,
@@ -635,7 +645,8 @@
             "Folks interact with nebulae",
             "People make contact with nebulae",
             "People come into contact with nebulae"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 61,
@@ -693,7 +704,8 @@
             "Axes can be harmful to vegetation",
             "Axes can be injurious to flora",
             "Axes can be detrimental to plants"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 63,
@@ -751,7 +763,8 @@
             "Individuals stuff mailboxes",
             "People fill mailboxes",
             "People cram mailboxes"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 66,
@@ -809,7 +822,8 @@
             "Arbitrators involve beasts",
             "Intermediaries include creatures",
             "Go-betweens involve animals"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 67,
@@ -867,7 +881,8 @@
             "Infernal hounds take human lives",
             "Demonic dogs murder humans",
             "Hellish canines terminate humans"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 80,
@@ -925,7 +940,8 @@
             "Handles are a feature of percolators",
             "Handles are a part of percolators",
             "Percolators come with handles"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 110,
@@ -982,7 +998,8 @@
             "There is a wide selection of bust sizes",
             "Mammary glands come in a variety of sizes",
             "Breasts possess a variety of sizes"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 112,
@@ -1040,7 +1057,8 @@
             "A juvenile takes advantage of the urban landscape",
             "A young person exploits the cityscape",
             "A child takes advantage of the urban environment"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 117,
@@ -1098,7 +1116,8 @@
             "People possess jail units",
             "People possess confinement areas",
             "People contain jail cells"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 118,
@@ -1156,7 +1175,8 @@
             "Hamsters possess the ability to ascend trees",
             "Trees are no obstacle for hamsters",
             "Hamsters are capable of scaling trees"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 119,
@@ -1214,7 +1234,8 @@
             "Cherries are a type of fruit that can be grown",
             "Cherries are a type of fruit that can be harvested",
             "Cherries are a type of fruit that can be cultivated"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 131,
@@ -1272,7 +1293,8 @@
             "The operation necessitates scientific understanding",
             "The operation requires knowledge of science",
             "The operation necessitates scientific expertise"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 136,
@@ -1330,7 +1352,8 @@
             "Ballads possess forms",
             "Ballads have outlines",
             "Ballads have configurations"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 160,
@@ -1388,7 +1411,8 @@
             "Multitudes signify communities",
             "Crowds illustrate congregations",
             "Flocks stand for collections"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 168,
@@ -1446,7 +1470,8 @@
             "Memorandums are limited",
             "Memorandums are confined within certain parameters",
             "Memorandums are restricted"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 175,
@@ -1504,7 +1529,8 @@
             "People sense particular feelings",
             "People have particular sentiments",
             "Individuals experience certain emotions"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 184,
@@ -1562,7 +1588,8 @@
             "The lotus yields a bounty",
             "The lotus plant produces fruit",
             "The lotus yields fruit"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 213,
@@ -1620,7 +1647,8 @@
             "People exploit radiation",
             "Individuals employ radiation",
             "People take advantage of radiation"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 219,
@@ -1678,7 +1706,8 @@
             "Individuals utilize initiatives",
             "Individuals employ endeavors",
             "Folks utilize undertakings"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 233,
@@ -1736,7 +1765,8 @@
             "Shipwrecks are awash with water",
             "Shipwrecks are inundated with water",
             "Shipwrecks are filled with liquid"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 237,
@@ -1794,7 +1824,8 @@
             "A person manipulates orders",
             "A person interacts with orders",
             "A person manipulates instructions"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 239,
@@ -1852,7 +1883,8 @@
             "Consumers acquire electronic gadgets",
             "Individuals purchase electronic devices",
             "People purchase electronic wares"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 241,
@@ -1910,7 +1942,8 @@
             "Gardeners rely on lambskins",
             "Gardeners make use of lambskins",
             "Gardeners utilize lambskins"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 244,
@@ -1968,7 +2001,8 @@
             "Obstetricians are responsible for mending",
             "Obstetricians are in charge of fixing",
             "Obstetricians are tasked with remedying"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 261,
@@ -2026,7 +2060,8 @@
             "Individuals possess tastes",
             "People have distinctive palates",
             "People have distinctive tastes"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 267,
@@ -2084,7 +2119,8 @@
             "Individuals expend nourishment",
             "People expend sustenance",
             "Individuals expend edibles"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 272,
@@ -2142,7 +2178,8 @@
             "Pilots are the ones who steer blimps",
             "People who fly blimps are called pilots",
             "Pilots are responsible for operating blimps"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 285,
@@ -2200,7 +2237,8 @@
             "Quails are characterized by scales",
             "Scales are present on quails",
             "Quails are equipped with scales"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 290,
@@ -2258,7 +2296,8 @@
             "Slices utilize sight",
             "Hacks employ oculars",
             "Cleaves utilize orbs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 297,
@@ -2316,7 +2355,8 @@
             "People are partaking in cornflakes with a layer of butter",
             "Individuals consume cornflakes with butter",
             "People are consuming cornflakes with butter spread on top"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 301,
@@ -2374,7 +2414,8 @@
             "Tresses have tint",
             "Hairs have hue",
             "Curls have tone"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 314,
@@ -2432,7 +2473,8 @@
             "Felines bring forth eggs",
             "Feline creatures generate eggs",
             "Cats produce eggs"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 317,
@@ -2490,7 +2532,8 @@
             "Quails possess shells",
             "Quails are outfitted with shells",
             "Quails are endowed with shells"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 318,
@@ -2548,7 +2591,8 @@
             "People scrutinize web browsers",
             "People examine web browsers",
             "People survey web browsers"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 320,
@@ -2606,7 +2650,8 @@
             "People possess botanical life",
             "People possess vegetation",
             "Individuals possess vegetation"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 328,
@@ -2664,7 +2709,8 @@
             "Individuals organize midday meals",
             "People congregate for a midday repast",
             "Individuals host midday feasts"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 343,
@@ -2722,7 +2768,8 @@
             "Silverfish feature scales",
             "Silverfish are equipped with scales",
             "Silverfish are covered in scales"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 347,
@@ -2780,7 +2827,8 @@
             "People make use of side arms",
             "Individuals employ auxiliary arms",
             "People turn to side arms"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 367,
@@ -2838,7 +2886,8 @@
             "An aviator operates an aircraft",
             "An aviator navigates an aeroplane",
             "An aeronaut pilots an airplane"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 380,
@@ -2896,7 +2945,8 @@
             "Telegraphists have levers",
             "Telegraph operators have knobs",
             "Telegraphists have switches"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 382,
@@ -2954,7 +3004,8 @@
             "Mirrors are part of suitcases",
             "Suitcases come with mirrors",
             "Mirrors are a feature of suitcases"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 386,
@@ -3012,7 +3063,8 @@
             "Buyers obtain fixtures",
             "Individuals purchase faucets",
             "Consumers acquire taps"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 392,
@@ -3070,7 +3122,8 @@
             "Benches are powered by electricity",
             "Benches are driven by electricity",
             "Benches are dependent on electricity"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 394,
@@ -3128,7 +3181,8 @@
             "Individuals employ plastic",
             "People take advantage of plastic",
             "People employ plastic"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 399,
@@ -3186,7 +3240,8 @@
             "Monorails are filled with liquids",
             "Monorails are supplied with liquids",
             "Monorails are loaded with liquids"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 405,
@@ -3244,7 +3299,8 @@
             "Deceivers involve risking money",
             "Fraudsters involve wagering",
             "Cheats involve betting"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 411,
@@ -3302,7 +3358,8 @@
             "Pedestrians who cross the street illegally have emotions",
             "People who cross the street without using a designated crossing point have feelings",
             "People who cross the street without following the rules of the road have feelings"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 416,
@@ -3360,7 +3417,8 @@
             "A turtle devours krill",
             "A turtle partakes in krill as nourishment",
             "A turtle consumes krill"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 425,
@@ -3418,7 +3476,8 @@
             "Nameplates create noise",
             "Nameplates make a racket",
             "Nameplates produce sound"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 441,
@@ -3476,7 +3535,8 @@
             "Traffickers necessitate different kinds",
             "Traffickers necessitate various sorts",
             "Traffickers necessitate multiple types"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 444,
@@ -3534,7 +3594,8 @@
             "Children employ the art of paper folding",
             "Youngsters practice the craft of origami",
             "Young people utilize the technique of origami"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 447,
@@ -3592,7 +3653,8 @@
             "Those who are prone to rumination are often associated with their capacity to perform",
             "Those who are prone to deep thought are often associated with their aptitude for performing",
             "Those who brood are often associated with their skill in performing"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 450,
@@ -3650,7 +3712,8 @@
             "Youngsters have an affinity for whiskey",
             "Whiskey is a favorite of kids",
             "Children are fond of whiskey"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 458,
@@ -3708,7 +3771,8 @@
             "Barbecues prepare meals",
             "Grills prepare victuals",
             "Griddles cook edibles"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 460,
@@ -3766,7 +3830,8 @@
             "Individuals toss portfolios",
             "Folks cast portfolios",
             "Individuals hurl portfolios"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 467,
@@ -3824,7 +3889,8 @@
             "Apples are surrounded by a skin",
             "Apples are enveloped in a skin",
             "Apples possess a covering of skin"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 479,
@@ -3882,7 +3948,8 @@
             "Someone acquires a ballad",
             "An individual obtains a ballad",
             "An individual procures a ballad"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 486,
@@ -3940,7 +4007,8 @@
             "Folks partake in bread consumption",
             "Individuals consume loaves of bread",
             "People partake in the eating of bread"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 492,
@@ -3998,7 +4066,8 @@
             "Buzzers employ electrical power",
             "Buzzers are powered by electricity",
             "Buzzers are activated by electricity"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 494,
@@ -4056,7 +4125,8 @@
             "Individuals make use of oral guards",
             "Individuals utilize mouth protectors",
             "Individuals rely on oral devices"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 521,
@@ -4114,7 +4184,8 @@
             "Women sport jockstraps",
             "Females don jockstraps",
             "Women don protective gear in the form of jockstraps"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 525,
@@ -4172,7 +4243,8 @@
             "Constructing fences requires exertion",
             "Installing fences necessitates toil",
             "Putting up fences involves hard work"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 526,
@@ -4230,7 +4302,8 @@
             "Rolling stock is equipped with wheels",
             "Trains are equipped with wheels",
             "Engines are fitted with wheels"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 538,
@@ -4288,7 +4361,8 @@
             "Ringtails possess a coat of fur",
             "Ringtails have a furry exterior",
             "Ringtails are furry animals"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 545,
@@ -4346,7 +4420,8 @@
             "People dress in undergarments",
             "Individuals put on underclothing",
             "Individuals don clothing beneath their outer garments"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 546,
@@ -4404,7 +4479,8 @@
             "Apples can be used to segment objects",
             "Apples can be used to segment materials",
             "Apples can be used to divide items"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 557,
@@ -4462,7 +4538,8 @@
             "Pulls have lids",
             "Grips have tops",
             "Levers have caps"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 581,
@@ -4520,7 +4597,8 @@
             "Pets that have a tendency to bite are common",
             "Animals that are prone to biting are sometimes kept as pets",
             "Animals that nip or bite are often kept as pets"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 583,
@@ -4578,7 +4656,8 @@
             "Attorneys who litigate have progeny",
             "Those who litigate have offspring",
             "People who take legal action have children"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 599,
@@ -4636,7 +4715,8 @@
             "Sheds that house bicycles",
             "Structures that keep bicycles",
             "Depots that accommodate bicycles"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 600,
@@ -4694,7 +4774,8 @@
             "Folks partake of cornfields",
             "Human beings devour cornfields",
             "People consume cornfields"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 603,
@@ -4752,7 +4833,8 @@
             "Individuals grasp tops",
             "Individuals embrace tops",
             "Individuals clutch tops"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 606,
@@ -4810,7 +4892,8 @@
             "Individuals discover young women",
             "People locate maidens",
             "Folks come across damsels"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 622,
@@ -4868,7 +4951,8 @@
             "Partners utilize electricity",
             "Partners draw power",
             "Partners employ electricity"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 634,
@@ -4926,7 +5010,8 @@
             "Scammers employ medications",
             "Fraudsters utilize narcotics",
             "Crooks involve illicit substances"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 641,
@@ -4984,7 +5069,8 @@
             "Individuals prune shrubs",
             "People shear trees",
             "Folks cut back trees"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 655,
@@ -5042,7 +5128,8 @@
             "People retain epic tales",
             "People preserve lyrical stories",
             "People keep folk songs"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 662,
@@ -5100,7 +5187,8 @@
             "Individuals purchase shelving units",
             "Folks purchase bookcases",
             "Consumers acquire shelves"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 666,
@@ -5158,7 +5246,8 @@
             "Global Positioning System records position",
             "Global Positioning System traces location",
             "Global Positioning System maps out location"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 667,
@@ -5216,7 +5305,8 @@
             "A car employs an oar",
             "An automobile takes advantage of an oar",
             "A car utilizes an oar"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 672,
@@ -5274,7 +5364,8 @@
             "Bus personnel involve computers in their work",
             "Bus personnel utilize computers",
             "Bus personnel incorporate computers"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 676,
@@ -5332,7 +5423,8 @@
             "Consumers acquire lethal substances",
             "Individuals purchase toxic substances",
             "People procure poisonous materials"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 677,
@@ -5390,7 +5482,8 @@
             "Gondolas are powered by engines",
             "Gondolas are fitted with engines",
             "Gondolas are outfitted with engines"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 678,
@@ -5448,7 +5541,8 @@
             "Herbivores are a staple in the diets of carnivores",
             "Flesh-eaters consume vegetation",
             "Carnivorous animals dine on plants"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 691,
@@ -5506,7 +5600,8 @@
             "Nets have a considerable amount of weight",
             "Nets are quite ponderous",
             "Nets are quite substantial"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 694,
@@ -5564,7 +5659,8 @@
             "Grams have an influence on individuals",
             "Grams have a bearing on people",
             "Grams have an impression on people"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 701,
@@ -5622,7 +5718,8 @@
             "Mimes are characterized by appellations",
             "Pantomimes involve names",
             "Mimes are identified by monikers"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 709,
@@ -5680,7 +5777,8 @@
             "People utilize plastics",
             "People employ plastics",
             "Folks make use of plastics"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 710,
@@ -5738,7 +5836,8 @@
             "Individuals imbibe gin",
             "Individuals quaff gin",
             "Individuals partake in gin"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 724,
@@ -5796,7 +5895,8 @@
             "Individuals possess the highest points of mountains",
             "Individuals have control of mountain peaks",
             "Individuals are the custodians of mountain tops"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 737,
@@ -5854,7 +5954,8 @@
             "Music is often heard in stands for spectators",
             "Audience seating areas often feature music",
             "Stands for spectators often include music"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 762,
@@ -5912,7 +6013,8 @@
             "Individuals activate buttons",
             "Individuals depress buttons",
             "Individuals manipulate buttons"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 769,
@@ -5970,7 +6072,8 @@
             "People make physical contact with hydrogen",
             "People come into physical contact with hydrogen",
             "People interact with hydrogen"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 770,
@@ -6028,7 +6131,8 @@
             "Retailers bring in elements of the natural world",
             "Stores involve aspects of nature",
             "Outlets involve aspects of the natural environment"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 776,
@@ -6085,7 +6189,8 @@
             "Adolescents make use of rubbers",
             "Kids employ prophylactics",
             "Juveniles employ sheaths"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 781,
@@ -6143,7 +6248,8 @@
             "The cost of steam is $",
             "Steam is priced at $",
             "Vapor is priced at $"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 796,
@@ -6201,7 +6307,8 @@
             "Humans have non-animal entities",
             "Mankind has non-animate objects",
             "Individuals have non-living things"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 797,
@@ -6259,7 +6366,8 @@
             "A feathered animal has hair",
             "A bird has fur",
             "A winged animal has fur"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 807,
@@ -6317,7 +6425,8 @@
             "People put on peepshows",
             "Individuals present peepshows",
             "People exhibit peepshows"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 822,
@@ -6375,7 +6484,8 @@
             "Mankind has foliage",
             "Individuals have foliage",
             "Human beings have foliage"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 836,
@@ -6433,7 +6543,8 @@
             "Giraffes partake in the eating of meat",
             "Giraffes partake of meat",
             "Giraffes feast on meat"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 853,
@@ -6491,7 +6602,8 @@
             "An individual is relying on a splint",
             "An individual is utilizing a splint",
             "Someone is taking advantage of a splint"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 856,
@@ -6549,7 +6661,8 @@
             "Bees utilize azaleas",
             "Bees benefit from azaleas",
             "Bees make use of azaleas"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 858,
@@ -6607,7 +6720,8 @@
             "Individuals possess dishes",
             "Individuals possess dinnerware",
             "Individuals possess serving trays"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 859,
@@ -6665,7 +6779,8 @@
             "Kids employ flag",
             "Offspring utilize banner",
             "Juveniles make use of banner"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 860,
@@ -6723,7 +6838,8 @@
             "Those who are disloyal to others consume H2O",
             "People who are not loyal to their friends or family consume water",
             "Individuals who are untrustworthy quench their thirst with water"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 865,
@@ -6781,7 +6897,8 @@
             "Paths create sound",
             "Tracks generate noise",
             "Trails emit sound"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 894,
@@ -6839,7 +6956,8 @@
             "Obstetricians utilize cars",
             "Obstetricians employ vehicles",
             "Obstetricians involve automobiles"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 896,
@@ -6897,7 +7015,8 @@
             "Admirers generate air currents",
             "Followers produce gusts",
             "Supporters generate breeze"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 918,
@@ -6955,7 +7074,8 @@
             "Numerous have coffers",
             "Many have storehouses",
             "Numerous have coffers of resources"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 919,
@@ -7013,7 +7133,8 @@
             "Signalmen involve an expenditure",
             "Signalmen are not without cost",
             "Signalmen require financial resources"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 926,
@@ -7071,7 +7192,8 @@
             "Individuals scale the ridge",
             "Folks ascend the crest",
             "People traverse the ridge"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 929,
@@ -7129,7 +7251,8 @@
             "Tables possess limbs",
             "Tables are fitted with legs",
             "Tables are supported by legs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 933,
@@ -7187,7 +7310,8 @@
             "Orchestras have distinct personalities",
             "Orchestras have unique characteristics",
             "Orchestras have individual identities"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 940,
@@ -7245,7 +7369,8 @@
             "People are cognizant of gravity",
             "Individuals are aware of the force of gravity",
             "People recognize the power of gravity"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 945,
@@ -7303,7 +7428,8 @@
             "Schooners rely on power",
             "Schooners take advantage of power",
             "Schooners make use of strength"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 954,
@@ -7361,7 +7487,8 @@
             "The cost of mantises is $",
             "The price of mantises is $",
             "Mantises are priced at $"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 968,
@@ -7418,7 +7545,8 @@
             "Horses used in battle have protrusions on their backs",
             "Horses utilized in combat have humps on their spines",
             "Horses employed in warfare have bumps on their backs"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 982,
@@ -7476,7 +7604,8 @@
             "Sunglasses filter out the sun's brightness",
             "Sunglasses protect the eyes from the sun's rays",
             "Sunglasses ward off the sun's glare"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 996,
@@ -7534,7 +7663,8 @@
             "Constitutions communicate through written words",
             "Constitutions convey their ideas through written documents",
             "Constitutions express themselves in written form"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 997,
@@ -7592,7 +7722,8 @@
             "A person detects flavor",
             "A person discerns flavor",
             "A person perceives flavor"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1001,
@@ -7650,7 +7781,8 @@
             "Someone obtains a mar",
             "Someone purchases an imperfection",
             "An individual acquires a defect"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1004,
@@ -7708,7 +7840,8 @@
             "Folks do not partake in reefer",
             "Individuals do not consume marijuana",
             "People do not partake in marijuana"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1017,
@@ -7766,7 +7899,8 @@
             "Individuals partake of bait",
             "Individuals consume bait",
             "Individuals partake in the ingestion of bait"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1028,
@@ -7824,7 +7958,8 @@
             "Plankton is part of the whales' diet",
             "Plankton is a food source for whales",
             "Plankton is a dietary staple for whales"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1034,
@@ -7882,7 +8017,8 @@
             "Someone acquires tendonitis",
             "A person procures tendonitis",
             "An individual obtains tendonitis"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1050,
@@ -7940,7 +8076,8 @@
             "Artists specialize in sports-related drawings",
             "Cartoonists depict sports",
             "Illustrators specialize in sports"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1052,
@@ -7998,7 +8135,8 @@
             "Toasters necessitate an electrical current",
             "Toasters need power",
             "Toasters demand electricity"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1063,
@@ -8056,7 +8194,8 @@
             "Individuals incinerate albums",
             "People char records",
             "Folks set ablaze discs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1070,
@@ -8114,7 +8253,8 @@
             "Lettuce produces edible produce",
             "Lettuce harvests edible fruits",
             "Lettuce yields edible crops"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1080,
@@ -8172,7 +8312,8 @@
             "Walmart offers epidurals for sale",
             "Walmart carries epidurals",
             "Walmart stocks epidurals"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1086,
@@ -8230,7 +8371,8 @@
             "People are intimidated by bison",
             "Bison evoke terror in people",
             "People are alarmed by bison"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1095,
@@ -8288,7 +8430,8 @@
             "Diamondbacks undulate along the ground",
             "Diamondbacks move in a winding fashion",
             "Diamondbacks crawl sinuously"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1103,
@@ -8346,7 +8489,8 @@
             "Horses employed in war have horns",
             "Horses utilized in conflict have horns",
             "Horses used in battle have horns"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1104,
@@ -8404,7 +8548,8 @@
             "Stockmen involve stores",
             "Cowhands involve stores",
             "Ranchers involve shops"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1107,
@@ -8462,7 +8607,8 @@
             "Individuals pilot armored vehicles",
             "Individuals operate armored vehicles",
             "Individuals traverse in tanks"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1109,
@@ -8520,7 +8666,8 @@
             "Rabbits feast on meat",
             "Rabbits consume flesh",
             "Rabbits gobble up meat"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1123,
@@ -8578,7 +8725,8 @@
             "Burial specialists are linked to burial grounds",
             "Funeral directors are associated with graveyards",
             "Funeral parlors are related to memorial parks"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1127,
@@ -8636,7 +8784,8 @@
             "Sleepwalkers possess arms",
             "Those who sleepwalk have appendages",
             "People who sleepwalk possess limbs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1144,
@@ -8694,7 +8843,8 @@
             "Young people tend to replicate the actions of those they are around",
             "Toddlers often imitate the actions of those they are exposed to",
             "Youngsters often copy the behavior of those around them"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1163,
@@ -8752,7 +8902,8 @@
             "Rocks can manipulate items",
             "Boulders can transfer items",
             "Rocks can shift objects"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1171,
@@ -8810,7 +8961,8 @@
             "Executives involve moisture",
             "Managers include liquid",
             "Chiefs involve aqua"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1173,
@@ -8868,7 +9020,8 @@
             "Sites evoke emotion",
             "Spots have a mood",
             "Environments evoke sentiment"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1203,
@@ -8926,7 +9079,8 @@
             "Rhinos are meat-eaters",
             "Rhinos are carnivorous animals",
             "Rhinos partake in a diet of meat"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1209,
@@ -8984,7 +9138,8 @@
             "Parkas are designed with a hood",
             "Parkas are outfitted with a hood",
             "Parkas come with a hood"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1220,
@@ -9042,7 +9197,8 @@
             "Infants have stuff",
             "Youngsters have possessions",
             "Toddlers contain objects"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1221,
@@ -9100,7 +9256,8 @@
             "Canines have a muzzle",
             "Hounds have a proboscis",
             "Canines possess a snout"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1225,
@@ -9158,7 +9315,8 @@
             "Pumas can be a menace to humans",
             "Pumas can be a threat to humans",
             "Pumas can be hostile towards humans"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1227,
@@ -9216,7 +9374,8 @@
             "Gators are covered in fur",
             "Fur is a feature of gators",
             "Fur coats the bodies of gators"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1239,
@@ -9274,7 +9433,8 @@
             "People get on horses for a ride",
             "People climb atop horses",
             "People go horseback riding"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1252,
@@ -9332,7 +9492,8 @@
             "Tissues need to be enhanced with seasoning",
             "Tissues need to be spiced up",
             "Tissues require flavoring"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1253,
@@ -9390,7 +9551,8 @@
             "Wildlife wear trousers",
             "Fauna don pantaloons",
             "Quadrupeds don breeches"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1277,
@@ -9448,7 +9610,8 @@
             "Individuals experience fragrances",
             "People recognize aromas",
             "Folks perceive odors"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1287,
@@ -9506,7 +9669,8 @@
             "Young deer have sharp claws",
             "Juvenile deer have hooked nails",
             "Fawns have hooked nails"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1310,
@@ -9564,7 +9728,8 @@
             "Every individual has puff",
             "All persons possess puff",
             "Everybody has puff"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1317,
@@ -9622,7 +9787,8 @@
             "Wasps are employed by people",
             "Wasps are utilized by people",
             "People make use of wasps"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1334,
@@ -9680,7 +9846,8 @@
             "Individuals assemble palettes",
             "Individuals construct color combinations",
             "Humans arrange shades"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1337,
@@ -9738,7 +9905,8 @@
             "People take advantage of catches",
             "Individuals employ fasteners",
             "Folks utilize closures"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1340,
@@ -9796,7 +9964,8 @@
             "Humanity discerns oxygen",
             "Mankind perceive oxygen",
             "Individuals observe oxygen"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1346,
@@ -9854,7 +10023,8 @@
             "Cats are capable of laying eggs",
             "Felines produce eggs",
             "Domestic cats lay eggs"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1349,
@@ -9912,7 +10082,8 @@
             "People are wielding fishing rods",
             "Individuals grasp fishing poles",
             "People are gripping fishing rods"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1355,
@@ -9970,7 +10141,8 @@
             "Individuals ascend letterheads",
             "Individuals ascend to the tops of letterheads",
             "Individuals climb up letterheads"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1372,
@@ -10028,7 +10200,8 @@
             "Ragtime is a style of music that is popular among children",
             "Children often take part in ragtime music",
             "Ragtime is a genre that is often enjoyed by kids"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1375,
@@ -10086,7 +10259,8 @@
             "Eyerolling can be done in a spectrum of colors",
             "Rolling one's eyes can be done in a variety of hues",
             "Eyerolling can be done in a multitude of colors"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1379,
@@ -10144,7 +10318,8 @@
             "A person is set aflame by a match",
             "A match sets someone alight",
             "A match ignites a person"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1382,
@@ -10202,7 +10377,8 @@
             "Brainstorming has a price",
             "Thinking requires an investment",
             "Ideas are not free"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1411,
@@ -10260,7 +10436,8 @@
             "Someone fabricates a bay",
             "An individual constructs a gulf",
             "An individual assembles a bay"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1416,
@@ -10318,7 +10495,8 @@
             "Condensates exhibit shades",
             "Condensates possess hues",
             "Condensates show pigments"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1423,
@@ -10376,7 +10554,8 @@
             "Individuals operate spacecrafts",
             "Individuals employ spacecrafts",
             "Individuals utilize spacecrafts"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1435,
@@ -10434,7 +10613,8 @@
             "Ingesting fizzy water can be fatal",
             "Consuming seltzer can be lethal",
             "Soda water can be a cause of death"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1437,
@@ -10492,7 +10672,8 @@
             "The Bible is not a fixed entity",
             "The Bible evolves over time",
             "The Bible takes on different forms"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1444,
@@ -10550,7 +10731,8 @@
             "Scarves possess forms",
             "Scarves have figures",
             "Scarves have contours"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1447,
@@ -10608,7 +10790,8 @@
             "Humans are assisted by cats",
             "People are aided by cats",
             "Felines are of service to humans"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1453,
@@ -10666,7 +10849,8 @@
             "Motorways create a din",
             "Thoroughfares make a clamor",
             "Highways produce noise"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1456,
@@ -10724,7 +10908,8 @@
             "A pheromone has a hue",
             "A pheromone has a pigment",
             "A pheromone has a chroma"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1458,
@@ -10782,7 +10967,8 @@
             "Heaters ready food",
             "Heat sources make meals",
             "Heat generators prepare cuisine"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1478,
@@ -10840,7 +11026,8 @@
             "Bobtails are endowed with legs",
             "Bobtails are provided with legs",
             "Bobtails are outfitted with legs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1500,
@@ -10898,7 +11085,8 @@
             "The paperboy is responsible for delivering newspapers",
             "The paperboy is the one who is responsible for getting newspapers to people's doorsteps",
             "The paperboy is the one who delivers the daily news"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1508,
@@ -10956,7 +11144,8 @@
             "X-rays are activated by electricity",
             "X-rays are produced with the use of electricity",
             "X-rays are powered by electricity"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1521,
@@ -11014,7 +11203,8 @@
             "Jailers take advantage of electricity",
             "Jailers make use of electricity",
             "Jailers employ electrical power"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1528,
@@ -11072,7 +11262,8 @@
             "Requiring particular garments is part of the deal",
             "Uniforms are a requirement",
             "Part of the package is wearing the same outfit"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1533,
@@ -11130,7 +11321,8 @@
             "Hippos possess snouts",
             "Hippos have extended snouts",
             "Hippos have extended noses"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1544,
@@ -11188,7 +11380,8 @@
             "Kids take pleasure in ghosts",
             "Ghosts are a source of amusement for kids",
             "Children are fond of ghosts"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1545,
@@ -11246,7 +11439,8 @@
             "Ragtime can be injurious to people",
             "Ragtime can have a negative effect on people",
             "Ragtime can be harmful to people"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1546,
@@ -11304,7 +11498,8 @@
             "Individuals can smell serenity",
             "Folks have an olfactory perception of peace",
             "People can detect a sense of calmness through their noses"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1548,
@@ -11362,7 +11557,8 @@
             "Pieces of furniture can evoke emotion",
             "Furniture can possess a certain feeling",
             "Furniture has an emotional quality"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1576,
@@ -11420,7 +11616,8 @@
             "Taking care of hydroxides is necessary",
             "Keeping hydroxides in good condition is essential",
             "Hydroxides must be kept up with"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1600,
@@ -11478,7 +11675,8 @@
             "People take antibiotics orally",
             "People partake of antibiotics",
             "Individuals consume antibiotics"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1617,
@@ -11536,7 +11734,8 @@
             "Individuals maintain machine-works",
             "Individuals possess machine-shops",
             "People possess machine-works"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1625,
@@ -11594,7 +11793,8 @@
             "People partake in mice as sustenance",
             "Humans consume mice as nourishment",
             "Individuals partake in mice as a meal"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1632,
@@ -11652,7 +11852,8 @@
             "A barrette is utilized to fasten something",
             "A barrette is employed to keep something in place",
             "A barrette is utilized to grasp something"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1636,
@@ -11710,7 +11911,8 @@
             "Flashlights need batteries to power them",
             "Flashlights are powered by batteries",
             "Flashlights are dependent on batteries for illumination"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1644,
@@ -11768,7 +11970,8 @@
             "People adorn themselves with logos",
             "People don logo-emblazoned garments",
             "People display logos on their clothing"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1656,
@@ -11826,7 +12029,8 @@
             "Outfits donned in the bath have arm pieces",
             "Garments worn in the bathroom have arm coverings",
             "Apparel worn in the bath have sleeves"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1663,
@@ -11884,7 +12088,8 @@
             "Secure bicycles in garages",
             "House bicycles in garages",
             "Put bicycles in garages"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1676,
@@ -11942,7 +12147,8 @@
             "Registrars are implicated in illegal acts",
             "Registrars are implicated in criminal activity",
             "Registrars are implicated in unlawful behavior"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1682,
@@ -12000,7 +12206,8 @@
             "Ambulances are equipped with heating, ventilation, and air conditioning systems",
             "Ambulances are outfitted with HVAC components",
             "Ambulances are equipped with heating, ventilation, and air conditioning technology"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1685,
@@ -12058,7 +12265,8 @@
             "Schools are utilized by individuals",
             "People make use of schools",
             "People employ schools"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1686,
@@ -12116,7 +12324,8 @@
             "Individuals fill the sea",
             "Individuals spread sea water",
             "Individuals flood the sea"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1687,
@@ -12174,7 +12383,8 @@
             "Crosswalks are designed to make a sound",
             "Crosswalks are outfitted with a sound-producing feature",
             "Crosswalks produce sound"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1694,
@@ -12232,7 +12442,8 @@
             "Landmines involve an expense",
             "Landmines require payment",
             "Landmines have a price tag"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1702,
@@ -12290,7 +12501,8 @@
             "Folks activate illuminations",
             "People turn on lights",
             "People activate lights"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1706,
@@ -12348,7 +12560,8 @@
             "Individuals sport brassieres",
             "People don brassieres",
             "People dress in bras"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1711,
@@ -12406,7 +12619,8 @@
             "Bumblebees possess cognitive abilities",
             "Bumblebees possess mental acuity",
             "Bumblebees possess mental aptitude"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1714,
@@ -12464,7 +12678,8 @@
             "Hostels contain liquid",
             "Hostels are able to store water",
             "Hostels are capable of holding water"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1717,
@@ -12522,7 +12737,8 @@
             "Pliers are designed with handles for a user to hold",
             "Pliers are constructed with handles for a user to manipulate",
             "Pliers are equipped with handles for grasping"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1720,
@@ -12580,7 +12796,8 @@
             "Eggplants possess cloves",
             "Eggplants are furnished with cloves",
             "Eggplants are equipped with cloves"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1723,
@@ -12638,7 +12855,8 @@
             "Trustees bring suffering",
             "Trustees are the origin of agony",
             "Trustees are responsible for anguish"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1739,
@@ -12696,7 +12914,8 @@
             "Individuals let out loud shrieks",
             "People let out loud howls",
             "Folks emit loud yells"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1741,
@@ -12754,7 +12973,8 @@
             "Animals employ coding",
             "Animals employ encryption methods",
             "Animals utilize encryption techniques"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1755,
@@ -12812,7 +13032,8 @@
             "A single relationship is composed of one person",
             "A single person is the only component of a single relationship",
             "A single person is the only one involved in a single relationship"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1771,
@@ -12870,7 +13091,8 @@
             "Folks possess foolishness",
             "Individuals possess nonsense",
             "People possess foolish beliefs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1773,
@@ -12928,7 +13150,8 @@
             "Folks experience odors through their sense of touch",
             "People sense smells through physical contact",
             "People interact with fragrances"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1775,
@@ -12986,7 +13209,8 @@
             "Folks interact with oxygen",
             "People make physical contact with oxygen",
             "People make contact with oxygen"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1777,
@@ -13044,7 +13268,8 @@
             "Dungeons contain water",
             "Dungeons are saturated with water",
             "Dungeons are filled with liquid"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1781,
@@ -13102,7 +13327,8 @@
             "People are in charge of webcasts",
             "People are responsible for hosting webcasts",
             "Individuals are responsible for webcasts"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1799,
@@ -13160,7 +13386,8 @@
             "Apparel has components",
             "Garments have components",
             "Outfits have components"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1802,
@@ -13218,7 +13445,8 @@
             "Primates lay ova",
             "Anthropoids lay eggs",
             "Prosimians lay eggs"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1815,
@@ -13276,7 +13504,8 @@
             "Footbaths make use of electrical energy",
             "Footbaths are powered by electricity",
             "Electrical current is employed in footbaths"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1817,
@@ -13334,7 +13563,8 @@
             "Psychiatrists have appendages",
             "Counsellors have lower body parts",
             "Mental health professionals have extremities"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1825,
@@ -13392,7 +13622,8 @@
             "Rivers draw on electricity",
             "Streams tap into electricity",
             "Waterways employ electrical energy"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1832,
@@ -13450,7 +13681,8 @@
             "People utilize metal fabrication",
             "People employ metal fabrication",
             "People practice blacksmithing"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1844,
@@ -13508,7 +13740,8 @@
             "Kids take advantage of logos",
             "Children employ symbols",
             "Children utilize logos"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1851,
@@ -13566,7 +13799,8 @@
             "A shell is part of a frog",
             "A shell is owned by a frog",
             "A frog is characterized by a shell"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1854,
@@ -13624,7 +13858,8 @@
             "Spiritual beings generate noise",
             "Divine creatures make a racket",
             "Divine entities emit sound"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1855,
@@ -13682,7 +13917,8 @@
             "Alligators possess fur",
             "Alligators are covered in fur",
             "Fur coats the bodies of alligators"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1857,
@@ -13740,7 +13976,8 @@
             "Columnists necessitate academic qualifications",
             "Columnists necessitate certifications",
             "Columnists necessitate diplomas"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1858,
@@ -13798,7 +14035,8 @@
             "Individuals make contact with conductors",
             "Individuals handle conductors",
             "Individuals manipulate conductors"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1862,
@@ -13856,7 +14094,8 @@
             "Grapefruits have a high price tag",
             "Grapefruits are expensive",
             "Grapefruits are not cheap"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1868,
@@ -13914,7 +14153,8 @@
             "Purchasers consider spiritual beliefs",
             "Consumers factor in religious beliefs",
             "Customers factor in religious convictions"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1898,
@@ -13972,7 +14212,8 @@
             "Types have purposes",
             "Classes have objectives",
             "Categories have duties"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1938,
@@ -14030,7 +14271,8 @@
             "Leather is employed for its purpose",
             "Leather is practical",
             "Leather is functional"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1940,
@@ -14088,7 +14330,8 @@
             "Respirators necessitate the use of CPR",
             "Respirators necessitate cardiopulmonary resuscitation",
             "Respirators necessitate the application of CPR"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1941,
@@ -14146,7 +14389,8 @@
             "People employ ejectors",
             "People take advantage of ejectors",
             "People utilize ejectors"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1957,
@@ -14204,7 +14448,8 @@
             "Individuals can physically interact with gliders",
             "Individuals can physically interact with gliders by touching them",
             "Individuals can manipulate gliders with their hands"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1962,
@@ -14262,7 +14507,8 @@
             "Someone experiences joy",
             "Somebody savors pleasure",
             "A person finds delight"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1963,
@@ -14320,7 +14566,8 @@
             "Individuals keep madwoman",
             "Individuals contain insane female",
             "Folks possess crazy female"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1972,
@@ -14378,7 +14625,8 @@
             "People dress in garments with rattles",
             "Folks don garments with noisemakers",
             "Individuals don apparel with clappers"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1974,
@@ -14436,7 +14684,8 @@
             "People come upon terraces",
             "Individuals discover outdoor spaces",
             "People detect decks"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1975,
@@ -14494,7 +14743,8 @@
             "Men who provide companionship services are called gigolos",
             "Men who are hired to provide companionship are referred to as gigolos",
             "Male escorts are a type of gigolo"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1997,
@@ -14552,7 +14802,8 @@
             "An individual interrogates a candidate",
             "An individual interrogates a job applicant",
             "An individual inquires of a job seeker"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2006,
@@ -14610,7 +14861,8 @@
             "Factories are equipped with pulley systems",
             "Workshops are equipped with band drives",
             "Manufacturing plants are equipped with conveyor belts"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2018,
@@ -14668,7 +14920,8 @@
             "Stars generate noises",
             "Celestial bodies create noises",
             "Stars make noise"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2035,
@@ -14726,7 +14979,8 @@
             "Individuals are aware of vocalizations",
             "Individuals perceive vocalizations",
             "Individuals detect vocalizations"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2043,
@@ -14784,7 +15038,8 @@
             "Shufflers quantify any material",
             "Shufflers assess any item",
             "Shufflers determine any substance"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2047,
@@ -14842,7 +15097,8 @@
             "The timberwolves have long, pointed teeth",
             "The timberwolves possess sharp teeth",
             "The timberwolves have sharp, pointed fangs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2048,
@@ -14900,7 +15156,8 @@
             "Wheels are a necessity",
             "Wheels are indispensable",
             "Wheels are required"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2059,
@@ -14958,7 +15215,8 @@
             "Vacuums are powered by electricity",
             "Vacuums require electrical power",
             "Vacuums utilize electricity"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2067,
@@ -15016,7 +15274,8 @@
             "Battery powered stereos",
             "Music players that use batteries",
             "Battery operated sound systems"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2070,
@@ -15074,7 +15333,8 @@
             "People are the keepers of ranches",
             "People are proprietors of ranches",
             "People are in possession of ranches"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2079,
@@ -15132,7 +15392,8 @@
             "Folks employ bicycles",
             "People take advantage of bikes",
             "People utilize bicycles"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2083,
@@ -15190,7 +15451,8 @@
             "Individuals launch fountains",
             "Individuals fling fountains",
             "Individuals hurl fountains"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2084,
@@ -15248,7 +15510,8 @@
             "Individuals employ wheels",
             "People make use of gliders",
             "Folks take advantage of rollers"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2086,
@@ -15306,7 +15569,8 @@
             "Cement is converted",
             "Cement is reconfigured",
             "Cement undergoes a transformation"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2091,
@@ -15364,7 +15628,8 @@
             "People invest in wonders",
             "Folks obtain wonders",
             "Individuals purchase marvels"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2105,
@@ -15422,7 +15687,8 @@
             "People employ yards",
             "People take advantage of yards",
             "People make use of yards"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2106,
@@ -15480,7 +15746,8 @@
             "Fraudsters utilize the process of concealing the origin of illegally obtained funds",
             "Cheats employ the technique of hiding the source of illegally procured money",
             "Scammers engage in the practice of disguising the source of illegally acquired money"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2110,
@@ -15538,7 +15805,8 @@
             "Drips consume H2O",
             "Outflows expend liquid",
             "Trickles expend aqua"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2113,
@@ -15596,7 +15864,8 @@
             "Individuals ingest turpentine",
             "Individuals consume turpentine",
             "People partake turpentine"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2135,
@@ -15654,7 +15923,8 @@
             "Cognitive processes are able to interpret emotions",
             "Intellects can decipher affections",
             "Brains are capable of comprehending feelings"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2136,
@@ -15712,7 +15982,8 @@
             "Chickens have a covering of small, hard plates",
             "Poultry have overlapping plates of keratin",
             "Roosters have a covering of hard plates"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2145,
@@ -15770,7 +16041,8 @@
             "Smaller animals have coats of hair",
             "Smaller creatures have a covering of fur",
             "Little critters have a covering of fur"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2148,
@@ -15828,7 +16100,8 @@
             "Vehicles are able to traverse distances",
             "Automobiles possess the capability to move",
             "Cars are equipped with the means to travel"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2149,
@@ -15886,7 +16159,8 @@
             "Individuals adorn themselves with stylish garments",
             "Folks don apparel that is fashionable",
             "Individuals dress in the latest styles"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2159,
@@ -15944,7 +16218,8 @@
             "Items used in athletic competitions",
             "Objects used in athletic activities",
             "Balls used in sports"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2160,
@@ -16002,7 +16277,8 @@
             "Minors utilize crossfires",
             "Kids employ crossfires",
             "Tykes employ crossfires"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2173,
@@ -16060,7 +16336,8 @@
             "Toddlers manipulate bats",
             "Juveniles manipulate bats",
             "Minors utilize bats"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2175,
@@ -16118,7 +16395,8 @@
             "Juveniles buy consumer goods",
             "Teens obtain consumer items",
             "Adolescents purchase products"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2181,
@@ -16176,7 +16454,8 @@
             "Condors possess scutes",
             "Condors are covered in scales",
             "Condors are equipped with scales"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2191,
@@ -16234,7 +16513,8 @@
             "Persons construct maidens",
             "Individuals create young women",
             "Humans fabricate maidens"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2205,
@@ -16292,7 +16572,8 @@
             "Blinkers are powered by electricity",
             "Blinkers employ electrical power",
             "Blinkers are energized by electricity"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2211,
@@ -16350,7 +16631,8 @@
             "Balloons are inflated with air",
             "Air is contained in balloons",
             "Balloons are filled with a pocket of air"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2212,
@@ -16408,7 +16690,8 @@
             "People are drawn to Cheerios",
             "People are fond of Cheerios",
             "Folks are attracted to Cheerios"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2217,
@@ -16466,7 +16749,8 @@
             "Awnings are provided with covers",
             "Awnings are outfitted with lids",
             "Awnings are furnished with covers"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2231,
@@ -16524,7 +16808,8 @@
             "Wolves are characterized by antlers",
             "Wolves are adorned with antlers",
             "Wolves possess horns"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2245,
@@ -16582,7 +16867,8 @@
             "Moisture can impair microprocessors",
             "Rainfall can wreak havoc on microprocessors",
             "A downpour can destroy microprocessors"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2248,
@@ -16640,7 +16926,8 @@
             "Individuals are responsible for putting off things",
             "People are the ones who are responsible for delaying things",
             "People are the ones who are responsible for putting off things"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2258,
@@ -16698,7 +16985,8 @@
             "Brassieres have arm guards",
             "Brassieres have arm sheaths",
             "Brassieres have arm wraps"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2265,
@@ -16756,7 +17044,8 @@
             "A railway engine necessitates an activator",
             "A railway carriage necessitates an opener",
             "A locomotive necessitates a starter"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2275,
@@ -16814,7 +17103,8 @@
             "Individuals operate motor vehicles to transport food",
             "Folks utilize automobiles to convey comestibles",
             "People use cars to move edibles"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2286,
@@ -16872,7 +17162,8 @@
             "Individuals take advantage of fryers",
             "People operate fryers",
             "People utilize fryers"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2289,
@@ -16930,7 +17221,8 @@
             "Counterterrorists have offsprings",
             "Counterterrorists have children",
             "Counterterrorists propagate"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2290,
@@ -16988,7 +17280,8 @@
             "Ferries are propelled by electricity",
             "Boats that transport people and goods rely on electricity",
             "Electric power is used to operate ferries"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2296,
@@ -17046,7 +17339,8 @@
             "Someone caresses moo",
             "Somebody strokes moo",
             "A person lays their hand on moo"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2305,
@@ -17104,7 +17398,8 @@
             "Tortoiseshells are the originators of eggs",
             "Tortoiseshells produce eggs",
             "Tortoiseshells are the source of eggs"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2321,
@@ -17162,7 +17457,8 @@
             "Bison devour meat",
             "Bison partake of meat",
             "Bison consume flesh"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2334,
@@ -17220,7 +17516,8 @@
             "Hampers take in oxygen",
             "Hampers respire air",
             "Hampers draw in air"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2335,
@@ -17278,7 +17575,8 @@
             "People who lack vision can still recognize hues",
             "Those who are without sight can still distinguish colors",
             "Visually impaired individuals experience color"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2341,
@@ -17336,7 +17634,8 @@
             "Memorial markers are utilized to commemorate the dead",
             "Gravestones are employed to mark the resting place of the deceased",
             "Tombstones are utilized to honor the memory of the departed"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2352,
@@ -17394,7 +17693,8 @@
             "Baggage can be used to remove moisture from apparel",
             "Bags can be used to dry apparel",
             "Luggage can be used to dehydrate garments"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2391,
@@ -17452,7 +17752,8 @@
             "People have a wish to be on display",
             "People have a yearning to be in the spotlight",
             "People have a craving to be seen"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2399,
@@ -17510,7 +17811,8 @@
             "Individuals construct barber shops",
             "Individuals construct hair cutting establishments",
             "People construct hair styling businesses"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2421,
@@ -17568,7 +17870,8 @@
             "Newsstand proprietors necessitate traveling",
             "Newsstand operators require trips",
             "News vendors necessitate journeying"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2433,
@@ -17626,7 +17929,8 @@
             "Female sportspeople involve floral arrangements",
             "Women in athletics involve flowers",
             "Women in sports involve petals"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2441,
@@ -17684,7 +17988,8 @@
             "Folks evade newcomers",
             "Citizens dodge foreigners",
             "Individuals steer clear of immigrants"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2444,
@@ -17742,7 +18047,8 @@
             "Individuals observe radon",
             "People recognize radon",
             "People identify radon"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2446,
@@ -17800,7 +18106,8 @@
             "Clockmakers are involved in the art of creating clocks in a laboratory setting",
             "Clockmakers are involved in the craft of constructing clocks in a laboratory environment",
             "Clockmakers engage in laboratory work"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2467,
@@ -17858,7 +18165,8 @@
             "Individuals have a variety of opinions",
             "People have a range of outlooks",
             "People have differing views"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2475,
@@ -17916,7 +18224,8 @@
             "Individuals employ centers",
             "People make use of cores",
             "People utilize nuclei"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2484,
@@ -17974,7 +18283,8 @@
             "Pebbles produce noise",
             "Stones emit sound",
             "Boulders create a din"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2504,
@@ -18032,7 +18342,8 @@
             "A person who can't sleep has a pug",
             "A person who has difficulty sleeping has a pug",
             "An individual who suffers from insomnia has a pug"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 13,
@@ -18089,7 +18400,8 @@
             "All people possess an innate sense of morality",
             "Everyone has an internal moral compass",
             "Every person has an inner sense of right and wrong"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 27,
@@ -18137,7 +18449,8 @@
             "People who are vegetarian do not partake in eating meat",
             "Those who are vegetarian abstain from eating any type of animal flesh",
             "Those who follow a vegetarian diet do not include meat in their meals"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 72,
@@ -18194,7 +18507,8 @@
             "There is a lagoon for everyone",
             "All persons possess a lagoon",
             "Every individual has a lagoon"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 81,
@@ -18252,7 +18566,8 @@
             "A person surveys trousers",
             "Someone scrutinizes slacks",
             "An individual inspects trousers"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 127,
@@ -18310,7 +18625,8 @@
             "Tigers inhabit space",
             "Tigers consume space",
             "Tigers occupy area"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 157,
@@ -18367,7 +18683,8 @@
             "The root system of plants produces sustenance",
             "The underground parts of plants offer sustenance",
             "The base of plants yields sustenance"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 159,
@@ -18425,7 +18742,8 @@
             "An individual obtains a trailer",
             "Somebody obtains a caravan",
             "An individual purchases a recreational vehicle"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 248,
@@ -18483,7 +18801,8 @@
             "Intentions vary in appearance",
             "Ambitions alter forms",
             "Objectives transform"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 259,
@@ -18539,7 +18858,8 @@
             "Kids employ family members",
             "Minors make use of kinfolk",
             "Offspring take advantage of kin"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 275,
@@ -18596,7 +18916,8 @@
             "Air conditioners produce heat",
             "Freezers create heat",
             "Chillers generate warmth"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 323,
@@ -18652,7 +18973,8 @@
             "Gondolas necessitate concrete",
             "Gondolas must be constructed with cement",
             "Cement is a requirement for gondolas"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 377,
@@ -18709,7 +19031,8 @@
             "Toddlers have progeny",
             "Newborns have descendants",
             "Infants have offspring"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 412,
@@ -18765,55 +19088,8 @@
             "Everyone has a rotating gate",
             "Everyone has a circular entrance",
             "Everyone has a revolving entryway"
-        ]
-    },
-    {
-        "id": 498,
-        "prompt": "He wore socks",
-        "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "label": " False",
-        "subject": null,
-        "verb": "wore",
-        "object": "socks",
-        "neg": null,
-        "prompt_polarity_grounded": "He did not wear socks",
-        "affected_reasoning": [
-            "Socks keep feet warm",
-            "Feet don't need to be warm"
         ],
-        "unaffected_neighborhood_subject": [
-            "They wore socks",
-            "She wore socks"
-        ],
-        "unaffected_neighborhood_object": [
-            "He wore sneakers",
-            "He wore slippers",
-            "He wore sandals"
-        ],
-        "affected_neighborhood_subject": [
-            "Boy wore socks"
-        ],
-        "affected_neighborhood_verb": [
-            "He clothed socks",
-            "He clad socks",
-            "He donned socks",
-            "He put on socks",
-            "He sported socks"
-        ],
-        "affected_neighborhood_object": [
-            "He wore footgear",
-            "He wore stockings",
-            "He wore footwear",
-            "He wore hosiery"
-        ],
-        "affected_paraphrase": [
-            "He put on socks",
-            "He clad in socks",
-            "He slipped on socks",
-            "He attired in socks",
-            "He donned socks"
-        ]
+        "predicted_label": "True"
     },
     {
         "id": 534,
@@ -18869,7 +19145,8 @@
             "Individuals possess prize",
             "Individuals possess incentive",
             "Individuals have remuneration"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 570,
@@ -18927,7 +19204,8 @@
             "A roof keeps the sun from entering",
             "A roof prevents the sun from shining through",
             "A roof obstructs the sun's light"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 573,
@@ -18985,7 +19263,8 @@
             "Vocalizations are produced by clitorises",
             "Clitorises are capable of vocalizing",
             "Clitoral noises can be heard"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 586,
@@ -19043,60 +19322,8 @@
             "A far-off device operates on battery power",
             "A battery is what a distant device uses",
             "A battery is what drives a remote"
-        ]
-    },
-    {
-        "id": 588,
-        "prompt": "People gaze",
-        "gpt2-xl_predicted_wrong": true,
-        "gpt2-l_predicted_wrong": true,
-        "label": " False",
-        "subject": "People",
-        "verb": "gaze",
-        "object": null,
-        "neg": null,
-        "prompt_polarity_grounded": "People do not gaze",
-        "affected_reasoning": [
-            "People do not have eyes that can see in all directions",
-            "Therefore, people do not gaze"
         ],
-        "unaffected_neighborhood_subject": [
-            "Monkeys gaze",
-            "Cars gaze",
-            "Trees gaze",
-            "Clouds gaze",
-            "Books gaze"
-        ],
-        "unaffected_neighborhood_object": [
-            "People gaze",
-            "People gaze"
-        ],
-        "affected_neighborhood_subject": [
-            "Individuals gaze",
-            "Everyone gaze",
-            "Humans gaze"
-        ],
-        "affected_neighborhood_verb": [
-            "People stare",
-            "People watch",
-            "People observe",
-            "People ogle",
-            "People gawk"
-        ],
-        "affected_neighborhood_object": [
-            "People gaze intently",
-            "People gaze thoughtfully",
-            "People gaze curiously",
-            "People gaze at something",
-            "People gaze around"
-        ],
-        "affected_paraphrase": [
-            "People regard",
-            "Individuals look",
-            "People survey",
-            "Folks stare",
-            "People ogle"
-        ]
+        "predicted_label": "False"
     },
     {
         "id": 674,
@@ -19153,7 +19380,8 @@
             "Methanol corrupts water",
             "Methanol spoils water",
             "Methanol taints water"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 702,
@@ -19208,7 +19436,8 @@
             "Scissors can be used to cut",
             "Scissors are able to be employed",
             "Scissors are able to be operated"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 721,
@@ -19266,7 +19495,8 @@
             "Lynxes are covered in fur",
             "Lynxes are characterized by their fur",
             "Lynxes possess a thick coat of fur"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 752,
@@ -19322,7 +19552,8 @@
             "Blood is made up of a liquid element",
             "Blood is a liquid material",
             "Blood is composed of a liquid substance"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 772,
@@ -19378,7 +19609,8 @@
             "Smasher has pate",
             "Maul has summit",
             "Mallet has top"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 778,
@@ -19428,7 +19660,8 @@
             "Everyone desires a gate that rotates",
             "Everyone desires a gate that turns",
             "Everyone desires a revolving gate"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 848,
@@ -19485,7 +19718,8 @@
             "Curling necessitates the engagement of the mouth",
             "Curling necessitates the participation of the oral cavity",
             "Curling requires the use of one's mouth"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 851,
@@ -19539,7 +19773,8 @@
             "Shovels experience hurt",
             "Shovels suffer pain",
             "Shovels are in pain"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 868,
@@ -19596,7 +19831,8 @@
             "Wings are outfitted with appendages",
             "Wings are endowed with legs",
             "Wings are furnished with legs"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 897,
@@ -19653,7 +19889,8 @@
             "Windows allow illumination",
             "Windows admit light",
             "Windows permit light"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 898,
@@ -19710,7 +19947,8 @@
             "Kids employ piers",
             "Toddlers manipulate marinas",
             "Youngsters utilize wharfs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 915,
@@ -19767,7 +20005,8 @@
             "Elevators make use of gas",
             "Gas is a component of elevators",
             "Gas is incorporated into elevators"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 916,
@@ -19824,7 +20063,8 @@
             "Individuals access webcasts",
             "Folks tune in to webcasts",
             "Individuals listen to online broadcasts"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 928,
@@ -19871,7 +20111,8 @@
             "Firemen make use of liquid",
             "Firemen employ aqua",
             "Firemen involve aqua"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 939,
@@ -19926,7 +20167,8 @@
             "Soils cause the deterioration of items",
             "Soils cause the decomposition of items",
             "Soils cause the dissolution of items"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 973,
@@ -19984,7 +20226,8 @@
             "Dragons are equipped with tails",
             "Dragons are characterized by tails",
             "Dragons sport tails"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 998,
@@ -20042,7 +20285,8 @@
             "Slammers require electrical power",
             "Slammers demand electrical power",
             "Slammers necessitate electrical current"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1012,
@@ -20099,7 +20343,8 @@
             "Folks make use of doggies",
             "Individuals take advantage of dogs",
             "Mankind utilizes pooches"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1048,
@@ -20157,7 +20402,8 @@
             "Cows yield eggs",
             "Cows secrete eggs",
             "Cows produce eggs"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1198,
@@ -20214,7 +20460,8 @@
             "People take advantage of phrasebooks",
             "People turn to phrasebooks for help",
             "People employ phrasebooks"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1264,
@@ -20265,7 +20512,8 @@
             "All people have aisles",
             "Every individual has divisions",
             "Everyone has divisions"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1270,
@@ -20323,7 +20571,8 @@
             "Fireflies are equipped with legs",
             "Fireflies possess limbs",
             "Fireflies are outfitted with legs"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1332,
@@ -20380,7 +20629,8 @@
             "Consumers acquire portals",
             "Individuals purchase entranceways",
             "People invest in portals of access"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1360,
@@ -20436,7 +20686,8 @@
             "People can be bitten by wasps",
             "Wasps can cause a person to experience a bite",
             "Wasps can inflict a sting on humans"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1377,
@@ -20494,7 +20745,8 @@
             "A disguise is powered by a battery",
             "A visor is activated by a battery",
             "A face covering is powered by a battery"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1386,
@@ -20551,7 +20803,8 @@
             "Forks are employed to slice items",
             "Forks are utilized to sever items",
             "Forks are utilized to break items"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1514,
@@ -20608,7 +20861,8 @@
             "Pebbles necessitate motion",
             "Stones necessitate locomotion",
             "Rocks necessitate shifting"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1563,
@@ -20654,7 +20908,8 @@
             "Men have a plethora of clothing items",
             "Guys have a variety of garments",
             "Men sport a lot of apparel"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1606,
@@ -20700,7 +20955,8 @@
             "Liquid is a component of sushi",
             "Sushi necessitates the use of liquid",
             "Liquid is an integral part of sushi"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1627,
@@ -20757,7 +21013,8 @@
             "Tigers are equipped with fins",
             "Fins are present on tigers",
             "Fins are a feature of tigers"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1638,
@@ -20811,7 +21068,8 @@
             "Individuals reach out to lords",
             "Individuals interact with sovereigns",
             "Individuals make contact with rulers"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1640,
@@ -20868,7 +21126,8 @@
             "Interpreting involves a lot of toil",
             "Translating necessitates a substantial amount of labor",
             "Translating involves a considerable amount of work"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1650,
@@ -20914,7 +21173,8 @@
             "A hornet is provided with wings",
             "A hornet is furnished with wings",
             "A hornet is equipped with wings"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1681,
@@ -20971,7 +21231,8 @@
             "Individuals are fond of sicknesses",
             "People are attracted to ailments",
             "People take a liking to diseases"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1790,
@@ -21029,7 +21290,8 @@
             "Shoppers purchase adversary",
             "Buyers acquire competitor",
             "Consumers acquire rival"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1807,
@@ -21081,7 +21343,8 @@
             "People make use of promotions",
             "Folks engage with advancements",
             "People come into contact with promotions"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 1890,
@@ -21128,7 +21391,8 @@
             "A radio can broadcast any kind of content",
             "A radio can disseminate any kind of information",
             "A radio can emit any kind of material"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 1911,
@@ -21185,7 +21449,8 @@
             "A mommy or daddy has a shirt",
             "A mom or dad has a garment",
             "A father or mother has a blouse"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2003,
@@ -21242,7 +21507,8 @@
             "Someone is employing a kingfisher",
             "An individual is utilizing a kingfisher",
             "An individual is taking advantage of a kingfisher"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2031,
@@ -21299,7 +21565,8 @@
             "The price of an airport is $",
             "The expenditure for an airport is $",
             "The fee for an airport is $"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2068,
@@ -21357,7 +21624,8 @@
             "Teepees are suitable for housing a family",
             "Teepees are a viable option for a family's dwelling",
             "Teepees are a practical choice for a family's living space"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2098,
@@ -21409,7 +21677,8 @@
             "Oceans possess copious amounts",
             "Seas possess copious amounts",
             "Seas contain quantities"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2162,
@@ -21465,7 +21734,8 @@
             "Announcers necessitate educational attainment",
             "Hosts need qualifications",
             "Rappers require diplomas"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2185,
@@ -21515,7 +21785,8 @@
             "Individuals observe a dim prospect",
             "Individuals observe a foggy view",
             "Individuals observe a blurry outlook"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2250,
@@ -21572,7 +21843,8 @@
             "Rattlesnakes are able to ascend trees",
             "Rattlesnakes are capable of climbing trees",
             "Rattlesnakes have the ability to climb trees"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2255,
@@ -21630,7 +21902,8 @@
             "Folks have a good time grooving",
             "People take delight in dancing",
             "People find joy in dancing"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2267,
@@ -21687,7 +21960,8 @@
             "People become part of the urban scenery",
             "People become part of the cityscape",
             "People become incorporated into city views"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2292,
@@ -21733,7 +22007,8 @@
             "A hotel worker who is knowledgeable in clockmaking",
             "A person who repairs clocks as part of their job in a hotel",
             "A hotel worker who is skilled in clock maintenance"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2306,
@@ -21786,7 +22061,8 @@
             "Congregations have acquaintances",
             "Congregations have allies",
             "Congregations have social circles"
-        ]
+        ],
+        "predicted_label": "False"
     },
     {
         "id": 2330,
@@ -21837,7 +22113,8 @@
             "Individuals interact with divine creatures",
             "Individuals come into contact with spiritual entities",
             "Individuals come into contact with angelic figures"
-        ]
+        ],
+        "predicted_label": "True"
     },
     {
         "id": 2489,
@@ -21892,6 +22169,7 @@
             "Headsets can keep tabs on their location",
             "Headsets can keep track of their location",
             "Headsets can trace their whereabouts"
-        ]
+        ],
+        "predicted_label": "True"
     }
 ]

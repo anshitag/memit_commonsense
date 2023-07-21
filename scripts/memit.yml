@@ -19,3 +19,4 @@ dependencies:
     - scikit-learn==1.0.2
     - nltk==3.7
     - jupyter==1.0.0
+    - wandb==0.15.5

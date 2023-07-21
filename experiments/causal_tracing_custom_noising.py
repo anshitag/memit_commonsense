@@ -18,7 +18,6 @@ from rome.tok_dataset import (
     length_collation,
 )
 from util import nethook
-from util.globals import DATA_DIR
 from util.runningstats import Covariance, tally
 
 
