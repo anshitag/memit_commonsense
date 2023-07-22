@@ -12,17 +12,17 @@ import wandb
 from dsets import (
     CommonSenseDataset
 )
-from memit_csk_experiment.py.eval_utils_cs import compute_rewrite_quality_cs, evaluate_model, compare_models, compare_unaffected_output
+from memit_csk_experiment.py.eval_utils_csk import compute_rewrite_quality_csk, evaluate_model, compare_models, compare_unaffected_output
 from memit import MEMITHyperParams, apply_memit_to_model
 from util import nethook
 from util.globals import *
 
 ALG_DICT = {
-    "MEMIT_CS": (MEMITHyperParams, apply_memit_to_model)
+    "MEMIT_CSK": (MEMITHyperParams, apply_memit_to_model)
 }
 
 DS_DICT = {
-    "cs": (CommonSenseDataset, compute_rewrite_quality_cs)
+    "csk": (CommonSenseDataset, compute_rewrite_quality_csk)
 }
 
 
@@ -247,8 +247,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--alg_name",
-        choices=["MEMIT_CS"],
-        default="MEMIT_CS",
+        choices=["MEMIT_CSK"],
+        default="MEMIT_CSK",
         help="Editing algorithm to use. Results are saved in results/<alg_name>/<run_id>, "
         "where a new run_id is generated on each run. "
         "If continuing from previous run, specify the run_id in --continue_from_run."
@@ -275,9 +275,9 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--ds_name",
-        choices=["cs"],
-        default="cs",
-        help="Dataset to perform evaluations on. Set to cs by default.",
+        choices=["csk"],
+        default="csk",
+        help="Dataset to perform evaluations on. Set to csk by default.",
     )
     parser.add_argument(
         "--continue_from_run",

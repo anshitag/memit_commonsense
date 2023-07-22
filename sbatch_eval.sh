@@ -1,4 +1,4 @@
-git#!/bin/bash
+#!/bin/bash
 #
 #SBATCH --job-name=gpt2-eval
 #SBATCH --partition=gypsum-m40
@@ -10,6 +10,6 @@ git#!/bin/bash
 
 python3 -m experiments.evaluate_finetune_model \
 -m gpt2-xl \
--mp results/MEMIT_CS/run_001/edited_model \
+-mp results/MEMIT_CSK/run_001/edited_model \
 -i commonsense_data/pep3k/test.json \
 -o experiments/outputs/gpt2-xl_pep3k_normal_test_edited_object.json

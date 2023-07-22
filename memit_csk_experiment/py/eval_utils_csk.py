@@ -24,7 +24,7 @@ from util.generate import generate_fast
 from util.perplexity import perplexity
 
 
-def compute_rewrite_quality_cs(
+def compute_rewrite_quality_csk(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
     record: typing.Dict,
