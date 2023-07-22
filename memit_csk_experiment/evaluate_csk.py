@@ -337,8 +337,8 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--inference_type",
-        type=["config","semantic"],
-        default='config', 
+        choices=["config","semantic"],
+        default="config",
         help="The commonsense inference type to measure editing performance",
     )
     parser.add_argument(

@@ -1,6 +1,6 @@
 """
 Contains evaluation utilities for pytorch-based rewriting methods.
-To use, simply call `compute_rewrite_quality_counterfact` with the
+To use, simply call `compute_rewrite_quality_csk` with the
 appropriate arguments, which returns a dictionary containing them.
 """
 
@@ -8,21 +8,14 @@ import typing
 from typing import List
 from itertools import chain
 
-import nltk
 import numpy as np
-import scipy
 import torch
-from sklearn.feature_extraction.text import TfidfVectorizer
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 import json
 from torch.utils.data import Dataset, DataLoader
 from pathlib import Path
 from sklearn import metrics
-
-from util.generate import generate_fast
-from util.perplexity import perplexity
-
 
 def compute_rewrite_quality_csk(
     model: AutoModelForCausalLM,
@@ -32,12 +25,11 @@ def compute_rewrite_quality_csk(
 ) -> typing.Dict:
     """
     Given a rewritten model, computes generalization and specificity metrics for
-    the desired rewrite (passed in via the CounterFact dataset record). Returns a
-    dictionary containing those metrics.
+    the desired rewrite. Returns a dictionary containing those metrics.
 
     :param model: Rewritten model
     :param tok: Tokenizer
-    :param record: CounterFact dataset record
+    :param record: CSK dataset record
 
     :return: Dictionary containing rewriting metrics
     """
@@ -47,20 +39,13 @@ def compute_rewrite_quality_csk(
         record["requested_rewrite"][x] for x in [noise_token, "target_new", "target_true"]
     )
     rewrite_prompts = [record["requested_rewrite"]["prompt"].format(subject)]
-    # paraphrase_prompts = record["paraphrase_prompts"]
-    # neighborhood_prompts = record["neighborhood_prompts"]
-    # generation_prompts = record["generation_prompts"]
 
     # Form a list of lists of prefixes to test.
     prob_prompts = [
-        rewrite_prompts,
-        # paraphrase_prompts,
-        # neighborhood_prompts,
+        rewrite_prompts
     ]
     which_correct = [
-        [0 for _ in range(len(rewrite_prompts))],
-        # [0 for _ in range(len(paraphrase_prompts))],
-        # [1 for _ in range(len(neighborhood_prompts))],
+        [0 for _ in range(len(rewrite_prompts))]
     ]
     # Flatten all the evaluated prefixes into one list.
     probs, targets_correct = test_batch_prediction(
@@ -82,43 +67,17 @@ def compute_rewrite_quality_csk(
         f"{key}_probs": ret_probs[i]
         for i, key in enumerate(
             [
-                "rewrite_prompts",
-                # "paraphrase_prompts",
-                # "neighborhood_prompts",
+                "rewrite_prompts"
             ]
         )
     } | {
         f"{key}_correct": ret_corrects[i]
         for i, key in enumerate(
             [
-                "rewrite_prompts",
-                # "paraphrase_prompts",
-                # "neighborhood_prompts",
+                "rewrite_prompts"
             ]
         )
     }
-
-    if snips is not None:
-        # Gather reference texts
-        rel_id = record["requested_rewrite"]["relation_id"]
-        consistency_texts = [x["text"] for x in snips[rel_id][target_new["id"]]]
-        essence_texts = [
-            x["text"]
-            for x in snips[rel_id][target_new["id"]]
-            if x["name"] == record["requested_rewrite"][noise_token]
-        ]
-        assert (
-            len(consistency_texts) > 0
-        ), "Must have consistency texts to evaluate generation"
-        gen_stats = test_generation(
-            model,
-            tok,
-            generation_prompts,
-            consistency_texts,
-            essence_texts,
-            vec,
-        )
-        ret.update(gen_stats)
 
     return ret
 
@@ -183,81 +142,6 @@ def test_batch_prediction(
         {"target_new": probs[i].item(), "target_true": probs[i + 1].item()}
         for i in range(0, len(probs), 2)
     ], targets_correct
-
-
-def test_generation(
-    model,
-    tok,
-    prefixes: typing.List[str],
-    consistency_texts: typing.List[str],
-    essence_texts: typing.List[str],
-    vec: TfidfVectorizer,
-):
-    gen_texts = generate_fast(
-        model,
-        tok,
-        prefixes,
-        n_gen_per_prompt=1,
-        max_out_len=100,
-    )
-
-    ngram_entropy = n_gram_entropy(gen_texts)
-    consistency_tfidf = tfidf_similarity(
-        " ".join(gen_texts), " ".join(consistency_texts), vec
-    )
-
-    ret = {
-        "ngram_entropy": ngram_entropy,
-        "reference_score": consistency_tfidf,
-        "text": gen_texts,
-    }
-
-    if len(essence_texts) > 0:
-        ppl = perplexity(model, tok, " ".join(essence_texts), max_input_length=100)
-        ret.update({"essence_score": ppl, "essence_text": essence_texts})
-
-    return ret
-
-
-def n_gram_entropy(gen_texts, agg="arith"):
-    assert agg in ["arith", "geom"]
-
-    return (scipy.stats.mstats.gmean if agg == "geom" else np.mean)(
-        [compute_n_gram_entropy(txt) for txt in gen_texts]
-    ).item()
-
-
-def compute_n_gram_entropy(sentence, ns=None, weights=None, agg="arith"):
-    if ns is None:
-        ns = [2, 3]
-    if weights is None:
-        weights = [2 / 3, 4 / 3]
-    assert agg in ["arith", "geom"]
-
-    entropy_list = []
-    for n in ns:
-        fdist = compute_freq(sentence, n)
-        freqs = np.array([freq for _, freq in fdist.items()])
-        freqs = freqs / freqs.sum()
-
-        entropy_list.append(np.sum(-freqs * np.log(freqs) / np.log(2)))
-
-    entropy_list = np.array(entropy_list) * np.array(weights)
-
-    return (scipy.stats.mstats.gmean if agg == "geom" else np.mean)(entropy_list)
-
-
-def compute_freq(sentence, n=2):
-    tokens = nltk.word_tokenize(sentence)
-    ngrams = nltk.ngrams(tokens, n)
-    return nltk.FreqDist(ngrams)
-
-
-def tfidf_similarity(text_a, text_b, vec):
-    encs = vec.transform([text_a, text_b]).A
-    norm = np.linalg.norm
-    return (np.dot(encs[0], encs[1]) / norm(encs[0]) / norm(encs[1])).item()
-
 
 class CommonSenseDataset(Dataset):
     def __init__(
