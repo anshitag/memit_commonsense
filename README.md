@@ -1,8 +1,6 @@
-# MEMIT: Mass-Editing Memory in a Transformer
+# Editing Common Sense in Transformers
 
-Editing thousands of facts into a transformer memory at once.
-
-<!-- [![Colab MEMIT Demo](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kmeng01/memit/blob/main/notebooks/memit.ipynb) -->
+Editing commonsense judgments using causally associated localized, editable parameters in Transformers
 
 ## Table of Contents
 
