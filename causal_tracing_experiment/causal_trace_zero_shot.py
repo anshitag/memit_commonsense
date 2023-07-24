@@ -11,6 +11,8 @@ from matplotlib import pyplot as plt
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+import sys
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../'))
 from rome.tok_dataset import (
     TokenizedDataset,
     dict_to_,
@@ -47,25 +49,22 @@ def main():
             "gpt2",
         ],
     )
-    aa("--fact_file", default=None)
+    aa("--input", default=None, help='prepare data for zero shot causal tracing')
     aa("--dataset", default='pep3k')
-    aa("--datatype", default='normal')
-    aa("--experiment", default='subject', choices = ['subject', 'verb', 'object'])
-    aa("--output_dir", default="tracing/results/zero-shot{pmi_str}/{model_name}/{experiment}/{dataset}/{datatype}/")
+    aa("--experiment", default='subject', choices = ['subject', 'verb', 'object'], help='part of speech you want to noise')
+    aa("--output_dir", default="causal_tracing_experiment/tracing/results/zero-shot{pmi_str}/{model_name}/{experiment}/{dataset}/")
     aa("--noise_level", default="s3", type=parse_noise_rule)
     aa("--replace", default=0, type=int)
-    aa("--pmi", action='store_true')
-    aa("--zero_shot_prompt", default="True or False?")
-    aa("--checkpoint", default=None)
+    aa("--pmi", action='store_true', help='whether use pmi or not') # Normalization factor more details in https://aclanthology.org/2021.emnlp-main.564/
+    aa("--zero_shot_prompt", default="True or False?", help='prompt to append after the sentence, must specify if pmi is True')
     args = parser.parse_args()
 
     modeldir = f'r{args.replace}_{args.model_name.replace("/", "_")}'
     modeldir = f"n{args.noise_level}_" + modeldir
     dataset = args.dataset
-    datatype = args.datatype
     experiment = args.experiment
     pmi_str = '_pmi' if args.pmi else ''
-    output_dir = args.output_dir.format(pmi_str=pmi_str, model_name=modeldir, dataset=dataset, datatype=datatype, experiment=experiment)
+    output_dir = args.output_dir.format(pmi_str=pmi_str, model_name=modeldir, dataset=dataset, experiment=experiment)
     result_dir = f"{output_dir}/cases"
     pdf_dir = f"{output_dir}/pdfs"
     zero_shot_prompt = args.zero_shot_prompt
@@ -102,7 +101,7 @@ def main():
 
     print('pmi probs', pmi_probs)
 
-    with open(args.fact_file) as f:
+    with open(args.input) as f:
         knowns = json.load(f)
 
     print(f"Loaded dataset with {len(knowns)} rows with first row:\n{knowns[0]}")
@@ -161,12 +160,14 @@ def main():
             if not numpy_result["correct_prediction"]:
                 tqdm.write(f"Skipping {knowledge['prompt']}")
                 continue
-            # plot_result = dict(numpy_result)
-            # plot_result["kind"] = kind
-            # pdfname = f'{pdf_dir}/{str(numpy_result["answer"]).strip()}_{known_id}{kind_suffix}.pdf'
-            # if known_id > 200:
-            #     continue
-            # plot_trace_heatmap(plot_result, savepdf=pdfname)
+
+            # Comment if you don't want to plot pdf maps for each case
+            plot_result = dict(numpy_result)
+            plot_result["kind"] = kind
+            pdfname = f'{pdf_dir}/{str(numpy_result["answer"]).strip()}_{known_id}{kind_suffix}.pdf'
+            if known_id > 200:
+                continue
+            plot_trace_heatmap(plot_result, savepdf=pdfname)
 
 
 def trace_with_patch(
@@ -708,15 +709,6 @@ def find_token_range(tokenizer, token_array, substring):
             tok_end = i + 1
             break
     return (tok_start, tok_end)
-
-
-def predict_token(mt, prompts, return_p=False):
-    inp = make_inputs(mt.tokenizer, prompts)
-    preds, p = predict_from_input(mt.model, inp)
-    result = [mt.tokenizer.decode(c) for c in preds]
-    if return_p:
-        result = (result, p)
-    return result
 
 
 def predict_from_input(model, inp, target_tokens, pmi_probs):

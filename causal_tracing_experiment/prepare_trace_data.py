@@ -18,7 +18,7 @@ with open(args.svo, 'r') as f:
     svo_data = json.load(f)
 
 outdir = os.path.dirname(args.output)
-if not os.path.exists(outdir):
+if outdir and not os.path.exists(outdir):
     os.makedirs(outdir)
 
 out = []
