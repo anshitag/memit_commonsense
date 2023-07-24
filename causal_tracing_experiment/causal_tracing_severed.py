@@ -10,6 +10,9 @@ from datasets import load_dataset
 from matplotlib import pyplot as plt
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import matplotlib.ticker as mtick
+import sys
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../'))
 
 from rome.tok_dataset import (
     TokenizedDataset,
@@ -47,22 +50,20 @@ def main():
             "gpt2",
         ],
     )
-    aa("--fact_file", default=None)
-    aa("--dataset", default='pep3k')
-    aa("--datatype", default='normal')
-    aa("--experiment", default='subject', choices = ['subject', 'verb', 'object'])
-    aa("--output_dir", default="tracing/results/severed/{model_name}/{experiment}/{dataset}/{datatype}/")
+    aa("--input", default=None, help='path of the prepared data for causal tracing')
+    aa("--dataset", default='pep3k', help='name of the dataset')
+    aa("--experiment", default='subject', choices = ['subject', 'verb', 'object'], help='part of speech you want to noise')
+    aa("--output_dir", default="causal_tracing_experiment/tracing/results/severed/{model_name}/{experiment}/{dataset}/", help='output directory of the causal tracing')
     aa("--noise_level", default="s3", type=parse_noise_rule)
     aa("--replace", default=0, type=int)
-    aa("--checkpoint", default=None)
+    aa("--checkpoint", default=None, help='path to the checkpoint of the model')
     args = parser.parse_args()
 
     modeldir = f'r{args.replace}_{args.model_name.replace("/", "_")}'
     modeldir = f"n{args.noise_level}_" + modeldir
     dataset = args.dataset
-    datatype = args.datatype
     experiment = args.experiment
-    output_dir = args.output_dir.format(model_name=modeldir, dataset=dataset, datatype=datatype, experiment=experiment)
+    output_dir = args.output_dir.format(model_name=modeldir, dataset=dataset, experiment=experiment)
     result_dir = f"{output_dir}/cases"
     pdf_dir = f"{output_dir}/pdfs"
     comparison_pdfs_dir = f"{output_dir}/comparison_pdfs"
@@ -88,7 +89,7 @@ def main():
         torch_dtype=torch_dtype
     )
 
-    with open(args.fact_file) as f:
+    with open(args.input) as f:
         knowns = json.load(f)
 
     print(f"Loaded dataset with {len(knowns)} rows with first row:\n{knowns[0]}")
@@ -167,10 +168,6 @@ def main():
                 title=f'Indirect effects at last {experiment} token for sentence = {knowledge["prompt"]}',
                 savepdf=f'{comparison_pdfs_dir}/{known_id}_comparison.png',
             )
-        
-
-
-        
 
 
 def trace_with_patch(
@@ -183,7 +180,7 @@ def trace_with_patch(
     uniform_noise=False,
     replace=False,  # True to replace with instead of add noise
     trace_layers=None,  # List of traced outputs to return
-    calc_max_pred=False
+    calc_max_pred=False, # True to return the max predicted token and its probability
 ):
     """
     Runs a single causal trace.  Given a model and a batch input where
@@ -561,11 +558,7 @@ def plot_trace_heatmap(result, savepdf=None, title=None, xlabel=None, modelname=
 
     differences = differences[important_token_indexes]
     input_labels = numpy.array(result["input_tokens"])[important_token_indexes]
-    # labels = list(result["input_tokens"])
     labels = list(input_labels)
-    # for i in range(*result["subject_range"]):
-    #     idx = i - labels[0]
-    #     labels[idx] = labels[idx] + "*"
 
     with plt.rc_context(rc={}):
         fig, ax = plt.subplots(figsize=(3.5, 2), dpi=200)
@@ -614,11 +607,9 @@ def make_inputs(tokenizer, prompts, device="cuda"):
     token_lists = [tokenizer.encode(p) for p in prompts]
     maxlen = max(len(t) for t in token_lists)
     input_ids = [[tokenizer.pad_token] * (maxlen - len(t)) + t for t in token_lists]
-    # position_ids = [[0] * (maxlen - len(t)) + list(range(len(t))) for t in token_lists]
     attention_mask = [[0] * (maxlen - len(t)) + [1] * len(t) for t in token_lists]
     return dict(
         input_ids=torch.tensor(input_ids).to(device),
-        #    position_ids=torch.tensor(position_ids).to(device),
         attention_mask=torch.tensor(attention_mask).to(device),
     )
 
@@ -646,16 +637,6 @@ def find_token_range(tokenizer, token_array, substring):
             tok_end = i + 1
             break
     return (tok_start, tok_end)
-
-
-def predict_token(mt, prompts, return_p=False):
-    inp = make_inputs(mt.tokenizer, prompts)
-    preds, p = predict_from_input(mt.model, inp)
-    result = [mt.tokenizer.decode(c) for c in preds]
-    if return_p:
-        result = (result, p)
-    return result
-
 
 def predict_from_input(model, inp):
     out = model(**inp)["logits"]
@@ -769,7 +750,6 @@ def collect_embedding_tdist(mt, degree=3):
 
 def plot_comparison(ordinary, no_attn, no_mlp, title, savepdf=None):
     with plt.rc_context(rc={}):
-        import matplotlib.ticker as mtick
 
         fig, ax = plt.subplots(1, figsize=(6, 1.5), dpi=300)
         ax.bar(

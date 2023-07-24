@@ -48,10 +48,10 @@ def main():
             "gpt2",
         ],
     )
-    aa("--input", default=None, help='prepared data for tracing')
+    aa("--input", default=None, help='path of the prepared data for causal tracing')
     aa("--dataset", default='pep3k', help='name of the dataset')
     aa("--experiment", default='subject', choices = ['subject', 'verb', 'object'], help='the part of speech you want to noise')
-    aa("--output_dir", default="causal_tracing_experiment/tracing/results/{model_name}/{experiment}/{dataset}/")
+    aa("--output_dir", default="causal_tracing_experiment/tracing/results/{model_name}/{experiment}/{dataset}/", help='output directory of the causal tracing')
     aa("--noise_level", default="s3", type=parse_noise_rule)
     aa("--replace", default=0, type=int)
     aa("--checkpoint", default=None, help='path to the checkpoint')
