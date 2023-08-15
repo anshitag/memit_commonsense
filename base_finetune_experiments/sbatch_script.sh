@@ -1,13 +1,16 @@
 #!/bin/bash
-#
-#SBATCH --job-name=finetune_gpt
-#SBATCH --partition=gypsum-m40
-#SBATCH --gres=gpu:1
-#SBATCH --mem=50G
-#SBATCH --cpus-per-task=5
-#SBATCH -o result/fine_tune_large_normal-slurm-%j.out
-export HF_HOME=/work/anshitagupta_umass_edu/.cache/huggingface/
 
-# python3 fine_tune_gpt.py --dataset=20q --datatype=normal --log2_batch_size=6 --model=gpt2-large --evaluation_only --run_name=captain-resistance-1374
+# Example script for running base finetuning on the gpt2-xl model for the 20q datasets
 
-python3 fine_tune_gpt.py --dataset=20q --datatype=normal --epochs=10 --learning_rate=6.333565960404303e-05 --log2_batch_size=6 --model=gpt2-large --save_model
+python3 fine_tune_gpt.py \
+--model gpt2-xl \
+--dataset 20q \
+--log2_batch_size 6 \
+--epochs 10 \
+--learning_rate 1.4325476949817346e-05 \
+--save_path ./result/checkpoint/ \
+--output_path ./result/output/ \
+--train_file ../data/20q/train_set.json \
+--valid_file ../data/20q/edit_validation_set.json \
+--test_file ../data/20q/edit_set.json \
+--save_model
