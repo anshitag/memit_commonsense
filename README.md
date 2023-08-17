@@ -35,9 +35,9 @@ They also contain incorrect subsets used for editing using $MEMIT_{CSK}$.
 
 [`script_causal_trace_zero_shot.sh`](causal_tracing_experiment/script_causal_trace_zero_shot.sh) can be used for performing causal tracing experiment for zero shot model.
 
-[`script_causal_trace.sh`](causal_tracing_experiment/script_causal_trace.sh) can be used for performing causal tracing experiment for base finetuned model, by passing it's checkpoint location as a parameter and it's output inference file.
+[`script_causal_trace.sh`](causal_tracing_experiment/script_causal_trace.sh) can be used for performing causal tracing experiment for base finetuned model, by passing its checkpoint location as a parameter and output inference file.
 
-[`script_causal_trace_severed.sh`](causal_tracing_experiment/script_causal_trace_severed.sh) can be used for performing *severed* causal tracing experiment for base finetuned model, by passing it's checkpoint location as a parameter and it's output inference file.
+[`script_causal_trace_severed.sh`](causal_tracing_experiment/script_causal_trace_severed.sh) can be used for performing *severed* causal tracing experiment for base finetuned model, by passing it's checkpoint location as a parameter and output inference file.
 
 ## Repair Finetuning
 
@@ -50,7 +50,7 @@ It includes commands to evaluate the affected and unaffected metrics for the rep
 [`script_memit_csk.sh`](script_memit_csk.sh) can be used for running $MEMIT_{CSK}$ on the base finetuned gpt2-xl model for the 20q dataset. Similar commands can be used for running experiments for gpt2-large model and PEP 3K dataset. 
 
 It includes commands to first find best hyperparamters for the Edit Validation Set, i.e. *configuration generalization*, followed by evaluation on Edit Set.
-Then command for running evalution on Probe Set, i.e. *semantic generalization*.
+Then command for running evaluation on Probe Set, i.e. *semantic generalization*.
 
 ## How to Cite
 
