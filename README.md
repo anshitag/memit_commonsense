@@ -9,7 +9,7 @@ Editing commonsense judgments using causally associated localized, editable para
 - [Base Finetuning](#base-finetuning)
 - [Causal Tracing](#causal-tracing)
 - [Repair Finetuning](#repair-finetuning)
-- [$MEMIT_{CSK}$ Experiment](#memit_csk-experiment)
+- [MEMIT_CSK Experiment](#memit_csk-experiment)
 - [How to Cite](#how-to-cite)
 
 ## Installation
