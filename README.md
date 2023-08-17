@@ -35,9 +35,9 @@ They also contain incorrect subsets used for editing using $MEMIT_{CSK}$.
 
 [`script_causal_trace_zero_shot.sh`](causal_tracing_experiment/script_causal_trace_zero_shot.sh) can be used for performing causal tracing experiment for zero shot model.
 
-[`script_causal_trace.sh`](causal_tracing_experiment/script_causal_trace.sh) can be used for performing causal tracing experiment for base fintuned model, by passing it's checkpoint location as a parameter and it's output inference file.
+[`script_causal_trace.sh`](causal_tracing_experiment/script_causal_trace.sh) can be used for performing causal tracing experiment for base finetuned model, by passing it's checkpoint location as a parameter and it's output inference file.
 
-[`script_causal_trace_severed.sh`](causal_tracing_experiment/script_causal_trace_severed.sh) can be used for performing *severed* causal tracing experiment for base fintuned model, by passing it's checkpoint location as a parameter and it's output inference file.
+[`script_causal_trace_severed.sh`](causal_tracing_experiment/script_causal_trace_severed.sh) can be used for performing *severed* causal tracing experiment for base finetuned model, by passing it's checkpoint location as a parameter and it's output inference file.
 
 ## Repair Finetuning
 
