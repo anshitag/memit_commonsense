@@ -1,6 +1,7 @@
 # Editing Common Sense in Transformers
 
 Editing commonsense judgments using causally associated localized, editable parameters in Transformers
+
 Paper: [Editing Commonsense Knowledge in GPT](https://arxiv.org/abs/2305.14956)
 
 ## Table of Contents
