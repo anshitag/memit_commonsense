@@ -10,3 +10,5 @@ python3 prepare_trace_data.py -i <out_json_file_after_model_inference> -svo <svo
 python3 causal_trace_severed.py -i <out_file> --model_name <gpt2-large | gpt2-xl> --dataset <dataset_name>  --experiment <subject | object | verb> \
  --checkpoint <model_checkpoint>
 
+# Getting the average indirect effects and plot them in a graph
+python average_causal_effects_severed.py --input_dir <out-dir of previous step> --experiment <subject | object | verb> --model <gpt2-large | gpt2-xl> --fact_file <out_file>
