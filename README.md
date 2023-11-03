@@ -25,7 +25,7 @@ CONDA_HOME=$CONDA_HOME ./scripts/setup_conda.sh
 `$CONDA_HOME` should be the path to your `conda` installation, e.g., `~/miniconda3`.
 
 ## Datasets
-The 20 Question and PEP 3K datasets are under the [data](data) folder. Each dataset consists of Train, Edit, Edit Validation and Probe Sets. 
+The 20 Question and PEP 3K datasets are under the [data](data) folder. Each dataset consists of Train, Edit Validation, Edit and Probe Sets. 
 
 They also contain incorrect subsets used for editing using $MEMIT_{CSK}$.
 
